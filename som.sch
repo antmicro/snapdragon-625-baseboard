@@ -1,16 +1,81 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 2 6
 Title ""
-Date ""
-Rev ""
+Date "2022-01-04"
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L antmicroModules:SC606T M1
+U 1 1 61D4A36E
+P 2800 5150
+F 0 "M1" H 2800 6917 50  0000 C CNN
+F 1 "SC606T" H 2800 6826 50  0000 C CNN
+F 2 "antmicro-footprints:QUECTEL_SC606T" H 2850 5250 50  0001 L BNN
+F 3 "" H 2800 5300 50  0001 L BNN
+F 4 "Quectel" H 2800 5300 50  0001 L BNN "Manufacturer"
+F 5 "SC606T-xx" H 2800 5300 50  0001 C CNN "MPN"
+	1    2800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroModules:SC606T M1
+U 2 1 61D5D2CB
+P 6750 4900
+F 0 "M1" H 6750 7467 50  0000 C CNN
+F 1 "SC606T" H 6750 7376 50  0000 C CNN
+F 2 "antmicro-footprints:QUECTEL_SC606T" H 6800 5000 50  0001 L BNN
+F 3 "" H 6750 5050 50  0001 L BNN
+F 4 "Quectel" H 6750 5050 50  0001 L BNN "Manufacturer"
+F 5 "SC606T-xx" H 6750 5050 50  0001 C CNN "MPN"
+	2    6750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroModules:SC606T M1
+U 3 1 61D62FE5
+P 12000 3200
+F 0 "M1" H 12000 4017 50  0000 C CNN
+F 1 "SC606T" H 12000 3926 50  0000 C CNN
+F 2 "antmicro-footprints:QUECTEL_SC606T" H 12050 3300 50  0001 L BNN
+F 3 "" H 12000 3350 50  0001 L BNN
+F 4 "Quectel" H 12000 3350 50  0001 L BNN "Manufacturer"
+F 5 "SC606T-xx" H 12000 3350 50  0001 C CNN "MPN"
+	3    12000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroModules:SC606T M1
+U 4 1 61D67FBA
+P 13850 6700
+F 0 "M1" H 14180 6546 50  0000 L CNN
+F 1 "SC606T" H 14180 6455 50  0000 L CNN
+F 2 "antmicro-footprints:QUECTEL_SC606T" H 13900 6800 50  0001 L BNN
+F 3 "" H 13850 6850 50  0001 L BNN
+F 4 "Quectel" H 13850 6850 50  0001 L BNN "Manufacturer"
+F 5 "SC606T-xx" H 13850 6850 50  0001 C CNN "MPN"
+	4    13850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroModules:SC606T M1
+U 5 1 61D6D493
+P 10800 6800
+F 0 "M1" H 10750 7767 50  0000 C CNN
+F 1 "SC606T" H 10750 7676 50  0000 C CNN
+F 2 "antmicro-footprints:QUECTEL_SC606T" H 10850 6900 50  0001 L BNN
+F 3 "" H 10800 6950 50  0001 L BNN
+F 4 "Quectel" H 10800 6950 50  0001 L BNN "Manufacturer"
+F 5 "SC606T-xx" H 10800 6950 50  0001 C CNN "MPN"
+	5    10800 6800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
