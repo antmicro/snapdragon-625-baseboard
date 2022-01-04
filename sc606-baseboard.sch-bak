@@ -17,10 +17,4 @@ Text Notes 7975 3825 0    50   ~ 0
 TODO: Place a block diagram here
 Text Notes 600  700  0    79   ~ 16
 SC606T Baseboard
-$Sheet
-S 5050 6200 1000 1100
-U 61D43102
-F0 "SoM" 50
-F1 "som.sch" 50
-$EndSheet
 $EndSCHEMATC
