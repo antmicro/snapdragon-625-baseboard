@@ -16,14 +16,14 @@ $EndDescr
 $Comp
 L antmicroModules:SC606T M1
 U 1 1 61D4A36E
-P 2800 5150
-F 0 "M1" H 2800 6917 50  0000 C CNN
-F 1 "SC606T" H 2800 6826 50  0000 C CNN
-F 2 "antmicro-footprints:QUECTEL_SC606T" H 2850 5250 50  0001 L BNN
-F 3 "" H 2800 5300 50  0001 L BNN
-F 4 "Quectel" H 2800 5300 50  0001 L BNN "Manufacturer"
-F 5 "SC606T-xx" H 2800 5300 50  0001 C CNN "MPN"
-	1    2800 5150
+P 10800 6350
+F 0 "M1" H 10800 8117 50  0000 C CNN
+F 1 "SC606T" H 10800 8026 50  0000 C CNN
+F 2 "antmicro-footprints:QUECTEL_SC606T" H 10850 6450 50  0001 L BNN
+F 3 "" H 10800 6500 50  0001 L BNN
+F 4 "Quectel" H 10800 6500 50  0001 L BNN "Manufacturer"
+F 5 "SC606T-xx" H 10800 6500 50  0001 C CNN "MPN"
+	1    10800 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -83,18 +83,18 @@ NoConn ~ 800  9950
 NoConn ~ 800  10050
 NoConn ~ 800  10150
 NoConn ~ 800  10250
-NoConn ~ 5700 2000
-NoConn ~ 5700 2100
-NoConn ~ 5700 2200
-NoConn ~ 5700 2300
-NoConn ~ 5700 2400
-NoConn ~ 5700 2500
-NoConn ~ 5700 1800
-NoConn ~ 7900 5700
-NoConn ~ 7900 5800
-NoConn ~ 7900 3900
-NoConn ~ 7900 4400
-NoConn ~ 7900 3100
+NoConn ~ 3150 2150
+NoConn ~ 3150 2250
+NoConn ~ 3150 2350
+NoConn ~ 3150 2450
+NoConn ~ 3150 2550
+NoConn ~ 3150 2650
+NoConn ~ 3150 1950
+NoConn ~ 5350 5850
+NoConn ~ 5350 5950
+NoConn ~ 5350 4050
+NoConn ~ 5350 4550
+NoConn ~ 5350 3250
 $Comp
 L power:GND #PWR?
 U 1 1 61F1E723
@@ -110,19 +110,6 @@ Wire Wire Line
 	2000 10250 2150 10250
 Wire Wire Line
 	2150 10250 2150 10450
-$Comp
-L antmicroModules:SC606T M1
-U 2 1 61D5D2CB
-P 6800 3300
-F 0 "M1" H 6800 5867 50  0000 C CNN
-F 1 "SC606T" H 6800 5776 50  0000 C CNN
-F 2 "antmicro-footprints:QUECTEL_SC606T" H 6850 3400 50  0001 L BNN
-F 3 "" H 6800 3450 50  0001 L BNN
-F 4 "Quectel" H 6800 3450 50  0001 L BNN "Manufacturer"
-F 5 "SC606T-xx" H 6800 3450 50  0001 C CNN "MPN"
-	2    6800 3300
-	1    0    0    -1  
-$EndComp
 Text GLabel 6300 8000 2    50   Input ~ 0
 V_SOM
 $Comp
@@ -603,4 +590,23 @@ Wire Wire Line
 Connection ~ 5300 9650
 Wire Wire Line
 	2000 8750 4750 8750
+$Comp
+L antmicroModules:SC606T M1
+U 2 1 61D5D2CB
+P 4250 3450
+F 0 "M1" H 4250 6017 50  0000 C CNN
+F 1 "SC606T" H 4250 5926 50  0000 C CNN
+F 2 "antmicro-footprints:QUECTEL_SC606T" H 4300 3550 50  0001 L BNN
+F 3 "" H 4250 3600 50  0001 L BNN
+F 4 "Quectel" H 4250 3600 50  0001 L BNN "Manufacturer"
+F 5 "SC606T-xx" H 4250 3600 50  0001 C CNN "MPN"
+	2    4250 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 2350 2    50   Input ~ 0
+USIM1_DATA
+Text GLabel 5350 2450 2    50   Input ~ 0
+USIM1_CLK
+Text GLabel 5350 2550 2    50   Input ~ 0
+USIM1_RST
 $EndSCHEMATC
