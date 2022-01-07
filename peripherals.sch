@@ -699,11 +699,11 @@ Wire Wire Line
 	1950 1650 1950 2550
 Wire Wire Line
 	4300 2650 4150 2650
-Wire Bus Line
-	700  1450 700  2150
 Connection ~ 4150 2650
 Wire Wire Line
 	4150 2650 4150 2950
 Text Notes 2150 2900 0    39   ~ 0
 need to add ESD protection\n
+Wire Bus Line
+	700  1450 700  2150
 $EndSCHEMATC
