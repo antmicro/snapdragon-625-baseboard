@@ -612,10 +612,6 @@ F 6 "10k" H 9750 5415 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	9900 5300 10850 5300
-Text Label 8900 5300 0    50   ~ 0
-#RESET
-Wire Wire Line
-	8900 5300 9600 5300
 $Comp
 L antmicroCapacitors0402:C_2u2_0402 C?
 U 1 1 61DDA18F
@@ -872,8 +868,6 @@ F 6 "10k" H 9700 8215 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	9850 8100 10800 8100
-Text Label 8850 8100 0    50   ~ 0
-#RESET
 Wire Wire Line
 	8850 8100 9550 8100
 $Comp
@@ -1059,4 +1053,30 @@ Wire Wire Line
 Wire Wire Line
 	10100 7600 9150 7600
 Connection ~ 10100 7950
+Text GLabel 9200 5300 0    50   Input ~ 0
+#RESET
+Wire Wire Line
+	9200 5300 9600 5300
+Text GLabel 9100 8100 0    50   Input ~ 0
+#RESET
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 6204E79B
+P 2000 5650
+F 0 "R?" H 2000 5750 60  0000 C CNN
+F 1 "R_10k_0402" H 2000 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2200 5850 60  0001 L CNN
+F 3 "" H 2000 5650 50  0001 C CNN
+F 4 "VISHAY" H 2200 6050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2200 5950 60  0001 L CNN "MPN"
+F 6 "10k" H 2000 5550 50  0000 C CNN "Val"
+	1    2000 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 5650 0    50   Input ~ 0
+#RESET
+Wire Wire Line
+	1450 5650 1850 5650
+Wire Wire Line
+	2600 5650 2150 5650
 $EndSCHEMATC

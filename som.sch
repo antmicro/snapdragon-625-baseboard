@@ -619,4 +619,261 @@ Text Notes 14500 1050 0    150  ~ 30
 GPIO
 Text Notes 13250 5000 0    150  ~ 30
 CSI, DSI
+Text GLabel 6950 1600 0    50   Input ~ 0
+CAM_I2C_SCL
+Text GLabel 6950 1700 0    50   Input ~ 0
+CAM_I2C_SDA
+Wire Wire Line
+	6950 1700 7400 1700
+Wire Wire Line
+	7400 1600 6950 1600
+Text GLabel 2000 2350 0    50   Input ~ 0
+RTC_BAT
+Wire Wire Line
+	2000 2350 2100 2350
+Text GLabel 850  1650 1    50   Input ~ 0
+1V8_SOM
+$Comp
+L antmicroCapacitors0402:C_33p_0402 C?
+U 1 1 61FBE11A
+P 1400 1900
+F 0 "C?" H 1400 2000 60  0000 L CNN
+F 1 "C_33p_0402" H 1400 1750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1600 2100 60  0001 L CNN
+F 3 "" H 1400 1900 50  0001 C CNN
+F 4 "MULTICOMP" H 1600 2300 60  0001 L CNN "Manufacturer"
+F 5 "MC0402N330J500CT" H 1600 2200 60  0001 L CNN "MPN"
+F 6 "33p" H 1400 1800 50  0000 L CNN "Val"
+	1    1400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10p_0402 C?
+U 1 1 61FBFA62
+P 1650 1900
+F 0 "C?" H 1650 2000 60  0000 L CNN
+F 1 "C_10p_0402" H 1650 1750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1850 2100 60  0001 L CNN
+F 3 "" H 1650 1900 50  0001 C CNN
+F 4 "MULTICOMP" H 1850 2300 60  0001 L CNN "Manufacturer"
+F 5 "MC0402N100D500CT" H 1850 2200 60  0001 L CNN "MPN"
+F 6 "10p" H 1650 1800 50  0000 L CNN "Val"
+	1    1650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61FC1016
+P 850 2100
+F 0 "#PWR?" H 850 1850 50  0001 C CNN
+F 1 "GND" H 855 1927 50  0000 C CNN
+F 2 "" H 850 2100 50  0001 C CNN
+F 3 "" H 850 2100 50  0001 C CNN
+	1    850  2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2050 1400 2050
+Wire Wire Line
+	850  2050 850  2100
+Connection ~ 1400 2050
+Wire Wire Line
+	1400 2050 850  2050
+Wire Wire Line
+	1650 1750 1400 1750
+Wire Wire Line
+	850  1750 850  1650
+Connection ~ 1400 1750
+Wire Wire Line
+	1400 1750 850  1750
+Wire Wire Line
+	1650 1750 2800 1750
+Connection ~ 1650 1750
+Text GLabel 13800 1550 0    50   Input ~ 0
+VSYNC_CAM1
+Text GLabel 13800 1650 0    50   Input ~ 0
+VSYNC_CAM2
+Wire Wire Line
+	13800 1650 14250 1650
+Wire Wire Line
+	14250 1550 13800 1550
+Entry Wire Line
+	11650 6900 11750 7000
+Entry Wire Line
+	11650 7000 11750 7100
+Entry Wire Line
+	11650 7100 11750 7200
+Entry Wire Line
+	11650 7200 11750 7300
+Entry Wire Line
+	11650 7300 11750 7400
+Entry Wire Line
+	11650 7400 11750 7500
+Entry Wire Line
+	11650 7500 11750 7600
+Entry Wire Line
+	11650 6700 11750 6800
+Entry Wire Line
+	11650 6800 11750 6900
+Wire Wire Line
+	12850 7100 11750 7100
+Wire Wire Line
+	11750 7200 12850 7200
+Wire Wire Line
+	12850 7300 11750 7300
+Wire Wire Line
+	11750 7400 12850 7400
+Wire Wire Line
+	12850 7500 11750 7500
+Wire Wire Line
+	11750 7600 12850 7600
+Wire Wire Line
+	12850 7700 11750 7700
+Text Label 12100 7100 0    50   ~ 0
+CSI_0_LN0_N
+Text Label 12100 7000 0    50   ~ 0
+CSI_0_LN0_P
+Text Label 12100 7300 0    50   ~ 0
+CSI_0_LN1_N
+Text Label 12100 7200 0    50   ~ 0
+CSI_0_LN1_P
+Text Label 12100 7500 0    50   ~ 0
+CSI_0_LN2_N
+Text Label 12100 7400 0    50   ~ 0
+CSI_0_LN2_P
+Text Label 12100 7700 0    50   ~ 0
+CSI_0_LN3_N
+Text Label 12100 7600 0    50   ~ 0
+CSI_0_LN3_P
+Text Label 12100 6900 0    50   ~ 0
+CSI_0_CLK_N
+Text Label 12100 6800 0    50   ~ 0
+CSI_0_CLK_P
+Text GLabel 11400 6700 0    50   Input ~ 0
+CAM1_DATA
+Wire Bus Line
+	11650 6700 11400 6700
+Wire Wire Line
+	11750 7000 12850 7000
+Entry Wire Line
+	11650 7500 11750 7600
+Entry Wire Line
+	11650 7500 11750 7600
+Wire Wire Line
+	11750 6800 12850 6800
+Wire Wire Line
+	11750 6900 12850 6900
+Entry Wire Line
+	11650 7600 11750 7700
+Entry Wire Line
+	11650 8000 11750 8100
+Entry Wire Line
+	11650 8100 11750 8200
+Entry Wire Line
+	11650 8200 11750 8300
+Entry Wire Line
+	11650 8300 11750 8400
+Entry Wire Line
+	11650 8400 11750 8500
+Entry Wire Line
+	11650 8500 11750 8600
+Entry Wire Line
+	11650 8600 11750 8700
+Entry Wire Line
+	11650 7800 11750 7900
+Entry Wire Line
+	11650 7900 11750 8000
+Wire Wire Line
+	12850 8200 11750 8200
+Wire Wire Line
+	11750 8300 12850 8300
+Wire Wire Line
+	12850 8400 11750 8400
+Wire Wire Line
+	11750 8500 12850 8500
+Wire Wire Line
+	12850 8600 11750 8600
+Wire Wire Line
+	11750 8700 12850 8700
+Wire Wire Line
+	12850 8800 11750 8800
+Text Label 12100 8200 0    50   ~ 0
+CSI_0_LN0_N
+Text Label 12100 8100 0    50   ~ 0
+CSI_0_LN0_P
+Text Label 12100 8400 0    50   ~ 0
+CSI_0_LN1_N
+Text Label 12100 8300 0    50   ~ 0
+CSI_0_LN1_P
+Text Label 12100 8600 0    50   ~ 0
+CSI_0_LN2_N
+Text Label 12100 8500 0    50   ~ 0
+CSI_0_LN2_P
+Text Label 12100 8800 0    50   ~ 0
+CSI_0_LN3_N
+Text Label 12100 8700 0    50   ~ 0
+CSI_0_LN3_P
+Text Label 12100 8000 0    50   ~ 0
+CSI_0_CLK_N
+Text Label 12100 7900 0    50   ~ 0
+CSI_0_CLK_P
+Text GLabel 11400 7800 0    50   Input ~ 0
+CAM2_DATA
+Wire Bus Line
+	11650 7800 11400 7800
+Wire Wire Line
+	11750 8100 12850 8100
+Entry Wire Line
+	11650 8600 11750 8700
+Entry Wire Line
+	11650 8600 11750 8700
+Wire Wire Line
+	11750 7900 12850 7900
+Wire Wire Line
+	11750 8000 12850 8000
+Entry Wire Line
+	11650 8700 11750 8800
+NoConn ~ 12850 5700
+NoConn ~ 12850 5800
+NoConn ~ 12850 5900
+NoConn ~ 12850 6000
+NoConn ~ 12850 6100
+NoConn ~ 12850 6200
+NoConn ~ 12850 6300
+NoConn ~ 12850 6400
+NoConn ~ 12850 6500
+NoConn ~ 12850 6600
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 6221395E
+P 5100 3150
+F 0 "TP?" V 5100 3100 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 5100 3050 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 5300 3350 60  0001 L CNN
+F 3 "" H 5300 3450 60  0001 L CNN
+	1    5100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 6221A545
+P 2100 2450
+F 0 "TP?" H 2150 2497 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 2100 2350 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 2300 2650 60  0001 L CNN
+F 3 "" H 2300 2750 60  0001 L CNN
+	1    2100 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 2350
+Wire Wire Line
+	2100 2350 2800 2350
+NoConn ~ 5000 5950
+NoConn ~ 5000 6050
+NoConn ~ 5000 6150
+NoConn ~ 5000 6250
+Wire Bus Line
+	11650 6700 11650 7600
+Wire Bus Line
+	11650 7800 11650 8700
 $EndSCHEMATC
