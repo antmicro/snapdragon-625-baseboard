@@ -462,7 +462,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 8500 4100 8500
 Text GLabel 2050 8000 0    50   Input ~ 0
-1V8_SOM
+LDO6_1P8
 Wire Wire Line
 	2050 8000 2350 8000
 Wire Wire Line

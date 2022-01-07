@@ -632,7 +632,7 @@ RTC_BAT
 Wire Wire Line
 	2000 2350 2100 2350
 Text GLabel 850  1650 1    50   Input ~ 0
-1V8_SOM
+LDO6_1P8
 $Comp
 L antmicroCapacitors0402:C_33p_0402 C?
 U 1 1 61FBE11A
@@ -872,6 +872,70 @@ NoConn ~ 5000 5950
 NoConn ~ 5000 6050
 NoConn ~ 5000 6150
 NoConn ~ 5000 6250
+Text Label 1850 4850 0    50   ~ 0
+SD_DET
+Text Label 1850 4950 0    50   ~ 0
+SD_DATA3
+Text Label 1850 5050 0    50   ~ 0
+SD_DATA2
+Text Label 1850 5150 0    50   ~ 0
+SD_DATA1
+Text Label 1850 5250 0    50   ~ 0
+SD_DATA0
+Text Label 1850 5350 0    50   ~ 0
+SD_CMD
+Text Label 1850 5450 0    50   ~ 0
+SD_CLK
+Wire Wire Line
+	1850 4850 2800 4850
+Wire Wire Line
+	2800 4950 1850 4950
+Wire Wire Line
+	1850 5050 2800 5050
+Wire Wire Line
+	2800 5150 1850 5150
+Wire Wire Line
+	1850 5250 2800 5250
+Wire Wire Line
+	2800 5350 1850 5350
+Wire Wire Line
+	1850 5450 2800 5450
+Entry Wire Line
+	1750 4750 1850 4850
+Entry Wire Line
+	1750 4850 1850 4950
+Entry Wire Line
+	1750 4950 1850 5050
+Entry Wire Line
+	1750 5050 1850 5150
+Entry Wire Line
+	1750 5150 1850 5250
+Entry Wire Line
+	1750 5250 1850 5350
+Entry Wire Line
+	1750 5350 1850 5450
+Wire Bus Line
+	1750 4650 1600 4650
+Text GLabel 1600 4650 0    50   Input ~ 0
+SD_DATA
+Text GLabel 1600 4500 0    50   Input ~ 0
+SD_LDO11
+Wire Wire Line
+	2800 4750 2000 4750
+Wire Wire Line
+	2000 4750 2000 4500
+Wire Wire Line
+	1600 4500 2000 4500
+Text GLabel 5450 4250 2    50   Input ~ 0
+SD_LDO12
+Wire Wire Line
+	5450 4250 5000 4250
+Text GLabel 2450 1650 0    50   Input ~ 0
+LDO5_1P8
+Wire Wire Line
+	2450 1650 2800 1650
+Wire Bus Line
+	1750 4650 1750 5350
 Wire Bus Line
 	11650 6700 11650 7600
 Wire Bus Line
