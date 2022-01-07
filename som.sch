@@ -573,7 +573,7 @@ F 6 "0R" H 5750 9765 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Text GLabel 5900 9650 2    50   Input ~ 0
-5V0
+5V0_SYS
 $Comp
 L power:GND #PWR?
 U 1 1 62117968
