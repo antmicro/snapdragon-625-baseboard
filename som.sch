@@ -926,22 +926,18 @@ Wire Wire Line
 	2000 4750 2000 4500
 Wire Wire Line
 	1600 4500 2000 4500
-Text GLabel 5450 4250 2    50   Input ~ 0
-SD_LDO12
-Wire Wire Line
-	5450 4250 5000 4250
 Text GLabel 2450 1650 0    50   Input ~ 0
 LDO5_1P8
 Wire Wire Line
 	2450 1650 2800 1650
+Text GLabel 5000 2350 2    50   Input ~ 0
+ANT_GNSS
+Text GLabel 2800 2550 0    50   Input ~ 0
+ANT_MAIN
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line
 	11650 6700 11650 7600
 Wire Bus Line
 	11650 7800 11650 8700
-Text GLabel 5000 2350 2    50   Input ~ 0
-ANT_GNSS
-Text GLabel 2800 2550 0    50   Input ~ 0
-ANT_MAIN
 $EndSCHEMATC

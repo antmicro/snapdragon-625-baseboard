@@ -314,18 +314,6 @@ Text Label 800  2050 0    50   ~ 0
 SD_CLK
 Wire Wire Line
 	800  1650 1450 1650
-Wire Wire Line
-	1450 1750 800  1750
-Wire Wire Line
-	800  1850 1450 1850
-Wire Wire Line
-	1450 1950 800  1950
-Wire Wire Line
-	800  2050 1450 2050
-Wire Wire Line
-	1450 2150 800  2150
-Wire Wire Line
-	800  2250 1450 2250
 Entry Wire Line
 	700  1550 800  1650
 Entry Wire Line
@@ -342,227 +330,8 @@ Entry Wire Line
 	700  2150 800  2250
 Text GLabel 700  1450 1    50   Input ~ 0
 SD_DATA
-Text GLabel 3600 1200 1    50   Input ~ 0
+Text GLabel 3850 1200 1    50   Input ~ 0
 SD_LDO11
-$Comp
-L antmicroResistors0402:R_33R_0402 R?
-U 1 1 62338BA5
-P 1600 1650
-F 0 "R?" H 1400 1700 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 1500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1800 1850 60  0001 L CNN
-F 3 "" H 1600 1650 50  0001 C CNN
-F 4 "Vishay" H 1800 2050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 1950 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 1650 50  0000 C CNN "Val"
-	1    1600 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_33R_0402 R?
-U 1 1 62338FC8
-P 1600 2250
-F 0 "R?" H 1400 2300 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 2100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1800 2450 60  0001 L CNN
-F 3 "" H 1600 2250 50  0001 C CNN
-F 4 "Vishay" H 1800 2650 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 2550 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 2250 50  0000 C CNN "Val"
-	1    1600 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_33R_0402 R?
-U 1 1 623393F1
-P 1600 1850
-F 0 "R?" H 1400 1900 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 1700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1800 2050 60  0001 L CNN
-F 3 "" H 1600 1850 50  0001 C CNN
-F 4 "Vishay" H 1800 2250 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 2150 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 1850 50  0000 C CNN "Val"
-	1    1600 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_33R_0402 R?
-U 1 1 62339F86
-P 1600 1750
-F 0 "R?" H 1400 1800 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 1600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1800 1950 60  0001 L CNN
-F 3 "" H 1600 1750 50  0001 C CNN
-F 4 "Vishay" H 1800 2150 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 2050 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 1750 50  0000 C CNN "Val"
-	1    1600 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_33R_0402 R?
-U 1 1 6233A16B
-P 1600 1950
-F 0 "R?" H 1400 2000 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 1800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1800 2150 60  0001 L CNN
-F 3 "" H 1600 1950 50  0001 C CNN
-F 4 "Vishay" H 1800 2350 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 2250 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 1950 50  0000 C CNN "Val"
-	1    1600 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_33R_0402 R?
-U 1 1 6233A32C
-P 1600 2050
-F 0 "R?" H 1400 2100 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 1900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1800 2250 60  0001 L CNN
-F 3 "" H 1600 2050 50  0001 C CNN
-F 4 "Vishay" H 1800 2450 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 2350 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 2050 50  0000 C CNN "Val"
-	1    1600 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroResistors0402:R_33R_0402 R?
-U 1 1 6233A5E9
-P 1600 2150
-F 0 "R?" H 1400 2200 60  0000 C CNN
-F 1 "R_33R_0402" H 1600 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1800 2350 60  0001 L CNN
-F 3 "" H 1600 2150 50  0001 C CNN
-F 4 "Vishay" H 1800 2550 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040233R0FKED" H 1800 2450 60  0001 L CNN "MPN"
-F 6 "33R" H 1600 2150 50  0000 C CNN "Val"
-	1    1600 2150
-	1    0    0    -1  
-$EndComp
-Text GLabel 2250 1200 0    50   Input ~ 0
-SD_LDO12
-$Comp
-L antmicroResistors0603:R_51k_0603 R?
-U 1 1 62344FD5
-P 2550 1500
-F 0 "R?" H 2300 1450 60  0000 L CNN
-F 1 "R_51k_0603" H 2550 1350 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2750 1700 60  0001 L CNN
-F 3 "" H 2550 1500 50  0001 C CNN
-F 4 "BOURNS" H 2750 1900 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-JW-513ELF" H 2750 1800 60  0001 L CNN "MPN"
-F 6 "51k" H 2500 1500 50  0000 L CNN "Val"
-	1    2550 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroResistors0603:R_51k_0603 R?
-U 1 1 62346EC1
-P 2450 1500
-F 0 "R?" H 2200 1450 60  0000 L CNN
-F 1 "R_51k_0603" H 2450 1350 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2650 1700 60  0001 L CNN
-F 3 "" H 2450 1500 50  0001 C CNN
-F 4 "BOURNS" H 2650 1900 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-JW-513ELF" H 2650 1800 60  0001 L CNN "MPN"
-F 6 "51k" H 2400 1500 50  0000 L CNN "Val"
-	1    2450 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroResistors0603:R_51k_0603 R?
-U 1 1 6234720A
-P 2650 1500
-F 0 "R?" H 2400 1450 60  0000 L CNN
-F 1 "R_51k_0603" H 2650 1350 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2850 1700 60  0001 L CNN
-F 3 "" H 2650 1500 50  0001 C CNN
-F 4 "BOURNS" H 2850 1900 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-JW-513ELF" H 2850 1800 60  0001 L CNN "MPN"
-F 6 "51k" H 2600 1500 50  0000 L CNN "Val"
-	1    2650 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroResistors0603:R_51k_0603 R?
-U 1 1 62347473
-P 2750 1500
-F 0 "R?" H 2500 1450 60  0000 L CNN
-F 1 "R_51k_0603" H 2750 1350 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2950 1700 60  0001 L CNN
-F 3 "" H 2750 1500 50  0001 C CNN
-F 4 "BOURNS" H 2950 1900 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-JW-513ELF" H 2950 1800 60  0001 L CNN "MPN"
-F 6 "51k" H 2700 1500 50  0000 L CNN "Val"
-	1    2750 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroResistors0603:R_51k_0603 R?
-U 1 1 62347804
-P 2850 1500
-F 0 "R?" H 2600 1450 60  0000 L CNN
-F 1 "R_51k_0603" H 2850 1350 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 3050 1700 60  0001 L CNN
-F 3 "" H 2850 1500 50  0001 C CNN
-F 4 "BOURNS" H 3050 1900 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-JW-513ELF" H 3050 1800 60  0001 L CNN "MPN"
-F 6 "51k" H 2800 1500 50  0000 L CNN "Val"
-	1    2850 1500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2250 1200 2450 1200
-Wire Wire Line
-	2850 1200 2850 1350
-Wire Wire Line
-	2750 1350 2750 1200
-Connection ~ 2750 1200
-Wire Wire Line
-	2750 1200 2850 1200
-Wire Wire Line
-	2650 1200 2650 1350
-Connection ~ 2650 1200
-Wire Wire Line
-	2650 1200 2750 1200
-Wire Wire Line
-	2550 1350 2550 1200
-Connection ~ 2550 1200
-Wire Wire Line
-	2550 1200 2650 1200
-Wire Wire Line
-	2450 1350 2450 1200
-Connection ~ 2450 1200
-Wire Wire Line
-	2450 1200 2550 1200
-Text Notes 2300 1150 0    31   ~ 0
-info: resistance must be adjusted \nto keep impedance 50 Om +-10% 
-Text GLabel 1550 1400 0    50   Input ~ 0
-LDO5_1P8
-$Comp
-L antmicroResistors0402:R_120k_0402 R?
-U 1 1 6237C999
-P 1800 1400
-F 0 "R?" H 1800 1500 60  0000 C CNN
-F 1 "R_120k_0402" H 1800 1250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2000 1600 60  0001 L CNN
-F 3 "" H 1800 1400 50  0001 C CNN
-F 4 "VISHAY" H 2000 1800 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402120KFKED" H 2000 1700 60  0001 L CNN "MPN"
-F 6 "120k" H 1800 1400 50  0000 C CNN "Val"
-	1    1800 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 1400 1550 1400
-Wire Wire Line
-	1750 1650 1950 1650
-Connection ~ 1950 1650
-Wire Wire Line
-	1950 1650 1950 1400
 $Comp
 L power:GND #PWR?
 U 1 1 62390EEA
@@ -576,55 +345,6 @@ F 3 "" H 4150 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 2250 4150 2250
-Wire Wire Line
-	1750 2150 2750 2150
-Wire Wire Line
-	4300 2450 2850 2450
-Wire Wire Line
-	2850 1650 2850 2250
-Connection ~ 2850 2250
-Wire Wire Line
-	2850 2250 1750 2250
-Wire Wire Line
-	2750 1650 2750 2150
-Wire Wire Line
-	1750 1950 2650 1950
-Wire Wire Line
-	2650 1650 2650 1950
-Connection ~ 2650 1950
-Wire Wire Line
-	1750 1850 2550 1850
-Wire Wire Line
-	2550 1650 2550 1850
-Connection ~ 2550 1850
-Wire Wire Line
-	1750 1750 2450 1750
-Wire Wire Line
-	2450 1650 2450 1750
-Wire Wire Line
-	2650 1950 4300 1950
-Wire Wire Line
-	2550 1850 4300 1850
-Wire Wire Line
-	2450 1750 4300 1750
-Connection ~ 2450 1750
-Wire Wire Line
-	2850 2250 2850 2450
-Wire Wire Line
-	4300 2350 2950 2350
-Wire Wire Line
-	2950 2350 2950 2150
-Wire Wire Line
-	2950 2150 2750 2150
-Connection ~ 2750 2150
-Wire Wire Line
-	4300 2150 3000 2150
-Wire Wire Line
-	3000 2150 3000 2050
-Wire Wire Line
-	3000 2050 1750 2050
-Wire Wire Line
-	3600 2050 3600 1200
 $Comp
 L antmicroCapacitors0402:C_4u7_0402 C?
 U 1 1 623F1A6C
@@ -653,9 +373,6 @@ F 6 "33p" H 3650 2700 50  0000 L CNN "Val"
 	1    3600 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 2050 3850 2050
-Connection ~ 3600 2050
 Connection ~ 3850 2050
 Wire Wire Line
 	3850 2050 4300 2050
@@ -690,20 +407,12 @@ Wire Wire Line
 	6000 2650 6000 2950
 Connection ~ 3600 2950
 Wire Wire Line
-	3850 2050 3850 2650
-Wire Wire Line
-	3600 2050 3600 2650
-Wire Wire Line
-	4300 2550 1950 2550
-Wire Wire Line
-	1950 1650 1950 2550
+	3850 2050 3850 2550
 Wire Wire Line
 	4300 2650 4150 2650
 Connection ~ 4150 2650
 Wire Wire Line
 	4150 2650 4150 2950
-Text Notes 2150 2900 0    39   ~ 0
-need to add ESD protection\n
 $Comp
 L antmicroCoaxialConnectorsRF:U_FL-R-SMT-1_10_ J?
 U 1 1 61DE06AE
@@ -1356,9 +1065,110 @@ Wire Wire Line
 	3500 9500 3500 9800
 Wire Wire Line
 	3500 9300 3100 9300
-Wire Bus Line
-	700  1450 700  2150
 Connection ~ 3100 9300
 Wire Wire Line
 	3100 9300 2950 9300
+$Comp
+L antmicroPowerProtection:EMIF06-MSD02N16 U?
+U 1 1 61DE2B56
+P 2750 2050
+F 0 "U?" H 2400 2800 50  0000 C CNN
+F 1 "EMIF06-MSD02N16" H 2700 2700 50  0000 C CNN
+F 2 "" H 2600 2750 50  0001 C CNN
+F 3 "https://www.st.com/en/protections-and-emi-filters/emif06-msd02n16.html#overview" H 2600 2750 50  0001 C CNN
+F 4 "STMicroelectronics" H 2700 1300 50  0001 C CNN "Manufacturer"
+F 5 "EMIF06-MSD02N16" H 2700 1200 50  0001 C CNN "MPN"
+	1    2750 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1750 2250 1750
+Wire Wire Line
+	800  1850 2250 1850
+Wire Wire Line
+	800  1950 2250 1950
+Wire Wire Line
+	800  2050 2250 2050
+Wire Wire Line
+	800  2150 2250 2150
+Wire Wire Line
+	800  2250 2250 2250
+$Comp
+L power:GND #PWR?
+U 1 1 61E406FA
+P 3300 2950
+F 0 "#PWR?" H 3300 2700 50  0001 C CNN
+F 1 "GND" H 3305 2777 50  0000 C CNN
+F 2 "" H 3300 2950 50  0001 C CNN
+F 3 "" H 3300 2950 50  0001 C CNN
+	1    3300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2950 3300 2700
+Connection ~ 3300 2600
+Wire Wire Line
+	3300 2600 3300 2500
+Connection ~ 3300 2700
+Wire Wire Line
+	3300 2700 3300 2600
+Wire Wire Line
+	3300 1550 3300 1650
+Connection ~ 3300 1650
+Wire Wire Line
+	3300 1750 4300 1750
+Wire Wire Line
+	3300 1850 4300 1850
+Wire Wire Line
+	4300 1950 3300 1950
+Wire Wire Line
+	3300 2250 3400 2250
+Wire Wire Line
+	3400 2250 3400 2450
+Wire Wire Line
+	3400 2450 4300 2450
+Wire Wire Line
+	4300 2350 3450 2350
+Wire Wire Line
+	3450 2350 3450 2150
+Wire Wire Line
+	3450 2150 3300 2150
+Wire Wire Line
+	3300 2050 3550 2050
+Wire Wire Line
+	3550 2050 3550 2150
+Wire Wire Line
+	3550 2150 4300 2150
+Wire Wire Line
+	3850 2050 3850 1650
+Connection ~ 3850 1650
+Wire Wire Line
+	3850 1650 3850 1200
+Wire Wire Line
+	3300 1650 3850 1650
+Wire Wire Line
+	3600 2550 3850 2550
+Wire Wire Line
+	3600 2550 3600 2650
+Connection ~ 3850 2550
+Wire Wire Line
+	3850 2550 3850 2650
+Wire Wire Line
+	1450 1650 1450 1550
+Wire Wire Line
+	1450 1550 2150 1550
+Wire Wire Line
+	4300 2550 4000 2550
+Wire Wire Line
+	4000 2550 4000 1250
+Wire Wire Line
+	4000 1250 2150 1250
+Wire Wire Line
+	2150 1250 2150 1550
+Connection ~ 2150 1550
+Wire Wire Line
+	2150 1550 2250 1550
+NoConn ~ 2250 1650
+Wire Bus Line
+	700  1450 700  2150
 $EndSCHEMATC
