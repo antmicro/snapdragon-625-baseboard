@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 6 6
 Title ""
@@ -704,6 +704,661 @@ Wire Wire Line
 	4150 2650 4150 2950
 Text Notes 2150 2900 0    39   ~ 0
 need to add ESD protection\n
+$Comp
+L antmicroCoaxialConnectorsRF:U_FL-R-SMT-1_10_ J?
+U 1 1 61DE06AE
+P 4550 5950
+F 0 "J?" H 4462 5918 50  0000 R CNN
+F 1 "U_FL-R-SMT-1_10_" H 4462 5827 50  0000 R CNN
+F 2 "antmicro-footprints:Coax_Conn_U.FL" H 4750 6150 60  0001 L CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/U.FL-R-SMT-1%2810%29/category/Drawing%20(2D)/doc_file_id/37627/?file_category_id=6&item_id=03310472210&is_series=U.FL-R-SMT-1(10" H 4750 6250 60  0001 L CNN
+F 4 "U.FL-R-SMT-1(10)" H 4750 6450 60  0001 L CNN "MPN"
+F 5 "Hirose Electric Co Ltd" H 4750 7050 60  0001 L CNN "Manufacturer"
+	1    4550 5950
+	-1   0    0    -1  
+$EndComp
+Text Notes 900  4550 0    98   ~ 20
+GNSS Antenna\n
+$Comp
+L antmicroPMICVoltageRegulatorsLinear:NCP163ASN330T1G U?
+U 1 1 61DE4A36
+P 2700 5150
+F 0 "U?" H 2700 5449 50  0000 C CNN
+F 1 "NCP163ASN330T1G" H 2700 5366 39  0000 C CNN
+F 2 "antmicro-footprints:SOT-23-5" H 2700 4900 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/308/1/NCP163_D-2317108.pdf" H 2800 5500 50  0001 C CNN
+F 4 "NCP163ASN330T1G" H 2550 5450 50  0001 C CNN "MPN"
+F 5 "Onsemi" H 2650 5550 50  0001 C CNN "Manufacturer"
+	1    2700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 61DE5769
+P 1250 5250
+F 0 "C?" H 1300 5350 60  0000 L CNN
+F 1 "C_100n_0402" H 1250 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1450 5450 60  0001 L CNN
+F 3 "" H 1250 5250 50  0001 C CNN
+F 4 "Murata" H 1450 5650 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 1450 5550 60  0001 L CNN "MPN"
+F 6 "100n" H 1300 5150 50  0000 L CNN "Val"
+	1    1250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 61DE62FD
+P 1600 5250
+F 0 "C?" H 1650 5350 60  0000 L CNN
+F 1 "C_1u_0402" H 1600 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1800 5450 60  0001 L CNN
+F 3 "" H 1600 5250 50  0001 C CNN
+F 4 "TDK" H 1800 5650 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 1800 5550 60  0001 L CNN "MPN"
+F 6 "1u" H 1650 5150 50  0000 L CNN "Val"
+	1    1600 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  5100 0    50   Input ~ 0
+5V0_SYS
+Wire Wire Line
+	950  5100 1250 5100
+Connection ~ 1250 5100
+Wire Wire Line
+	1250 5100 1600 5100
+Connection ~ 1600 5100
+Wire Wire Line
+	1600 5100 2000 5100
+Wire Wire Line
+	2000 5200 2000 5100
+Connection ~ 2000 5100
+Wire Wire Line
+	2000 5100 2300 5100
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 61DF64C3
+P 2150 5200
+F 0 "R?" H 2100 5100 60  0000 C CNN
+F 1 "R_10k_0402" H 2150 5050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2350 5400 60  0001 L CNN
+F 3 "" H 2150 5200 50  0001 C CNN
+F 4 "VISHAY" H 2350 5600 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2350 5500 60  0001 L CNN "MPN"
+F 6 "10k" H 2150 5200 50  0000 C CNN "Val"
+	1    2150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61DFDE85
+P 1250 5400
+F 0 "#PWR?" H 1250 5150 50  0001 C CNN
+F 1 "GND" H 1255 5227 50  0000 C CNN
+F 2 "" H 1250 5400 50  0001 C CNN
+F 3 "" H 1250 5400 50  0001 C CNN
+	1    1250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61DFE1A8
+P 1600 5400
+F 0 "#PWR?" H 1600 5150 50  0001 C CNN
+F 1 "GND" H 1605 5227 50  0000 C CNN
+F 2 "" H 1600 5400 50  0001 C CNN
+F 3 "" H 1600 5400 50  0001 C CNN
+	1    1600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61DFE33D
+P 3100 5350
+F 0 "#PWR?" H 3100 5100 50  0001 C CNN
+F 1 "GND" H 3105 5177 50  0000 C CNN
+F 2 "" H 3100 5350 50  0001 C CNN
+F 3 "" H 3100 5350 50  0001 C CNN
+	1    3100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5350 3100 5200
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 61E01936
+P 3300 5250
+F 0 "C?" H 3350 5350 60  0000 L CNN
+F 1 "C_1u_0402" H 3300 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3500 5450 60  0001 L CNN
+F 3 "" H 3300 5250 50  0001 C CNN
+F 4 "TDK" H 3500 5650 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 3500 5550 60  0001 L CNN "MPN"
+F 6 "1u" H 3350 5150 50  0000 L CNN "Val"
+	1    3300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 61E01C01
+P 3550 5250
+F 0 "C?" H 3600 5350 60  0000 L CNN
+F 1 "C_1u_0402" H 3550 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3750 5450 60  0001 L CNN
+F 3 "" H 3550 5250 50  0001 C CNN
+F 4 "TDK" H 3750 5650 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 3750 5550 60  0001 L CNN "MPN"
+F 6 "1u" H 3600 5150 50  0000 L CNN "Val"
+	1    3550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 61E01F20
+P 3800 5250
+F 0 "C?" H 3850 5350 60  0000 L CNN
+F 1 "C_100n_0402" H 3800 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4000 5450 60  0001 L CNN
+F 3 "" H 3800 5250 50  0001 C CNN
+F 4 "Murata" H 4000 5650 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 4000 5550 60  0001 L CNN "MPN"
+F 6 "100n" H 3850 5150 50  0000 L CNN "Val"
+	1    3800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0603:R_10R_0603 R?
+U 1 1 61E02D4E
+P 4200 5250
+F 0 "R?" V 4155 5320 60  0000 L CNN
+F 1 "R_10R_0603" H 4200 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 4400 5450 60  0001 L CNN
+F 3 "" H 4200 5250 50  0001 C CNN
+F 4 "MULTICOMP" H 4400 5650 60  0001 L CNN "Manufacturer"
+F 5 "MCWR06X10R0FTL" H 4400 5550 60  0001 L CNN "MPN"
+F 6 "10R" V 4253 5320 50  0000 L CNN "Val"
+	1    4200 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 5100 3800 5100
+Connection ~ 3300 5100
+Wire Wire Line
+	3300 5100 3100 5100
+Connection ~ 3550 5100
+Wire Wire Line
+	3550 5100 3300 5100
+Connection ~ 3800 5100
+Wire Wire Line
+	3800 5100 3550 5100
+$Comp
+L power:GND #PWR?
+U 1 1 61E066D7
+P 3300 5400
+F 0 "#PWR?" H 3300 5150 50  0001 C CNN
+F 1 "GND" H 3305 5227 50  0000 C CNN
+F 2 "" H 3300 5400 50  0001 C CNN
+F 3 "" H 3300 5400 50  0001 C CNN
+	1    3300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E068B9
+P 3550 5400
+F 0 "#PWR?" H 3550 5150 50  0001 C CNN
+F 1 "GND" H 3555 5227 50  0000 C CNN
+F 2 "" H 3550 5400 50  0001 C CNN
+F 3 "" H 3550 5400 50  0001 C CNN
+	1    3550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E06A73
+P 3800 5400
+F 0 "#PWR?" H 3800 5150 50  0001 C CNN
+F 1 "GND" H 3805 5227 50  0000 C CNN
+F 2 "" H 3800 5400 50  0001 C CNN
+F 3 "" H 3800 5400 50  0001 C CNN
+	1    3800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:MLJ1005HXG56NETD0B L?
+U 1 1 61E070FA
+P 4200 5550
+F 0 "L?" V 4102 5604 60  0000 L CNN
+F 1 "MLJ1005HXG56NETD0B" V 4208 5604 60  0000 L CNN
+F 2 "antmicro-footprints:0402-res" H 4900 5825 60  0001 C CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_mlj1005h_en.pdf" H 4255 5580 60  0001 C CNN
+F 4 "TDK" H 4275 6150 50  0001 C CNN "Manufacturer"
+F 5 "MLJ1005HXG56NETD0B" H 4575 6075 50  0001 C CNN "MPN"
+F 6 "950mA" H 4325 6000 50  0001 C CNN "MaxCur"
+F 7 "1x0.5" H 4400 5925 50  0001 C CNN "Size"
+F 8 "56n/950mA" V 4306 5604 50  0000 L CNN "Val"
+	1    4200 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 5950 4200 5950
+Wire Wire Line
+	4200 5950 4200 5700
+$Comp
+L power:GND #PWR?
+U 1 1 61E1D660
+P 4550 6150
+F 0 "#PWR?" H 4550 5900 50  0001 C CNN
+F 1 "GND" H 4555 5977 50  0000 C CNN
+F 2 "" H 4550 6150 50  0001 C CNN
+F 3 "" H 4550 6150 50  0001 C CNN
+	1    4550 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100p_0402 C?
+U 1 1 61E1E2D6
+P 3950 5950
+F 0 "C?" V 3692 5950 60  0000 C CNN
+F 1 "C_100p_0402" H 3950 5800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4150 6150 60  0001 L CNN
+F 3 "" H 3950 5950 50  0001 C CNN
+F 4 "WALSIN" H 4150 6350 60  0001 L CNN "Manufacturer"
+F 5 "0402N101J500CT" H 4150 6250 60  0001 L CNN "MPN"
+F 6 "100p" V 3790 5950 50  0000 C CNN "Val"
+	1    3950 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 5950 4200 5950
+Connection ~ 4200 5950
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 61E22F29
+P 3300 5950
+F 0 "R?" H 3300 6163 60  0000 C CNN
+F 1 "R_0R_0402" H 3300 5800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3500 6150 60  0001 L CNN
+F 3 "" H 3300 5950 50  0001 C CNN
+F 4 "PANASONIC" H 3500 6350 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3500 6250 60  0001 L CNN "MPN"
+F 6 "0R" H 3300 6065 50  0000 C CNN "Val"
+	1    3300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_0p5_0402 C?
+U 1 1 61E23BBD
+P 3600 6100
+F 0 "C?" H 3715 6191 60  0000 L CNN
+F 1 "C_0p5_0402" H 3600 5950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3800 6300 60  0001 L CNN
+F 3 "" H 3600 6100 50  0001 C CNN
+F 4 "MURATA" H 3800 6500 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR50WB01D " H 3800 6400 60  0001 L CNN "MPN"
+F 6 "0p5" H 3715 6093 50  0000 L CNN "Val"
+F 7 "DNP" H 3715 6002 50  0000 L CNN "DNP"
+	1    3600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_0p5_0402 C?
+U 1 1 61E23F56
+P 2950 6100
+F 0 "C?" H 3065 6191 60  0000 L CNN
+F 1 "C_0p5_0402" H 2950 5950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3150 6300 60  0001 L CNN
+F 3 "" H 2950 6100 50  0001 C CNN
+F 4 "MURATA" H 3150 6500 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR50WB01D " H 3150 6400 60  0001 L CNN "MPN"
+F 6 "0p5" H 3065 6093 50  0000 L CNN "Val"
+F 7 "DNP" H 3065 6002 50  0000 L CNN "DNP"
+	1    2950 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5950 3600 5950
+Connection ~ 3600 5950
+Wire Wire Line
+	3600 5950 3450 5950
+Wire Wire Line
+	3150 5950 2950 5950
+$Comp
+L power:GND #PWR?
+U 1 1 61E2C0FD
+P 3600 6250
+F 0 "#PWR?" H 3600 6000 50  0001 C CNN
+F 1 "GND" H 3605 6077 50  0000 C CNN
+F 2 "" H 3600 6250 50  0001 C CNN
+F 3 "" H 3600 6250 50  0001 C CNN
+	1    3600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E2C5A2
+P 2950 6250
+F 0 "#PWR?" H 2950 6000 50  0001 C CNN
+F 1 "GND" H 2955 6077 50  0000 C CNN
+F 2 "" H 2950 6250 50  0001 C CNN
+F 3 "" H 2950 6250 50  0001 C CNN
+	1    2950 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 5950 0    50   Input ~ 0
+ANT_GNSS
+Wire Wire Line
+	2800 5950 2950 5950
+Connection ~ 2950 5950
+$Comp
+L antmicroRFAntennas:GPS-ANT050-external-antenna ANT?
+U 1 1 61E46B68
+P 2700 7250
+F 0 "ANT?" H 3178 7296 50  0000 L CNN
+F 1 "GPS-ANT050-external-antenna" H 3178 7205 50  0000 L CNN
+F 2 "antmicro-footprints:GPS-ANT050-mounting-pad" H 3100 7750 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/548f791b38c5a03a2fd8743b12826bee/GPS-ANT050-7.pdf" H 1950 7200 50  0001 C CNN
+F 4 "SRPassives" H 2550 7650 50  0001 C CNN "Manufacturer"
+F 5 "GPS-ANT050" H 2700 7550 50  0001 C CNN "MPN"
+	1    2700 7250
+	1    0    0    -1  
+$EndComp
+Text Notes 950  6850 0    98   ~ 20
+Mounting Pad for GNSS Antenna\n
+Text Notes 900  8050 0    98   ~ 20
+Main Antenna\n
+$Comp
+L antmicroCoaxialConnectorsRF:U_FL-R-SMT-1_10_ J?
+U 1 1 61E4CD56
+P 3000 8500
+F 0 "J?" H 2912 8513 50  0000 R CNN
+F 1 "U_FL-R-SMT-1_10_" H 2912 8422 50  0000 R CNN
+F 2 "antmicro-footprints:Coax_Conn_U.FL" H 3200 8700 60  0001 L CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/U.FL-R-SMT-1%2810%29/category/Drawing%20(2D)/doc_file_id/37627/?file_category_id=6&item_id=03310472210&is_series=U.FL-R-SMT-1(10" H 3200 8800 60  0001 L CNN
+F 4 "U.FL-R-SMT-1(10)" H 3200 9000 60  0001 L CNN "MPN"
+F 5 "Hirose Electric Co Ltd" H 3200 9600 60  0001 L CNN "Manufacturer"
+F 6 "DNP" H 2912 8331 50  0000 R CNN "DNP"
+	1    3000 8500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_0p9_0402 C?
+U 1 1 61E55EB8
+P 2350 8650
+F 0 "C?" H 2465 8741 60  0000 L CNN
+F 1 "C_0p9_0402" H 2350 8500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2550 8850 60  0001 L CNN
+F 3 "" H 2350 8650 50  0001 C CNN
+F 4 "MURATA" H 2550 9050 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR90DB01D " H 2550 8950 60  0001 L CNN "MPN"
+F 6 "0p9" H 2465 8643 50  0000 L CNN "Val"
+F 7 "DNP" H 2465 8552 50  0000 L CNN "DNP"
+	1    2350 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 61E56EBD
+P 1900 8500
+F 0 "R?" H 1900 8805 60  0000 C CNN
+F 1 "R_0R_0402" H 1900 8350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2100 8700 60  0001 L CNN
+F 3 "" H 1900 8500 50  0001 C CNN
+F 4 "PANASONIC" H 2100 8900 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2100 8800 60  0001 L CNN "MPN"
+F 6 "0R" H 1900 8707 50  0000 C CNN "Val"
+F 7 "DNP" H 1900 8616 50  0000 C CNN "DNP"
+	1    1900 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 8500 2350 8500
+Connection ~ 2350 8500
+Wire Wire Line
+	2350 8500 2050 8500
+Text GLabel 1100 9300 0    50   Input ~ 0
+ANT_MAIN
+$Comp
+L antmicroCapacitors0402:C_0p5_0402 C?
+U 1 1 61E60022
+P 1600 9500
+F 0 "C?" H 1715 9591 60  0000 L CNN
+F 1 "C_0p5_0402" H 1600 9350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1800 9700 60  0001 L CNN
+F 3 "" H 1600 9500 50  0001 C CNN
+F 4 "MURATA" H 1800 9900 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR50WB01D " H 1800 9800 60  0001 L CNN "MPN"
+F 6 "0p5" H 1715 9493 50  0000 L CNN "Val"
+F 7 "DNP" H 1715 9402 50  0000 L CNN "DNP"
+	1    1600 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E618F3
+P 2350 8800
+F 0 "#PWR?" H 2350 8550 50  0001 C CNN
+F 1 "GND" H 2355 8627 50  0000 C CNN
+F 2 "" H 2350 8800 50  0001 C CNN
+F 3 "" H 2350 8800 50  0001 C CNN
+	1    2350 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E61CCA
+P 3000 8700
+F 0 "#PWR?" H 3000 8450 50  0001 C CNN
+F 1 "GND" H 3005 8527 50  0000 C CNN
+F 2 "" H 3000 8700 50  0001 C CNN
+F 3 "" H 3000 8700 50  0001 C CNN
+	1    3000 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 9350 1600 9300
+Wire Wire Line
+	1600 8500 1750 8500
+Wire Wire Line
+	1100 9300 1600 9300
+Connection ~ 1600 9300
+Wire Wire Line
+	1600 9300 1600 8500
+$Comp
+L antmicroCapacitors0402:C_0p5_0402 C?
+U 1 1 61E6C49D
+P 2400 9500
+F 0 "C?" H 2515 9591 60  0000 L CNN
+F 1 "C_0p5_0402" H 2400 9350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2600 9700 60  0001 L CNN
+F 3 "" H 2400 9500 50  0001 C CNN
+F 4 "MURATA" H 2600 9900 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR50WB01D " H 2600 9800 60  0001 L CNN "MPN"
+F 6 "0p5" H 2515 9493 50  0000 L CNN "Val"
+F 7 "DNP" H 2515 9402 50  0000 L CNN "DNP"
+	1    2400 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_0p9_0402 C?
+U 1 1 61E6C9B4
+P 3100 9500
+F 0 "C?" H 3215 9545 60  0000 L CNN
+F 1 "C_0p9_0402" H 3100 9350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3300 9700 60  0001 L CNN
+F 3 "" H 3100 9500 50  0001 C CNN
+F 4 "MURATA" H 3300 9900 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR90DB01D " H 3300 9800 60  0001 L CNN "MPN"
+F 6 "0p9" H 3215 9447 50  0000 L CNN "Val"
+	1    3100 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:LQW15AN2N4B00D L?
+U 1 1 61E6E681
+P 2050 9300
+F 0 "L?" H 2050 9605 60  0000 C CNN
+F 1 "LQW15AN2N4B00D" H 2050 9499 60  0000 C CNN
+F 2 "antmicro-footprints:0402-res" H 2875 9650 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/281/JELF243A-0050-1380872.pdf" H 2105 9330 60  0001 C CNN
+F 4 "Murata" H 2200 10050 50  0001 C CNN "Manufacturer"
+F 5 "LQW15AN2N4B00D" H 2350 9950 50  0001 C CNN "MPN"
+F 6 "850mA" H 2125 9850 50  0001 C CNN "MaxCur"
+F 7 "1.0x0.5" H 2175 9750 50  0001 C CNN "Size"
+F 8 "2n4/850mA" H 2050 9401 50  0000 C CNN "Val"
+	1    2050 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 9300 1600 9300
+Wire Wire Line
+	3100 9300 3100 9350
+Wire Wire Line
+	2200 9300 2400 9300
+Wire Wire Line
+	2400 9350 2400 9300
+$Comp
+L antmicroCapacitors0402:C_6p9_0402 C?
+U 1 1 61E876B3
+P 2800 9300
+F 0 "C?" V 2542 9300 60  0000 C CNN
+F 1 "C_6p9_0402" H 2800 9150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3000 9500 60  0001 L CNN
+F 3 "" H 2800 9300 50  0001 C CNN
+F 4 "MURATA" H 3000 9700 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1H6R9BB01D" H 3000 9600 60  0001 L CNN "MPN"
+F 6 "6p9" V 2640 9300 50  0000 C CNN "Val"
+	1    2800 9300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 9300 2400 9300
+Connection ~ 2400 9300
+$Comp
+L power:GND #PWR?
+U 1 1 61E8D0B9
+P 1600 9650
+F 0 "#PWR?" H 1600 9400 50  0001 C CNN
+F 1 "GND" H 1605 9477 50  0000 C CNN
+F 2 "" H 1600 9650 50  0001 C CNN
+F 3 "" H 1600 9650 50  0001 C CNN
+	1    1600 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E8D399
+P 2400 9650
+F 0 "#PWR?" H 2400 9400 50  0001 C CNN
+F 1 "GND" H 2405 9477 50  0000 C CNN
+F 2 "" H 2400 9650 50  0001 C CNN
+F 3 "" H 2400 9650 50  0001 C CNN
+	1    2400 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E8D603
+P 3100 9650
+F 0 "#PWR?" H 3100 9400 50  0001 C CNN
+F 1 "GND" H 3105 9477 50  0000 C CNN
+F 2 "" H 3100 9650 50  0001 C CNN
+F 3 "" H 3100 9650 50  0001 C CNN
+	1    3100 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_0p5_0402 C?
+U 1 1 61E8EC11
+P 4600 9800
+F 0 "C?" H 4715 9891 60  0000 L CNN
+F 1 "C_0p5_0402" H 4600 9650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4800 10000 60  0001 L CNN
+F 3 "" H 4600 9800 50  0001 C CNN
+F 4 "MURATA" H 4800 10200 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR50WB01D " H 4800 10100 60  0001 L CNN "MPN"
+F 6 "0p5" H 4715 9793 50  0000 L CNN "Val"
+F 7 "DNP" H 4715 9702 50  0000 L CNN "DNP"
+	1    4600 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E8EC17
+P 4600 9950
+F 0 "#PWR?" H 4600 9700 50  0001 C CNN
+F 1 "GND" H 4605 9777 50  0000 C CNN
+F 2 "" H 4600 9950 50  0001 C CNN
+F 3 "" H 4600 9950 50  0001 C CNN
+	1    4600 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRFAntennas:PRO-OB-572_DCPOL ANT?
+U 1 1 61E93E33
+P 4050 9400
+F 0 "ANT?" H 4050 9765 50  0000 C CNN
+F 1 "PRO-OB-572_DCPOL" H 4050 9674 50  0000 C CNN
+F 2 "antmicro-footprints:PRO-OB-572_2" H 4450 9900 50  0001 C CNN
+F 3 "https://proantantennas.com/wp-content/uploads/2020/03/OnBoard-SMD-GSM-UMTS-rev1.2-10.pdf" H 3300 9350 50  0001 C CNN
+F 4 "ProAnt" H 3900 9800 50  0001 C CNN "Manufacturer"
+F 5 "PRO-OB-572" H 4050 9700 50  0001 C CNN "MPN"
+	1    4050 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_0p5_0402 C?
+U 1 1 61E9E554
+P 5000 9800
+F 0 "C?" H 5115 9891 60  0000 L CNN
+F 1 "C_0p5_0402" H 5000 9650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5200 10000 60  0001 L CNN
+F 3 "" H 5000 9800 50  0001 C CNN
+F 4 "MURATA" H 5200 10200 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR50WB01D " H 5200 10100 60  0001 L CNN "MPN"
+F 6 "0p5" H 5115 9793 50  0000 L CNN "Val"
+F 7 "DNP" H 5115 9702 50  0000 L CNN "DNP"
+	1    5000 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E9E55A
+P 5000 9950
+F 0 "#PWR?" H 5000 9700 50  0001 C CNN
+F 1 "GND" H 5005 9777 50  0000 C CNN
+F 2 "" H 5000 9950 50  0001 C CNN
+F 3 "" H 5000 9950 50  0001 C CNN
+	1    5000 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 9650 5000 9400
+Wire Wire Line
+	5000 9400 4600 9400
+Wire Wire Line
+	4600 9500 4600 9650
+$Comp
+L power:GND #PWR?
+U 1 1 61EADE44
+P 3500 9800
+F 0 "#PWR?" H 3500 9550 50  0001 C CNN
+F 1 "GND" H 3505 9627 50  0000 C CNN
+F 2 "" H 3500 9800 50  0001 C CNN
+F 3 "" H 3500 9800 50  0001 C CNN
+	1    3500 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 9400 3500 9500
+Connection ~ 3500 9500
+Wire Wire Line
+	3500 9500 3500 9800
+Wire Wire Line
+	3500 9300 3100 9300
 Wire Bus Line
 	700  1450 700  2150
+Connection ~ 3100 9300
+Wire Wire Line
+	3100 9300 2950 9300
 $EndSCHEMATC

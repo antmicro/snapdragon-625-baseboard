@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicroInterfaceControllers:LT9611 U?
+L sc606-baseboard-rescue:LT9611-antmicroInterfaceControllers U?
 U 1 1 61D8D19A
 P 2500 1600
 F 0 "U?" H 5244 437 50  0000 L CNN

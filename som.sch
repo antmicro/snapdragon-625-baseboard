@@ -940,4 +940,8 @@ Wire Bus Line
 	11650 6700 11650 7600
 Wire Bus Line
 	11650 7800 11650 8700
+Text GLabel 5000 2350 2    50   Input ~ 0
+ANT_GNSS
+Text GLabel 2800 2550 0    50   Input ~ 0
+ANT_MAIN
 $EndSCHEMATC
