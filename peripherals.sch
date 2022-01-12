@@ -16,12 +16,12 @@ $EndDescr
 Text Notes 7700 1000 0    98   ~ 20
 Main micro SIM connector
 $Comp
-L sc606-baseboard:PUSB3F96X_PASS D2
+L antmicroTVSDiodes:PUSB3F96X_PASS D2
 U 1 1 62162F7C
 P 9600 3200
 F 0 "D2" H 10030 3253 60  0000 L CNN
 F 1 "PUSB3F96X_PASS" H 10030 3147 60  0000 L CNN
-F 2 "sc606-baseboard-footprints:PUSB3F96X" H 9800 2650 60  0001 C CNN
+F 2 "antmicro-footprints:PUSB3F96X" H 9800 2650 60  0001 C CNN
 F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 9600 3200 60  0001 C CNN
 F 4 "Nexperia" H 9800 2550 50  0001 C CNN "Manufacturer"
 F 5 "PUSB3F96X" H 9800 2550 50  0001 C CNN "MPN"
@@ -29,7 +29,7 @@ F 5 "PUSB3F96X" H 9800 2550 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR070
+L power:GND #PWR070
 U 1 1 62169241
 P 9200 3750
 F 0 "#PWR070" H 9200 3500 50  0001 C CNN
@@ -46,12 +46,12 @@ Wire Wire Line
 Wire Wire Line
 	9200 3400 9400 3400
 $Comp
-L sc606-baseboard:C_100n_0402 C53
+L antmicroCapacitors0402:C_100n_0402 C53
 U 1 1 6216A368
 P 8400 1450
 F 0 "C53" H 8515 1495 60  0000 L CNN
 F 1 "C_100n_0402" H 8400 1300 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 8600 1650 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 8600 1650 60  0001 L CNN
 F 3 "" H 8400 1450 50  0001 C CNN
 F 4 "Walsin" H 8600 1850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8600 1750 60  0001 L CNN "MPN"
@@ -60,7 +60,7 @@ F 6 "100n" H 8515 1397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR067
+L power:GND #PWR067
 U 1 1 6216BB8A
 P 8400 1600
 F 0 "#PWR067" H 8400 1350 50  0001 C CNN
@@ -71,12 +71,12 @@ F 3 "" H 8400 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_22p_0402 C54
+L antmicroCapacitors0402:C_22p_0402 C54
 U 1 1 6216CA2F
 P 8500 2700
 F 0 "C54" H 8550 2800 60  0000 L CNN
 F 1 "C_22p_0402" H 8500 2550 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 8700 2900 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 8700 2900 60  0001 L CNN
 F 3 "" H 8500 2700 50  0001 C CNN
 F 4 "YAGEO" H 8700 3100 60  0001 L CNN "Manufacturer"
 F 5 "CC0402JRNPO9BN220" H 8700 3000 60  0001 L CNN "MPN"
@@ -85,12 +85,12 @@ F 6 "22p" H 8550 2600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_22p_0402 C52
+L antmicroCapacitors0402:C_22p_0402 C52
 U 1 1 6216E0BE
 P 8250 2700
 F 0 "C52" H 8300 2800 60  0000 L CNN
 F 1 "C_22p_0402" H 8250 2550 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 8450 2900 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 8450 2900 60  0001 L CNN
 F 3 "" H 8250 2700 50  0001 C CNN
 F 4 "YAGEO" H 8450 3100 60  0001 L CNN "Manufacturer"
 F 5 "CC0402JRNPO9BN220" H 8450 3000 60  0001 L CNN "MPN"
@@ -99,12 +99,12 @@ F 6 "22p" H 8300 2600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_22p_0402 C51
+L antmicroCapacitors0402:C_22p_0402 C51
 U 1 1 6216E5CE
 P 8000 2700
 F 0 "C51" H 8050 2800 60  0000 L CNN
 F 1 "C_22p_0402" H 8000 2550 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 8200 2900 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 8200 2900 60  0001 L CNN
 F 3 "" H 8000 2700 50  0001 C CNN
 F 4 "YAGEO" H 8200 3100 60  0001 L CNN "Manufacturer"
 F 5 "CC0402JRNPO9BN220" H 8200 3000 60  0001 L CNN "MPN"
@@ -113,7 +113,7 @@ F 6 "22p" H 8050 2600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR068
+L power:GND #PWR068
 U 1 1 621701A4
 P 8500 2850
 F 0 "#PWR068" H 8500 2600 50  0001 C CNN
@@ -124,7 +124,7 @@ F 3 "" H 8500 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR066
+L power:GND #PWR066
 U 1 1 621704E2
 P 8250 2850
 F 0 "#PWR066" H 8250 2600 50  0001 C CNN
@@ -135,7 +135,7 @@ F 3 "" H 8250 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR065
+L power:GND #PWR065
 U 1 1 621708BB
 P 8000 2850
 F 0 "#PWR065" H 8000 2600 50  0001 C CNN
@@ -146,12 +146,12 @@ F 3 "" H 8000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:R_22R_0402 R37
+L antmicroResistors0402:R_22R_0402 R37
 U 1 1 62173711
 P 7700 2000
 F 0 "R37" H 7850 2050 60  0000 C CNN
 F 1 "R_22R_0402" H 7700 1850 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 7900 2200 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 7900 2200 60  0001 L CNN
 F 3 "" H 7700 2000 50  0001 C CNN
 F 4 "VISHAY" H 7900 2400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 7900 2300 60  0001 L CNN "MPN"
@@ -160,12 +160,12 @@ F 6 "22R" H 7700 2000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:R_22R_0402 R38
+L antmicroResistors0402:R_22R_0402 R38
 U 1 1 62173B19
 P 7700 2400
 F 0 "R38" H 7700 2500 60  0000 C CNN
 F 1 "R_22R_0402" H 7700 2250 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 7900 2600 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 7900 2600 60  0001 L CNN
 F 3 "" H 7700 2400 50  0001 C CNN
 F 4 "VISHAY" H 7900 2800 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 7900 2700 60  0001 L CNN "MPN"
@@ -174,12 +174,12 @@ F 6 "22R" H 7700 2400 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:693022010811 J1
+L antmicroSimCardConnectors:693022010811 J1
 U 1 1 621643BA
 P 9900 2100
 F 0 "J1" H 10430 2116 50  0000 L CNN
 F 1 "693022010811" H 9600 1400 50  0001 L BNN
-F 2 "sc606-baseboard-footprints:693022010811" H 9600 1300 50  0001 L BNN
+F 2 "antmicro-footprints:693022010811" H 9600 1300 50  0001 L BNN
 F 3 "" H 9900 2100 50  0001 C CNN
 F 4 "693022010811" H 10430 2025 50  0000 L CNN "MPN"
 F 5 "Wurth Elektronik" H 10430 1934 50  0000 L CNN "Manufacturer"
@@ -241,12 +241,12 @@ Wire Wire Line
 Wire Wire Line
 	7550 2400 7500 2400
 $Comp
-L sc606-baseboard:R_10k_0402 R40
+L antmicroResistors0402:R_10k_0402 R40
 U 1 1 621A1E2A
 P 8000 1550
 F 0 "R40" V 7955 1620 60  0000 L CNN
 F 1 "R_10k_0402" H 8000 1400 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 8200 1750 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 8200 1750 60  0001 L CNN
 F 3 "" H 8000 1550 50  0001 C CNN
 F 4 "VISHAY" H 8200 1950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8200 1850 60  0001 L CNN "MPN"
@@ -255,12 +255,12 @@ F 6 "10k" V 8053 1620 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L sc606-baseboard:R_22R_0402 R36
+L antmicroResistors0402:R_22R_0402 R36
 U 1 1 621710A8
 P 7700 1900
 F 0 "R36" H 7850 1950 60  0000 C CNN
 F 1 "R_22R_0402" H 7700 1750 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 7900 2100 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 7900 2100 60  0001 L CNN
 F 3 "" H 7700 1900 50  0001 C CNN
 F 4 "VISHAY" H 7900 2300 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 7900 2200 60  0001 L CNN "MPN"
@@ -333,7 +333,7 @@ SD_DATA
 Text GLabel 3850 1200 1    50   Input ~ 0
 SD_LDO11
 $Comp
-L sc606-baseboard:GND #PWR060
+L power:GND #PWR060
 U 1 1 62390EEA
 P 4150 2950
 F 0 "#PWR060" H 4150 2700 50  0001 C CNN
@@ -346,12 +346,12 @@ $EndComp
 Wire Wire Line
 	4300 2250 4150 2250
 $Comp
-L sc606-baseboard:C_4u7_0402 C47
+L antmicroCapacitors0402:C_4u7_0402 C47
 U 1 1 623F1A6C
 P 3850 2800
 F 0 "C47" H 3900 2900 60  0000 L CNN
 F 1 "C_4u7_0402" H 3850 2650 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 4050 3000 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 4050 3000 60  0001 L CNN
 F 3 "" H 3850 2800 50  0001 C CNN
 F 4 "MURATA" H 4050 3200 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 4050 3100 60  0001 L CNN "MPN"
@@ -360,12 +360,12 @@ F 6 "4u7" H 3900 2700 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_33p_0402 C44
+L antmicroCapacitors0402:C_33p_0402 C44
 U 1 1 623F2CDB
 P 3600 2800
 F 0 "C44" H 3650 2900 60  0000 L CNN
 F 1 "C_33p_0402" H 3600 2650 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 3800 3000 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 3800 3000 60  0001 L CNN
 F 3 "" H 3600 2800 50  0001 C CNN
 F 4 "MULTICOMP" H 3800 3200 60  0001 L CNN "Manufacturer"
 F 5 "MC0402N330J500CT" H 3800 3100 60  0001 L CNN "MPN"
@@ -377,12 +377,12 @@ Connection ~ 3850 2050
 Wire Wire Line
 	3850 2050 4300 2050
 $Comp
-L sc606-baseboard:DM3AT-SF-PEJM5 J7
+L antmicroMemoryConnectorsPCCardSockets:DM3AT-SF-PEJM5 J7
 U 1 1 6241413C
 P 5200 2150
 F 0 "J7" H 5150 3149 50  0000 C CNN
 F 1 "DM3AT-SF-PEJM5" H 5150 3058 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:MicroSD_DM3AT-SF-PEJM5" H 5200 2150 50  0001 C CNN
+F 2 "antmicro-footprints:MicroSD_DM3AT-SF-PEJM5" H 5200 2150 50  0001 C CNN
 F 3 "" H 5200 2150 50  0001 C CNN
 F 4 "HIROSE" H 5150 2967 50  0000 C CNN "Manufacturer"
 F 5 "DM3AT-SF-PEJM5" H 5150 2876 50  0000 C CNN "MPN"
@@ -414,12 +414,12 @@ Connection ~ 4150 2650
 Wire Wire Line
 	4150 2650 4150 2950
 $Comp
-L sc606-baseboard:U_FL-R-SMT-1_10_ J6
+L antmicroCoaxialConnectorsRF:U_FL-R-SMT-1_10_ J6
 U 1 1 61DE06AE
 P 4550 5950
 F 0 "J6" H 4462 5918 50  0000 R CNN
 F 1 "U_FL-R-SMT-1_10_" H 4462 5827 50  0000 R CNN
-F 2 "sc606-baseboard-footprints:Coax_Conn_U.FL" H 4750 6150 60  0001 L CNN
+F 2 "antmicro-footprints:Coax_Conn_U.FL" H 4750 6150 60  0001 L CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/U.FL-R-SMT-1%2810%29/category/Drawing%20(2D)/doc_file_id/37627/?file_category_id=6&item_id=03310472210&is_series=U.FL-R-SMT-1(10" H 4750 6250 60  0001 L CNN
 F 4 "U.FL-R-SMT-1(10)" H 4750 6450 60  0001 L CNN "MPN"
 F 5 "Hirose Electric Co Ltd" H 4750 7050 60  0001 L CNN "Manufacturer"
@@ -429,12 +429,12 @@ $EndComp
 Text Notes 900  4550 0    98   ~ 20
 GNSS Antenna\n
 $Comp
-L sc606-baseboard:NCP163ASN330T1G U6
+L antmicroPMICVoltageRegulatorsLinear:NCP163ASN330T1G U6
 U 1 1 61DE4A36
 P 2700 5150
 F 0 "U6" H 2700 5449 50  0000 C CNN
 F 1 "NCP163ASN330T1G" H 2700 5366 39  0000 C CNN
-F 2 "sc606-baseboard-footprints:SOT-23-5" H 2700 4900 50  0001 C CNN
+F 2 "antmicro-footprints:SOT-23-5" H 2700 4900 50  0001 C CNN
 F 3 "https://pl.mouser.com/datasheet/2/308/1/NCP163_D-2317108.pdf" H 2800 5500 50  0001 C CNN
 F 4 "NCP163ASN330T1G" H 2550 5450 50  0001 C CNN "MPN"
 F 5 "Onsemi" H 2650 5550 50  0001 C CNN "Manufacturer"
@@ -442,12 +442,12 @@ F 5 "Onsemi" H 2650 5550 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_100n_0402 C34
+L antmicroCapacitors0402:C_100n_0402 C34
 U 1 1 61DE5769
 P 1250 5250
 F 0 "C34" H 1300 5350 60  0000 L CNN
 F 1 "C_100n_0402" H 1250 5100 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 1450 5450 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 1450 5450 60  0001 L CNN
 F 3 "" H 1250 5250 50  0001 C CNN
 F 4 "Murata" H 1450 5650 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 1450 5550 60  0001 L CNN "MPN"
@@ -456,12 +456,12 @@ F 6 "100n" H 1300 5150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_1u_0402 C35
+L antmicroCapacitors0402:C_1u_0402 C35
 U 1 1 61DE62FD
 P 1600 5250
 F 0 "C35" H 1650 5350 60  0000 L CNN
 F 1 "C_1u_0402" H 1600 5100 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 1800 5450 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 1800 5450 60  0001 L CNN
 F 3 "" H 1600 5250 50  0001 C CNN
 F 4 "TDK" H 1800 5650 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 1800 5550 60  0001 L CNN "MPN"
@@ -485,12 +485,12 @@ Connection ~ 2000 5100
 Wire Wire Line
 	2000 5100 2300 5100
 $Comp
-L sc606-baseboard:R_10k_0402 R32
+L antmicroResistors0402:R_10k_0402 R32
 U 1 1 61DF64C3
 P 2150 5200
 F 0 "R32" H 2100 5100 60  0000 C CNN
 F 1 "R_10k_0402" H 2150 5050 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 2350 5400 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 2350 5400 60  0001 L CNN
 F 3 "" H 2150 5200 50  0001 C CNN
 F 4 "VISHAY" H 2350 5600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2350 5500 60  0001 L CNN "MPN"
@@ -499,7 +499,7 @@ F 6 "10k" H 2150 5200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR045
+L power:GND #PWR045
 U 1 1 61DFDE85
 P 1250 5400
 F 0 "#PWR045" H 1250 5150 50  0001 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 1250 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR046
+L power:GND #PWR046
 U 1 1 61DFE1A8
 P 1600 5400
 F 0 "#PWR046" H 1600 5150 50  0001 C CNN
@@ -521,7 +521,7 @@ F 3 "" H 1600 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR052
+L power:GND #PWR052
 U 1 1 61DFE33D
 P 3100 5350
 F 0 "#PWR052" H 3100 5100 50  0001 C CNN
@@ -534,12 +534,12 @@ $EndComp
 Wire Wire Line
 	3100 5350 3100 5200
 $Comp
-L sc606-baseboard:C_1u_0402 C42
+L antmicroCapacitors0402:C_1u_0402 C42
 U 1 1 61E01936
 P 3300 5250
 F 0 "C42" H 3350 5350 60  0000 L CNN
 F 1 "C_1u_0402" H 3300 5100 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 3500 5450 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 3500 5450 60  0001 L CNN
 F 3 "" H 3300 5250 50  0001 C CNN
 F 4 "TDK" H 3500 5650 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 3500 5550 60  0001 L CNN "MPN"
@@ -548,12 +548,12 @@ F 6 "1u" H 3350 5150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_1u_0402 C43
+L antmicroCapacitors0402:C_1u_0402 C43
 U 1 1 61E01C01
 P 3550 5250
 F 0 "C43" H 3600 5350 60  0000 L CNN
 F 1 "C_1u_0402" H 3550 5100 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 3750 5450 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 3750 5450 60  0001 L CNN
 F 3 "" H 3550 5250 50  0001 C CNN
 F 4 "TDK" H 3750 5650 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 3750 5550 60  0001 L CNN "MPN"
@@ -562,12 +562,12 @@ F 6 "1u" H 3600 5150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_100n_0402 C46
+L antmicroCapacitors0402:C_100n_0402 C46
 U 1 1 61E01F20
 P 3800 5250
 F 0 "C46" H 3850 5350 60  0000 L CNN
 F 1 "C_100n_0402" H 3800 5100 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 4000 5450 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 4000 5450 60  0001 L CNN
 F 3 "" H 3800 5250 50  0001 C CNN
 F 4 "Murata" H 4000 5650 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 4000 5550 60  0001 L CNN "MPN"
@@ -576,12 +576,12 @@ F 6 "100n" H 3850 5150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:R_10R_0603 R34
+L antmicroResistors0603:R_10R_0603 R34
 U 1 1 61E02D4E
 P 4200 5250
 F 0 "R34" V 4155 5320 60  0000 L CNN
 F 1 "R_10R_0603" H 4200 5100 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0603-res" H 4400 5450 60  0001 L CNN
+F 2 "antmicro-footprints:0603-res" H 4400 5450 60  0001 L CNN
 F 3 "" H 4200 5250 50  0001 C CNN
 F 4 "MULTICOMP" H 4400 5650 60  0001 L CNN "Manufacturer"
 F 5 "MCWR06X10R0FTL" H 4400 5550 60  0001 L CNN "MPN"
@@ -601,7 +601,7 @@ Connection ~ 3800 5100
 Wire Wire Line
 	3800 5100 3550 5100
 $Comp
-L sc606-baseboard:GND #PWR055
+L power:GND #PWR055
 U 1 1 61E066D7
 P 3300 5400
 F 0 "#PWR055" H 3300 5150 50  0001 C CNN
@@ -612,7 +612,7 @@ F 3 "" H 3300 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR057
+L power:GND #PWR057
 U 1 1 61E068B9
 P 3550 5400
 F 0 "#PWR057" H 3550 5150 50  0001 C CNN
@@ -623,7 +623,7 @@ F 3 "" H 3550 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR059
+L power:GND #PWR059
 U 1 1 61E06A73
 P 3800 5400
 F 0 "#PWR059" H 3800 5150 50  0001 C CNN
@@ -634,12 +634,12 @@ F 3 "" H 3800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:MLJ1005HXG56NETD0B L5
+L antmicroFixedInductors:MLJ1005HXG56NETD0B L5
 U 1 1 61E070FA
 P 4200 5550
 F 0 "L5" V 4102 5604 60  0000 L CNN
 F 1 "MLJ1005HXG56NETD0B" V 4208 5604 60  0000 L CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 4900 5825 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4900 5825 60  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_mlj1005h_en.pdf" H 4255 5580 60  0001 C CNN
 F 4 "TDK" H 4275 6150 50  0001 C CNN "Manufacturer"
 F 5 "MLJ1005HXG56NETD0B" H 4575 6075 50  0001 C CNN "MPN"
@@ -654,7 +654,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 5950 4200 5700
 $Comp
-L sc606-baseboard:GND #PWR061
+L power:GND #PWR061
 U 1 1 61E1D660
 P 4550 6150
 F 0 "#PWR061" H 4550 5900 50  0001 C CNN
@@ -665,12 +665,12 @@ F 3 "" H 4550 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_100p_0402 C48
+L antmicroCapacitors0402:C_100p_0402 C48
 U 1 1 61E1E2D6
 P 3950 5950
 F 0 "C48" V 3692 5950 60  0000 C CNN
 F 1 "C_100p_0402" H 3950 5800 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 4150 6150 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 4150 6150 60  0001 L CNN
 F 3 "" H 3950 5950 50  0001 C CNN
 F 4 "WALSIN" H 4150 6350 60  0001 L CNN "Manufacturer"
 F 5 "0402N101J500CT" H 4150 6250 60  0001 L CNN "MPN"
@@ -682,12 +682,12 @@ Wire Wire Line
 	4100 5950 4200 5950
 Connection ~ 4200 5950
 $Comp
-L sc606-baseboard:R_0R_0402 R33
+L antmicroResistors0402:R_0R_0402 R33
 U 1 1 61E22F29
 P 3300 5950
 F 0 "R33" H 3300 6163 60  0000 C CNN
 F 1 "R_0R_0402" H 3300 5800 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 3500 6150 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 3500 6150 60  0001 L CNN
 F 3 "" H 3300 5950 50  0001 C CNN
 F 4 "PANASONIC" H 3500 6350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3500 6250 60  0001 L CNN "MPN"
@@ -696,12 +696,12 @@ F 6 "0R" H 3300 6065 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_0p5_0402 C45
+L antmicroCapacitors0402:C_0p5_0402 C45
 U 1 1 61E23BBD
 P 3600 6100
 F 0 "C45" H 3715 6191 60  0000 L CNN
 F 1 "C_0p5_0402" H 3600 5950 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 3800 6300 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 3800 6300 60  0001 L CNN
 F 3 "" H 3600 6100 50  0001 C CNN
 F 4 "MURATA" H 3800 6500 60  0001 L CNN "Manufacturer"
 F 5 "GJM1555C1HR50WB01D " H 3800 6400 60  0001 L CNN "MPN"
@@ -711,12 +711,12 @@ F 7 "DNP" H 3715 6002 50  0000 L CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_0p5_0402 C40
+L antmicroCapacitors0402:C_0p5_0402 C40
 U 1 1 61E23F56
 P 2950 6100
 F 0 "C40" H 3065 6191 60  0000 L CNN
 F 1 "C_0p5_0402" H 2950 5950 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 3150 6300 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 3150 6300 60  0001 L CNN
 F 3 "" H 2950 6100 50  0001 C CNN
 F 4 "MURATA" H 3150 6500 60  0001 L CNN "Manufacturer"
 F 5 "GJM1555C1HR50WB01D " H 3150 6400 60  0001 L CNN "MPN"
@@ -733,7 +733,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 5950 2950 5950
 $Comp
-L sc606-baseboard:GND #PWR058
+L power:GND #PWR058
 U 1 1 61E2C0FD
 P 3600 6250
 F 0 "#PWR058" H 3600 6000 50  0001 C CNN
@@ -744,7 +744,7 @@ F 3 "" H 3600 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR050
+L power:GND #PWR050
 U 1 1 61E2C5A2
 P 2950 6250
 F 0 "#PWR050" H 2950 6000 50  0001 C CNN
@@ -760,12 +760,12 @@ Wire Wire Line
 	2800 5950 2950 5950
 Connection ~ 2950 5950
 $Comp
-L sc606-baseboard:GPS-ANT050-external-antenna ANT1
+L antmicroRFAntennas:GPS-ANT050-external-antenna ANT1
 U 1 1 61E46B68
 P 2700 7250
 F 0 "ANT1" H 3178 7296 50  0000 L CNN
 F 1 "GPS-ANT050-external-antenna" H 3178 7205 50  0000 L CNN
-F 2 "sc606-baseboard-footprints:GPS-ANT050-mounting-pad" H 3100 7750 50  0001 C CNN
+F 2 "antmicro-footprints:GPS-ANT050-mounting-pad" H 3100 7750 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/548f791b38c5a03a2fd8743b12826bee/GPS-ANT050-7.pdf" H 1950 7200 50  0001 C CNN
 F 4 "SRPassives" H 2550 7650 50  0001 C CNN "Manufacturer"
 F 5 "GPS-ANT050" H 2700 7550 50  0001 C CNN "MPN"
@@ -777,12 +777,12 @@ Mounting Pad for GNSS Antenna\n
 Text Notes 900  8050 0    98   ~ 20
 Main Antenna\n
 $Comp
-L sc606-baseboard:U_FL-R-SMT-1_10_ J5
+L antmicroCoaxialConnectorsRF:U_FL-R-SMT-1_10_ J5
 U 1 1 61E4CD56
 P 3000 8500
 F 0 "J5" H 2912 8513 50  0000 R CNN
 F 1 "U_FL-R-SMT-1_10_" H 2912 8422 50  0000 R CNN
-F 2 "sc606-baseboard-footprints:Coax_Conn_U.FL" H 3200 8700 60  0001 L CNN
+F 2 "antmicro-footprints:Coax_Conn_U.FL" H 3200 8700 60  0001 L CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/U.FL-R-SMT-1%2810%29/category/Drawing%20(2D)/doc_file_id/37627/?file_category_id=6&item_id=03310472210&is_series=U.FL-R-SMT-1(10" H 3200 8800 60  0001 L CNN
 F 4 "U.FL-R-SMT-1(10)" H 3200 9000 60  0001 L CNN "MPN"
 F 5 "Hirose Electric Co Ltd" H 3200 9600 60  0001 L CNN "Manufacturer"
@@ -791,12 +791,12 @@ F 6 "DNP" H 2912 8331 50  0000 R CNN "DNP"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_0p9_0402 C37
+L antmicroCapacitors0402:C_0p9_0402 C37
 U 1 1 61E55EB8
 P 2350 8650
 F 0 "C37" H 2465 8741 60  0000 L CNN
 F 1 "C_0p9_0402" H 2350 8500 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 2550 8850 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 2550 8850 60  0001 L CNN
 F 3 "" H 2350 8650 50  0001 C CNN
 F 4 "MURATA" H 2550 9050 60  0001 L CNN "Manufacturer"
 F 5 "GJM1555C1HR90DB01D " H 2550 8950 60  0001 L CNN "MPN"
@@ -806,12 +806,12 @@ F 7 "DNP" H 2465 8552 50  0000 L CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:R_0R_0402 R31
+L antmicroResistors0402:R_0R_0402 R31
 U 1 1 61E56EBD
 P 1900 8500
 F 0 "R31" H 1900 8805 60  0000 C CNN
 F 1 "R_0R_0402" H 1900 8350 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 2100 8700 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 2100 8700 60  0001 L CNN
 F 3 "" H 1900 8500 50  0001 C CNN
 F 4 "PANASONIC" H 2100 8900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 2100 8800 60  0001 L CNN "MPN"
@@ -828,12 +828,12 @@ Wire Wire Line
 Text GLabel 1100 9300 0    50   Input ~ 0
 ANT_MAIN
 $Comp
-L sc606-baseboard:C_0p5_0402 C36
+L antmicroCapacitors0402:C_0p5_0402 C36
 U 1 1 61E60022
 P 1600 9500
 F 0 "C36" H 1715 9591 60  0000 L CNN
 F 1 "C_0p5_0402" H 1600 9350 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 1800 9700 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 1800 9700 60  0001 L CNN
 F 3 "" H 1600 9500 50  0001 C CNN
 F 4 "MURATA" H 1800 9900 60  0001 L CNN "Manufacturer"
 F 5 "GJM1555C1HR50WB01D " H 1800 9800 60  0001 L CNN "MPN"
@@ -843,7 +843,7 @@ F 7 "DNP" H 1715 9402 50  0000 L CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR048
+L power:GND #PWR048
 U 1 1 61E618F3
 P 2350 8800
 F 0 "#PWR048" H 2350 8550 50  0001 C CNN
@@ -854,7 +854,7 @@ F 3 "" H 2350 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR051
+L power:GND #PWR051
 U 1 1 61E61CCA
 P 3000 8700
 F 0 "#PWR051" H 3000 8450 50  0001 C CNN
@@ -874,12 +874,12 @@ Connection ~ 1600 9300
 Wire Wire Line
 	1600 9300 1600 8500
 $Comp
-L sc606-baseboard:C_0p5_0402 C38
+L antmicroCapacitors0402:C_0p5_0402 C38
 U 1 1 61E6C49D
 P 2400 9500
 F 0 "C38" H 2515 9591 60  0000 L CNN
 F 1 "C_0p5_0402" H 2400 9350 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 2600 9700 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 2600 9700 60  0001 L CNN
 F 3 "" H 2400 9500 50  0001 C CNN
 F 4 "MURATA" H 2600 9900 60  0001 L CNN "Manufacturer"
 F 5 "GJM1555C1HR50WB01D " H 2600 9800 60  0001 L CNN "MPN"
@@ -889,12 +889,12 @@ F 7 "DNP" H 2515 9402 50  0000 L CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_0p9_0402 C41
+L antmicroCapacitors0402:C_0p9_0402 C41
 U 1 1 61E6C9B4
 P 3100 9500
 F 0 "C41" H 3215 9545 60  0000 L CNN
 F 1 "C_0p9_0402" H 3100 9350 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 3300 9700 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 3300 9700 60  0001 L CNN
 F 3 "" H 3100 9500 50  0001 C CNN
 F 4 "MURATA" H 3300 9900 60  0001 L CNN "Manufacturer"
 F 5 "GJM1555C1HR90DB01D " H 3300 9800 60  0001 L CNN "MPN"
@@ -903,12 +903,12 @@ F 6 "0p9" H 3215 9447 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:LQW15AN2N4B00D L4
+L antmicroFixedInductors:LQW15AN2N4B00D L4
 U 1 1 61E6E681
 P 2050 9300
 F 0 "L4" H 2050 9605 60  0000 C CNN
 F 1 "LQW15AN2N4B00D" H 2050 9499 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 2875 9650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2875 9650 60  0001 C CNN
 F 3 "https://pl.mouser.com/datasheet/2/281/JELF243A-0050-1380872.pdf" H 2105 9330 60  0001 C CNN
 F 4 "Murata" H 2200 10050 50  0001 C CNN "Manufacturer"
 F 5 "LQW15AN2N4B00D" H 2350 9950 50  0001 C CNN "MPN"
@@ -927,12 +927,12 @@ Wire Wire Line
 Wire Wire Line
 	2400 9350 2400 9300
 $Comp
-L sc606-baseboard:C_6p9_0402 C39
+L antmicroCapacitors0402:C_6p9_0402 C39
 U 1 1 61E876B3
 P 2800 9300
 F 0 "C39" V 2542 9300 60  0000 C CNN
 F 1 "C_6p9_0402" H 2800 9150 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 3000 9500 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 3000 9500 60  0001 L CNN
 F 3 "" H 2800 9300 50  0001 C CNN
 F 4 "MURATA" H 3000 9700 60  0001 L CNN "Manufacturer"
 F 5 "GJM1555C1H6R9BB01D" H 3000 9600 60  0001 L CNN "MPN"
@@ -944,7 +944,7 @@ Wire Wire Line
 	2650 9300 2400 9300
 Connection ~ 2400 9300
 $Comp
-L sc606-baseboard:GND #PWR047
+L power:GND #PWR047
 U 1 1 61E8D0B9
 P 1600 9650
 F 0 "#PWR047" H 1600 9400 50  0001 C CNN
@@ -955,7 +955,7 @@ F 3 "" H 1600 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR049
+L power:GND #PWR049
 U 1 1 61E8D399
 P 2400 9650
 F 0 "#PWR049" H 2400 9400 50  0001 C CNN
@@ -966,7 +966,7 @@ F 3 "" H 2400 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR053
+L power:GND #PWR053
 U 1 1 61E8D603
 P 3100 9650
 F 0 "#PWR053" H 3100 9400 50  0001 C CNN
@@ -977,12 +977,12 @@ F 3 "" H 3100 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_0p5_0402 C49
+L antmicroCapacitors0402:C_0p5_0402 C49
 U 1 1 61E8EC11
 P 4600 9800
 F 0 "C49" H 4715 9891 60  0000 L CNN
 F 1 "C_0p5_0402" H 4600 9650 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 4800 10000 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 4800 10000 60  0001 L CNN
 F 3 "" H 4600 9800 50  0001 C CNN
 F 4 "MURATA" H 4800 10200 60  0001 L CNN "Manufacturer"
 F 5 "GJM1555C1HR50WB01D " H 4800 10100 60  0001 L CNN "MPN"
@@ -992,7 +992,7 @@ F 7 "DNP" H 4715 9702 50  0000 L CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR062
+L power:GND #PWR062
 U 1 1 61E8EC17
 P 4600 9950
 F 0 "#PWR062" H 4600 9700 50  0001 C CNN
@@ -1003,12 +1003,12 @@ F 3 "" H 4600 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:PRO-OB-572_DCPOL ANT2
+L antmicroRFAntennas:PRO-OB-572_DCPOL ANT2
 U 1 1 61E93E33
 P 4050 9400
 F 0 "ANT2" H 4050 9765 50  0000 C CNN
 F 1 "PRO-OB-572_DCPOL" H 4050 9674 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:PRO-OB-572_2" H 4450 9900 50  0001 C CNN
+F 2 "antmicro-footprints:PRO-OB-572_2" H 4450 9900 50  0001 C CNN
 F 3 "https://proantantennas.com/wp-content/uploads/2020/03/OnBoard-SMD-GSM-UMTS-rev1.2-10.pdf" H 3300 9350 50  0001 C CNN
 F 4 "ProAnt" H 3900 9800 50  0001 C CNN "Manufacturer"
 F 5 "PRO-OB-572" H 4050 9700 50  0001 C CNN "MPN"
@@ -1016,12 +1016,12 @@ F 5 "PRO-OB-572" H 4050 9700 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_0p5_0402 C50
+L antmicroCapacitors0402:C_0p5_0402 C50
 U 1 1 61E9E554
 P 5000 9800
 F 0 "C50" H 5115 9891 60  0000 L CNN
 F 1 "C_0p5_0402" H 5000 9650 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 5200 10000 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 5200 10000 60  0001 L CNN
 F 3 "" H 5000 9800 50  0001 C CNN
 F 4 "MURATA" H 5200 10200 60  0001 L CNN "Manufacturer"
 F 5 "GJM1555C1HR50WB01D " H 5200 10100 60  0001 L CNN "MPN"
@@ -1031,7 +1031,7 @@ F 7 "DNP" H 5115 9702 50  0000 L CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR063
+L power:GND #PWR063
 U 1 1 61E9E55A
 P 5000 9950
 F 0 "#PWR063" H 5000 9700 50  0001 C CNN
@@ -1048,7 +1048,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 9500 4600 9650
 $Comp
-L sc606-baseboard:GND #PWR056
+L power:GND #PWR056
 U 1 1 61EADE44
 P 3500 9800
 F 0 "#PWR056" H 3500 9550 50  0001 C CNN
@@ -1069,12 +1069,12 @@ Connection ~ 3100 9300
 Wire Wire Line
 	3100 9300 2950 9300
 $Comp
-L sc606-baseboard:EMIF06-MSD02N16 U7
+L antmicroPowerProtection:EMIF06-MSD02N16 U7
 U 1 1 61DE2B56
 P 2750 2050
 F 0 "U7" H 2400 2800 50  0000 C CNN
 F 1 "EMIF06-MSD02N16" H 2700 2700 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:UFDFN-16_3.5x1.2mm" H 2600 2750 50  0001 C CNN
+F 2 "antmicro-footprints:UFDFN-16_3.5x1.2mm" H 2600 2750 50  0001 C CNN
 F 3 "https://www.st.com/en/protections-and-emi-filters/emif06-msd02n16.html#overview" H 2600 2750 50  0001 C CNN
 F 4 "STMicroelectronics" H 2700 1300 50  0001 C CNN "Manufacturer"
 F 5 "EMIF06-MSD02N16" H 2700 1200 50  0001 C CNN "MPN"
@@ -1094,7 +1094,7 @@ Wire Wire Line
 Wire Wire Line
 	800  2250 2250 2250
 $Comp
-L sc606-baseboard:GND #PWR054
+L power:GND #PWR054
 U 1 1 61E406FA
 P 3300 2950
 F 0 "#PWR054" H 3300 2700 50  0001 C CNN
@@ -1172,12 +1172,12 @@ NoConn ~ 2250 1650
 Text Notes 6900 4500 0    98   ~ 20
 TP Interface\n\n
 $Comp
-L sc606-baseboard:PUSB3F96X_PASS D5
+L antmicroTVSDiodes:PUSB3F96X_PASS D5
 U 1 1 61E35456
 P 7900 6350
 F 0 "D5" H 7900 6000 60  0000 L CNN
 F 1 "PUSB3F96X_PASS" H 7900 5900 60  0000 L CNN
-F 2 "sc606-baseboard-footprints:PUSB3F96X" H 8100 5800 60  0001 C CNN
+F 2 "antmicro-footprints:PUSB3F96X" H 8100 5800 60  0001 C CNN
 F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 7900 6350 60  0001 C CNN
 F 4 "Nexperia" H 8100 5700 50  0001 C CNN "Manufacturer"
 F 5 "PUSB3F96X" H 8100 5700 50  0001 C CNN "MPN"
@@ -1185,12 +1185,12 @@ F 5 "PUSB3F96X" H 8100 5700 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:ESD5Z3_3T1G D6
+L antmicroTVSDiodes:ESD5Z3_3T1G D6
 U 1 1 61E3EF18
 P 9050 6250
 F 0 "D6" V 9200 6200 60  0000 R CNN
 F 1 "ESD5Z3_3T1G" V 8800 6550 60  0000 R CNN
-F 2 "sc606-baseboard-footprints:SOD-523" H 9250 6450 60  0001 L CNN
+F 2 "antmicro-footprints:SOD-523" H 9250 6450 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 9250 6550 60  0001 L CNN
 F 4 "ON Semiconductor" H 9250 7350 60  0001 L CNN "Manufacturer"
 F 5 "ESD5Z3.3T1G" H 9250 6750 60  0001 L CNN "MPN"
@@ -1208,12 +1208,12 @@ TP0_INT
 Text GLabel 7300 4950 0    50   Input ~ 0
 LDO6_1P8
 $Comp
-L sc606-baseboard:R_2k2_0402 R35
+L antmicroResistors0402:R_2k2_0402 R35
 U 1 1 61ED0D15
 P 7500 5250
 F 0 "R35" V 7350 5250 60  0000 L CNN
 F 1 "R_2k2_0402" H 7500 5100 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 7700 5450 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 7700 5450 60  0001 L CNN
 F 3 "" H 7500 5250 50  0001 C CNN
 F 4 "YAGEO" H 7700 5650 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 7700 5550 60  0001 L CNN "MPN"
@@ -1222,12 +1222,12 @@ F 6 "2k2" H 7450 5250 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L sc606-baseboard:R_2k2_0402 R39
+L antmicroResistors0402:R_2k2_0402 R39
 U 1 1 61ED1A24
 P 7700 5250
 F 0 "R39" V 7550 5250 60  0000 L CNN
 F 1 "R_2k2_0402" H 7700 5100 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 7900 5450 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 7900 5450 60  0001 L CNN
 F 3 "" H 7700 5250 50  0001 C CNN
 F 4 "YAGEO" H 7900 5650 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 7900 5550 60  0001 L CNN "MPN"
@@ -1273,7 +1273,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 6250 7700 6250
 $Comp
-L sc606-baseboard:GND #PWR064
+L power:GND #PWR064
 U 1 1 61F04AE8
 P 7700 6700
 F 0 "#PWR064" H 7700 6450 50  0001 C CNN
@@ -1288,7 +1288,7 @@ Wire Wire Line
 Text GLabel 8750 4950 0    50   Input ~ 0
 LDO10_2P8
 $Comp
-L sc606-baseboard:GND #PWR069
+L power:GND #PWR069
 U 1 1 61F2FE2E
 P 9050 6700
 F 0 "#PWR069" H 9050 6450 50  0001 C CNN
@@ -1305,12 +1305,12 @@ Wire Wire Line
 Wire Wire Line
 	9050 4950 8750 4950
 $Comp
-L sc606-baseboard:C_4u7_0402 C55
+L antmicroCapacitors0402:C_4u7_0402 C55
 U 1 1 61F3D459
 P 9500 6200
 F 0 "C55" H 9500 6300 60  0000 L CNN
 F 1 "C_4u7_0402" H 9500 6050 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 9700 6400 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 9700 6400 60  0001 L CNN
 F 3 "" H 9500 6200 50  0001 C CNN
 F 4 "MURATA" H 9700 6600 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 9700 6500 60  0001 L CNN "MPN"
@@ -1319,12 +1319,12 @@ F 6 "4u7" H 9500 6100 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:C_100n_0402 C56
+L antmicroCapacitors0402:C_100n_0402 C56
 U 1 1 61F3E80F
 P 9800 6200
 F 0 "C56" H 9800 6300 60  0000 L CNN
 F 1 "C_100n_0402" H 9800 6050 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 10000 6400 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 10000 6400 60  0001 L CNN
 F 3 "" H 9800 6200 50  0001 C CNN
 F 4 "Murata" H 10000 6600 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 10000 6500 60  0001 L CNN "MPN"
@@ -1333,7 +1333,7 @@ F 6 "100n" H 9800 6100 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR071
+L power:GND #PWR071
 U 1 1 61F3F968
 P 9500 6700
 F 0 "#PWR071" H 9500 6450 50  0001 C CNN
@@ -1344,7 +1344,7 @@ F 3 "" H 9500 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sc606-baseboard:GND #PWR072
+L power:GND #PWR072
 U 1 1 61F3FF72
 P 9800 6700
 F 0 "#PWR072" H 9800 6450 50  0001 C CNN
@@ -1378,7 +1378,7 @@ Wire Wire Line
 	9800 6050 10300 6050
 Connection ~ 9800 6050
 $Comp
-L sc606-baseboard:GND #PWR073
+L power:GND #PWR073
 U 1 1 61F8A3E4
 P 10100 6700
 F 0 "#PWR073" H 10100 6450 50  0001 C CNN
