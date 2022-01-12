@@ -934,6 +934,18 @@ Text GLabel 5000 2350 2    50   Input ~ 0
 ANT_GNSS
 Text GLabel 2800 2550 0    50   Input ~ 0
 ANT_MAIN
+Text GLabel 5000 2650 2    50   Input ~ 0
+TP0_RST
+Text GLabel 5000 2750 2    50   Input ~ 0
+TP0_INT
+Text GLabel 7400 2350 0    50   Input ~ 0
+TP0_I2C_SCL
+Text GLabel 7400 2450 0    50   Input ~ 0
+TP0_I2C_SDA
+Text GLabel 2450 1850 0    50   Input ~ 0
+LDO10_2P8
+Wire Wire Line
+	2450 1850 2800 1850
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line

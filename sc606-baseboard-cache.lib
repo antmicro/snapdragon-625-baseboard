@@ -1184,15 +1184,15 @@ ENDDEF
 #
 # antmicroPowerProtection_EMIF06-MSD02N16
 #
-DEF antmicroPowerProtection_EMIF06-MSD02N16 U? 0 40 Y Y 1 F N
-F0 "U?" -350 750 50 H V C CNN
+DEF antmicroPowerProtection_EMIF06-MSD02N16 U 0 40 Y Y 1 F N
+F0 "U" -350 750 50 H V C CNN
 F1 "antmicroPowerProtection_EMIF06-MSD02N16" -50 650 50 H V C CNN
-F2 "" -150 700 50 H I C CNN
+F2 "antmicro-footprints:UFDFN-16_3.5x1.2mm" -150 700 50 H I C CNN
 F3 "" -150 700 50 H I C CNN
 F4 "STMicroelectronics" -50 -750 50 H I C CNN "Manufacturer"
 F5 "EMIF06-MSD02N16" -50 -850 50 H I C CNN "MPN"
 DRAW
-S -400 600 450 -700 0 1 0 N
+S -400 600 450 -700 0 1 0 f
 X WP/CD 1 -500 500 100 R 50 50 1 1 I
 X DAT0_Ex10 10 550 -100 100 L 50 50 1 1 I
 X CLK_Ex 11 550 0 100 L 50 50 1 1 I
@@ -1371,6 +1371,23 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_2k2_0402
+#
+DEF antmicroResistors0402_R_2k2_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_2k2_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402FR-072K2L" 200 300 60 H I L CNN "MPN"
+F6 "2k2" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_2k_0402
 #
 DEF antmicroResistors0402_R_2k_0402 R 0 0 Y Y 1 F N
@@ -1477,6 +1494,23 @@ X I/O C7 -500 -300 200 R 40 40 0 0 B
 X RESERVED C8 -500 -400 200 R 40 40 0 0 B
 X GND Z1 -500 -100 200 R 40 40 0 0 P N
 X GND Z2 -500 -100 200 R 40 40 0 0 P N
+ENDDRAW
+ENDDEF
+#
+# antmicroTVSDiodes_ESD5Z3_3T1G
+#
+DEF antmicroTVSDiodes_ESD5Z3_3T1G D 0 40 Y Y 1 F N
+F0 "D" 0 150 60 H V C CNN
+F1 "antmicroTVSDiodes_ESD5Z3_3T1G" 0 -150 60 H V C CNN
+F2 "antmicro-footprints:SOD-523" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" 200 300 60 H I L CNN
+F4 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F5 "ESD5Z3.3T1G" 200 500 60 H I L CNN "MPN"
+DRAW
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 0 100 100 50 50 50 -50 0 -100 N
+X ~ A -200 0 150 R 50 50 1 1 B
+X ~ K 200 0 150 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
