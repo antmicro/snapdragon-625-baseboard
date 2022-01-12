@@ -3,9 +3,9 @@ EESchema-LIBRARY Version 2.4
 #
 # LT9611-antmicroInterfaceControllers
 #
-DEF sc606-baseboard_LT9611-antmicroInterfaceControllers U 0 40 Y Y 1 F N
+DEF LT9611-antmicroInterfaceControllers U 0 40 Y Y 1 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "sc606-baseboard_LT9611-antmicroInterfaceControllers" 2450 50 50 H V C CNN
+F1 "LT9611-antmicroInterfaceControllers" 2450 50 50 H V C CNN
 F2 "sc606-baseboard-footprints:LT9611" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "LT9611" 100 250 50 H V C CNN "MPN"
@@ -82,9 +82,9 @@ ENDDEF
 #
 # 46756-1001
 #
-DEF sc606-baseboard_46756-1001 J 0 40 Y Y 1 F N
+DEF 46756-1001 J 0 40 Y Y 1 F N
 F0 "J" -300 1150 50 H V C CNN
-F1 "sc606-baseboard_46756-1001" 400 1150 50 H V C CNN
+F1 "46756-1001" 400 1150 50 H V C CNN
 F2 "sc606-baseboard-footprints:HDMI_Micro-D_Molex_46765-1x01" 0 -1100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "467651001" 0 -1200 50 H I C CNN "MPN"
@@ -123,9 +123,9 @@ ENDDEF
 #
 # SC606T
 #
-DEF sc606-baseboard_SC606T M 0 40 Y Y 5 L N
+DEF SC606T M 0 40 Y Y 5 L N
 F0 "M" -700 1650 50 H V L BNN
-F1 "sc606-baseboard_SC606T" -700 -1800 50 H V L BNN
+F1 "SC606T" -700 -1800 50 H V L BNN
 F2 "sc606-baseboard-footprints:QUECTEL_SC606T" 50 100 50 H I L BNN
 F3 "" 0 150 50 H I L BNN
 F4 "Quectel" 0 150 50 H I L BNN "Manufacturer"
@@ -464,10 +464,10 @@ ENDDEF
 #
 # GND
 #
-DEF sc606-baseboard_GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "sc606-baseboard_GND" 0 -150 50 H V C CNN
-F2 "sc606-baseboard-footprints:" 0 0 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
@@ -477,9 +477,9 @@ ENDDEF
 #
 # C_10p_0402
 #
-DEF sc606-baseboard_C_10p_0402 C 0 0 Y Y 1 F N
+DEF C_10p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_10p_0402" 0 -150 60 H I C CNN
+F1 "C_10p_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
@@ -495,9 +495,9 @@ ENDDEF
 #
 # C_33p_0402
 #
-DEF sc606-baseboard_C_33p_0402 C 0 0 Y Y 1 F N
+DEF C_33p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_33p_0402" 0 -150 60 H I C CNN
+F1 "C_33p_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
@@ -513,9 +513,9 @@ ENDDEF
 #
 # C_100n_0402
 #
-DEF sc606-baseboard_C_100n_0402 C 0 0 Y Y 1 F N
+DEF C_100n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_100n_0402" 0 -150 60 H I C CNN
+F1 "C_100n_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Murata" 200 400 60 H I L CNN "Manufacturer"
@@ -531,9 +531,9 @@ ENDDEF
 #
 # C_4u7_0402
 #
-DEF sc606-baseboard_C_4u7_0402 C 0 0 Y Y 1 F N
+DEF C_4u7_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_4u7_0402" 0 -150 60 H I C CNN
+F1 "C_4u7_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
@@ -549,9 +549,9 @@ ENDDEF
 #
 # C_100u_1206
 #
-DEF sc606-baseboard_C_100u_1206 C 0 0 Y Y 1 F N
+DEF C_100u_1206 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_100u_1206" 0 -150 60 H I C CNN
+F1 "C_100u_1206" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:1206-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Vishay" 200 400 60 H I L CNN "Manufacturer"
@@ -567,9 +567,9 @@ ENDDEF
 #
 # PTVS5V0Z1USKPYL
 #
-DEF sc606-baseboard_PTVS5V0Z1USKPYL D 0 40 Y Y 1 F N
+DEF PTVS5V0Z1USKPYL D 0 40 Y Y 1 F N
 F0 "D" 0 150 60 H V C CNN
-F1 "sc606-baseboard_PTVS5V0Z1USKPYL" 0 -150 60 H V C CNN
+F1 "PTVS5V0Z1USKPYL" 0 -150 60 H V C CNN
 F2 "sc606-baseboard-footprints:SOD-964" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "Nexperia" 200 1100 60 H I L CNN "Manufacturer"
@@ -584,9 +584,9 @@ ENDDEF
 #
 # R_47k_0402
 #
-DEF sc606-baseboard_R_47k_0402 R 0 0 Y Y 1 F N
+DEF R_47k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_47k_0402" 0 -150 60 H I C CNN
+F1 "R_47k_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
@@ -601,9 +601,9 @@ ENDDEF
 #
 # R_0R_0402
 #
-DEF sc606-baseboard_R_0R_0402 R 0 0 Y Y 1 F N
+DEF R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_0R_0402" 0 -150 60 H I C CNN
+F1 "R_0R_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
@@ -618,9 +618,9 @@ ENDDEF
 #
 # TP_SMD_0_75MM
 #
-DEF sc606-baseboard_TP_SMD_0_75MM TP 0 0 N Y 1 F N
+DEF TP_SMD_0_75MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
-F1 "sc606-baseboard_TP_SMD_0_75MM" 0 -100 50 H I C CNN
+F1 "TP_SMD_0_75MM" 0 -100 50 H I C CNN
 F2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
@@ -631,9 +631,9 @@ ENDDEF
 #
 # BU1632SM
 #
-DEF sc606-baseboard_BU1632SM BAT 0 40 N Y 1 F N
+DEF BU1632SM BAT 0 40 N Y 1 F N
 F0 "BAT" -50 150 60 H V R CNN
-F1 "sc606-baseboard_BU1632SM" -50 -150 60 H V R CNN
+F1 "BU1632SM" -50 -150 60 H V R CNN
 F2 "sc606-baseboard-footprints:BU1632SM" 200 200 60 H I L CNN
 F3 "" 200 300 60 V I L CNN
 F4 "BU1632SM" 200 500 60 H I L CNN "MPN"
@@ -654,9 +654,9 @@ ENDDEF
 #
 # PJ-202A
 #
-DEF sc606-baseboard_PJ-202A J 0 40 Y Y 1 F N
+DEF PJ-202A J 0 40 Y Y 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "sc606-baseboard_PJ-202A" 0 -250 50 H V C CNN
+F1 "PJ-202A" 0 -250 50 H V C CNN
 F2 "sc606-baseboard-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" 200 200 60 H I L CNN
 F3 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" 200 300 60 H I L CNN
 F4 "CUI Inc." 200 1100 60 H I L CNN "Manufacturer"
@@ -677,10 +677,10 @@ ENDDEF
 #
 # VCC
 #
-DEF sc606-baseboard_VCC #PWR 0 0 Y Y 1 F P
+DEF VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "sc606-baseboard_VCC" 0 150 50 H V C CNN
-F2 "sc606-baseboard-footprints:" 0 0 50 H I C CNN
+F1 "VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -30 50 0 100 N
@@ -692,9 +692,9 @@ ENDDEF
 #
 # C_2u2_0805_50V
 #
-DEF sc606-baseboard_C_2u2_0805_50V C 0 0 Y Y 1 F N
+DEF C_2u2_0805_50V C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_2u2_0805_50V" 0 -150 60 H I C CNN
+F1 "C_2u2_0805_50V" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0805-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
@@ -710,9 +710,9 @@ ENDDEF
 #
 # TPS54561DPRT
 #
-DEF sc606-baseboard_TPS54561DPRT IC 0 40 Y Y 1 F N
+DEF TPS54561DPRT IC 0 40 Y Y 1 F N
 F0 "IC" -400 500 60 H V L BNN
-F1 "sc606-baseboard_TPS54561DPRT" -400 -700 60 H V L BNN
+F1 "TPS54561DPRT" -400 -700 60 H V L BNN
 F2 "sc606-baseboard-footprints:WSON-10_4x4" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Texas Instrumets" 0 0 50 H I C CNN "Manufacturer"
@@ -735,9 +735,9 @@ ENDDEF
 #
 # R_243k_0402
 #
-DEF sc606-baseboard_R_243k_0402 R 0 0 Y Y 1 F N
+DEF R_243k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_243k_0402" 0 -150 60 H I C CNN
+F1 "R_243k_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
@@ -752,9 +752,9 @@ ENDDEF
 #
 # C_10n_0402
 #
-DEF sc606-baseboard_C_10n_0402 C 0 0 Y Y 1 F N
+DEF C_10n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_10n_0402" 0 -150 60 H I C CNN
+F1 "C_10n_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
@@ -770,9 +770,9 @@ ENDDEF
 #
 # C_4n7_0402
 #
-DEF sc606-baseboard_C_4n7_0402 C 0 0 Y Y 1 F N
+DEF C_4n7_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_4n7_0402" 0 -150 60 H I C CNN
+F1 "C_4n7_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
@@ -788,9 +788,9 @@ ENDDEF
 #
 # C_47p_0402
 #
-DEF sc606-baseboard_C_47p_0402 C 0 0 Y Y 1 F N
+DEF C_47p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_47p_0402" 0 -150 60 H I C CNN
+F1 "C_47p_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
@@ -806,9 +806,9 @@ ENDDEF
 #
 # R_16k9_0402
 #
-DEF sc606-baseboard_R_16k9_0402 R 0 0 Y Y 1 F N
+DEF R_16k9_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_16k9_0402" 0 -150 60 H I C CNN
+F1 "R_16k9_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
@@ -823,9 +823,9 @@ ENDDEF
 #
 # 7447798720
 #
-DEF sc606-baseboard_7447798720 L 0 40 Y Y 1 F N
+DEF 7447798720 L 0 40 Y Y 1 F N
 F0 "L" -200 75 60 H V L BNN
-F1 "sc606-baseboard_7447798720" -275 -100 60 H V L BNN
+F1 "7447798720" -275 -100 60 H V L BNN
 F2 "sc606-baseboard-footprints:WE_7447798720" 850 350 60 H I C CNN
 F3 "" 55 30 60 H I C CNN
 F4 "Wurth Elektronik" 300 775 50 H I C CNN "Manufacturer"
@@ -853,9 +853,9 @@ ENDDEF
 #
 # PDS760-13
 #
-DEF sc606-baseboard_PDS760-13 D? 0 40 Y Y 1 F N
+DEF PDS760-13 D? 0 40 Y Y 1 F N
 F0 "D?" 100 0 60 H V L BNN
-F1 "sc606-baseboard_PDS760-13" 100 -100 60 H I L BNN
+F1 "PDS760-13" 100 -100 60 H I L BNN
 F2 "sc606-baseboard-footprints:PDS760-13" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Diodes Inc." 0 0 50 H I C CNN "Manufacturer"
@@ -872,9 +872,9 @@ ENDDEF
 #
 # R_100k_0402
 #
-DEF sc606-baseboard_R_100k_0402 R 0 0 Y Y 1 F N
+DEF R_100k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_100k_0402" 0 -150 60 H I C CNN
+F1 "R_100k_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -889,9 +889,9 @@ ENDDEF
 #
 # R_49R9_0603
 #
-DEF sc606-baseboard_R_49R9_0603 R 0 0 Y Y 1 F N
+DEF R_49R9_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_49R9_0603" 0 -150 60 H I C CNN
+F1 "R_49R9_0603" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Vishay" 200 400 60 H I L CNN "Manufacturer"
@@ -906,9 +906,9 @@ ENDDEF
 #
 # R_53k6_0402
 #
-DEF sc606-baseboard_R_53k6_0402 R 0 0 Y Y 1 F N
+DEF R_53k6_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_53k6_0402" 0 -150 60 H I C CNN
+F1 "R_53k6_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TE_CONNECTIVITY" 200 400 60 H I L CNN "Manufacturer"
@@ -923,9 +923,9 @@ ENDDEF
 #
 # R_10k2_0402
 #
-DEF sc606-baseboard_R_10k2_0402 R 0 0 Y Y 1 F N
+DEF R_10k2_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_10k2_0402" 0 -150 60 H I C CNN
+F1 "R_10k2_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
@@ -940,9 +940,9 @@ ENDDEF
 #
 # C_47u_0603
 #
-DEF sc606-baseboard_C_47u_0603 C 0 0 Y Y 1 F N
+DEF C_47u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_47u_0603" 0 -150 60 H I C CNN
+F1 "C_47u_0603" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
@@ -958,9 +958,9 @@ ENDDEF
 #
 # TPS62823DLCT
 #
-DEF sc606-baseboard_TPS62823DLCT U 0 40 Y Y 1 F N
+DEF TPS62823DLCT U 0 40 Y Y 1 F N
 F0 "U" 0 -100 50 H V C CNN
-F1 "sc606-baseboard_TPS62823DLCT" 0 -200 50 H V C CNN
+F1 "TPS62823DLCT" 0 -200 50 H V C CNN
 F2 "sc606-baseboard-footprints:QFN-8_2x1mm" -100 -200 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 F4 "TPS62823DLCT" 0 0 50 H V C CNN "MPN"
@@ -979,9 +979,9 @@ ENDDEF
 #
 # R_10k_0402
 #
-DEF sc606-baseboard_R_10k_0402 R 0 0 Y Y 1 F N
+DEF R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_10k_0402" 0 -150 60 H I C CNN
+F1 "R_10k_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -996,9 +996,9 @@ ENDDEF
 #
 # C_2u2_0402
 #
-DEF sc606-baseboard_C_2u2_0402 C 0 0 Y Y 1 F N
+DEF C_2u2_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_2u2_0402" 0 -150 60 H I C CNN
+F1 "C_2u2_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
@@ -1014,9 +1014,9 @@ ENDDEF
 #
 # IHLP1212AEERR47M11
 #
-DEF sc606-baseboard_IHLP1212AEERR47M11 L 0 40 Y Y 1 F N
+DEF IHLP1212AEERR47M11 L 0 40 Y Y 1 F N
 F0 "L" -225 75 60 H V L BNN
-F1 "sc606-baseboard_IHLP1212AEERR47M11" -500 -100 60 H V L BNN
+F1 "IHLP1212AEERR47M11" -500 -100 60 H V L BNN
 F2 "sc606-baseboard-footprints:IHLP-1212AE" 750 350 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Vishay" 100 850 50 H I C CNN "Manufacturer"
@@ -1047,9 +1047,9 @@ ENDDEF
 #
 # C_100p_0603
 #
-DEF sc606-baseboard_C_100p_0603 C 0 0 Y Y 1 F N
+DEF C_100p_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_100p_0603" 0 -150 60 H I C CNN
+F1 "C_100p_0603" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
@@ -1065,9 +1065,9 @@ ENDDEF
 #
 # C_10u_0402
 #
-DEF sc606-baseboard_C_10u_0402 C 0 0 Y Y 1 F N
+DEF C_10u_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_10u_0402" 0 -150 60 H I C CNN
+F1 "C_10u_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
@@ -1083,9 +1083,9 @@ ENDDEF
 #
 # V8PM45-M3_H
 #
-DEF sc606-baseboard_V8PM45-M3_H D 0 0 N N 1 F N
+DEF V8PM45-M3_H D 0 0 N N 1 F N
 F0 "D" 0 100 60 H V C BNN
-F1 "sc606-baseboard_V8PM45-M3_H" 0 -150 60 H V C CNN
+F1 "V8PM45-M3_H" 0 -150 60 H V C CNN
 F2 "sc606-baseboard-footprints:TO-277A" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "V8PM45-M3/H" 200 500 60 H I L CNN "MPN"
@@ -1103,9 +1103,9 @@ ENDDEF
 #
 # PCA9547BS
 #
-DEF sc606-baseboard_PCA9547BS U 0 40 Y Y 1 F N
+DEF PCA9547BS U 0 40 Y Y 1 F N
 F0 "U" -400 1200 60 H V L BNN
-F1 "sc606-baseboard_PCA9547BS" -400 -1300 60 H V L BNN
+F1 "PCA9547BS" -400 -1300 60 H V L BNN
 F2 "sc606-baseboard-footprints:VQFN-24" -250 -1400 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 " NXP" 0 0 50 H I C CNN "Manufacturer"
@@ -1141,9 +1141,9 @@ ENDDEF
 #
 # R_2k_0402
 #
-DEF sc606-baseboard_R_2k_0402 R 0 0 Y Y 1 F N
+DEF R_2k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_2k_0402" 0 -150 60 H I C CNN
+F1 "R_2k_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -1158,9 +1158,9 @@ ENDDEF
 #
 # WE_68715014522
 #
-DEF sc606-baseboard_WE_68715014522 J 0 40 Y N 1 F N
+DEF WE_68715014522 J 0 40 Y N 1 F N
 F0 "J" 0 1700 50 H V C CNN
-F1 "sc606-baseboard_WE_68715014522" -100 -3450 50 H V C CNN
+F1 "WE_68715014522" -100 -3450 50 H V C CNN
 F2 "sc606-baseboard-footprints:WE_68715014522" -200 -3550 50 H I C CNN
 F3 "https://katalog.we-online.de/em/datasheet/6871xx14522.pdf" 0 -3650 50 H I C CNN
 F4 "68715014522 " 400 -600 60 H I L CNN "MPN"
@@ -1272,9 +1272,9 @@ ENDDEF
 #
 # NTS0102DP
 #
-DEF sc606-baseboard_NTS0102DP U 0 40 Y Y 1 F N
+DEF NTS0102DP U 0 40 Y Y 1 F N
 F0 "U" -250 400 50 H V C CNN
-F1 "sc606-baseboard_NTS0102DP" -50 -200 50 H V C CNN
+F1 "NTS0102DP" -50 -200 50 H V C CNN
 F2 "sc606-baseboard-footprints:TSSOP-8_W3mm" -100 500 50 H I C CNN
 F3 "" 650 750 50 H I C CNN
 F4 "NTS0102DP" -50 -400 50 H I C CNN "MPN"
@@ -1294,9 +1294,9 @@ ENDDEF
 #
 # PUSB3F96X_PASS
 #
-DEF sc606-baseboard_PUSB3F96X_PASS D 0 40 Y Y 1 F N
+DEF PUSB3F96X_PASS D 0 40 Y Y 1 F N
 F0 "D" 0 350 60 H V L BNN
-F1 "sc606-baseboard_PUSB3F96X_PASS" 150 -400 60 H V C CNN
+F1 "PUSB3F96X_PASS" 150 -400 60 H V C CNN
 F2 "sc606-baseboard-footprints:PUSB3F96X" 200 -550 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Nexperia" 200 -650 50 H I C CNN "Manufacturer"
@@ -1321,9 +1321,9 @@ ENDDEF
 #
 # C_22p_0402
 #
-DEF sc606-baseboard_C_22p_0402 C 0 0 Y Y 1 F N
+DEF C_22p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_22p_0402" 0 -150 60 H I C CNN
+F1 "C_22p_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
@@ -1339,9 +1339,9 @@ ENDDEF
 #
 # R_22R_0402
 #
-DEF sc606-baseboard_R_22R_0402 R 0 0 Y Y 1 F N
+DEF R_22R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_22R_0402" 0 -150 60 H I C CNN
+F1 "R_22R_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -1356,9 +1356,9 @@ ENDDEF
 #
 # 693022010811
 #
-DEF sc606-baseboard_693022010811 J 0 40 Y Y 1 F N
+DEF 693022010811 J 0 40 Y Y 1 F N
 F0 "J" -250 650 50 H V L BNN
-F1 "sc606-baseboard_693022010811" -300 -700 50 H I L BNN
+F1 "693022010811" -300 -700 50 H I L BNN
 F2 "sc606-baseboard-footprints:693022010811" -300 -800 50 H I L BNN
 F3 "" 0 0 50 H I C CNN
 F4 "693022010811" 0 500 50 H V C CNN "MPN"
@@ -1380,9 +1380,9 @@ ENDDEF
 #
 # DM3AT-SF-PEJM5
 #
-DEF sc606-baseboard_DM3AT-SF-PEJM5 J 0 40 Y Y 1 F N
+DEF DM3AT-SF-PEJM5 J 0 40 Y Y 1 F N
 F0 "J" -700 700 50 H V C CNN
-F1 "sc606-baseboard_DM3AT-SF-PEJM5" -400 -750 50 H V C CNN
+F1 "DM3AT-SF-PEJM5" -400 -750 50 H V C CNN
 F2 "sc606-baseboard-footprints:MicroSD_DM3AT-SF-PEJM5" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "HIROSE" 0 0 50 H V C CNN "Manufacturer"
@@ -1414,9 +1414,9 @@ ENDDEF
 #
 # U_FL-R-SMT-1_10_
 #
-DEF sc606-baseboard_U_FL-R-SMT-1_10_ J 0 40 Y Y 1 F N
+DEF U_FL-R-SMT-1_10_ J 0 40 Y Y 1 F N
 F0 "J" -50 50 50 H V R CNN
-F1 "sc606-baseboard_U_FL-R-SMT-1_10_" 50 -100 50 H V L CNN
+F1 "U_FL-R-SMT-1_10_" 50 -100 50 H V L CNN
 F2 "sc606-baseboard-footprints:Coax_Conn_U.FL" 200 200 60 H I L CNN
 F3 "https://www.hirose.com/product/en/download_file/key_name/U.FL-R-SMT-1%2810%29/category/Drawing%20(2D)/doc_file_id/37627/?file_category_id=6&item_id=03310472210&is_series=U.FL-R-SMT-1(10" 200 300 60 H I L CNN
 F4 "U.FL-R-SMT-1(10)" 200 500 60 H I L CNN "MPN"
@@ -1432,9 +1432,9 @@ ENDDEF
 #
 # NCP163ASN330T1G
 #
-DEF sc606-baseboard_NCP163ASN330T1G U 0 40 Y Y 1 F N
+DEF NCP163ASN330T1G U 0 40 Y Y 1 F N
 F0 "U" -250 200 50 H V C CNN
-F1 "sc606-baseboard_NCP163ASN330T1G" -74 -190 39 H V C CNN
+F1 "NCP163ASN330T1G" -74 -190 39 H V C CNN
 F2 "sc606-baseboard-footprints:SOT-23-5" 0 -250 50 H I C CNN
 F3 "" 100 350 50 H I C CNN
 F4 "NCP163ASN330T1G" -150 300 50 H I C CNN "MPN"
@@ -1450,9 +1450,9 @@ ENDDEF
 #
 # C_1u_0402
 #
-DEF sc606-baseboard_C_1u_0402 C 0 0 Y Y 1 F N
+DEF C_1u_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_1u_0402" 0 -150 60 H I C CNN
+F1 "C_1u_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
@@ -1468,9 +1468,9 @@ ENDDEF
 #
 # R_10R_0603
 #
-DEF sc606-baseboard_R_10R_0603 R 0 0 Y Y 1 F N
+DEF R_10R_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_10R_0603" 0 -150 60 H I C CNN
+F1 "R_10R_0603" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
@@ -1485,9 +1485,9 @@ ENDDEF
 #
 # MLJ1005HXG56NETD0B
 #
-DEF sc606-baseboard_MLJ1005HXG56NETD0B L 0 40 Y Y 1 F N
+DEF MLJ1005HXG56NETD0B L 0 40 Y Y 1 F N
 F0 "L" -275 75 60 H V L BNN
-F1 "sc606-baseboard_MLJ1005HXG56NETD0B" -425 -125 60 H V L BNN
+F1 "MLJ1005HXG56NETD0B" -425 -125 60 H V L BNN
 F2 "sc606-baseboard-footprints:0402-res" 700 275 60 H I C CNN
 F3 "" 55 30 60 H I C CNN
 F4 "TDK" 75 600 50 H I C CNN "Manufacturer"
@@ -1515,9 +1515,9 @@ ENDDEF
 #
 # C_100p_0402
 #
-DEF sc606-baseboard_C_100p_0402 C 0 0 Y Y 1 F N
+DEF C_100p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_100p_0402" 0 -150 60 H I C CNN
+F1 "C_100p_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
@@ -1533,9 +1533,9 @@ ENDDEF
 #
 # C_0p5_0402
 #
-DEF sc606-baseboard_C_0p5_0402 C 0 0 Y Y 1 F N
+DEF C_0p5_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_0p5_0402" 0 -150 60 H I C CNN
+F1 "C_0p5_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
@@ -1551,9 +1551,9 @@ ENDDEF
 #
 # GPS-ANT050-external-antenna
 #
-DEF sc606-baseboard_GPS-ANT050-external-antenna ANT 0 40 Y Y 1 F N
+DEF GPS-ANT050-external-antenna ANT 0 40 Y Y 1 F N
 F0 "ANT" 0 -350 50 H V C CNN
-F1 "sc606-baseboard_GPS-ANT050-external-antenna" -25 -275 50 H V C CNN
+F1 "GPS-ANT050-external-antenna" -25 -275 50 H V C CNN
 F2 "sc606-baseboard-footprints:GPS-ANT050-mounting-pad" 400 500 50 H I C CNN
 F3 "" -750 -50 50 H I C CNN
 F4 "SRPassives" -150 400 50 H I C CNN "Manufacturer"
@@ -1567,9 +1567,9 @@ ENDDEF
 #
 # C_0p9_0402
 #
-DEF sc606-baseboard_C_0p9_0402 C 0 0 Y Y 1 F N
+DEF C_0p9_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_0p9_0402" 0 -150 60 H I C CNN
+F1 "C_0p9_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
@@ -1585,9 +1585,9 @@ ENDDEF
 #
 # LQW15AN2N4B00D
 #
-DEF sc606-baseboard_LQW15AN2N4B00D L 0 40 Y Y 1 F N
+DEF LQW15AN2N4B00D L 0 40 Y Y 1 F N
 F0 "L" -275 75 60 H V L BNN
-F1 "sc606-baseboard_LQW15AN2N4B00D" -350 -125 60 H V L BNN
+F1 "LQW15AN2N4B00D" -350 -125 60 H V L BNN
 F2 "sc606-baseboard-footprints:0402-res" 825 350 60 H I C CNN
 F3 "" 55 30 60 H I C CNN
 F4 "Murata" 150 750 50 H I C CNN "Manufacturer"
@@ -1615,9 +1615,9 @@ ENDDEF
 #
 # C_6p9_0402
 #
-DEF sc606-baseboard_C_6p9_0402 C 0 0 Y Y 1 F N
+DEF C_6p9_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "sc606-baseboard_C_6p9_0402" 0 -150 60 H I C CNN
+F1 "C_6p9_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
@@ -1633,9 +1633,9 @@ ENDDEF
 #
 # PRO-OB-572_DCPOL
 #
-DEF sc606-baseboard_PRO-OB-572_DCPOL ANT 0 40 Y Y 1 F N
+DEF PRO-OB-572_DCPOL ANT 0 40 Y Y 1 F N
 F0 "ANT" 0 -350 50 H V C CNN
-F1 "sc606-baseboard_PRO-OB-572_DCPOL" -25 -275 50 H V C CNN
+F1 "PRO-OB-572_DCPOL" -25 -275 50 H V C CNN
 F2 "sc606-baseboard-footprints:PRO-OB-572_2" 400 500 50 H I C CNN
 F3 "" -750 -50 50 H I C CNN
 F4 "ProAnt" -150 400 50 H I C CNN "Manufacturer"
@@ -1654,9 +1654,9 @@ ENDDEF
 #
 # EMIF06-MSD02N16
 #
-DEF sc606-baseboard_EMIF06-MSD02N16 U 0 40 Y Y 1 F N
+DEF EMIF06-MSD02N16 U 0 40 Y Y 1 F N
 F0 "U" -350 750 50 H V C CNN
-F1 "sc606-baseboard_EMIF06-MSD02N16" -50 650 50 H V C CNN
+F1 "EMIF06-MSD02N16" -50 650 50 H V C CNN
 F2 "sc606-baseboard-footprints:UFDFN-16_3.5x1.2mm" -150 700 50 H I C CNN
 F3 "" -150 700 50 H I C CNN
 F4 "STMicroelectronics" -50 -750 50 H I C CNN "Manufacturer"
@@ -1687,9 +1687,9 @@ ENDDEF
 #
 # ESD5Z3_3T1G
 #
-DEF sc606-baseboard_ESD5Z3_3T1G D 0 40 Y Y 1 F N
+DEF ESD5Z3_3T1G D 0 40 Y Y 1 F N
 F0 "D" 0 150 60 H V C CNN
-F1 "sc606-baseboard_ESD5Z3_3T1G" 0 -150 60 H V C CNN
+F1 "ESD5Z3_3T1G" 0 -150 60 H V C CNN
 F2 "sc606-baseboard-footprints:SOD-523" 200 200 60 H I L CNN
 F3 "https://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" 200 300 60 H I L CNN
 F4 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
@@ -1704,9 +1704,9 @@ ENDDEF
 #
 # R_2k2_0402
 #
-DEF sc606-baseboard_R_2k2_0402 R 0 0 Y Y 1 F N
+DEF R_2k2_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "sc606-baseboard_R_2k2_0402" 0 -150 60 H I C CNN
+F1 "R_2k2_0402" 0 -150 60 H I C CNN
 F2 "sc606-baseboard-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
