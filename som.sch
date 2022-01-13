@@ -946,6 +946,10 @@ Text GLabel 2450 1850 0    50   Input ~ 0
 LDO10_2P8
 Wire Wire Line
 	2450 1850 2800 1850
+Text GLabel 2450 1950 0    50   Input ~ 0
+LDO17_2P85
+Wire Wire Line
+	2450 1950 2800 1950
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line

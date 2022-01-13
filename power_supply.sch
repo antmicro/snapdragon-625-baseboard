@@ -1079,4 +1079,118 @@ Wire Wire Line
 	1450 5650 1850 5650
 Wire Wire Line
 	2600 5650 2150 5650
+Text Notes 2200 8300 0    100  ~ 20
+5V to 1V2 for Lontium9711\n
+$Comp
+L antmicroPMICVoltageRegulatorsLinear:LD56050 U?
+U 1 1 6203CFC7
+P 3000 9350
+F 0 "U?" H 3000 9715 50  0000 C CNN
+F 1 "LD56050" H 3000 9624 50  0000 C CNN
+F 2 "antmicro-footprints:DFN-4_1.2x1.2mm" H 3100 9500 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/389/dm00472468-1799145.pdf" H 3100 9500 50  0001 C CNN
+F 4 "STMicroelectronics" H 3100 9100 50  0001 C CNN "Manufacturer"
+F 5 "LD56050DPU120R" H 3100 9000 50  0001 C CNN "MPN"
+	1    3000 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6203DC2F
+P 3350 9750
+F 0 "#PWR?" H 3350 9500 50  0001 C CNN
+F 1 "GND" H 3355 9577 50  0000 C CNN
+F 2 "" H 3350 9750 50  0001 C CNN
+F 3 "" H 3350 9750 50  0001 C CNN
+	1    3350 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 9450 3350 9550
+Text GLabel 1750 9250 0    50   Input ~ 0
+5V0_SYS
+Wire Wire Line
+	1750 9250 2100 9250
+Wire Wire Line
+	2650 9450 2650 9350
+Connection ~ 2650 9250
+Connection ~ 2650 9350
+Wire Wire Line
+	2650 9350 2650 9250
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 620460ED
+P 2350 9400
+F 0 "C?" H 2350 9500 60  0000 L CNN
+F 1 "C_1u_0402" H 2350 9250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2550 9600 60  0001 L CNN
+F 3 "" H 2350 9400 50  0001 C CNN
+F 4 "TDK" H 2550 9800 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 2550 9700 60  0001 L CNN "MPN"
+F 6 "1u" H 2350 9300 50  0000 L CNN "Val"
+	1    2350 9400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 9250
+Wire Wire Line
+	2350 9250 2650 9250
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6204728D
+P 2100 9400
+F 0 "C?" H 2100 9500 60  0000 L CNN
+F 1 "C_100n_0402" H 2100 9250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2300 9600 60  0001 L CNN
+F 3 "" H 2100 9400 50  0001 C CNN
+F 4 "Murata" H 2300 9800 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 2300 9700 60  0001 L CNN "MPN"
+F 6 "100n" H 2100 9300 50  0000 L CNN "Val"
+	1    2100 9400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 9250
+Wire Wire Line
+	2100 9250 2350 9250
+$Comp
+L antmicroCapacitors0402:C_2u2_0402 C?
+U 1 1 62047E87
+P 3700 9400
+F 0 "C?" H 3815 9445 60  0000 L CNN
+F 1 "C_2u2_0402" H 3700 9250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3900 9600 60  0001 L CNN
+F 3 "" H 3700 9400 50  0001 C CNN
+F 4 "TDK" H 3900 9800 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1A225K050BC" H 3900 9700 60  0001 L CNN "MPN"
+F 6 "2u2" H 3815 9347 50  0000 L CNN "Val"
+	1    3700 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 9550 3350 9550
+Connection ~ 3350 9550
+Wire Wire Line
+	3350 9550 3350 9750
+Wire Wire Line
+	2350 9550 2250 9550
+$Comp
+L power:GND #PWR?
+U 1 1 6204D9DB
+P 2250 9550
+F 0 "#PWR?" H 2250 9300 50  0001 C CNN
+F 1 "GND" H 2255 9377 50  0000 C CNN
+F 2 "" H 2250 9550 50  0001 C CNN
+F 3 "" H 2250 9550 50  0001 C CNN
+	1    2250 9550
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 9550
+Wire Wire Line
+	2250 9550 2100 9550
+Wire Wire Line
+	3350 9250 3700 9250
+Connection ~ 3700 9250
+Wire Wire Line
+	3700 9250 4150 9250
+Text GLabel 4150 9250 2    50   Input ~ 0
+1V2_SYS
 $EndSCHEMATC
