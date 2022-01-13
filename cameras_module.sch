@@ -420,19 +420,6 @@ CAM_I2C_SDA_MUX
 Text Label 4700 8700 0    50   ~ 0
 CAM_I2C_SCL_MUX
 $Comp
-L sc606-baseboard:NTS0102DP U3
-U 1 1 61EE57DC
-P 3700 8750
-F 0 "U3" H 3700 9265 50  0000 C CNN
-F 1 "NTS0102DP" H 3700 9174 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:TSSOP-8_W3mm" H 3600 9250 50  0001 C CNN
-F 3 "" H 4350 9500 50  0001 C CNN
-F 4 "NTS0102DP" H 3650 8350 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 3800 8450 50  0001 C CNN "Manufacturer"
-	1    3700 8750
-	1    0    0    -1  
-$EndComp
-$Comp
 L sc606-baseboard:GND #PWR043
 U 1 1 61EE63E6
 P 4100 9000
@@ -736,6 +723,19 @@ Text GLabel 11150 3900 0    50   Input ~ 0
 CAM2_DATA
 Wire Bus Line
 	11400 3900 11150 3900
+$Comp
+L antmicroLogicTranslatorsLevelShifters:NTS0102GT U?
+U 1 1 62AE9D15
+P 3700 8750
+F 0 "U?" H 3700 9265 50  0000 C CNN
+F 1 "NTS0102GT" H 3700 9174 50  0000 C CNN
+F 2 "antmicro-footprints:PSON50P100X195X50-8N" H 3600 9250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 4350 9500 50  0001 C CNN
+F 4 "NTS0102GT" H 3700 9265 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 3700 9174 50  0001 C CNN "Manufacturer"
+	1    3700 8750
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	11400 2100 11400 3100
 Wire Bus Line

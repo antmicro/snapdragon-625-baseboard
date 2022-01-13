@@ -983,29 +983,49 @@ NoConn ~ 5000 3450
 NoConn ~ 5000 5750
 NoConn ~ 5000 5850
 Text GLabel 14650 7700 2    50   Input ~ 0
-DSI0_LN3_N
+DSI1_LN3_N
 Text GLabel 14650 7600 2    50   Input ~ 0
-DSI0_LN3_P
+DSI1_LN3_P
 Text GLabel 14650 7500 2    50   Input ~ 0
-DSI0_LN2_N
+DSI1_LN2_N
 Text GLabel 14650 7400 2    50   Input ~ 0
-DSI0_LN2_P
+DSI1_LN2_P
 Text GLabel 14650 7300 2    50   Input ~ 0
-DSI0_LN1_N
+DSI1_LN1_N
 Text GLabel 14650 7200 2    50   Input ~ 0
-DSI0_LN1_P
+DSI1_LN1_P
 Text GLabel 14650 7100 2    50   Input ~ 0
-DSI0_LN0_N
+DSI1_LN0_N
 Text GLabel 14650 7000 2    50   Input ~ 0
-DSI0_LN0_P
+DSI1_LN0_P
 Text GLabel 14650 6900 2    50   Input ~ 0
-DSI0_CLK_N
+DSI1_CLK_N
 Text GLabel 14650 6800 2    50   Input ~ 0
-DSI0_CLK_P
+DSI1_CLK_P
+Text GLabel 14650 6600 2    50   Input ~ 0
+DSI0_LN3_N
+Text GLabel 14650 6500 2    50   Input ~ 0
+DSI0_LN3_P
+Text GLabel 14650 6400 2    50   Input ~ 0
+DSI0_LN2_N
+Text GLabel 14650 6300 2    50   Input ~ 0
+DSI0_LN2_P
+Text GLabel 14650 6200 2    50   Input ~ 0
+DSI0_LN1_N
+Text GLabel 14650 6100 2    50   Input ~ 0
+DSI0_LN1_P
+Text GLabel 14650 6000 2    50   Input ~ 0
+DSI0_LN0_N
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line
 	11650 6700 11650 7600
 Wire Bus Line
 	11650 7800 11650 8700
+Text GLabel 14650 5900 2    50   Input ~ 0
+DSI0_LN0_P
+Text GLabel 14650 5800 2    50   Input ~ 0
+DSI0_CLK_N
+Text GLabel 14650 5700 2    50   Input ~ 0
+DSI0_CLK_P
 $EndSCHEMATC
