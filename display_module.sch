@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L sc606-baseboard-rescue:LT9611-antmicroInterfaceControllers U5
+L sc606-baseboard:LT9611-antmicroInterfaceControllers U5
 U 1 1 61D8D19A
 P 3350 1750
 F 0 "U5" H 6094 587 50  0000 L CNN
 F 1 "LT9611" H 6094 496 50  0000 L CNN
-F 2 "antmicro-footprints:LT9611" H 3350 1750 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:LT9611" H 3350 1750 50  0001 C CNN
 F 3 "" H 3350 1750 50  0001 C CNN
 F 4 "LT9611" H 6094 405 50  0000 L CNN "MPN"
 F 5 "LONTIUM" H 6094 314 50  0000 L CNN "Manufacturer"
@@ -29,16 +29,16 @@ $EndComp
 Text Notes 1150 800  0    50   ~ 0
 MIPI DSI to HDMI\n
 $Comp
-L antmicroUSBDVIHDMIConnectors:46756-1001 J4
+L sc606-baseboard:46756-1001 J4
 U 1 1 61D943B3
-P 9700 3100
-F 0 "J4" H 10130 3150 50  0000 L CNN
-F 1 "46756-1001" H 10130 3059 50  0000 L CNN
-F 2 "antmicro-footprints:HDMI_Micro-D_Molex_46765-1x01" H 9700 2000 50  0001 C CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0467651001_IO_CONNECTORS.pdf" H 9700 3100 50  0001 C CNN
-F 4 "467651001" H 9700 1900 50  0001 C CNN "MPN"
-F 5 "Molex" H 9700 1800 50  0001 C CNN "Manufacturer"
-	1    9700 3100
+P 14900 2850
+F 0 "J4" H 15330 2900 50  0000 L CNN
+F 1 "46756-1001" H 15330 2809 50  0000 L CNN
+F 2 "sc606-baseboard-footprints:HDMI_Micro-D_Molex_46765-1x01" H 14900 1750 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0467651001_IO_CONNECTORS.pdf" H 14900 2850 50  0001 C CNN
+F 4 "467651001" H 14900 1650 50  0001 C CNN "MPN"
+F 5 "Molex" H 14900 1550 50  0001 C CNN "Manufacturer"
+	1    14900 2850
 	1    0    0    -1  
 $EndComp
 Text GLabel 2900 1500 0    50   Input ~ 0
@@ -77,7 +77,7 @@ Wire Wire Line
 	6300 5100 6300 4750
 Connection ~ 6300 4750
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 62002893
 P 3550 1250
 F 0 "#PWR?" H 3550 1000 50  0001 C CNN
@@ -146,14 +146,14 @@ TP0_I2C_SDA
 Text GLabel 1550 8850 0    50   Input ~ 0
 LDO6_1P8
 $Comp
-L antmicroResistors0402:R_2k2_0402 R?
+L sc606-baseboard:R_2k2_0402 R?
 U 1 1 62091F08
 P 1800 8600
 AR Path="/61D49FDE/62091F08" Ref="R?"  Part="1" 
 AR Path="/61D49FBF/62091F08" Ref="R?"  Part="1" 
 F 0 "R?" V 1650 8600 60  0000 L CNN
 F 1 "R_2k2_0402" H 1800 8450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2000 8800 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 2000 8800 60  0001 L CNN
 F 3 "" H 1800 8600 50  0001 C CNN
 F 4 "YAGEO" H 2000 9000 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 2000 8900 60  0001 L CNN "MPN"
@@ -162,14 +162,14 @@ F 6 "2k2" H 1750 8600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k2_0402 R?
+L sc606-baseboard:R_2k2_0402 R?
 U 1 1 62091F11
 P 2000 8600
 AR Path="/61D49FDE/62091F11" Ref="R?"  Part="1" 
 AR Path="/61D49FBF/62091F11" Ref="R?"  Part="1" 
 F 0 "R?" V 1850 8600 60  0000 L CNN
 F 1 "R_2k2_0402" H 2000 8450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2200 8800 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 2200 8800 60  0001 L CNN
 F 3 "" H 2000 8600 50  0001 C CNN
 F 4 "YAGEO" H 2200 9000 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 2200 8900 60  0001 L CNN "MPN"
@@ -178,12 +178,12 @@ F 6 "2k2" H 1950 8600 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroFCCConnectors:F52R-1A7H1-11020 J?
+L sc606-baseboard:F52R-1A7H1-11020 J?
 U 1 1 620A01E9
 P 4500 6450
 F 0 "J?" H 4828 5537 50  0000 L CNN
 F 1 "F52R-1A7H1-11020" H 4828 5446 50  0000 L CNN
-F 2 "antmicro-footprints:F52R-1A7H1-11020" H 4500 6450 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:F52R-1A7H1-11020" H 4500 6450 50  0001 C CNN
 F 3 "https://www.snapeda.com/parts/F52R-1A7H1-11020/Amphenol%20ICC%20(FCI)/datasheet/" H 4500 6450 50  0001 C CNN
 F 4 "F52R-1A7H1-11020" H 4828 5355 50  0000 L CNN "MPN"
 F 5 "AMPHENOL ICC" H 4828 5264 50  0000 L CNN "Manufacturer"
@@ -214,12 +214,12 @@ Connection ~ 1800 8850
 Wire Wire Line
 	1800 8850 2000 8850
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L sc606-baseboard:NFP0QHB242HS2D L?
 U 1 1 620D3E98
 P 3250 6700
 F 0 "L?" H 3600 6800 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 3850 6700 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 3005 7030 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 3005 7030 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 3250 6700 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 3250 7017 50  0001 C CNN "MPN"
 F 5 "MURATA" H 3250 6926 50  0001 C CNN "Manufacturer"
@@ -235,12 +235,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 6750 3550 6800
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L sc606-baseboard:NFP0QHB242HS2D L?
 U 1 1 620DCF56
 P 3250 7000
 F 0 "L?" H 3600 7100 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 3850 7000 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 3005 7330 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 3005 7330 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 3250 7000 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 3250 7317 50  0001 C CNN "MPN"
 F 5 "MURATA" H 3250 7226 50  0001 C CNN "Manufacturer"
@@ -256,12 +256,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 7050 3550 7100
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L sc606-baseboard:NFP0QHB242HS2D L?
 U 1 1 620DE4CE
 P 3250 7300
 F 0 "L?" H 3600 7400 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 3850 7300 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 3005 7630 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 3005 7630 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 3250 7300 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 3250 7617 50  0001 C CNN "MPN"
 F 5 "MURATA" H 3250 7526 50  0001 C CNN "Manufacturer"
@@ -277,12 +277,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 7350 3550 7400
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L sc606-baseboard:NFP0QHB242HS2D L?
 U 1 1 620E0175
 P 3250 7600
 F 0 "L?" H 3600 7700 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 3850 7600 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 3005 7930 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 3005 7930 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 3250 7600 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 3250 7917 50  0001 C CNN "MPN"
 F 5 "MURATA" H 3250 7826 50  0001 C CNN "Manufacturer"
@@ -298,12 +298,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 7650 3550 7700
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L sc606-baseboard:NFP0QHB242HS2D L?
 U 1 1 620E1D32
 P 3250 7900
 F 0 "L?" H 3600 8000 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 3850 7900 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 3005 8230 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 3005 8230 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 3250 7900 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 3250 8217 50  0001 C CNN "MPN"
 F 5 "MURATA" H 3250 8126 50  0001 C CNN "Manufacturer"
@@ -319,7 +319,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7950 3550 8000
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 620F16D6
 P 4200 8600
 F 0 "#PWR?" H 4200 8350 50  0001 C CNN
@@ -428,12 +428,12 @@ LDO17_2P85
 Wire Wire Line
 	3350 8450 3450 8450
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C?
+L sc606-baseboard:C_4u7_0402 C?
 U 1 1 6216D9F8
 P 3450 8600
 F 0 "C?" H 3565 8645 60  0000 L CNN
 F 1 "C_4u7_0402" H 3450 8450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3650 8800 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 3650 8800 60  0001 L CNN
 F 3 "" H 3450 8600 50  0001 C CNN
 F 4 "MURATA" H 3650 9000 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 3650 8900 60  0001 L CNN "MPN"
@@ -445,7 +445,7 @@ Connection ~ 3450 8450
 Wire Wire Line
 	3450 8450 4300 8450
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 6216E0AC
 P 3450 8750
 F 0 "#PWR?" H 3450 8500 50  0001 C CNN
@@ -458,7 +458,7 @@ $EndComp
 Text Notes 6400 6200 0    98   ~ 20
 LCD for Raspberry Pi Interface
 $Comp
-L antmicroFCCConnectors:3-84952-0 J?
+L sc606-baseboard:3-84952-0 J?
 U 1 1 62193B31
 P 9550 7850
 F 0 "J?" H 9780 7837 50  0000 L CNN
@@ -483,12 +483,12 @@ DSI0_CLK_N
 Text GLabel 7100 6950 0    50   Input ~ 0
 DSI0_CLK_P
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L sc606-baseboard:NFP0QHB242HS2D L?
 U 1 1 621B54C2
 P 7950 6600
 F 0 "L?" H 8300 6700 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 8550 6600 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 7705 6930 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 7705 6930 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 7950 6600 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 7950 6917 50  0001 C CNN "MPN"
 F 5 "MURATA" H 7950 6826 50  0001 C CNN "Manufacturer"
@@ -496,12 +496,12 @@ F 5 "MURATA" H 7950 6826 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L sc606-baseboard:NFP0QHB242HS2D L?
 U 1 1 621B6121
 P 7950 6900
 F 0 "L?" H 8300 7000 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 8550 6900 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 7705 7230 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 7705 7230 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 7950 6900 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 7950 7217 50  0001 C CNN "MPN"
 F 5 "MURATA" H 7950 7126 50  0001 C CNN "Manufacturer"
@@ -509,12 +509,12 @@ F 5 "MURATA" H 7950 7126 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L sc606-baseboard:NFP0QHB242HS2D L?
 U 1 1 621B6D04
 P 7950 7200
 F 0 "L?" H 8300 7300 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 8550 7200 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 7705 7530 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 7705 7530 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 7950 7200 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 7950 7517 50  0001 C CNN "MPN"
 F 5 "MURATA" H 7950 7426 50  0001 C CNN "Manufacturer"
@@ -596,7 +596,7 @@ NoConn ~ 9150 9150
 NoConn ~ 9150 9250
 NoConn ~ 9150 9350
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 6224C332
 P 9050 9700
 F 0 "#PWR?" H 9050 9450 50  0001 C CNN
@@ -611,7 +611,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 9550 9050 9700
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 622521DE
 P 9000 8050
 F 0 "#PWR?" H 9000 7800 50  0001 C CNN
@@ -650,14 +650,14 @@ TP0_I2C_SCL
 Text GLabel 5650 9600 0    50   Input ~ 0
 TP0_I2C_SDA
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTS0102DP U?
+L sc606-baseboard:NTS0102DP U?
 U 1 1 6228F630
 P 6800 9750
 AR Path="/61D49F95/6228F630" Ref="U?"  Part="1" 
 AR Path="/61D49FBF/6228F630" Ref="U?"  Part="1" 
 F 0 "U?" H 6800 10265 50  0000 C CNN
 F 1 "NTS0102DP" H 6800 10174 50  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-8_W3mm" H 6700 10250 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TSSOP-8_W3mm" H 6700 10250 50  0001 C CNN
 F 3 "" H 7450 10500 50  0001 C CNN
 F 4 "NTS0102DP" H 6750 9350 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 6900 9450 50  0001 C CNN "Manufacturer"
@@ -665,7 +665,7 @@ F 5 "NXP Semiconductors" H 6900 9450 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 6228F636
 P 7200 10000
 AR Path="/61D49F95/6228F636" Ref="#PWR?"  Part="1" 
@@ -709,14 +709,14 @@ Wire Wire Line
 Wire Wire Line
 	6250 9800 6400 9800
 $Comp
-L antmicroResistors0402:R_2k_0402 R?
+L sc606-baseboard:R_2k_0402 R?
 U 1 1 6228F651
 P 6250 9250
 AR Path="/61D49F95/6228F651" Ref="R?"  Part="1" 
 AR Path="/61D49FBF/6228F651" Ref="R?"  Part="1" 
 F 0 "R?" V 6300 9450 60  0000 R CNN
 F 1 "R_2k_0402" H 6250 9100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6450 9450 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 6450 9450 60  0001 L CNN
 F 3 "" H 6250 9250 50  0001 C CNN
 F 4 "VISHAY" H 6450 9650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 6450 9550 60  0001 L CNN "MPN"
@@ -725,14 +725,14 @@ F 6 "2k" V 6200 9450 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k_0402 R?
+L sc606-baseboard:R_2k_0402 R?
 U 1 1 6228F65A
 P 5800 9250
 AR Path="/61D49F95/6228F65A" Ref="R?"  Part="1" 
 AR Path="/61D49FBF/6228F65A" Ref="R?"  Part="1" 
 F 0 "R?" V 5950 9250 60  0000 R CNN
 F 1 "R_2k_0402" H 5800 9100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6000 9450 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 6000 9450 60  0001 L CNN
 F 3 "" H 5800 9250 50  0001 C CNN
 F 4 "VISHAY" H 6000 9650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 6000 9550 60  0001 L CNN "MPN"
@@ -741,14 +741,14 @@ F 6 "2k" V 5650 9250 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k_0402 R?
+L sc606-baseboard:R_2k_0402 R?
 U 1 1 6228F663
 P 5950 9250
 AR Path="/61D49F95/6228F663" Ref="R?"  Part="1" 
 AR Path="/61D49FBF/6228F663" Ref="R?"  Part="1" 
 F 0 "R?" V 6100 9250 60  0000 R CNN
 F 1 "R_2k_0402" H 5950 9100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6150 9450 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 6150 9450 60  0001 L CNN
 F 3 "" H 5950 9250 50  0001 C CNN
 F 4 "VISHAY" H 6150 9650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 6150 9550 60  0001 L CNN "MPN"
@@ -777,14 +777,14 @@ Connection ~ 5950 9700
 Wire Wire Line
 	5950 9700 5650 9700
 $Comp
-L antmicroResistors0402:R_2k_0402 R?
+L sc606-baseboard:R_2k_0402 R?
 U 1 1 622EA7DA
 P 7550 9350
 AR Path="/61D49F95/622EA7DA" Ref="R?"  Part="1" 
 AR Path="/61D49FBF/622EA7DA" Ref="R?"  Part="1" 
 F 0 "R?" V 7700 9350 60  0000 R CNN
 F 1 "R_2k_0402" H 7550 9200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7750 9550 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7750 9550 60  0001 L CNN
 F 3 "" H 7550 9350 50  0001 C CNN
 F 4 "VISHAY" H 7750 9750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 7750 9650 60  0001 L CNN "MPN"
@@ -793,14 +793,14 @@ F 6 "2k" V 7400 9350 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k_0402 R?
+L sc606-baseboard:R_2k_0402 R?
 U 1 1 622EA7E3
 P 7700 9350
 AR Path="/61D49F95/622EA7E3" Ref="R?"  Part="1" 
 AR Path="/61D49FBF/622EA7E3" Ref="R?"  Part="1" 
 F 0 "R?" V 7850 9350 60  0000 R CNN
 F 1 "R_2k_0402" H 7700 9200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7900 9550 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7900 9550 60  0001 L CNN
 F 3 "" H 7700 9350 50  0001 C CNN
 F 4 "VISHAY" H 7900 9750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 7900 9650 60  0001 L CNN "MPN"
