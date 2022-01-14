@@ -1183,12 +1183,12 @@ Keypad
 Text GLabel 6950 5150 0    50   Input ~ 0
 PWRKEY
 $Comp
-L antmicroPushbuttonSwitches:KMR2 S?
+L sc606-baseboard:KMR2 S?
 U 1 1 61E2B24F
 P 7950 5150
 F 0 "S?" H 7950 5425 50  0000 C CNN
 F 1 "KMR2" H 7950 5334 50  0000 C CNN
-F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 8150 5350 50  0001 L CNN
+F 2 "sc606-baseboard-footprints:SW_SPST_4.2x2.8" H 8150 5350 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 8150 5450 60  0001 L CNN
 F 4 "KMR211NGLFS" H 8146 5543 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 8150 5622 60  0001 L CNN "Manufacturer"
@@ -1196,7 +1196,7 @@ F 5 "C&K Components" H 8150 5622 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0123
+L sc606-baseboard:GND-power #PWR0123
 U 1 1 61E2FDB1
 P 7800 5700
 F 0 "#PWR0123" H 7800 5450 50  0001 C CNN
@@ -1227,12 +1227,12 @@ Connection ~ 7600 5150
 Wire Wire Line
 	7600 5150 7450 5150
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L sc606-baseboard:R_1k_0402 R?
 U 1 1 61E46EF8
 P 7250 5150
 F 0 "R?" H 7250 5363 60  0000 C CNN
 F 1 "R_1k_0402" H 7250 5000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7450 5350 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7450 5350 60  0001 L CNN
 F 3 "" H 7250 5150 50  0001 C CNN
 F 4 "BOURNS" H 7450 5550 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 7450 5450 60  0001 L CNN "MPN"
@@ -1243,12 +1243,12 @@ $EndComp
 Wire Wire Line
 	7100 5150 6950 5150
 $Comp
-L antmicroTVSDiodes:PTVS5V0Z1USKPYL D?
+L sc606-baseboard:PTVS5V0Z1USKPYL D?
 U 1 1 61E533B0
 P 7450 5350
 F 0 "D?" V 7503 5222 60  0000 R CNN
 F 1 "PTVS5V0Z1USKPYL" V 7300 6300 60  0000 R CNN
-F 2 "antmicro-footprints:SOD-964" H 7650 5550 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:SOD-964" H 7650 5550 60  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/916/PTVS5V0Z1USKP-1600477.pdf" H 7650 5650 60  0001 L CNN
 F 4 "Nexperia" H 7650 6450 60  0001 L CNN "Manufacturer"
 F 5 "PTVS5V0Z1USKPYL" H 7650 5850 60  0001 L CNN "MPN"
@@ -1266,12 +1266,12 @@ Wire Wire Line
 Text GLabel 6950 6550 0    50   Input ~ 0
 VOL_UP
 $Comp
-L antmicroPushbuttonSwitches:KMR2 S?
+L sc606-baseboard:KMR2 S?
 U 1 1 61E6F39D
 P 7950 6550
 F 0 "S?" H 7950 6825 50  0000 C CNN
 F 1 "KMR2" H 7950 6734 50  0000 C CNN
-F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 8150 6750 50  0001 L CNN
+F 2 "sc606-baseboard-footprints:SW_SPST_4.2x2.8" H 8150 6750 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 8150 6850 60  0001 L CNN
 F 4 "KMR211NGLFS" H 8146 6943 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 8150 7022 60  0001 L CNN "Manufacturer"
@@ -1279,7 +1279,7 @@ F 5 "C&K Components" H 8150 7022 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0124
+L sc606-baseboard:GND-power #PWR0124
 U 1 1 61E6F3A3
 P 7800 7100
 F 0 "#PWR0124" H 7800 6850 50  0001 C CNN
@@ -1310,12 +1310,12 @@ Connection ~ 7600 6550
 Wire Wire Line
 	7600 6550 7450 6550
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L sc606-baseboard:R_1k_0402 R?
 U 1 1 61E6F3B7
 P 7250 6550
 F 0 "R?" H 7250 6763 60  0000 C CNN
 F 1 "R_1k_0402" H 7250 6400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7450 6750 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7450 6750 60  0001 L CNN
 F 3 "" H 7250 6550 50  0001 C CNN
 F 4 "BOURNS" H 7450 6950 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 7450 6850 60  0001 L CNN "MPN"
@@ -1326,12 +1326,12 @@ $EndComp
 Wire Wire Line
 	7100 6550 6950 6550
 $Comp
-L antmicroTVSDiodes:PTVS5V0Z1USKPYL D?
+L sc606-baseboard:PTVS5V0Z1USKPYL D?
 U 1 1 61E6F3C0
 P 7450 6750
 F 0 "D?" V 7503 6622 60  0000 R CNN
 F 1 "PTVS5V0Z1USKPYL" V 7300 7700 60  0000 R CNN
-F 2 "antmicro-footprints:SOD-964" H 7650 6950 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:SOD-964" H 7650 6950 60  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/916/PTVS5V0Z1USKP-1600477.pdf" H 7650 7050 60  0001 L CNN
 F 4 "Nexperia" H 7650 7850 60  0001 L CNN "Manufacturer"
 F 5 "PTVS5V0Z1USKPYL" H 7650 7250 60  0001 L CNN "MPN"
@@ -1349,12 +1349,12 @@ Wire Wire Line
 Text GLabel 6950 7800 0    50   Input ~ 0
 VOL_DOWN
 $Comp
-L antmicroPushbuttonSwitches:KMR2 S?
+L sc606-baseboard:KMR2 S?
 U 1 1 61E78403
 P 7950 7800
 F 0 "S?" H 7950 8075 50  0000 C CNN
 F 1 "KMR2" H 7950 7984 50  0000 C CNN
-F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 8150 8000 50  0001 L CNN
+F 2 "sc606-baseboard-footprints:SW_SPST_4.2x2.8" H 8150 8000 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 8150 8100 60  0001 L CNN
 F 4 "KMR211NGLFS" H 8146 8193 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 8150 8272 60  0001 L CNN "Manufacturer"
@@ -1362,7 +1362,7 @@ F 5 "C&K Components" H 8150 8272 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0125
+L sc606-baseboard:GND-power #PWR0125
 U 1 1 61E78409
 P 7800 8350
 F 0 "#PWR0125" H 7800 8100 50  0001 C CNN
@@ -1393,12 +1393,12 @@ Connection ~ 7600 7800
 Wire Wire Line
 	7600 7800 7450 7800
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L sc606-baseboard:R_1k_0402 R?
 U 1 1 61E7841D
 P 7250 7800
 F 0 "R?" H 7250 8013 60  0000 C CNN
 F 1 "R_1k_0402" H 7250 7650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7450 8000 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7450 8000 60  0001 L CNN
 F 3 "" H 7250 7800 50  0001 C CNN
 F 4 "BOURNS" H 7450 8200 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 7450 8100 60  0001 L CNN "MPN"
@@ -1409,12 +1409,12 @@ $EndComp
 Wire Wire Line
 	7100 7800 6950 7800
 $Comp
-L antmicroTVSDiodes:PTVS5V0Z1USKPYL D?
+L sc606-baseboard:PTVS5V0Z1USKPYL D?
 U 1 1 61E78426
 P 7450 8000
 F 0 "D?" V 7503 7872 60  0000 R CNN
 F 1 "PTVS5V0Z1USKPYL" V 7300 8950 60  0000 R CNN
-F 2 "antmicro-footprints:SOD-964" H 7650 8200 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:SOD-964" H 7650 8200 60  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/916/PTVS5V0Z1USKP-1600477.pdf" H 7650 8300 60  0001 L CNN
 F 4 "Nexperia" H 7650 9100 60  0001 L CNN "Manufacturer"
 F 5 "PTVS5V0Z1USKPYL" H 7650 8500 60  0001 L CNN "MPN"

@@ -628,25 +628,25 @@ Wire Wire Line
 Wire Wire Line
 	12200 3200 11500 3200
 Text Label 11850 2300 0    50   ~ 0
-CSI_0_LN0_N
+CSI0_LN0_N
 Text Label 11850 2400 0    50   ~ 0
-CSI_0_LN0_P
+CSI0_LN0_P
 Text Label 11850 2500 0    50   ~ 0
-CSI_0_LN1_N
+CSI0_LN1_N
 Text Label 11850 2600 0    50   ~ 0
-CSI_0_LN1_P
+CSI0_LN1_P
 Text Label 11850 2700 0    50   ~ 0
-CSI_0_LN2_N
+CSI0_LN2_N
 Text Label 11850 2800 0    50   ~ 0
-CSI_0_LN2_P
+CSI0_LN2_P
 Text Label 11850 2900 0    50   ~ 0
-CSI_0_LN3_N
+CSI0_LN3_N
 Text Label 11850 3000 0    50   ~ 0
-CSI_0_LN3_P
+CSI0_LN3_P
 Text Label 11750 3100 0    50   ~ 0
-CSI_0_CLK_N
+CSI0_CLK_N
 Text Label 11750 3200 0    50   ~ 0
-CSI_0_CLK_P
+CSI0_CLK_P
 Text GLabel 11150 2100 0    50   Input ~ 0
 CAM1_DATA
 Wire Bus Line
@@ -700,36 +700,36 @@ Wire Wire Line
 Wire Wire Line
 	12200 5000 11500 5000
 Text Label 11850 4100 0    50   ~ 0
-CSI_1_LN0_N
+CSI1_LN0_N
 Text Label 11850 4200 0    50   ~ 0
-CSI_1_LN0_P
+CSI1_LN0_P
 Text Label 11850 4300 0    50   ~ 0
-CSI_1_LN1_N
+CSI1_LN1_N
 Text Label 11850 4400 0    50   ~ 0
-CSI_1_LN1_P
+CSI1_LN1_P
 Text Label 11850 4500 0    50   ~ 0
-CSI_1_LN2_N
+CSI1_LN2_N
 Text Label 11850 4600 0    50   ~ 0
-CSI_1_LN2_P
+CSI1_LN2_P
 Text Label 11850 4700 0    50   ~ 0
-CSI_1_LN3_N
+CSI1_LN3_N
 Text Label 11850 4800 0    50   ~ 0
-CSI_1_LN3_P
+CSI1_LN3_P
 Text Label 11750 4900 0    50   ~ 0
-CSI_1_CLK_N
+CSI1_CLK_N
 Text Label 11750 5000 0    50   ~ 0
-CSI_1_CLK_P
+CSI1_CLK_P
 Text GLabel 11150 3900 0    50   Input ~ 0
 CAM2_DATA
 Wire Bus Line
 	11400 3900 11150 3900
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTS0102GT U?
+L sc606-baseboard:NTS0102GT U?
 U 1 1 62AE9D15
 P 3700 8750
 F 0 "U?" H 3700 9265 50  0000 C CNN
 F 1 "NTS0102GT" H 3700 9174 50  0000 C CNN
-F 2 "antmicro-footprints:PSON50P100X195X50-8N" H 3600 9250 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:PSON50P100X195X50-8N" H 3600 9250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 4350 9500 50  0001 C CNN
 F 4 "NTS0102GT" H 3700 9265 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 3700 9174 50  0001 C CNN "Manufacturer"

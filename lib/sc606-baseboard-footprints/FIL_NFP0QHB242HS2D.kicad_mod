@@ -22,7 +22,7 @@
   (pad 1 smd rect (at -0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+  (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

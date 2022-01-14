@@ -9,7 +9,7 @@
   (pad A smd rect (at 3.4624 1.0398 270) (size 1.39 1.4) (layers F.Cu F.Paste F.Mask))
   (pad A smd rect (at 3.4624 -0.8398 90) (size 1.39 1.4) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at -0.5 0.1 90) (size 3.36 4.86) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/PowerDI.step
+  (model ${KIPRJMOD}/lib/3d-models/PowerDI.step
     (offset (xyz -10 7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

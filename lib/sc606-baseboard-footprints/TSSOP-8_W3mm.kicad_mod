@@ -43,7 +43,7 @@
     (solder_mask_margin 0.05))
   (pad 8 smd rect (at -0.975 -2.2) (size 0.45 1.45) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.05))
-  (model "${ANT3DMDL}/TSSOP-8 3_1x3_1.STEP"
+  (model "${KIPRJMOD}/lib/3d-models/TSSOP-8 3_1x3_1.STEP"
     (offset (xyz 0 0 0.59))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

@@ -16,7 +16,7 @@
   (fp_line (start -14.8 9.2) (end -14.8 -9.2) (layer F.CrtYd) (width 0.12))
   (pad Pos smd rect (at -13 0) (size 3.5 4.5) (layers F.Cu F.Paste F.Mask))
   (pad Neg smd rect (at 13 0) (size 3.5 4.5) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/BU1632SM.step
+  (model ${KIPRJMOD}/lib/3d-models/BU1632SM.step
     (offset (xyz -13 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

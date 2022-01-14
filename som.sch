@@ -716,25 +716,25 @@ Wire Wire Line
 Wire Wire Line
 	12850 7700 11750 7700
 Text Label 12100 7100 0    50   ~ 0
-CSI_0_LN0_N
+CSI0_LN0_N
 Text Label 12100 7000 0    50   ~ 0
-CSI_0_LN0_P
+CSI0_LN0_P
 Text Label 12100 7300 0    50   ~ 0
-CSI_0_LN1_N
+CSI0_LN1_N
 Text Label 12100 7200 0    50   ~ 0
-CSI_0_LN1_P
+CSI0_LN1_P
 Text Label 12100 7500 0    50   ~ 0
-CSI_0_LN2_N
+CSI0_LN2_N
 Text Label 12100 7400 0    50   ~ 0
-CSI_0_LN2_P
+CSI0_LN2_P
 Text Label 12100 7700 0    50   ~ 0
-CSI_0_LN3_N
+CSI0_LN3_N
 Text Label 12100 7600 0    50   ~ 0
-CSI_0_LN3_P
+CSI0_LN3_P
 Text Label 12100 6900 0    50   ~ 0
-CSI_0_CLK_N
+CSI0_CLK_N
 Text Label 12100 6800 0    50   ~ 0
-CSI_0_CLK_P
+CSI0_CLK_P
 Text GLabel 11400 6700 0    50   Input ~ 0
 CAM1_DATA
 Wire Bus Line
@@ -769,54 +769,14 @@ Entry Wire Line
 	11650 7800 11750 7900
 Entry Wire Line
 	11650 7900 11750 8000
-Wire Wire Line
-	12850 8200 11750 8200
-Wire Wire Line
-	11750 8300 12850 8300
-Wire Wire Line
-	12850 8400 11750 8400
-Wire Wire Line
-	11750 8500 12850 8500
-Wire Wire Line
-	12850 8600 11750 8600
-Wire Wire Line
-	11750 8700 12850 8700
-Wire Wire Line
-	12850 8800 11750 8800
-Text Label 12100 8200 0    50   ~ 0
-CSI_0_LN0_N
-Text Label 12100 8100 0    50   ~ 0
-CSI_0_LN0_P
-Text Label 12100 8400 0    50   ~ 0
-CSI_0_LN1_N
-Text Label 12100 8300 0    50   ~ 0
-CSI_0_LN1_P
-Text Label 12100 8600 0    50   ~ 0
-CSI_0_LN2_N
-Text Label 12100 8500 0    50   ~ 0
-CSI_0_LN2_P
-Text Label 12100 8800 0    50   ~ 0
-CSI_0_LN3_N
-Text Label 12100 8700 0    50   ~ 0
-CSI_0_LN3_P
-Text Label 12100 8000 0    50   ~ 0
-CSI_0_CLK_N
-Text Label 12100 7900 0    50   ~ 0
-CSI_0_CLK_P
 Text GLabel 11400 7800 0    50   Input ~ 0
 CAM2_DATA
 Wire Bus Line
 	11650 7800 11400 7800
-Wire Wire Line
-	11750 8100 12850 8100
 Entry Wire Line
 	11650 8600 11750 8700
 Entry Wire Line
 	11650 8600 11750 8700
-Wire Wire Line
-	11750 7900 12850 7900
-Wire Wire Line
-	11750 8000 12850 8000
 Entry Wire Line
 	11650 8700 11750 8800
 NoConn ~ 12850 5700
@@ -943,8 +903,6 @@ NoConn ~ 5000 2650
 NoConn ~ 5000 2250
 NoConn ~ 5000 2450
 NoConn ~ 5000 2550
-NoConn ~ 7400 2600
-NoConn ~ 7400 2700
 NoConn ~ 5000 2150
 NoConn ~ 5000 2050
 NoConn ~ 5000 4050
@@ -982,50 +940,198 @@ NoConn ~ 5000 3650
 NoConn ~ 5000 3450
 NoConn ~ 5000 5750
 NoConn ~ 5000 5850
-Text GLabel 14650 7700 2    50   Input ~ 0
+Text Label 15150 7700 2    50   ~ 0
 DSI1_LN3_N
-Text GLabel 14650 7600 2    50   Input ~ 0
+Text Label 15150 7600 2    50   ~ 0
 DSI1_LN3_P
-Text GLabel 14650 7500 2    50   Input ~ 0
+Text Label 15150 7500 2    50   ~ 0
 DSI1_LN2_N
-Text GLabel 14650 7400 2    50   Input ~ 0
+Text Label 15150 7400 2    50   ~ 0
 DSI1_LN2_P
-Text GLabel 14650 7300 2    50   Input ~ 0
-DSI1_LN1_N
-Text GLabel 14650 7200 2    50   Input ~ 0
-DSI1_LN1_P
-Text GLabel 14650 7100 2    50   Input ~ 0
-DSI1_LN0_N
-Text GLabel 14650 7000 2    50   Input ~ 0
-DSI1_LN0_P
-Text GLabel 14650 6900 2    50   Input ~ 0
+Text Label 15150 6900 2    50   ~ 0
 DSI1_CLK_N
-Text GLabel 14650 6800 2    50   Input ~ 0
+Text Label 15150 6800 2    50   ~ 0
 DSI1_CLK_P
-Text GLabel 14650 6600 2    50   Input ~ 0
+Text Label 15150 7300 2    50   ~ 0
+DSI1_LN1_N
+Text Label 15150 7200 2    50   ~ 0
+DSI1_LN1_P
+Text Label 15150 7100 2    50   ~ 0
+DSI1_LN0_N
+Text Label 15150 7000 2    50   ~ 0
+DSI1_LN0_P
+Wire Wire Line
+	14650 7700 15150 7700
+Wire Wire Line
+	15150 7600 14650 7600
+Wire Wire Line
+	14650 7500 15150 7500
+Wire Wire Line
+	15150 7400 14650 7400
+Wire Wire Line
+	14650 6900 15150 6900
+Wire Wire Line
+	15150 6800 14650 6800
+Wire Wire Line
+	14650 7300 15150 7300
+Wire Wire Line
+	15150 7200 14650 7200
+Wire Wire Line
+	14650 7100 15150 7100
+Wire Wire Line
+	15150 7000 14650 7000
+Entry Wire Line
+	15250 7800 15150 7700
+Entry Wire Line
+	15250 7700 15150 7600
+Entry Wire Line
+	15250 7600 15150 7500
+Entry Wire Line
+	15250 7500 15150 7400
+Entry Wire Line
+	15250 7400 15150 7300
+Entry Wire Line
+	15250 7300 15150 7200
+Entry Wire Line
+	15250 7200 15150 7100
+Entry Wire Line
+	15250 7100 15150 7000
+Entry Wire Line
+	15250 7100 15150 7000
+Entry Wire Line
+	15250 7000 15150 6900
+Entry Wire Line
+	15250 6900 15150 6800
+Wire Bus Line
+	15250 7800 15300 7800
+Text GLabel 15300 7800 2    50   Input ~ 0
+SoMtoHDMI_DATA
+Text Label 15150 6600 2    50   ~ 0
 DSI0_LN3_N
-Text GLabel 14650 6500 2    50   Input ~ 0
+Text Label 15150 6500 2    50   ~ 0
 DSI0_LN3_P
-Text GLabel 14650 6400 2    50   Input ~ 0
+Text Label 15150 6400 2    50   ~ 0
 DSI0_LN2_N
-Text GLabel 14650 6300 2    50   Input ~ 0
+Text Label 15150 6300 2    50   ~ 0
 DSI0_LN2_P
-Text GLabel 14650 6200 2    50   Input ~ 0
+Text Label 15150 5800 2    50   ~ 0
+DSI0_CLK_N
+Text Label 15150 5700 2    50   ~ 0
+DSI0_CLK_P
+Text Label 15150 6200 2    50   ~ 0
 DSI0_LN1_N
-Text GLabel 14650 6100 2    50   Input ~ 0
+Text Label 15150 6100 2    50   ~ 0
 DSI0_LN1_P
-Text GLabel 14650 6000 2    50   Input ~ 0
+Text Label 15150 6000 2    50   ~ 0
 DSI0_LN0_N
+Text Label 15150 5900 2    50   ~ 0
+DSI0_LN0_P
+Wire Wire Line
+	14650 6600 15150 6600
+Wire Wire Line
+	15150 6500 14650 6500
+Wire Wire Line
+	14650 6400 15150 6400
+Wire Wire Line
+	15150 6300 14650 6300
+Wire Wire Line
+	14650 5800 15150 5800
+Wire Wire Line
+	15150 5700 14650 5700
+Wire Wire Line
+	14650 6200 15150 6200
+Wire Wire Line
+	15150 6100 14650 6100
+Wire Wire Line
+	14650 6000 15150 6000
+Wire Wire Line
+	15150 5900 14650 5900
+Entry Wire Line
+	15250 6700 15150 6600
+Entry Wire Line
+	15250 6600 15150 6500
+Entry Wire Line
+	15250 6500 15150 6400
+Entry Wire Line
+	15250 6400 15150 6300
+Entry Wire Line
+	15250 6300 15150 6200
+Entry Wire Line
+	15250 6200 15150 6100
+Entry Wire Line
+	15250 6100 15150 6000
+Entry Wire Line
+	15250 6000 15150 5900
+Entry Wire Line
+	15250 6000 15150 5900
+Entry Wire Line
+	15250 5900 15150 5800
+Entry Wire Line
+	15250 5800 15150 5700
+Wire Bus Line
+	15250 6700 15300 6700
+Text GLabel 15300 6700 2    50   Input ~ 0
+SoMtoDisplay_DATA
+Text GLabel 7400 2600 0    50   Input ~ 0
+HDMI_I2C_SCL
+Text GLabel 7400 2700 0    50   Input ~ 0
+HDMI_I2C_SDA
+Text Label 12100 8200 0    50   ~ 0
+CSI1_LN0_N
+Text Label 12100 8100 0    50   ~ 0
+CSI1_LN0_P
+Text Label 12100 8400 0    50   ~ 0
+CSI1_LN1_N
+Text Label 12100 8300 0    50   ~ 0
+CSI1_LN1_P
+Text Label 12100 8600 0    50   ~ 0
+CSI1_LN2_N
+Text Label 12100 8500 0    50   ~ 0
+CSI1_LN2_P
+Text Label 12100 8800 0    50   ~ 0
+CSI1_LN3_N
+Text Label 12100 8700 0    50   ~ 0
+CSI1_LN3_P
+Text Label 12100 8000 0    50   ~ 0
+CSI1_CLK_N
+Text Label 12100 7900 0    50   ~ 0
+CSI1_CLK_P
+Wire Wire Line
+	11750 8100 12850 8100
+Wire Wire Line
+	12850 8200 11750 8200
+Wire Wire Line
+	11750 8300 12850 8300
+Wire Wire Line
+	12850 8400 11750 8400
+Wire Wire Line
+	11750 8500 12850 8500
+Wire Wire Line
+	12850 8600 11750 8600
+Wire Wire Line
+	11750 8700 12850 8700
+Wire Wire Line
+	12850 8800 11750 8800
+Wire Wire Line
+	11750 7900 12850 7900
+Wire Wire Line
+	11750 8000 12850 8000
+Text GLabel 13800 1750 0    50   Input ~ 0
+LT9611_INT0
+Text GLabel 13800 1850 0    50   Input ~ 0
+LT9611_RST_N
+Wire Wire Line
+	13800 1750 14250 1750
+Wire Wire Line
+	14250 1850 13800 1850
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line
 	11650 6700 11650 7600
 Wire Bus Line
 	11650 7800 11650 8700
-Text GLabel 14650 5900 2    50   Input ~ 0
-DSI0_LN0_P
-Text GLabel 14650 5800 2    50   Input ~ 0
-DSI0_CLK_N
-Text GLabel 14650 5700 2    50   Input ~ 0
-DSI0_CLK_P
+Wire Bus Line
+	15250 6900 15250 7800
+Wire Bus Line
+	15250 5800 15250 6700
 $EndSCHEMATC

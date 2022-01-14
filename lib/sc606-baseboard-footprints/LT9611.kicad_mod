@@ -117,7 +117,7 @@
   (pad 1 smd oval (at -3.48 -2.87 90) (size 0.2 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd oval (at -3.48 -0.07 90) (size 0.2 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd oval (at -3.48 -0.87 90) (size 0.2 0.4) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/KSZ9031MNXIA_TR.STEP
+  (model ${KIPRJMOD}/lib/3d-models/KSZ9031MNXIA_TR.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
