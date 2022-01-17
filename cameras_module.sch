@@ -45,7 +45,7 @@ $EndComp
 Text GLabel 4000 3000 1    50   Input ~ 0
 3V3_SYS
 Wire Wire Line
-	4000 3000 4000 3400
+	4000 3000 4000 3100
 Wire Wire Line
 	4450 3600 4000 3600
 Connection ~ 4000 3600
@@ -69,7 +69,6 @@ Wire Wire Line
 Connection ~ 4000 5800
 Wire Wire Line
 	4000 5800 4000 5250
-NoConn ~ 4450 4000
 NoConn ~ 5250 4200
 NoConn ~ 5250 4300
 NoConn ~ 5250 4500
@@ -248,7 +247,7 @@ CAM0_SCL
 Text Label 6750 3900 0    50   ~ 0
 CAM1_SDA
 Text Label 6750 4000 0    50   ~ 0
-CAM0_SDA
+CAM1_SCL
 Wire Wire Line
 	6300 3600 6750 3600
 Wire Wire Line
@@ -433,7 +432,7 @@ $EndComp
 Wire Wire Line
 	4100 8800 4100 9000
 Wire Wire Line
-	2050 8600 2350 8600
+	1750 8600 2350 8600
 Wire Wire Line
 	3300 8700 2500 8700
 Wire Wire Line
@@ -443,15 +442,15 @@ Wire Wire Line
 Text GLabel 4500 8000 2    50   Input ~ 0
 3V3_SYS
 Wire Wire Line
-	4500 8000 4300 8000
+	4500 8000 4450 8000
 Wire Wire Line
 	4300 8000 4300 8500
 Wire Wire Line
 	4300 8500 4100 8500
-Text GLabel 2050 8000 0    50   Input ~ 0
+Text GLabel 1850 8000 0    50   Input ~ 0
 LDO6_1P8
 Wire Wire Line
-	2050 8000 2350 8000
+	1850 8000 1900 8000
 Wire Wire Line
 	3050 8000 3050 8500
 Wire Wire Line
@@ -526,10 +525,10 @@ Wire Wire Line
 	2500 8400 2500 8700
 Connection ~ 2500 8700
 Wire Wire Line
-	2500 8700 2050 8700
-Text GLabel 2050 8600 0    50   Input ~ 0
+	2500 8700 1750 8700
+Text GLabel 1750 8600 0    50   Input ~ 0
 CAM_I2C_SDA
-Text GLabel 2050 8700 0    50   Input ~ 0
+Text GLabel 1750 8700 0    50   Input ~ 0
 CAM_I2C_SCL
 $Comp
 L sc606-baseboard:GND #PWR044
@@ -600,21 +599,21 @@ Entry Wire Line
 Entry Wire Line
 	11400 3100 11500 3200
 Wire Wire Line
-	11500 2300 12600 2300
+	11500 2900 12600 2900
 Wire Wire Line
-	12600 2400 11500 2400
-Wire Wire Line
-	11500 2500 12600 2500
-Wire Wire Line
-	12600 2600 11500 2600
+	12600 3000 11500 3000
 Wire Wire Line
 	11500 2700 12600 2700
 Wire Wire Line
 	12600 2800 11500 2800
 Wire Wire Line
-	11500 2900 12600 2900
+	11500 2500 12600 2500
 Wire Wire Line
-	12600 3000 11500 3000
+	12600 2600 11500 2600
+Wire Wire Line
+	11500 2300 12600 2300
+Wire Wire Line
+	12600 2400 11500 2400
 Wire Wire Line
 	12600 3200 12300 3200
 Wire Wire Line
@@ -627,21 +626,21 @@ Wire Wire Line
 	12200 3300 12200 3200
 Wire Wire Line
 	12200 3200 11500 3200
-Text Label 11850 2300 0    50   ~ 0
-CSI0_LN0_N
-Text Label 11850 2400 0    50   ~ 0
-CSI0_LN0_P
-Text Label 11850 2500 0    50   ~ 0
-CSI0_LN1_N
-Text Label 11850 2600 0    50   ~ 0
-CSI0_LN1_P
-Text Label 11850 2700 0    50   ~ 0
-CSI0_LN2_N
-Text Label 11850 2800 0    50   ~ 0
-CSI0_LN2_P
 Text Label 11850 2900 0    50   ~ 0
-CSI0_LN3_N
+CSI0_LN0_N
 Text Label 11850 3000 0    50   ~ 0
+CSI0_LN0_P
+Text Label 11850 2700 0    50   ~ 0
+CSI0_LN1_N
+Text Label 11850 2800 0    50   ~ 0
+CSI0_LN1_P
+Text Label 11850 2500 0    50   ~ 0
+CSI0_LN2_N
+Text Label 11850 2600 0    50   ~ 0
+CSI0_LN2_P
+Text Label 11850 2300 0    50   ~ 0
+CSI0_LN3_N
+Text Label 11850 2400 0    50   ~ 0
 CSI0_LN3_P
 Text Label 11750 3100 0    50   ~ 0
 CSI0_CLK_N
@@ -672,21 +671,21 @@ Entry Wire Line
 Entry Wire Line
 	11400 4900 11500 5000
 Wire Wire Line
-	11500 4100 12600 4100
+	11500 4700 12600 4700
 Wire Wire Line
-	12600 4200 11500 4200
-Wire Wire Line
-	11500 4300 12600 4300
-Wire Wire Line
-	12600 4400 11500 4400
+	12600 4800 11500 4800
 Wire Wire Line
 	11500 4500 12600 4500
 Wire Wire Line
 	12600 4600 11500 4600
 Wire Wire Line
-	11500 4700 12600 4700
+	11500 4300 12600 4300
 Wire Wire Line
-	12600 4800 11500 4800
+	12600 4400 11500 4400
+Wire Wire Line
+	11500 4100 12600 4100
+Wire Wire Line
+	12600 4200 11500 4200
 Wire Wire Line
 	12600 5000 12300 5000
 Wire Wire Line
@@ -699,21 +698,21 @@ Wire Wire Line
 	12200 5100 12200 5000
 Wire Wire Line
 	12200 5000 11500 5000
-Text Label 11850 4100 0    50   ~ 0
-CSI1_LN0_N
-Text Label 11850 4200 0    50   ~ 0
-CSI1_LN0_P
-Text Label 11850 4300 0    50   ~ 0
-CSI1_LN1_N
-Text Label 11850 4400 0    50   ~ 0
-CSI1_LN1_P
-Text Label 11850 4500 0    50   ~ 0
-CSI1_LN2_N
-Text Label 11850 4600 0    50   ~ 0
-CSI1_LN2_P
 Text Label 11850 4700 0    50   ~ 0
-CSI1_LN3_N
+CSI1_LN0_N
 Text Label 11850 4800 0    50   ~ 0
+CSI1_LN0_P
+Text Label 11850 4500 0    50   ~ 0
+CSI1_LN1_N
+Text Label 11850 4600 0    50   ~ 0
+CSI1_LN1_P
+Text Label 11850 4300 0    50   ~ 0
+CSI1_LN2_N
+Text Label 11850 4400 0    50   ~ 0
+CSI1_LN2_P
+Text Label 11850 4100 0    50   ~ 0
+CSI1_LN3_N
+Text Label 11850 4200 0    50   ~ 0
 CSI1_LN3_P
 Text Label 11750 4900 0    50   ~ 0
 CSI1_CLK_N
@@ -736,6 +735,95 @@ F 5 "NXP Semiconductors" H 3700 9174 50  0001 C CNN "Manufacturer"
 	1    3700 8750
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 62145419
+P 4200 3350
+F 0 "R?" V 4155 3420 60  0000 L CNN
+F 1 "R_10k_0402" H 4200 3200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4400 3550 60  0001 L CNN
+F 3 "" H 4200 3350 50  0001 C CNN
+F 4 "VISHAY" H 4400 3750 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 4400 3650 60  0001 L CNN "MPN"
+F 6 "10k" V 4253 3420 50  0000 L CNN "Val"
+	1    4200 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 3500 4200 4000
+Wire Wire Line
+	4200 4000 4450 4000
+Wire Wire Line
+	4200 3200 4200 3100
+Wire Wire Line
+	4200 3100 4000 3100
+Connection ~ 4000 3100
+Wire Wire Line
+	4000 3100 4000 3400
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6214EFB5
+P 4450 8300
+F 0 "C?" H 4565 8345 60  0000 L CNN
+F 1 "C_100n_0402" H 4450 8150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4650 8500 60  0001 L CNN
+F 3 "" H 4450 8300 50  0001 C CNN
+F 4 "Murata" H 4650 8700 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 4650 8600 60  0001 L CNN "MPN"
+F 6 "100n" H 4565 8247 50  0000 L CNN "Val"
+	1    4450 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6214F58A
+P 1900 8250
+F 0 "C?" H 2015 8295 60  0000 L CNN
+F 1 "C_100n_0402" H 1900 8100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2100 8450 60  0001 L CNN
+F 3 "" H 1900 8250 50  0001 C CNN
+F 4 "Murata" H 2100 8650 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 2100 8550 60  0001 L CNN "MPN"
+F 6 "100n" H 2015 8197 50  0000 L CNN "Val"
+	1    1900 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc606-baseboard:GND #PWR?
+U 1 1 6215CCFC
+P 4450 8800
+F 0 "#PWR?" H 4450 8550 50  0001 C CNN
+F 1 "GND" H 4455 8627 50  0000 C CNN
+F 2 "" H 4450 8800 50  0001 C CNN
+F 3 "" H 4450 8800 50  0001 C CNN
+	1    4450 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc606-baseboard:GND #PWR?
+U 1 1 62161810
+P 1900 8850
+F 0 "#PWR?" H 1900 8600 50  0001 C CNN
+F 1 "GND" H 1905 8677 50  0000 C CNN
+F 2 "" H 1900 8850 50  0001 C CNN
+F 3 "" H 1900 8850 50  0001 C CNN
+	1    1900 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 8850 1900 8400
+Wire Wire Line
+	1900 8100 1900 8000
+Connection ~ 1900 8000
+Wire Wire Line
+	1900 8000 2350 8000
+Wire Wire Line
+	4450 8150 4450 8000
+Connection ~ 4450 8000
+Wire Wire Line
+	4450 8000 4300 8000
+Wire Wire Line
+	4450 8450 4450 8800
 Wire Bus Line
 	11400 2100 11400 3100
 Wire Bus Line

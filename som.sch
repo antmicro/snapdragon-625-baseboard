@@ -1297,6 +1297,10 @@ F 3 "~" H 9050 5100 50  0001 C CNN
 	1    8850 5100
 	0    -1   -1   0   
 $EndComp
+Text GLabel 8400 4300 0    50   Input ~ 0
+CAM_RST
+Wire Wire Line
+	8400 4300 8850 4300
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line
