@@ -184,7 +184,7 @@ P 3200 5850
 F 0 "IC1" H 2800 6350 60  0000 L BNN
 F 1 "TPS54561DPRT" H 2800 5150 60  0000 L BNN
 F 2 "sc606-baseboard-footprints:WSON-10_4x4" H 3200 5850 60  0001 C CNN
-F 3 "" H 3200 5850 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps54561.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1642406709110&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps54561" H 3200 5850 60  0001 C CNN
 F 4 "Texas Instrumets" H 3200 5850 50  0001 C CNN "Manufacturer"
 F 5 "TPS54561DPRT" H 3200 5850 50  0001 C CNN "MPN"
 	1    3200 5850
@@ -599,20 +599,6 @@ F 6 "10k" H 10500 5350 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	10650 5350 10850 5350
-$Comp
-L sc606-baseboard:C_2u2_0402 C28
-U 1 1 61DDA18F
-P 10150 5750
-F 0 "C28" H 10265 5795 60  0000 L CNN
-F 1 "C_2u2_0402" H 10150 5600 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 10350 5950 60  0001 L CNN
-F 3 "" H 10150 5750 50  0001 C CNN
-F 4 "TDK" H 10350 6150 60  0001 L CNN "Manufacturer"
-F 5 "C1005X5R1A225K050BC" H 10350 6050 60  0001 L CNN "MPN"
-F 6 "2u2" H 10265 5697 50  0000 L CNN "Val"
-	1    10150 5750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10150 5600 10150 5150
 $Comp
@@ -714,9 +700,9 @@ Wire Wire Line
 Text GLabel 12600 2450 2    50   Input ~ 0
 V_SOM
 Wire Wire Line
-	12600 2450 11600 2450
-Text Notes 10700 1750 0    50   ~ 0
-info: \nDrop voltage on one diode: 0.46V\nApprox. output voltage: 4.08V
+	12600 2450 12300 2450
+Text Notes 10500 1900 0    50   ~ 0
+info: \nDrop voltage on one diode: 0.46V\nApprox. output voltage: 3.62V\nWith diodes temperature rise,\nvoltage dropout will decrease and output voltage increase
 Text Notes 8600 7150 0    100  ~ 20
 5V to 3V3  DC/DC for camera\n\n
 Text GLabel 13800 7900 2    50   Input ~ 0
@@ -725,26 +711,8 @@ Text GLabel 9900 5350 0    50   Input ~ 0
 #RESET
 Wire Wire Line
 	9900 5350 10350 5350
-$Comp
-L sc606-baseboard:R_10k_0402 R4
-U 1 1 6204E79B
-P 2000 5650
-F 0 "R4" H 2000 5750 60  0000 C CNN
-F 1 "R_10k_0402" H 2000 5500 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 2200 5850 60  0001 L CNN
-F 3 "" H 2000 5650 50  0001 C CNN
-F 4 "VISHAY" H 2200 6050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 2200 5950 60  0001 L CNN "MPN"
-F 6 "10k" H 2000 5550 50  0000 C CNN "Val"
-	1    2000 5650
-	1    0    0    -1  
-$EndComp
-Text GLabel 1450 5650 0    50   Input ~ 0
+Text GLabel 1000 5650 0    50   Input ~ 0
 #RESET
-Wire Wire Line
-	1450 5650 1850 5650
-Wire Wire Line
-	2600 5650 2150 5650
 Text Notes 2200 8300 0    100  ~ 20
 5V to 1V2 for Lontium9611\n
 Text GLabel 5500 9450 2    50   Input ~ 0
@@ -901,20 +869,6 @@ F 6 "10k" H 10500 8100 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	10650 8100 10850 8100
-$Comp
-L sc606-baseboard:C_2u2_0402 C?
-U 1 1 62251E70
-P 10150 8500
-F 0 "C?" H 10265 8545 60  0000 L CNN
-F 1 "C_2u2_0402" H 10150 8350 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 10350 8700 60  0001 L CNN
-F 3 "" H 10150 8500 50  0001 C CNN
-F 4 "TDK" H 10350 8900 60  0001 L CNN "Manufacturer"
-F 5 "C1005X5R1A225K050BC" H 10350 8800 60  0001 L CNN "MPN"
-F 6 "2u2" H 10265 8447 50  0000 L CNN "Val"
-	1    10150 8500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10150 8350 10150 7900
 $Comp
@@ -1135,20 +1089,6 @@ F 6 "10k" H 2200 9650 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	2350 9650 2550 9650
-$Comp
-L sc606-baseboard:C_2u2_0402 C?
-U 1 1 62287E80
-P 1850 10050
-F 0 "C?" H 1965 10095 60  0000 L CNN
-F 1 "C_2u2_0402" H 1850 9900 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 2050 10250 60  0001 L CNN
-F 3 "" H 1850 10050 50  0001 C CNN
-F 4 "TDK" H 2050 10450 60  0001 L CNN "Manufacturer"
-F 5 "C1005X5R1A225K050BC" H 2050 10350 60  0001 L CNN "MPN"
-F 6 "2u2" H 1965 9997 50  0000 L CNN "Val"
-	1    1850 10050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 9900 1850 9450
 $Comp
@@ -1349,4 +1289,119 @@ F 6 "20k" V 4503 10120 50  0000 L CNN "Val"
 	1    4450 10050
 	0    1    1    0   
 $EndComp
+Text Notes 4050 1750 0    50   ~ 0
+9...36 VDC
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 620BC82F
+P 10150 5750
+F 0 "C?" H 10265 5795 60  0000 L CNN
+F 1 "C_10u_0402" H 10150 5600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10350 5950 60  0001 L CNN
+F 3 "" H 10150 5750 50  0001 C CNN
+F 4 "YAGEO" H 10350 6150 60  0001 L CNN "Manufacturer"
+F 5 "CC0402MRX5R5BB106" H 10350 6050 60  0001 L CNN "MPN"
+F 6 "10u" H 10265 5697 50  0000 L CNN "Val"
+	1    10150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 620BCB1C
+P 10150 8500
+F 0 "C?" H 10265 8545 60  0000 L CNN
+F 1 "C_10u_0402" H 10150 8350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10350 8700 60  0001 L CNN
+F 3 "" H 10150 8500 50  0001 C CNN
+F 4 "YAGEO" H 10350 8900 60  0001 L CNN "Manufacturer"
+F 5 "CC0402MRX5R5BB106" H 10350 8800 60  0001 L CNN "MPN"
+F 6 "10u" H 10265 8447 50  0000 L CNN "Val"
+	1    10150 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 620C69F9
+P 1850 10050
+F 0 "C?" H 1965 10095 60  0000 L CNN
+F 1 "C_10u_0402" H 1850 9900 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2050 10250 60  0001 L CNN
+F 3 "" H 1850 10050 50  0001 C CNN
+F 4 "YAGEO" H 2050 10450 60  0001 L CNN "Manufacturer"
+F 5 "CC0402MRX5R5BB106" H 2050 10350 60  0001 L CNN "MPN"
+F 6 "10u" H 1965 9997 50  0000 L CNN "Val"
+	1    1850 10050
+	1    0    0    -1  
+$EndComp
+Text Notes 3650 9050 0    50   ~ 0
+Inductor value differs from datasheet.\nIt is calculated and works.
+$Comp
+L sc606-baseboard:VCC #PWR?
+U 1 1 620D943B
+P 1250 5200
+F 0 "#PWR?" H 1250 5050 50  0001 C CNN
+F 1 "VCC" H 1250 5350 50  0000 C CNN
+F 2 "" H 1250 5200 50  0001 C CNN
+F 3 "" H 1250 5200 50  0001 C CNN
+	1    1250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc606-baseboard:GND #PWR?
+U 1 1 620D98F4
+P 1250 6100
+F 0 "#PWR?" H 1250 5850 50  0001 C CNN
+F 1 "GND" H 1250 5950 50  0000 C CNN
+F 2 "" H 1250 6100 50  0001 C CNN
+F 3 "" H 1250 6100 50  0001 C CNN
+	1    1250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_1M0_0402 R?
+U 1 1 620DF4A0
+P 1250 5350
+F 0 "R?" V 1205 5420 60  0000 L CNN
+F 1 "R_1M0_0402" H 1250 5200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1450 5550 60  0001 L CNN
+F 3 "" H 1250 5350 50  0001 C CNN
+F 4 "TE CONNECTIVITY" H 1450 5750 60  0001 L CNN "Manufacturer"
+F 5 "CRG0402F1M0" H 1450 5650 60  0001 L CNN "MPN"
+F 6 "1M0" V 1303 5420 50  0000 L CNN "Val"
+	1    1250 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_140k_0402 R?
+U 1 1 620E03B8
+P 1250 5950
+F 0 "R?" V 1205 6020 60  0000 L CNN
+F 1 "R_140k_0402" H 1250 5800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1450 6150 60  0001 L CNN
+F 3 "" H 1250 5950 50  0001 C CNN
+F 4 "Yageo" H 1450 6350 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07140KL" H 1450 6250 60  0001 L CNN "MPN"
+F 6 "140k" V 1303 6020 50  0000 L CNN "Val"
+	1    1250 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 5650 2600 5650
+Wire Wire Line
+	1250 5500 1250 5800
+$Comp
+L sc606-baseboard:V8PM45-M3_H D?
+U 1 1 621043D7
+P 12100 2450
+F 0 "D?" H 12100 2712 60  0000 C CNN
+F 1 "V8PM45-M3_H" H 12100 2606 60  0000 C CNN
+F 2 "sc606-baseboard-footprints:TO-277A" H 12300 2650 60  0001 L CNN
+F 3 "https://pl.mouser.com/datasheet/2/427/VISH_S_A0006899224_1-2570035.pdf" H 12300 2750 60  0001 L CNN
+F 4 "V8PM45-M3/H" H 12300 2950 60  0001 L CNN "MPN"
+F 5 "VISHAY" H 12300 3550 60  0001 L CNN "Manufacturer"
+	1    12100 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 2450 11600 2450
 $EndSCHEMATC
