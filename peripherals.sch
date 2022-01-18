@@ -1533,17 +1533,6 @@ Wire Wire Line
 	8100 6650 8100 6950
 Wire Wire Line
 	8100 7900 8100 8200
-$Comp
-L Connector:TestPoint TP?
-U 1 1 62632FB3
-P 2250 1650
-F 0 "TP?" V 2250 1900 50  0000 C CNN
-F 1 "TestPoint" V 2354 1722 50  0001 C CNN
-F 2 "" H 2450 1650 50  0001 C CNN
-F 3 "~" H 2450 1650 50  0001 C CNN
-	1    2250 1650
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8950 6250 8950 6050
 $Comp
@@ -1652,6 +1641,17 @@ F 5 "EMIF06-MSD02N16" H 2700 1200 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Connection ~ 3300 1650
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 629ACBDB
+P 2150 1650
+F 0 "TP?" V 2150 1600 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 2150 1550 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 2350 1850 60  0001 L CNN
+F 3 "" H 2350 1950 60  0001 L CNN
+	1    2150 1650
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	700  1450 700  2150
 $EndSCHEMATC

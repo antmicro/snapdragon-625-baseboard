@@ -1118,50 +1118,6 @@ Wire Wire Line
 	1300 1750 1650 1750
 Wire Wire Line
 	1300 2050 1650 2050
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61E64647
-P 6800 2100
-F 0 "TP?" V 6850 2350 50  0000 C CNN
-F 1 "TestPoint" V 6904 2172 50  0001 C CNN
-F 2 "" H 7000 2100 50  0001 C CNN
-F 3 "~" H 7000 2100 50  0001 C CNN
-	1    6800 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61E65D02
-P 6800 2200
-F 0 "TP?" V 6850 2450 50  0000 C CNN
-F 1 "TestPoint" V 6904 2272 50  0001 C CNN
-F 2 "" H 7000 2200 50  0001 C CNN
-F 3 "~" H 7000 2200 50  0001 C CNN
-	1    6800 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61E674A5
-P 9600 1700
-F 0 "TP?" V 9650 1950 50  0000 C CNN
-F 1 "TestPoint" V 9704 1772 50  0001 C CNN
-F 2 "" H 9800 1700 50  0001 C CNN
-F 3 "~" H 9800 1700 50  0001 C CNN
-	1    9600 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61E674AB
-P 9600 1600
-F 0 "TP?" V 9650 1850 50  0000 C CNN
-F 1 "TestPoint" V 9704 1672 50  0001 C CNN
-F 2 "" H 9800 1600 50  0001 C CNN
-F 3 "~" H 9800 1600 50  0001 C CNN
-	1    9600 1600
-	0    1    1    0   
-$EndComp
 Text GLabel 6550 1800 0    50   Input ~ 0
 LDO6_1P8
 $Comp
@@ -1231,72 +1187,6 @@ Wire Wire Line
 	7200 1300 7200 1700
 Wire Wire Line
 	7200 1700 7400 1700
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61F16A51
-P 8850 5400
-F 0 "TP?" V 8900 5650 50  0000 C CNN
-F 1 "TestPoint" V 8954 5472 50  0001 C CNN
-F 2 "" H 9050 5400 50  0001 C CNN
-F 3 "~" H 9050 5400 50  0001 C CNN
-	1    8850 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61F16A57
-P 8850 5500
-F 0 "TP?" V 8900 5750 50  0000 C CNN
-F 1 "TestPoint" V 8954 5572 50  0001 C CNN
-F 2 "" H 9050 5500 50  0001 C CNN
-F 3 "~" H 9050 5500 50  0001 C CNN
-	1    8850 5500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61F218E5
-P 8850 5300
-F 0 "TP?" V 8900 5550 50  0000 C CNN
-F 1 "TestPoint" V 8954 5372 50  0001 C CNN
-F 2 "" H 9050 5300 50  0001 C CNN
-F 3 "~" H 9050 5300 50  0001 C CNN
-	1    8850 5300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61F218DF
-P 8850 5200
-F 0 "TP?" V 8900 5450 50  0000 C CNN
-F 1 "TestPoint" V 8954 5272 50  0001 C CNN
-F 2 "" H 9050 5200 50  0001 C CNN
-F 3 "~" H 9050 5200 50  0001 C CNN
-	1    8850 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61F2E4E8
-P 8850 5000
-F 0 "TP?" V 8900 5250 50  0000 C CNN
-F 1 "TestPoint" V 8954 5072 50  0001 C CNN
-F 2 "" H 9050 5000 50  0001 C CNN
-F 3 "~" H 9050 5000 50  0001 C CNN
-	1    8850 5000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61F2E4EE
-P 8850 5100
-F 0 "TP?" V 8900 5350 50  0000 C CNN
-F 1 "TestPoint" V 8954 5172 50  0001 C CNN
-F 2 "" H 9050 5100 50  0001 C CNN
-F 3 "~" H 9050 5100 50  0001 C CNN
-	1    8850 5100
-	0    -1   -1   0   
-$EndComp
 Text GLabel 8400 4300 0    50   Input ~ 0
 CAM_RST
 Wire Wire Line
@@ -1309,6 +1199,98 @@ Wire Wire Line
 	8400 4400 8850 4400
 Wire Wire Line
 	8850 4500 8400 4500
+Text GLabel 2800 3350 0    50   Input ~ 0
+USB_D_P
+Text GLabel 2800 3450 0    50   Input ~ 0
+USB_D_N
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 629CED8C
+P 8750 5500
+F 0 "TP?" V 8750 5400 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 8750 5400 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8950 5700 60  0001 L CNN
+F 3 "" H 8950 5800 60  0001 L CNN
+	1    8750 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 629CF8B7
+P 8750 5200
+F 0 "TP?" V 8750 5100 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 8750 5100 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8950 5400 60  0001 L CNN
+F 3 "" H 8950 5500 60  0001 L CNN
+	1    8750 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 629D5152
+P 8750 5300
+F 0 "TP?" V 8750 5200 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 8750 5200 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8950 5500 60  0001 L CNN
+F 3 "" H 8950 5600 60  0001 L CNN
+	1    8750 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 629DAAF2
+P 8750 5400
+F 0 "TP?" V 8750 5300 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 8750 5300 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8950 5600 60  0001 L CNN
+F 3 "" H 8950 5700 60  0001 L CNN
+	1    8750 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 629E615E
+P 6700 2200
+F 0 "TP?" V 6700 2100 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 6700 2100 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6900 2400 60  0001 L CNN
+F 3 "" H 6900 2500 60  0001 L CNN
+	1    6700 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 629F6108
+P 6700 2100
+F 0 "TP?" V 6700 2000 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 6700 2000 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6900 2300 60  0001 L CNN
+F 3 "" H 6900 2400 60  0001 L CNN
+	1    6700 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 629FCB71
+P 9700 1600
+F 0 "TP?" V 9700 1500 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 9700 1500 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 9900 1800 60  0001 L CNN
+F 3 "" H 9900 1900 60  0001 L CNN
+	1    9700 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 629FCB77
+P 9700 1700
+F 0 "TP?" V 9700 1600 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 9700 1600 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 9900 1900 60  0001 L CNN
+F 3 "" H 9900 2000 60  0001 L CNN
+	1    9700 1700
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line
