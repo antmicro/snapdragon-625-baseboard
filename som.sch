@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date "2022-01-04"
 Rev "1.0.0"
@@ -1301,6 +1301,14 @@ Text GLabel 8400 4300 0    50   Input ~ 0
 CAM_RST
 Wire Wire Line
 	8400 4300 8850 4300
+Text GLabel 8400 4400 0    50   Input ~ 0
+USR_LED1
+Text GLabel 8400 4500 0    50   Input ~ 0
+USR_LED2
+Wire Wire Line
+	8400 4400 8850 4400
+Wire Wire Line
+	8850 4500 8400 4500
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line
