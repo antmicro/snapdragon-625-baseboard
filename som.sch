@@ -1293,6 +1293,10 @@ F 3 "" H 9900 2000 60  0001 L CNN
 $EndComp
 Text GLabel 2800 3250 0    50   Input ~ 0
 USB_FLASH_ID
+Text GLabel 9600 1900 2    50   Input ~ 0
+DEBUG_UART_RX
+Text GLabel 9600 1800 2    50   Input ~ 0
+DEBUG_UART_TX
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line

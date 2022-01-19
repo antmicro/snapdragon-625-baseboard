@@ -16,31 +16,31 @@ $EndDescr
 Text Notes 600  700  0    79   ~ 16
 SC606T Baseboard
 $Sheet
-S 5000 6000 1000 1000
+S 5500 6000 1000 1000
 U 61D43102
 F0 "SoM" 50
 F1 "som.sch" 50
 $EndSheet
 $Sheet
-S 6500 6000 1000 1000
+S 7000 6000 1000 1000
 U 61D49F54
 F0 "power supply" 50
 F1 "power_supply.sch" 50
 $EndSheet
 $Sheet
-S 8000 6000 1000 1000
+S 8500 6000 1000 1000
 U 61D49F95
 F0 "cameras module" 50
 F1 "cameras_module.sch" 50
 $EndSheet
 $Sheet
-S 9500 6000 1000 1000
+S 10000 6000 1000 1000
 U 61D49FBF
 F0 "display module" 50
 F1 "display_module.sch" 50
 $EndSheet
 $Sheet
-S 11000 6000 1000 1000
+S 7000 7500 1000 1000
 U 61D49FDE
 F0 "peripherals" 50
 F1 "peripherals.sch" 50
@@ -1225,7 +1225,7 @@ ED 0E BB 07 00 00 00 E0 36 E3 19 4A 00 00 00 20 5E 64 6E 00 00 00 20 5E 64 6E 00
 EndData
 $EndBitmap
 $Sheet
-S 5000 7500 1000 1000
+S 5500 7500 1000 1000
 U 61F60810
 F0 "USB" 50
 F1 "USB.sch" 50
