@@ -1291,6 +1291,8 @@ F 3 "" H 9900 2000 60  0001 L CNN
 	1    9700 1700
 	0    -1   -1   0   
 $EndComp
+Text GLabel 2800 3250 0    50   Input ~ 0
+USB_FLASH_ID
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line
