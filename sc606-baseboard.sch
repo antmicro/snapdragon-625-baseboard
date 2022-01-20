@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date "2022-01-04"
 Rev "1.0.0"
@@ -1227,7 +1227,13 @@ $EndBitmap
 $Sheet
 S 5500 7500 1000 1000
 U 61F60810
-F0 "USB" 50
-F1 "USB.sch" 50
+F0 "USB_flash_debug" 50
+F1 "USB_flash_debug.sch" 50
+$EndSheet
+$Sheet
+S 8500 7500 1000 1000
+U 63348E64
+F0 "USB_HUB_Connectors" 50
+F1 "USB_HUB_Connectors.sch" 50
 $EndSheet
 $EndSCHEMATC
