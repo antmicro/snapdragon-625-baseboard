@@ -4,6 +4,10 @@ $CMP 74LVC1G123GN
 F https://assets.nexperia.com/documents/data-sheet/74LVC1G123_Q100.pdf
 $ENDCMP
 #
+$CMP PESD5V0C2BDFZ
+F https://www.mouser.pl/datasheet/2/916/PESD5V0C2BDF-2585445.pdf
+$ENDCMP
+#
 $CMP TPD13S523PWR
 F https://www.ti.com/lit/ds/symlink/tpd13s523.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1642494532421&ref_url=https%253A%252F%252Fwww.mouser.pl%252F
 $ENDCMP

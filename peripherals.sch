@@ -1296,14 +1296,14 @@ Wire Wire Line
 Text Notes 7800 4400 0    100  ~ 20
 SYSTEM BUTTONS AND LEDs
 $Comp
-L antmicroResistors0402:R_470R_0402 R?
+L sc606-baseboard:R_470R_0402 R?
 U 1 1 620AE869
 P 8950 5200
 AR Path="/61D43102/620AE869" Ref="R?"  Part="1" 
 AR Path="/61D49FDE/620AE869" Ref="R?"  Part="1" 
 F 0 "R?" V 8905 5270 60  0000 L CNN
 F 1 "R_470R_0402" H 8950 5050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9150 5400 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 9150 5400 60  0001 L CNN
 F 3 "" H 8950 5200 50  0001 C CNN
 F 4 "VISHAY" H 9150 5600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED" H 9150 5500 60  0001 L CNN "MPN"
@@ -1314,14 +1314,14 @@ $EndComp
 Wire Wire Line
 	8950 5050 8950 4850
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608EC D?
+L sc606-baseboard:KP-1608EC D?
 U 1 1 620AE872
 P 8950 5550
 AR Path="/61D43102/620AE872" Ref="D?"  Part="1" 
 AR Path="/61D49FDE/620AE872" Ref="D?"  Part="1" 
 F 0 "D?" V 8847 5728 60  0000 L CNN
 F 1 "KP-1608EC" V 8953 5728 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 9150 5750 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:LED_0603" H 9150 5750 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 9150 5850 60  0001 L CNN
 F 4 "KP-1608EC" H 9150 6050 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 9160 6170 60  0001 L CNN "Manufacturer"
@@ -1331,7 +1331,7 @@ $EndComp
 Text GLabel 8950 4850 0    50   Input ~ 0
 5V0_SYS
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 620AE891
 P 8950 5650
 AR Path="/61D43102/620AE891" Ref="#PWR?"  Part="1" 
@@ -1346,14 +1346,14 @@ $EndComp
 Wire Wire Line
 	9950 5050 9950 4850
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608EC D?
+L sc606-baseboard:KP-1608EC D?
 U 1 1 620AE89A
 P 9950 5550
 AR Path="/61D43102/620AE89A" Ref="D?"  Part="1" 
 AR Path="/61D49FDE/620AE89A" Ref="D?"  Part="1" 
 F 0 "D?" V 9847 5728 60  0000 L CNN
 F 1 "KP-1608EC" V 9953 5728 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 10150 5750 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:LED_0603" H 10150 5750 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 10150 5850 60  0001 L CNN
 F 4 "KP-1608EC" H 10150 6050 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 10160 6170 60  0001 L CNN "Manufacturer"
@@ -1363,7 +1363,7 @@ $EndComp
 Text GLabel 9950 4850 0    50   Input ~ 0
 3V3_SYS
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 620AE8A1
 P 9950 5650
 AR Path="/61D43102/620AE8A1" Ref="#PWR?"  Part="1" 
@@ -1378,14 +1378,14 @@ $EndComp
 Wire Wire Line
 	10950 5050 10950 4850
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608EC D?
+L sc606-baseboard:KP-1608EC D?
 U 1 1 620AE8AA
 P 10950 5550
 AR Path="/61D43102/620AE8AA" Ref="D?"  Part="1" 
 AR Path="/61D49FDE/620AE8AA" Ref="D?"  Part="1" 
 F 0 "D?" V 10847 5728 60  0000 L CNN
 F 1 "KP-1608EC" V 10953 5728 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 11150 5750 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:LED_0603" H 11150 5750 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 11150 5850 60  0001 L CNN
 F 4 "KP-1608EC" H 11150 6050 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 11160 6170 60  0001 L CNN "Manufacturer"
@@ -1395,7 +1395,7 @@ $EndComp
 Text GLabel 10950 4850 0    50   Input ~ 0
 3V3_CAM
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 620AE8B1
 P 10950 5650
 AR Path="/61D43102/620AE8B1" Ref="#PWR?"  Part="1" 
@@ -1408,14 +1408,14 @@ F 3 "" H 10950 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R?
+L sc606-baseboard:R_330R_0402 R?
 U 1 1 620AE8BA
 P 9950 5200
 AR Path="/61D43102/620AE8BA" Ref="R?"  Part="1" 
 AR Path="/61D49FDE/620AE8BA" Ref="R?"  Part="1" 
 F 0 "R?" V 9905 5270 60  0000 L CNN
 F 1 "R_330R_0402" H 9950 5050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10150 5400 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 10150 5400 60  0001 L CNN
 F 3 "" H 9950 5200 50  0001 C CNN
 F 4 "MULTICOMP" H 10150 5600 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 10150 5500 60  0001 L CNN "MPN"
@@ -1424,14 +1424,14 @@ F 6 "330R" V 10003 5270 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R?
+L sc606-baseboard:R_330R_0402 R?
 U 1 1 620AE8C3
 P 10950 5200
 AR Path="/61D43102/620AE8C3" Ref="R?"  Part="1" 
 AR Path="/61D49FDE/620AE8C3" Ref="R?"  Part="1" 
 F 0 "R?" V 10905 5270 60  0000 L CNN
 F 1 "R_330R_0402" H 10950 5050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11150 5400 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 11150 5400 60  0001 L CNN
 F 3 "" H 10950 5200 50  0001 C CNN
 F 4 "MULTICOMP" H 11150 5600 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 11150 5500 60  0001 L CNN "MPN"
@@ -1457,14 +1457,14 @@ Wire Wire Line
 Wire Wire Line
 	8950 6250 8950 6050
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608EC D?
+L sc606-baseboard:KP-1608EC D?
 U 1 1 61EF0510
 P 8950 6750
 AR Path="/61D43102/61EF0510" Ref="D?"  Part="1" 
 AR Path="/61D49FDE/61EF0510" Ref="D?"  Part="1" 
 F 0 "D?" V 8847 6928 60  0000 L CNN
 F 1 "KP-1608EC" V 8953 6928 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 9150 6950 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:LED_0603" H 9150 6950 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 9150 7050 60  0001 L CNN
 F 4 "KP-1608EC" H 9150 7250 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 9160 7370 60  0001 L CNN "Manufacturer"
@@ -1474,7 +1474,7 @@ $EndComp
 Text GLabel 8950 6050 0    50   Input ~ 0
 USR_LED1
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 61EF0517
 P 8950 6850
 AR Path="/61D43102/61EF0517" Ref="#PWR?"  Part="1" 
@@ -1489,14 +1489,14 @@ $EndComp
 Wire Wire Line
 	9950 6250 9950 6050
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608EC D?
+L sc606-baseboard:KP-1608EC D?
 U 1 1 61EF0520
 P 9950 6750
 AR Path="/61D43102/61EF0520" Ref="D?"  Part="1" 
 AR Path="/61D49FDE/61EF0520" Ref="D?"  Part="1" 
 F 0 "D?" V 9847 6928 60  0000 L CNN
 F 1 "KP-1608EC" V 9953 6928 60  0000 L CNN
-F 2 "antmicro-footprints:LED_0603" H 10150 6950 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:LED_0603" H 10150 6950 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 10150 7050 60  0001 L CNN
 F 4 "KP-1608EC" H 10150 7250 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 10160 7370 60  0001 L CNN "Manufacturer"
@@ -1506,7 +1506,7 @@ $EndComp
 Text GLabel 9950 6050 0    50   Input ~ 0
 USR_LED2
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 61EF0527
 P 9950 6850
 AR Path="/61D43102/61EF0527" Ref="#PWR?"  Part="1" 
@@ -1519,12 +1519,12 @@ F 3 "" H 9950 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_150R_0402 R?
+L sc606-baseboard:R_150R_0402 R?
 U 1 1 61F4C270
 P 9950 6400
 F 0 "R?" V 9905 6470 60  0000 L CNN
 F 1 "R_150R_0402" H 9950 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10150 6600 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 10150 6600 60  0001 L CNN
 F 3 "" H 9950 6400 50  0001 C CNN
 F 4 "VISHAY" H 10150 6800 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402150RFKED" H 10150 6700 60  0001 L CNN "MPN"
@@ -1533,12 +1533,12 @@ F 6 "150R" V 10003 6470 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_150R_0402 R?
+L sc606-baseboard:R_150R_0402 R?
 U 1 1 61F4C7FA
 P 8950 6400
 F 0 "R?" V 8905 6470 60  0000 L CNN
 F 1 "R_150R_0402" H 8950 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9150 6600 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 9150 6600 60  0001 L CNN
 F 3 "" H 8950 6400 50  0001 C CNN
 F 4 "VISHAY" H 9150 6800 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402150RFKED" H 9150 6700 60  0001 L CNN "MPN"
@@ -1563,12 +1563,12 @@ F 5 "EMIF06-MSD02N16" H 2700 1200 50  0001 C CNN "MPN"
 $EndComp
 Connection ~ 3300 1650
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP?
+L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629ACBDB
 P 2150 1650
 F 0 "TP?" V 2150 1600 50  0000 R CNN
 F 1 "TP_SMD_0_75MM" H 2150 1550 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 2350 1850 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 2350 1850 60  0001 L CNN
 F 3 "" H 2350 1950 60  0001 L CNN
 	1    2150 1650
 	0    1    1    0   

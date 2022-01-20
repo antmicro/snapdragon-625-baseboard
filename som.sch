@@ -1095,12 +1095,12 @@ Wire Wire Line
 Wire Wire Line
 	8850 4200 8400 4200
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L sc606-baseboard:C_1u_0402 C?
 U 1 1 61E5A12B
 P 1300 1900
 F 0 "C?" H 1415 1945 60  0000 L CNN
 F 1 "C_1u_0402" H 1300 1750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1500 2100 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 1500 2100 60  0001 L CNN
 F 3 "" H 1300 1900 50  0001 C CNN
 F 4 "TDK" H 1500 2300 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 1500 2200 60  0001 L CNN "MPN"
@@ -1200,99 +1200,99 @@ Wire Wire Line
 Wire Wire Line
 	8850 4500 8400 4500
 Text GLabel 2800 3350 0    50   Input ~ 0
-USB_D_P
+SoM_USB_D_P
 Text GLabel 2800 3450 0    50   Input ~ 0
-USB_D_N
+SoM_USB_D_N
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP?
+L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629CED8C
 P 8750 5500
 F 0 "TP?" V 8750 5400 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 8750 5400 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8950 5700 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 8950 5700 60  0001 L CNN
 F 3 "" H 8950 5800 60  0001 L CNN
 	1    8750 5500
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP?
+L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629CF8B7
 P 8750 5200
 F 0 "TP?" V 8750 5100 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 8750 5100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8950 5400 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 8950 5400 60  0001 L CNN
 F 3 "" H 8950 5500 60  0001 L CNN
 	1    8750 5200
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP?
+L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629D5152
 P 8750 5300
 F 0 "TP?" V 8750 5200 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 8750 5200 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8950 5500 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 8950 5500 60  0001 L CNN
 F 3 "" H 8950 5600 60  0001 L CNN
 	1    8750 5300
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP?
+L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629DAAF2
 P 8750 5400
 F 0 "TP?" V 8750 5300 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 8750 5300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 8950 5600 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 8950 5600 60  0001 L CNN
 F 3 "" H 8950 5700 60  0001 L CNN
 	1    8750 5400
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP?
+L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629E615E
 P 6700 2200
 F 0 "TP?" V 6700 2100 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 6700 2100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6900 2400 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 6900 2400 60  0001 L CNN
 F 3 "" H 6900 2500 60  0001 L CNN
 	1    6700 2200
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP?
+L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629F6108
 P 6700 2100
 F 0 "TP?" V 6700 2000 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 6700 2000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6900 2300 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 6900 2300 60  0001 L CNN
 F 3 "" H 6900 2400 60  0001 L CNN
 	1    6700 2100
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP?
+L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629FCB71
 P 9700 1600
 F 0 "TP?" V 9700 1500 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 9700 1500 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 9900 1800 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 9900 1800 60  0001 L CNN
 F 3 "" H 9900 1900 60  0001 L CNN
 	1    9700 1600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP?
+L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629FCB77
 P 9700 1700
 F 0 "TP?" V 9700 1600 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 9700 1600 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 9900 1900 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 9900 1900 60  0001 L CNN
 F 3 "" H 9900 2000 60  0001 L CNN
 	1    9700 1700
 	0    -1   -1   0   
 $EndComp
 Text GLabel 2800 3250 0    50   Input ~ 0
-USB_FLASH_ID
+SoM_USB_FLASH_ID
 Text GLabel 9600 1900 2    50   Input ~ 0
 DEBUG_UART_RX
 Text GLabel 9600 1800 2    50   Input ~ 0

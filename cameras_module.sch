@@ -736,12 +736,12 @@ F 5 "NXP Semiconductors" H 3700 9174 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L sc606-baseboard:R_10k_0402 R?
 U 1 1 62145419
 P 4200 3350
 F 0 "R?" V 4155 3420 60  0000 L CNN
 F 1 "R_10k_0402" H 4200 3200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4400 3550 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 4400 3550 60  0001 L CNN
 F 3 "" H 4200 3350 50  0001 C CNN
 F 4 "VISHAY" H 4400 3750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4400 3650 60  0001 L CNN "MPN"
@@ -761,12 +761,12 @@ Connection ~ 4000 3100
 Wire Wire Line
 	4000 3100 4000 3400
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L sc606-baseboard:C_100n_0402 C?
 U 1 1 6214EFB5
 P 4450 8300
 F 0 "C?" H 4565 8345 60  0000 L CNN
 F 1 "C_100n_0402" H 4450 8150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4650 8500 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 4650 8500 60  0001 L CNN
 F 3 "" H 4450 8300 50  0001 C CNN
 F 4 "Murata" H 4650 8700 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 4650 8600 60  0001 L CNN "MPN"
@@ -775,12 +775,12 @@ F 6 "100n" H 4565 8247 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L sc606-baseboard:C_100n_0402 C?
 U 1 1 6214F58A
 P 1900 8250
 F 0 "C?" H 2015 8295 60  0000 L CNN
 F 1 "C_100n_0402" H 1900 8100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2100 8450 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 2100 8450 60  0001 L CNN
 F 3 "" H 1900 8250 50  0001 C CNN
 F 4 "Murata" H 2100 8650 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 2100 8550 60  0001 L CNN "MPN"
