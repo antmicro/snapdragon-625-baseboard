@@ -1272,31 +1272,49 @@ $EndComp
 $Comp
 L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629FCB71
-P 9700 1600
-F 0 "TP?" V 9700 1500 50  0000 C CNN
-F 1 "TP_SMD_0_75MM" H 9700 1500 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 9900 1800 60  0001 L CNN
-F 3 "" H 9900 1900 60  0001 L CNN
-	1    9700 1600
+P 9700 1800
+F 0 "TP?" V 9700 1700 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 9700 1700 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 9900 2000 60  0001 L CNN
+F 3 "" H 9900 2100 60  0001 L CNN
+	1    9700 1800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L sc606-baseboard:TP_SMD_0_75MM TP?
 U 1 1 629FCB77
-P 9700 1700
-F 0 "TP?" V 9700 1600 50  0000 C CNN
-F 1 "TP_SMD_0_75MM" H 9700 1600 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 9900 1900 60  0001 L CNN
-F 3 "" H 9900 2000 60  0001 L CNN
-	1    9700 1700
+P 9700 1900
+F 0 "TP?" V 9700 1800 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 9700 1800 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 9900 2100 60  0001 L CNN
+F 3 "" H 9900 2200 60  0001 L CNN
+	1    9700 1900
 	0    -1   -1   0   
 $EndComp
 Text GLabel 2800 3250 0    50   Input ~ 0
 SoM_USB_FLASH_ID
-Text GLabel 9600 1900 2    50   Input ~ 0
+Text GLabel 9600 1700 2    50   Input ~ 0
 DEBUG_UART_RX
-Text GLabel 9600 1800 2    50   Input ~ 0
+Text GLabel 9600 1600 2    50   Input ~ 0
 DEBUG_UART_TX
+Text GLabel 9600 2200 2    50   Input ~ 0
+SoM_USB3_TX_P
+Text GLabel 9600 2300 2    50   Input ~ 0
+SoM_USB3_TX_N
+Text GLabel 9600 2000 2    50   Input ~ 0
+SoM_USB3_RX_P
+Text GLabel 9600 2100 2    50   Input ~ 0
+SoM_USB3_RX_N
+NoConn ~ 9600 2400
+NoConn ~ 9600 2500
+NoConn ~ 9600 2600
+NoConn ~ 9600 2700
+NoConn ~ 2800 6050
+NoConn ~ 8850 5700
+NoConn ~ 8850 5800
+NoConn ~ 2800 2050
+NoConn ~ 2800 2150
+NoConn ~ 2800 2250
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line

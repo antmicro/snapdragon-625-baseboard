@@ -1159,12 +1159,12 @@ Text Label 6100 8400 2    50   ~ 0
 Text Label 4000 6550 2    50   ~ 0
 5V0_DBG
 $Comp
-L antmicroCapacitors0402:C_2u2_0402 C?
+L sc606-baseboard:C_2u2_0402 C?
 U 1 1 61FA0F2B
 P 4150 6700
 F 0 "C?" H 4265 6745 60  0000 L CNN
 F 1 "C_2u2_0402" H 4150 6550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4350 6900 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 4350 6900 60  0001 L CNN
 F 3 "" H 4150 6700 50  0001 C CNN
 F 4 "TDK" H 4350 7100 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 4350 7000 60  0001 L CNN "MPN"
@@ -1173,12 +1173,12 @@ F 6 "2u2" H 4265 6647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L sc606-baseboard:C_1u_0402 C?
 U 1 1 61FA1789
 P 5750 6700
 F 0 "C?" H 5865 6745 60  0000 L CNN
 F 1 "C_1u_0402" H 5750 6550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5950 6900 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 5950 6900 60  0001 L CNN
 F 3 "" H 5750 6700 50  0001 C CNN
 F 4 "TDK" H 5950 7100 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 5950 7000 60  0001 L CNN "MPN"
@@ -1187,12 +1187,12 @@ F 6 "1u" H 5865 6647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPMICVoltageRegulatorsLinear:TPS7A0518PDBVT IC?
+L sc606-baseboard:TPS7A0518PDBVT IC?
 U 1 1 61FA2014
 P 5000 6600
 F 0 "IC?" H 5000 7081 50  0000 C CNN
 F 1 "TPS7A0518PDBVT" H 5000 6998 39  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-5" H 5000 6350 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:SOT-23-5" H 5000 6350 50  0001 C CNN
 F 3 "" H 5000 6600 50  0001 C CNN
 F 4 "TPS7A0518PDBVT" H 5000 6915 50  0000 C CNN "MPN"
 F 5 "Texas Instruments" H 5000 6824 50  0000 C CNN "Manufacturer"
@@ -1221,7 +1221,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 6550 5750 6550
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 61FD04EC
 P 5750 6850
 F 0 "#PWR?" H 5750 6600 50  0001 C CNN
@@ -1233,7 +1233,7 @@ F 3 "" H 5750 6850 50  0001 C CNN
 $EndComp
 Connection ~ 5750 6850
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 61FD0C36
 P 4150 6850
 F 0 "#PWR?" H 4150 6600 50  0001 C CNN
@@ -1280,12 +1280,12 @@ Connection ~ 4450 8400
 Wire Wire Line
 	4450 8400 5250 8400
 $Comp
-L antmicroCapacitors0402:C_47p_0402 C?
+L sc606-baseboard:C_47p_0402 C?
 U 1 1 61FF8CD9
 P 4500 10000
 F 0 "C?" H 4550 10100 60  0000 L CNN
 F 1 "C_47p_0402" H 4500 9850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4700 10200 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 4700 10200 60  0001 L CNN
 F 3 "" H 4500 10000 50  0001 C CNN
 F 4 "KEMET" H 4700 10400 60  0001 L CNN "Manufacturer"
 F 5 "C0402C470J5GACTU" H 4700 10300 60  0001 L CNN "MPN"
@@ -1294,12 +1294,12 @@ F 6 "47p" H 4550 9900 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_47p_0402 C?
+L sc606-baseboard:C_47p_0402 C?
 U 1 1 61FF90E8
 P 4250 10000
 F 0 "C?" H 4300 10100 60  0000 L CNN
 F 1 "C_47p_0402" H 4250 9850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4450 10200 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 4450 10200 60  0001 L CNN
 F 3 "" H 4250 10000 50  0001 C CNN
 F 4 "KEMET" H 4450 10400 60  0001 L CNN "Manufacturer"
 F 5 "C0402C470J5GACTU" H 4450 10300 60  0001 L CNN "MPN"
@@ -1468,12 +1468,12 @@ DBG_VBUS
 Text Label 3000 9000 0    50   ~ 0
 DBG_VBUS
 $Comp
-L antmicroFerriteBeadsandChips:BLM18EG221SN1D FB?
+L sc606-baseboard:BLM18EG221SN1D FB?
 U 1 1 622B828F
 P 2350 7400
 F 0 "FB?" H 2350 7687 60  0000 C CNN
 F 1 "BLM18EG221SN1D" H 2350 7581 60  0000 C CNN
-F 2 "antmicro-footprints:0603" H 2550 7600 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0603" H 2550 7600 60  0001 L CNN
 F 3 "" H 2550 7700 60  0001 L CNN
 F 4 "BLM18EG221SN1D" H 2550 7900 60  0001 L CNN "MPN"
 F 5 "Murata" H 2550 8500 60  0001 L CNN "Manufacturer"
@@ -1590,12 +1590,12 @@ USB_HUB_P
 Text Label 8850 2350 2    50   ~ 0
 USB_HUB_N
 $Comp
-L antmicroInterfaceControllers:USB57442G U?
+L sc606-baseboard:USB57442G U?
 U 1 1 628E4FAA
 P 11150 3050
 F 0 "U?" H 11150 4720 50  0000 C CNN
 F 1 "USB57442G" H 11150 4629 50  0000 C CNN
-F 2 "antmicro-footprints:QFN40P700X700X100-57N" H 11150 3050 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:QFN40P700X700X100-57N" H 11150 3050 50  0001 C CNN
 F 3 "https://www.snapeda.com/parts/USB5744/2G/Microchip/datasheet/" H 11150 3050 50  0001 C CNN
 F 4 "USB5744" H 11150 4720 50  0001 C CNN "MPN"
 F 5 "MICROCHIP" H 11150 4629 50  0001 C CNN "Manufacturer"
@@ -1603,7 +1603,7 @@ F 5 "MICROCHIP" H 11150 4629 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 62905F3D
 P 12550 4650
 F 0 "#PWR?" H 12550 4400 50  0001 C CNN

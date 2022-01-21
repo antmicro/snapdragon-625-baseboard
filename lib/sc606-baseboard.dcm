@@ -4,6 +4,10 @@ $CMP 74LVC1G123GN
 F https://assets.nexperia.com/documents/data-sheet/74LVC1G123_Q100.pdf
 $ENDCMP
 #
+$CMP GSB3112311HR
+F https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_3_1_gen1_gsb31x_gsb32x.pdf
+$ENDCMP
+#
 $CMP PESD5V0C2BDFZ
 F https://www.mouser.pl/datasheet/2/916/PESD5V0C2BDF-2585445.pdf
 $ENDCMP

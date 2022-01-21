@@ -636,12 +636,12 @@ Text Label 13800 3150 2    50   ~ 0
 Text Label 11700 1300 2    50   ~ 0
 5V0_DBG
 $Comp
-L antmicroCapacitors0402:C_2u2_0402 C?
+L sc606-baseboard:C_2u2_0402 C?
 U 1 1 61FA0F2B
 P 11850 1450
 F 0 "C?" H 11965 1495 60  0000 L CNN
 F 1 "C_2u2_0402" H 11850 1300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 12050 1650 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 12050 1650 60  0001 L CNN
 F 3 "" H 11850 1450 50  0001 C CNN
 F 4 "TDK" H 12050 1850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 12050 1750 60  0001 L CNN "MPN"
@@ -650,12 +650,12 @@ F 6 "2u2" H 11965 1397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L sc606-baseboard:C_1u_0402 C?
 U 1 1 61FA1789
 P 13450 1450
 F 0 "C?" H 13565 1495 60  0000 L CNN
 F 1 "C_1u_0402" H 13450 1300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 13650 1650 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 13650 1650 60  0001 L CNN
 F 3 "" H 13450 1450 50  0001 C CNN
 F 4 "TDK" H 13650 1850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 13650 1750 60  0001 L CNN "MPN"
@@ -664,12 +664,12 @@ F 6 "1u" H 13565 1397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPMICVoltageRegulatorsLinear:TPS7A0518PDBVT IC?
+L sc606-baseboard:TPS7A0518PDBVT IC?
 U 1 1 61FA2014
 P 12700 1350
 F 0 "IC?" H 12700 1831 50  0000 C CNN
 F 1 "TPS7A0518PDBVT" H 12700 1748 39  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-5" H 12700 1100 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:SOT-23-5" H 12700 1100 50  0001 C CNN
 F 3 "" H 12700 1350 50  0001 C CNN
 F 4 "TPS7A0518PDBVT" H 12700 1665 50  0000 C CNN "MPN"
 F 5 "Texas Instruments" H 12700 1574 50  0000 C CNN "Manufacturer"
@@ -698,7 +698,7 @@ Wire Wire Line
 Wire Wire Line
 	13100 1300 13450 1300
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 61FD04EC
 P 13450 1600
 F 0 "#PWR?" H 13450 1350 50  0001 C CNN
@@ -710,7 +710,7 @@ F 3 "" H 13450 1600 50  0001 C CNN
 $EndComp
 Connection ~ 13450 1600
 $Comp
-L power:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 61FD0C36
 P 11850 1600
 F 0 "#PWR?" H 11850 1350 50  0001 C CNN
@@ -757,12 +757,12 @@ Connection ~ 12150 3150
 Wire Wire Line
 	12150 3150 12950 3150
 $Comp
-L antmicroCapacitors0402:C_47p_0402 C?
+L sc606-baseboard:C_47p_0402 C?
 U 1 1 61FF8CD9
 P 12200 4750
 F 0 "C?" H 12250 4850 60  0000 L CNN
 F 1 "C_47p_0402" H 12200 4600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 12400 4950 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 12400 4950 60  0001 L CNN
 F 3 "" H 12200 4750 50  0001 C CNN
 F 4 "KEMET" H 12400 5150 60  0001 L CNN "Manufacturer"
 F 5 "C0402C470J5GACTU" H 12400 5050 60  0001 L CNN "MPN"
@@ -771,12 +771,12 @@ F 6 "47p" H 12250 4650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_47p_0402 C?
+L sc606-baseboard:C_47p_0402 C?
 U 1 1 61FF90E8
 P 11950 4750
 F 0 "C?" H 12000 4850 60  0000 L CNN
 F 1 "C_47p_0402" H 11950 4600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 12150 4950 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 12150 4950 60  0001 L CNN
 F 3 "" H 11950 4750 50  0001 C CNN
 F 4 "KEMET" H 12150 5150 60  0001 L CNN "Manufacturer"
 F 5 "C0402C470J5GACTU" H 12150 5050 60  0001 L CNN "MPN"
@@ -945,12 +945,12 @@ DBG_VBUS
 Text Label 10700 3750 0    50   ~ 0
 DBG_VBUS
 $Comp
-L antmicroFerriteBeadsandChips:BLM18EG221SN1D FB?
+L sc606-baseboard:BLM18EG221SN1D FB?
 U 1 1 622B828F
 P 10050 2150
 F 0 "FB?" H 10050 2437 60  0000 C CNN
 F 1 "BLM18EG221SN1D" H 10050 2331 60  0000 C CNN
-F 2 "antmicro-footprints:0603" H 10250 2350 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0603" H 10250 2350 60  0001 L CNN
 F 3 "" H 10250 2450 60  0001 L CNN
 F 4 "BLM18EG221SN1D" H 10250 2650 60  0001 L CNN "MPN"
 F 5 "Murata" H 10250 3250 60  0001 L CNN "Manufacturer"
@@ -1024,10 +1024,6 @@ Text Label 4400 1950 2    50   ~ 0
 USB_FLASH_5V0
 Text Label 4750 3700 2    50   ~ 0
 USB_FLASH_5V0
-Text Label 1500 4150 2    50   ~ 0
-USB_HUB_P
-Text Label 1500 4550 2    50   ~ 0
-USB_HUB_N
 Text Label 1500 4950 2    50   ~ 0
 USB_FLASH_ENABLE
 Text Label 4750 4300 2    50   ~ 0
@@ -1047,4 +1043,8 @@ Connection ~ 14450 5400
 Connection ~ 12200 4900
 Wire Wire Line
 	12200 4900 12450 4900
+Text GLabel 1500 4550 0    50   Input ~ 0
+USB_HUB_P
+Text GLabel 1500 4150 0    50   Input ~ 0
+USB_HUB_N
 $EndSCHEMATC

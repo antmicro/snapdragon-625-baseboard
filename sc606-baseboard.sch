@@ -40,7 +40,7 @@ F0 "display module" 50
 F1 "display_module.sch" 50
 $EndSheet
 $Sheet
-S 7000 7500 1000 1000
+S 8500 7500 1000 1000
 U 61D49FDE
 F0 "peripherals" 50
 F1 "peripherals.sch" 50
@@ -1231,7 +1231,7 @@ F0 "USB_flash_debug" 50
 F1 "USB_flash_debug.sch" 50
 $EndSheet
 $Sheet
-S 8500 7500 1000 1000
+S 7000 7500 1000 1000
 U 63348E64
 F0 "USB_HUB_Connectors" 50
 F1 "USB_HUB_Connectors.sch" 50
