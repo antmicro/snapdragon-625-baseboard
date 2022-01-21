@@ -1236,4 +1236,56 @@ U 63348E64
 F0 "USB_HUB_Connectors" 50
 F1 "USB_HUB_Connectors.sch" 50
 $EndSheet
+$Comp
+L sc606-baseboard:PCB_Spacer_M2 MP1
+U 1 1 61EAB25E
+P 4500 5500
+F 0 "MP1" H 4708 5637 50  0000 L CNN
+F 1 "PCB_Spacer_M2" H 4708 5546 50  0000 L CNN
+F 2 "sc606-baseboard-footprints:9774030243R" H 5300 6200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 5450 6300 50  0001 C CNN
+F 4 "9774030243R" H 4708 5455 50  0000 L CNN "MPN"
+F 5 "Wurth Elektronik " H 4708 5364 50  0000 L CNN "Manufacturer"
+	1    4500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc606-baseboard:PCB_Spacer_M2 MP2
+U 1 1 61EAB616
+P 4500 9000
+F 0 "MP2" H 4708 9137 50  0000 L CNN
+F 1 "PCB_Spacer_M2" H 4708 9046 50  0000 L CNN
+F 2 "sc606-baseboard-footprints:9774030243R" H 5300 9700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 5450 9800 50  0001 C CNN
+F 4 "9774030243R" H 4708 8955 50  0000 L CNN "MPN"
+F 5 "Wurth Elektronik " H 4708 8864 50  0000 L CNN "Manufacturer"
+	1    4500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc606-baseboard:PCB_Spacer_M2 MP4
+U 1 1 61EABD8A
+P 11500 9000
+F 0 "MP4" H 11708 9137 50  0000 L CNN
+F 1 "PCB_Spacer_M2" H 11708 9046 50  0000 L CNN
+F 2 "sc606-baseboard-footprints:9774030243R" H 12300 9700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 12450 9800 50  0001 C CNN
+F 4 "9774030243R" H 11708 8955 50  0000 L CNN "MPN"
+F 5 "Wurth Elektronik " H 11708 8864 50  0000 L CNN "Manufacturer"
+	1    11500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc606-baseboard:PCB_Spacer_M2 MP3
+U 1 1 61EAC3DC
+P 11500 5500
+F 0 "MP3" H 11708 5637 50  0000 L CNN
+F 1 "PCB_Spacer_M2" H 11708 5546 50  0000 L CNN
+F 2 "sc606-baseboard-footprints:9774030243R" H 12300 6200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 12450 6300 50  0001 C CNN
+F 4 "9774030243R" H 11708 5455 50  0000 L CNN "MPN"
+F 5 "Wurth Elektronik " H 11708 5364 50  0000 L CNN "Manufacturer"
+	1    11500 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
