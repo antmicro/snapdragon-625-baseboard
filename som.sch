@@ -872,7 +872,6 @@ Text GLabel 5000 3350 2    50   Input ~ 0
 VOL_DOWN
 NoConn ~ 5000 2750
 NoConn ~ 5000 2650
-NoConn ~ 5000 2250
 NoConn ~ 5000 2450
 NoConn ~ 5000 2550
 NoConn ~ 5000 2150
@@ -1315,6 +1314,8 @@ NoConn ~ 8850 5800
 NoConn ~ 2800 2050
 NoConn ~ 2800 2150
 NoConn ~ 2800 2250
+Text GLabel 5000 2250 2    50   Input ~ 0
+ANT-WIFI
 Wire Bus Line
 	1750 4650 1750 5350
 Wire Bus Line
