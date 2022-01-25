@@ -292,19 +292,19 @@ Connection ~ 9200 3400
 Text Notes 850  1000 0    98   ~ 20
 Main SD card connector
 Text Label 800  1650 0    50   ~ 0
-SD_DET
+SD_DATA_6
 Text Label 800  1850 0    50   ~ 0
-SD_DATA3
+SD_DATA_3
 Text Label 800  1750 0    50   ~ 0
-SD_DATA2
+SD_DATA_2
 Text Label 800  2250 0    50   ~ 0
-SD_DATA1
+SD_DATA_1
 Text Label 800  2150 0    50   ~ 0
-SD_DATA0
+SD_DATA_0
 Text Label 800  1950 0    50   ~ 0
-SD_CMD
+SD_DATA_5
 Text Label 800  2050 0    50   ~ 0
-SD_CLK
+SD_DATA_4
 Wire Wire Line
 	800  1650 1450 1650
 Entry Wire Line
@@ -321,8 +321,8 @@ Entry Wire Line
 	700  2050 800  2150
 Entry Wire Line
 	700  2150 800  2250
-Text GLabel 700  1450 1    50   Input ~ 0
-SD_DATA
+Text GLabel 700  1450 2    50   Input ~ 0
+SD_DATA_[0...6]
 Text GLabel 3850 1200 1    50   Input ~ 0
 SD_LDO11
 $Comp
