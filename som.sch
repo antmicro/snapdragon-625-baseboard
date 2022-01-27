@@ -1168,6 +1168,26 @@ Text GLabel 14550 2600 2    50   Input ~ 0
 SoMtoDisplay_CLK_P
 Text GLabel 14550 2700 2    50   Input ~ 0
 SoMtoDisplay_CLK_N
+NoConn ~ 5000 1750
+NoConn ~ 5000 1850
+NoConn ~ 5000 1950
+NoConn ~ 5000 4250
+Text GLabel 5000 1650 2    50   Input ~ 0
+USB_BOOT
+NoConn ~ 5000 4850
+NoConn ~ 5000 4950
+NoConn ~ 5000 5150
+NoConn ~ 5000 5250
+NoConn ~ 5000 5350
+NoConn ~ 5000 5450
+NoConn ~ 5000 5550
+NoConn ~ 5000 5650
+NoConn ~ 2800 6550
+NoConn ~ 2800 6650
+NoConn ~ 2800 6350
+NoConn ~ 2800 6250
+NoConn ~ 2800 6150
+NoConn ~ 2800 6450
 Wire Bus Line
 	1750 4650 1750 5350
 $EndSCHEMATC

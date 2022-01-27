@@ -906,19 +906,6 @@ $EndComp
 Text GLabel 6950 5150 0    50   Input ~ 0
 VOL_UP
 $Comp
-L sc606-baseboard:KMR2 S1
-U 1 1 61E6F39D
-P 7950 5150
-F 0 "S1" H 7950 5425 50  0000 C CNN
-F 1 "KMR2" H 7950 5334 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:SW_SPST_4.2x2.8" H 8150 5350 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 8150 5450 60  0001 L CNN
-F 4 "KMR211NGLFS" H 8146 5543 60  0001 L CNN "MPN"
-F 5 "C&K Components" H 8150 5622 60  0001 L CNN "Manufacturer"
-	1    7950 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L sc606-baseboard:GND-power #PWR0104
 U 1 1 61E6F3A3
 P 8100 5700
@@ -929,17 +916,6 @@ F 3 "" H 8100 5700 50  0001 C CNN
 	1    8100 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 5150 7600 5150
-Wire Wire Line
-	8100 5150 8100 4800
-Wire Wire Line
-	8100 4800 7600 4800
-Wire Wire Line
-	7600 4800 7600 5150
-Connection ~ 7600 5150
-Wire Wire Line
-	7600 5150 7450 5150
 $Comp
 L sc606-baseboard:R_1k_0402 R95
 U 1 1 61E6F3B7
@@ -1003,17 +979,6 @@ F 3 "" H 8100 6950 50  0001 C CNN
 	1    8100 6950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 6400 7600 6400
-Wire Wire Line
-	8100 6400 8100 6050
-Wire Wire Line
-	8100 6050 7600 6050
-Wire Wire Line
-	7600 6050 7600 6400
-Connection ~ 7600 6400
-Wire Wire Line
-	7600 6400 7450 6400
 $Comp
 L sc606-baseboard:R_1k_0402 R96
 U 1 1 61E7841D
@@ -1357,17 +1322,6 @@ F 3 "" H 8100 8200 50  0001 C CNN
 	1    8100 8200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 7650 7600 7650
-Wire Wire Line
-	8100 7650 8100 7300
-Wire Wire Line
-	8100 7300 7600 7300
-Wire Wire Line
-	7600 7300 7600 7650
-Connection ~ 7600 7650
-Wire Wire Line
-	7600 7650 7450 7650
 $Comp
 L sc606-baseboard:R_1k_0402 R97
 U 1 1 62BEDAE5
@@ -1688,6 +1642,101 @@ Wire Wire Line
 Connection ~ 2600 7650
 Wire Wire Line
 	2600 8350 2600 8150
+Wire Wire Line
+	7450 5150 7800 5150
+$Comp
+L sc606-baseboard:KMR2 S1
+U 1 1 61E6F39D
+P 7950 5150
+F 0 "S1" H 7950 5425 50  0000 C CNN
+F 1 "KMR2" H 7950 5334 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:SW_SPST_4.2x2.8" H 8150 5350 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 8150 5450 60  0001 L CNN
+F 4 "KMR211NGLFS" H 8146 5543 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 8150 5622 60  0001 L CNN "Manufacturer"
+	1    7950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 5150 8100 5250
+Connection ~ 8100 5250
+Wire Wire Line
+	8100 6400 8100 6500
+Connection ~ 8100 6500
+Wire Wire Line
+	8100 7650 8100 7750
+Connection ~ 8100 7750
+Wire Wire Line
+	7450 7650 7800 7650
+Wire Wire Line
+	7450 6400 7800 6400
+$Comp
+L sc606-baseboard:KMR2 S4
+U 1 1 622633BF
+P 7950 9000
+F 0 "S4" H 7950 9275 50  0000 C CNN
+F 1 "KMR2" H 7950 9184 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:SW_SPST_4.2x2.8" H 8150 9200 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 8150 9300 60  0001 L CNN
+F 4 "KMR211NGLFS" H 8146 9393 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 8150 9472 60  0001 L CNN "Manufacturer"
+	1    7950 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc606-baseboard:PTVS5V0Z1USKPYL D33
+U 1 1 622633D6
+P 7450 9200
+F 0 "D33" V 7503 9072 60  0000 R CNN
+F 1 "PTVS5V0Z1USKPYL" V 7300 10150 60  0000 R CNN
+F 2 "sc606-baseboard-footprints:SOD-964" H 7650 9400 60  0001 L CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PTVS5V0Z1USKP-1600477.pdf" H 7650 9500 60  0001 L CNN
+F 4 "Nexperia" H 7650 10300 60  0001 L CNN "Manufacturer"
+F 5 "PTVS5V0Z1USKPYL" H 7650 9700 60  0001 L CNN "MPN"
+	1    7450 9200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7450 9000
+Wire Wire Line
+	7450 9000 7400 9000
+Wire Wire Line
+	7800 9000 7800 9100
+Connection ~ 7800 9000
+Wire Wire Line
+	8100 9000 8100 9100
+Wire Wire Line
+	7450 9000 7800 9000
+Text GLabel 7100 9000 0    50   Input ~ 0
+USB_BOOT
+$Comp
+L antmicroResistors0402:R_10k_0402 R162
+U 1 1 62273D59
+P 7250 9000
+F 0 "R162" H 7250 9213 60  0000 C CNN
+F 1 "R_10k_0402" H 7250 8850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7450 9200 60  0001 L CNN
+F 3 "" H 7250 9000 50  0001 C CNN
+F 4 "VISHAY" H 7450 9400 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 7450 9300 60  0001 L CNN "MPN"
+F 6 "10k" H 7250 9115 50  0000 C CNN "Val"
+	1    7250 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 9400 7450 9550
+$Comp
+L sc606-baseboard:GND-power #PWR0169
+U 1 1 622633C5
+P 7450 9550
+F 0 "#PWR0169" H 7450 9300 50  0001 C CNN
+F 1 "GND" H 7455 9377 50  0000 C CNN
+F 2 "" H 7450 9550 50  0001 C CNN
+F 3 "" H 7450 9550 50  0001 C CNN
+	1    7450 9550
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	700  1450 700  2150
+Text GLabel 8100 9000 2    50   Input ~ 0
+LDO5_1P8
 $EndSCHEMATC
