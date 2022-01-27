@@ -972,9 +972,9 @@ F 3 "" H 9700 5650 50  0001 C CNN
 	1    9700 5650
 	1    0    0    -1  
 $EndComp
-Text Label 9700 5450 2    50   ~ 0
-DBG_USB_D_P
 Text Label 9700 5550 2    50   ~ 0
+DBG_USB_D_P
+Text Label 9700 5450 2    50   ~ 0
 DBG_USB_D_N
 Wire Wire Line
 	10700 3950 10450 3950
