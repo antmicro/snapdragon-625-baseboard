@@ -578,150 +578,6 @@ Wire Wire Line
 	11950 5400 12600 5400
 Wire Wire Line
 	11950 5600 12600 5600
-Entry Wire Line
-	11400 2200 11500 2300
-Entry Wire Line
-	11400 2300 11500 2400
-Entry Wire Line
-	11400 2400 11500 2500
-Entry Wire Line
-	11400 2500 11500 2600
-Entry Wire Line
-	11400 2600 11500 2700
-Entry Wire Line
-	11400 2700 11500 2800
-Entry Wire Line
-	11400 2800 11500 2900
-Entry Wire Line
-	11400 2900 11500 3000
-Entry Wire Line
-	11400 3000 11500 3100
-Entry Wire Line
-	11400 3100 11500 3200
-Wire Wire Line
-	11500 2900 12600 2900
-Wire Wire Line
-	12600 3000 11500 3000
-Wire Wire Line
-	11500 2700 12600 2700
-Wire Wire Line
-	12600 2800 11500 2800
-Wire Wire Line
-	11500 2500 12600 2500
-Wire Wire Line
-	12600 2600 11500 2600
-Wire Wire Line
-	11500 2300 12600 2300
-Wire Wire Line
-	12600 2400 11500 2400
-Wire Wire Line
-	12600 3200 12300 3200
-Wire Wire Line
-	12300 3200 12300 3100
-Wire Wire Line
-	12300 3100 11500 3100
-Wire Wire Line
-	12600 3300 12200 3300
-Wire Wire Line
-	12200 3300 12200 3200
-Wire Wire Line
-	12200 3200 11500 3200
-Text Label 11850 2900 0    50   ~ 0
-CAM1_DATA_1
-Text Label 11850 3000 0    50   ~ 0
-CAM1_DATA_0
-Text Label 11850 2700 0    50   ~ 0
-CAM1_DATA_3
-Text Label 11850 2800 0    50   ~ 0
-CAM1_DATA_2
-Text Label 11850 2500 0    50   ~ 0
-CAM1_DATA_5
-Text Label 11850 2600 0    50   ~ 0
-CAM1_DATA_4
-Text Label 11850 2300 0    50   ~ 0
-CAM1_DATA_7
-Text Label 11850 2400 0    50   ~ 0
-CAM1_DATA_6
-Text Label 11750 3100 0    50   ~ 0
-CAM1_DATA_9
-Text Label 11750 3200 0    50   ~ 0
-CAM1_DATA_8
-Text GLabel 11150 2100 0    50   Input ~ 0
-CAM1_DATA_[0...9]
-Wire Bus Line
-	11400 2100 11150 2100
-Entry Wire Line
-	11400 4000 11500 4100
-Entry Wire Line
-	11400 4100 11500 4200
-Entry Wire Line
-	11400 4200 11500 4300
-Entry Wire Line
-	11400 4300 11500 4400
-Entry Wire Line
-	11400 4400 11500 4500
-Entry Wire Line
-	11400 4500 11500 4600
-Entry Wire Line
-	11400 4600 11500 4700
-Entry Wire Line
-	11400 4700 11500 4800
-Entry Wire Line
-	11400 4800 11500 4900
-Entry Wire Line
-	11400 4900 11500 5000
-Wire Wire Line
-	11500 4700 12600 4700
-Wire Wire Line
-	12600 4800 11500 4800
-Wire Wire Line
-	11500 4500 12600 4500
-Wire Wire Line
-	12600 4600 11500 4600
-Wire Wire Line
-	11500 4300 12600 4300
-Wire Wire Line
-	12600 4400 11500 4400
-Wire Wire Line
-	11500 4100 12600 4100
-Wire Wire Line
-	12600 4200 11500 4200
-Wire Wire Line
-	12600 5000 12300 5000
-Wire Wire Line
-	12300 5000 12300 4900
-Wire Wire Line
-	12300 4900 11500 4900
-Wire Wire Line
-	12600 5100 12200 5100
-Wire Wire Line
-	12200 5100 12200 5000
-Wire Wire Line
-	12200 5000 11500 5000
-Text Label 11850 4700 0    50   ~ 0
-CAM2_DATA_1
-Text Label 11850 4800 0    50   ~ 0
-CAM2_DATA_0
-Text Label 11850 4500 0    50   ~ 0
-CAM2_DATA_3
-Text Label 11850 4600 0    50   ~ 0
-CAM2_DATA_2
-Text Label 11850 4300 0    50   ~ 0
-CAM2_DATA_5
-Text Label 11850 4400 0    50   ~ 0
-CAM2_DATA_4
-Text Label 11850 4100 0    50   ~ 0
-CAM2_DATA_7
-Text Label 11850 4200 0    50   ~ 0
-CAM2_DATA_6
-Text Label 11750 4900 0    50   ~ 0
-CAM2_DATA_9
-Text Label 11750 5000 0    50   ~ 0
-CAM2_DATA_8
-Text GLabel 11150 3900 0    50   Input ~ 0
-CAM2_DATA_[0...9]
-Wire Bus Line
-	11400 3900 11150 3900
 $Comp
 L sc606-baseboard:NTS0102GT U5
 U 1 1 62AE9D15
@@ -824,8 +680,84 @@ Wire Wire Line
 	4450 8000 4300 8000
 Wire Wire Line
 	4450 8450 4450 8800
-Wire Bus Line
-	11400 2100 11400 3100
-Wire Bus Line
-	11400 3900 11400 4900
+Text GLabel 12400 3000 0    50   Input ~ 0
+CAM1_D0_P
+Text GLabel 12400 2900 0    50   Input ~ 0
+CAM1_D0_N
+Text GLabel 12400 2800 0    50   Input ~ 0
+CAM1_D1_P
+Text GLabel 12400 2700 0    50   Input ~ 0
+CAM1_D1_N
+Text GLabel 12400 2600 0    50   Input ~ 0
+CAM1_D2_P
+Text GLabel 12400 2500 0    50   Input ~ 0
+CAM1_D2_N
+Text GLabel 12400 2400 0    50   Input ~ 0
+CAM1_D3_P
+Text GLabel 12400 2300 0    50   Input ~ 0
+CAM1_D3_N
+Text GLabel 12400 3300 0    50   Input ~ 0
+CAM1_CLK_P
+Text GLabel 12400 3200 0    50   Input ~ 0
+CAM1_CLK_N
+Wire Wire Line
+	12400 2300 12600 2300
+Wire Wire Line
+	12600 2400 12400 2400
+Wire Wire Line
+	12400 2500 12600 2500
+Wire Wire Line
+	12600 2600 12400 2600
+Wire Wire Line
+	12600 2700 12400 2700
+Wire Wire Line
+	12400 2800 12600 2800
+Wire Wire Line
+	12600 2900 12400 2900
+Wire Wire Line
+	12400 3000 12600 3000
+Wire Wire Line
+	12600 3200 12400 3200
+Wire Wire Line
+	12400 3300 12600 3300
+Text GLabel 12400 4800 0    50   Input ~ 0
+CAM2_D0_P
+Text GLabel 12400 4700 0    50   Input ~ 0
+CAM2_D0_N
+Text GLabel 12400 4600 0    50   Input ~ 0
+CAM2_D1_P
+Text GLabel 12400 4500 0    50   Input ~ 0
+CAM2_D1_N
+Text GLabel 12400 4400 0    50   Input ~ 0
+CAM2_D2_P
+Text GLabel 12400 4300 0    50   Input ~ 0
+CAM2_D2_N
+Text GLabel 12400 4200 0    50   Input ~ 0
+CAM2_D3_P
+Text GLabel 12400 4100 0    50   Input ~ 0
+CAM2_D3_N
+Text GLabel 12400 5100 0    50   Input ~ 0
+CAM2_CLK_P
+Text GLabel 12400 5000 0    50   Input ~ 0
+CAM2_CLK_N
+Wire Wire Line
+	12400 4100 12600 4100
+Wire Wire Line
+	12600 4200 12400 4200
+Wire Wire Line
+	12400 4300 12600 4300
+Wire Wire Line
+	12600 4400 12400 4400
+Wire Wire Line
+	12400 4500 12600 4500
+Wire Wire Line
+	12600 4600 12400 4600
+Wire Wire Line
+	12400 4700 12600 4700
+Wire Wire Line
+	12600 4800 12400 4800
+Wire Wire Line
+	12400 5000 12600 5000
+Wire Wire Line
+	12600 5100 12400 5100
 $EndSCHEMATC

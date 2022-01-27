@@ -655,102 +655,6 @@ Wire Wire Line
 	8400 4000 8850 4000
 Wire Wire Line
 	8850 3900 8400 3900
-Entry Wire Line
-	11550 2700 11650 2800
-Entry Wire Line
-	11550 2800 11650 2900
-Entry Wire Line
-	11550 2900 11650 3000
-Entry Wire Line
-	11550 3000 11650 3100
-Entry Wire Line
-	11550 3100 11650 3200
-Entry Wire Line
-	11550 3200 11650 3300
-Entry Wire Line
-	11550 3300 11650 3400
-Entry Wire Line
-	11550 2500 11650 2600
-Entry Wire Line
-	11550 2600 11650 2700
-Wire Wire Line
-	12750 2900 11650 2900
-Wire Wire Line
-	11650 3000 12750 3000
-Wire Wire Line
-	12750 3100 11650 3100
-Wire Wire Line
-	11650 3200 12750 3200
-Wire Wire Line
-	12750 3300 11650 3300
-Wire Wire Line
-	11650 3400 12750 3400
-Wire Wire Line
-	12750 3500 11650 3500
-Text Label 12000 2900 0    50   ~ 0
-CAM1_DATA_1
-Text Label 12000 2800 0    50   ~ 0
-CAM1_DATA_0
-Text Label 12000 3100 0    50   ~ 0
-CAM1_DATA_3
-Text Label 12000 3000 0    50   ~ 0
-CAM1_DATA_2
-Text Label 12000 3300 0    50   ~ 0
-CAM1_DATA_5
-Text Label 12000 3200 0    50   ~ 0
-CAM1_DATA_4
-Text Label 12000 3500 0    50   ~ 0
-CAM1_DATA_7
-Text Label 12000 3400 0    50   ~ 0
-CAM1_DATA_6
-Text Label 12000 2700 0    50   ~ 0
-CAM1_DATA_9
-Text Label 12000 2600 0    50   ~ 0
-CAM1_DATA_8
-Text GLabel 11300 2500 0    50   Input ~ 0
-CAM1_DATA_[0...9]
-Wire Bus Line
-	11550 2500 11300 2500
-Wire Wire Line
-	11650 2800 12750 2800
-Entry Wire Line
-	11550 3300 11650 3400
-Entry Wire Line
-	11550 3300 11650 3400
-Wire Wire Line
-	11650 2600 12750 2600
-Wire Wire Line
-	11650 2700 12750 2700
-Entry Wire Line
-	11550 3400 11650 3500
-Entry Wire Line
-	11550 3800 11650 3900
-Entry Wire Line
-	11550 3900 11650 4000
-Entry Wire Line
-	11550 4000 11650 4100
-Entry Wire Line
-	11550 4100 11650 4200
-Entry Wire Line
-	11550 4200 11650 4300
-Entry Wire Line
-	11550 4300 11650 4400
-Entry Wire Line
-	11550 4400 11650 4500
-Entry Wire Line
-	11550 3600 11650 3700
-Entry Wire Line
-	11550 3700 11650 3800
-Text GLabel 11300 3600 0    50   Input ~ 0
-CAM2_DATA_[0...9]
-Wire Bus Line
-	11550 3600 11300 3600
-Entry Wire Line
-	11550 4400 11650 4500
-Entry Wire Line
-	11550 4400 11650 4500
-Entry Wire Line
-	11550 4500 11650 4600
 NoConn ~ 12750 1500
 NoConn ~ 12750 1600
 NoConn ~ 12750 1700
@@ -909,176 +813,10 @@ NoConn ~ 5000 3650
 NoConn ~ 5000 3450
 NoConn ~ 5000 5750
 NoConn ~ 5000 5850
-Text Label 15400 3500 2    50   ~ 0
-SoMtoDisplay_DATA_7
-Text Label 15400 3400 2    50   ~ 0
-SoMtoDisplay_DATA_6
-Text Label 15400 3300 2    50   ~ 0
-SoMtoDisplay_DATA_5
-Text Label 15400 3200 2    50   ~ 0
-SoMtoDisplay_DATA_4
-Text Label 15400 2700 2    50   ~ 0
-SoMtoDisplay_DATA_9
-Text Label 15400 2600 2    50   ~ 0
-SoMtoDisplay_DATA_8
-Text Label 15400 3100 2    50   ~ 0
-SoMtoDisplay_DATA_3
-Text Label 15400 3000 2    50   ~ 0
-SoMtoDisplay_DATA_2
-Text Label 15400 2900 2    50   ~ 0
-SoMtoDisplay_DATA_1
-Text Label 15400 2800 2    50   ~ 0
-SoMtoDisplay_DATA_0
-Wire Wire Line
-	14550 3500 15400 3500
-Wire Wire Line
-	15400 3400 14550 3400
-Wire Wire Line
-	14550 3300 15400 3300
-Wire Wire Line
-	15400 3200 14550 3200
-Wire Wire Line
-	14550 2700 15400 2700
-Wire Wire Line
-	15400 2600 14550 2600
-Wire Wire Line
-	14550 3100 15400 3100
-Wire Wire Line
-	15400 3000 14550 3000
-Wire Wire Line
-	14550 2900 15400 2900
-Wire Wire Line
-	15400 2800 14550 2800
-Entry Wire Line
-	15500 3600 15400 3500
-Entry Wire Line
-	15500 3500 15400 3400
-Entry Wire Line
-	15500 3400 15400 3300
-Entry Wire Line
-	15500 3300 15400 3200
-Entry Wire Line
-	15500 3200 15400 3100
-Entry Wire Line
-	15500 3100 15400 3000
-Entry Wire Line
-	15500 3000 15400 2900
-Entry Wire Line
-	15500 2900 15400 2800
-Entry Wire Line
-	15500 2900 15400 2800
-Entry Wire Line
-	15500 2800 15400 2700
-Entry Wire Line
-	15500 2700 15400 2600
-Text GLabel 15500 1600 2    50   Input ~ 0
-SoMtoHDMI_DATA_[0...9]
-Text Label 15400 2400 2    50   ~ 0
-SoMtoHDMI_DATA_7
-Text Label 15400 2300 2    50   ~ 0
-SoMtoHDMI_DATA_6
-Text Label 15400 2200 2    50   ~ 0
-SoMtoHDMI_DATA_5
-Text Label 15400 2100 2    50   ~ 0
-SoMtoHDMI_DATA_4
-Text Label 15400 1500 2    50   ~ 0
-SoMtoHDMI_DATA_8
-Text Label 15400 2000 2    50   ~ 0
-SoMtoHDMI_DATA_3
-Text Label 15400 1900 2    50   ~ 0
-SoMtoHDMI_DATA_2
-Text Label 15400 1800 2    50   ~ 0
-SoMtoHDMI_DATA_1
-Text Label 15400 1700 2    50   ~ 0
-SoMtoHDMI_DATA_0
-Wire Wire Line
-	14550 2400 15400 2400
-Wire Wire Line
-	15400 2300 14550 2300
-Wire Wire Line
-	14550 2200 15400 2200
-Wire Wire Line
-	15400 2100 14550 2100
-Wire Wire Line
-	14550 1600 15400 1600
-Wire Wire Line
-	15400 1500 14550 1500
-Wire Wire Line
-	14550 2000 15400 2000
-Wire Wire Line
-	15400 1900 14550 1900
-Wire Wire Line
-	14550 1800 15400 1800
-Wire Wire Line
-	15400 1700 14550 1700
-Entry Wire Line
-	15500 2500 15400 2400
-Entry Wire Line
-	15500 2400 15400 2300
-Entry Wire Line
-	15500 2300 15400 2200
-Entry Wire Line
-	15500 2200 15400 2100
-Entry Wire Line
-	15500 2100 15400 2000
-Entry Wire Line
-	15500 2000 15400 1900
-Entry Wire Line
-	15500 1900 15400 1800
-Entry Wire Line
-	15500 1800 15400 1700
-Entry Wire Line
-	15500 1800 15400 1700
-Entry Wire Line
-	15500 1700 15400 1600
-Entry Wire Line
-	15500 1600 15400 1500
-Text GLabel 15500 3600 2    50   Input ~ 0
-SoMtoDisplay_DATA_[0...9]
 Text GLabel 7400 2600 0    50   Input ~ 0
 HDMI_I2C_SCL
 Text GLabel 7400 2700 0    50   Input ~ 0
 HDMI_I2C_SDA
-Text Label 12000 4000 0    50   ~ 0
-CAM2_DATA_1
-Text Label 12000 3900 0    50   ~ 0
-CAM2_DATA_0
-Text Label 12000 4200 0    50   ~ 0
-CAM2_DATA_3
-Text Label 12000 4100 0    50   ~ 0
-CAM2_DATA_2
-Text Label 12000 4400 0    50   ~ 0
-CAM2_DATA_5
-Text Label 12000 4300 0    50   ~ 0
-CAM2_DATA_4
-Text Label 12000 4600 0    50   ~ 0
-CAM2_DATA_7
-Text Label 12000 4500 0    50   ~ 0
-CAM2_DATA_6
-Text Label 12000 3800 0    50   ~ 0
-CAM2_DATA_9
-Text Label 12000 3700 0    50   ~ 0
-CAM2_DATA_8
-Wire Wire Line
-	11650 3900 12750 3900
-Wire Wire Line
-	12750 4000 11650 4000
-Wire Wire Line
-	11650 4100 12750 4100
-Wire Wire Line
-	12750 4200 11650 4200
-Wire Wire Line
-	11650 4300 12750 4300
-Wire Wire Line
-	12750 4400 11650 4400
-Wire Wire Line
-	11650 4500 12750 4500
-Wire Wire Line
-	12750 4600 11650 4600
-Wire Wire Line
-	11650 3700 12750 3700
-Wire Wire Line
-	11650 3800 12750 3800
 Text GLabel 8400 4100 0    50   Input ~ 0
 LT9611_INT0
 Text GLabel 8400 4200 0    50   Input ~ 0
@@ -1310,16 +1048,126 @@ NoConn ~ 2800 2150
 NoConn ~ 2800 2250
 Text GLabel 5000 2250 2    50   Input ~ 0
 ANT-WIFI
-Text Label 15400 1600 2    50   ~ 0
-SoMtoHDMI_DATA_9
+Text GLabel 12500 2800 0    50   Input ~ 0
+CAM1_D0_P
+Text GLabel 12500 2900 0    50   Input ~ 0
+CAM1_D0_N
+Text GLabel 12500 3000 0    50   Input ~ 0
+CAM1_D1_P
+Text GLabel 12500 3100 0    50   Input ~ 0
+CAM1_D1_N
+Text GLabel 12500 3200 0    50   Input ~ 0
+CAM1_D2_P
+Text GLabel 12500 3300 0    50   Input ~ 0
+CAM1_D2_N
+Text GLabel 12500 3400 0    50   Input ~ 0
+CAM1_D3_P
+Text GLabel 12500 3500 0    50   Input ~ 0
+CAM1_D3_N
+Text GLabel 12500 2600 0    50   Input ~ 0
+CAM1_CLK_P
+Text GLabel 12500 2700 0    50   Input ~ 0
+CAM1_CLK_N
+Wire Wire Line
+	12500 2600 12750 2600
+Wire Wire Line
+	12750 2700 12500 2700
+Wire Wire Line
+	12500 2800 12750 2800
+Wire Wire Line
+	12750 2900 12500 2900
+Wire Wire Line
+	12500 3000 12750 3000
+Wire Wire Line
+	12750 3100 12500 3100
+Wire Wire Line
+	12500 3200 12750 3200
+Wire Wire Line
+	12750 3300 12500 3300
+Wire Wire Line
+	12500 3400 12750 3400
+Wire Wire Line
+	12750 3500 12500 3500
+Text GLabel 12500 3900 0    50   Input ~ 0
+CAM2_D0_P
+Text GLabel 12500 4000 0    50   Input ~ 0
+CAM2_D0_N
+Text GLabel 12500 4100 0    50   Input ~ 0
+CAM2_D1_P
+Text GLabel 12500 4200 0    50   Input ~ 0
+CAM2_D1_N
+Text GLabel 12500 4300 0    50   Input ~ 0
+CAM2_D2_P
+Text GLabel 12500 4400 0    50   Input ~ 0
+CAM2_D2_N
+Text GLabel 12500 4500 0    50   Input ~ 0
+CAM2_D3_P
+Text GLabel 12500 4600 0    50   Input ~ 0
+CAM2_D3_N
+Text GLabel 12500 3700 0    50   Input ~ 0
+CAM2_CLK_P
+Text GLabel 12500 3800 0    50   Input ~ 0
+CAM2_CLK_N
+Wire Wire Line
+	12500 3700 12750 3700
+Wire Wire Line
+	12750 3800 12500 3800
+Wire Wire Line
+	12500 3900 12750 3900
+Wire Wire Line
+	12750 4000 12500 4000
+Wire Wire Line
+	12500 4100 12750 4100
+Wire Wire Line
+	12750 4200 12500 4200
+Wire Wire Line
+	12500 4300 12750 4300
+Wire Wire Line
+	12750 4400 12500 4400
+Wire Wire Line
+	12500 4500 12750 4500
+Wire Wire Line
+	12750 4600 12500 4600
+Text GLabel 14550 1700 2    50   Input ~ 0
+SoMtoLT_D0_P
+Text GLabel 14550 1800 2    50   Input ~ 0
+SoMtoLT_D0_N
+Text GLabel 14550 1900 2    50   Input ~ 0
+SoMtoLT_D1_P
+Text GLabel 14550 2000 2    50   Input ~ 0
+SoMtoLT_D1_N
+Text GLabel 14550 2100 2    50   Input ~ 0
+SoMtoLT_D2_P
+Text GLabel 14550 2200 2    50   Input ~ 0
+SoMtoLT_D2_N
+Text GLabel 14550 2300 2    50   Input ~ 0
+SoMtoLT_D3_P
+Text GLabel 14550 2400 2    50   Input ~ 0
+SoMtoLT_D3_N
+Text GLabel 14550 1500 2    50   Input ~ 0
+SoMtoLT_CLK_P
+Text GLabel 14550 1600 2    50   Input ~ 0
+SoMtoLT_CLK_N
+Text GLabel 14550 2800 2    50   Input ~ 0
+SoMtoDisplay_D0_P
+Text GLabel 14550 2900 2    50   Input ~ 0
+SoMtoDisplay_D0_N
+Text GLabel 14550 3000 2    50   Input ~ 0
+SoMtoDisplay_D1_P
+Text GLabel 14550 3100 2    50   Input ~ 0
+SoMtoDisplay_D1_N
+Text GLabel 14550 3200 2    50   Input ~ 0
+SoMtoDisplay_D2_P
+Text GLabel 14550 3300 2    50   Input ~ 0
+SoMtoDisplay_D2_N
+Text GLabel 14550 3400 2    50   Input ~ 0
+SoMtoDisplay_D3_P
+Text GLabel 14550 3500 2    50   Input ~ 0
+SoMtoDisplay_D3_N
+Text GLabel 14550 2600 2    50   Input ~ 0
+SoMtoDisplay_CLK_P
+Text GLabel 14550 2700 2    50   Input ~ 0
+SoMtoDisplay_CLK_N
 Wire Bus Line
 	1750 4650 1750 5350
-Wire Bus Line
-	11550 3600 11550 4500
-Wire Bus Line
-	11550 2500 11550 3400
-Wire Bus Line
-	15500 2700 15500 3600
-Wire Bus Line
-	15500 1600 15500 2500
 $EndSCHEMATC

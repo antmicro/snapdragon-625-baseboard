@@ -75,14 +75,14 @@ $EndComp
 $Comp
 L sc606-baseboard:F52R-1A7H1-11020 J3
 U 1 1 620A01E9
-P 3800 8300
-F 0 "J3" H 4128 7387 50  0000 L CNN
-F 1 "F52R-1A7H1-11020" H 4128 7296 50  0000 L CNN
-F 2 "sc606-baseboard-footprints:F52R-1A7H1-11020" H 3800 8300 50  0001 C CNN
-F 3 "https://www.snapeda.com/parts/F52R-1A7H1-11020/Amphenol%20ICC%20(FCI)/datasheet/" H 3800 8300 50  0001 C CNN
-F 4 "F52R-1A7H1-11020" H 4128 7205 50  0000 L CNN "MPN"
-F 5 "AMPHENOL ICC" H 4128 7114 50  0000 L CNN "Manufacturer"
-	1    3800 8300
+P 4000 8300
+F 0 "J3" H 4328 7387 50  0000 L CNN
+F 1 "F52R-1A7H1-11020" H 4328 7296 50  0000 L CNN
+F 2 "sc606-baseboard-footprints:F52R-1A7H1-11020" H 4000 8300 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/F52R-1A7H1-11020/Amphenol%20ICC%20(FCI)/datasheet/" H 4000 8300 50  0001 C CNN
+F 4 "F52R-1A7H1-11020" H 4328 7205 50  0000 L CNN "MPN"
+F 5 "AMPHENOL ICC" H 4328 7114 50  0000 L CNN "Manufacturer"
+	1    4000 8300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -93,12 +93,12 @@ Wire Wire Line
 	2000 10300 2000 10100
 Connection ~ 2000 10100
 Wire Wire Line
-	2000 10100 3600 10100
+	2000 10100 3800 10100
 Wire Wire Line
 	2200 10300 2200 10000
 Connection ~ 2200 10000
 Wire Wire Line
-	2200 10000 3600 10000
+	2200 10000 3800 10000
 Wire Wire Line
 	1750 10700 2000 10700
 Wire Wire Line
@@ -111,173 +111,173 @@ Wire Wire Line
 $Comp
 L sc606-baseboard:NFP0QHB242HS2D L8
 U 1 1 620D3E98
-P 2550 8550
-F 0 "L8" H 2900 8650 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 3150 8550 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 2305 8880 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 2550 8550 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 2550 8867 50  0001 C CNN "MPN"
-F 5 "MURATA" H 2550 8776 50  0001 C CNN "Manufacturer"
-	1    2550 8550
+P 1700 8550
+F 0 "L8" H 2050 8650 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 2300 8550 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 8880 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 8550 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1700 8867 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1700 8776 50  0001 C CNN "Manufacturer"
+	1    1700 8550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 8500 2850 8500
+	3800 8500 2000 8500
 Wire Wire Line
-	2850 8500 2850 8450
+	2000 8500 2000 8450
 Wire Wire Line
-	3600 8600 2850 8600
+	3800 8600 2000 8600
 Wire Wire Line
-	2850 8600 2850 8650
+	2000 8600 2000 8650
 $Comp
 L sc606-baseboard:NFP0QHB242HS2D L9
 U 1 1 620DCF56
-P 2550 8850
-F 0 "L9" H 2900 8950 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 3150 8850 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 2305 9180 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 2550 8850 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 2550 9167 50  0001 C CNN "MPN"
-F 5 "MURATA" H 2550 9076 50  0001 C CNN "Manufacturer"
-	1    2550 8850
+P 1700 8850
+F 0 "L9" H 2050 8950 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 2300 8850 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 9180 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 8850 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1700 9167 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1700 9076 50  0001 C CNN "Manufacturer"
+	1    1700 8850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 8800 2850 8800
+	3800 8800 2000 8800
 Wire Wire Line
-	2850 8800 2850 8750
+	2000 8800 2000 8750
 Wire Wire Line
-	3600 8900 2850 8900
+	3800 8900 2000 8900
 Wire Wire Line
-	2850 8900 2850 8950
+	2000 8900 2000 8950
 $Comp
 L sc606-baseboard:NFP0QHB242HS2D L10
 U 1 1 620DE4CE
-P 2550 9150
-F 0 "L10" H 2900 9250 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 3150 9150 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 2305 9480 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 2550 9150 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 2550 9467 50  0001 C CNN "MPN"
-F 5 "MURATA" H 2550 9376 50  0001 C CNN "Manufacturer"
-	1    2550 9150
+P 1700 9150
+F 0 "L10" H 2050 9250 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 2300 9150 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 9480 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 9150 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1700 9467 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1700 9376 50  0001 C CNN "Manufacturer"
+	1    1700 9150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 9100 2850 9100
+	3800 9100 2000 9100
 Wire Wire Line
-	2850 9100 2850 9050
+	2000 9100 2000 9050
 Wire Wire Line
-	3600 9200 2850 9200
+	3800 9200 2000 9200
 Wire Wire Line
-	2850 9200 2850 9250
+	2000 9200 2000 9250
 $Comp
 L sc606-baseboard:NFP0QHB242HS2D L11
 U 1 1 620E0175
-P 2550 9450
-F 0 "L11" H 2900 9550 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 3150 9450 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 2305 9780 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 2550 9450 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 2550 9767 50  0001 C CNN "MPN"
-F 5 "MURATA" H 2550 9676 50  0001 C CNN "Manufacturer"
-	1    2550 9450
+P 1700 9450
+F 0 "L11" H 2050 9550 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 2300 9450 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 9780 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 9450 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1700 9767 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1700 9676 50  0001 C CNN "Manufacturer"
+	1    1700 9450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 9400 2850 9400
+	3800 9400 2000 9400
 Wire Wire Line
-	2850 9400 2850 9350
+	2000 9400 2000 9350
 Wire Wire Line
-	3600 9500 2850 9500
+	3800 9500 2000 9500
 Wire Wire Line
-	2850 9500 2850 9550
+	2000 9500 2000 9550
 $Comp
 L sc606-baseboard:NFP0QHB242HS2D L12
 U 1 1 620E1D32
-P 2550 9750
-F 0 "L12" H 2900 9850 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 3150 9750 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 2305 10080 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 2550 9750 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 2550 10067 50  0001 C CNN "MPN"
-F 5 "MURATA" H 2550 9976 50  0001 C CNN "Manufacturer"
-	1    2550 9750
+P 1700 9750
+F 0 "L12" H 2050 9850 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 2300 9750 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 10080 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 9750 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1700 10067 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1700 9976 50  0001 C CNN "Manufacturer"
+	1    1700 9750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 9700 2850 9700
+	3800 9700 2000 9700
 Wire Wire Line
-	2850 9700 2850 9650
+	2000 9700 2000 9650
 Wire Wire Line
-	3600 9800 2850 9800
+	3800 9800 2000 9800
 Wire Wire Line
-	2850 9800 2850 9850
+	2000 9800 2000 9850
 $Comp
 L sc606-baseboard:GND #PWR067
 U 1 1 620F16D6
-P 3500 10450
-F 0 "#PWR067" H 3500 10200 50  0001 C CNN
-F 1 "GND" H 3505 10277 50  0000 C CNN
-F 2 "" H 3500 10450 50  0001 C CNN
-F 3 "" H 3500 10450 50  0001 C CNN
-	1    3500 10450
+P 3700 10450
+F 0 "#PWR067" H 3700 10200 50  0001 C CNN
+F 1 "GND" H 3705 10277 50  0000 C CNN
+F 2 "" H 3700 10450 50  0001 C CNN
+F 3 "" H 3700 10450 50  0001 C CNN
+	1    3700 10450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 10450 3500 10200
+	3700 10450 3700 10200
 Wire Wire Line
-	3500 8400 3600 8400
+	3700 8400 3800 8400
 Wire Wire Line
-	3600 8700 3500 8700
-Connection ~ 3500 8700
+	3800 8700 3700 8700
+Connection ~ 3700 8700
 Wire Wire Line
-	3500 8700 3500 8400
+	3700 8700 3700 8400
 Wire Wire Line
-	3600 9000 3500 9000
-Connection ~ 3500 9000
+	3800 9000 3700 9000
+Connection ~ 3700 9000
 Wire Wire Line
-	3500 9000 3500 8700
+	3700 9000 3700 8700
 Wire Wire Line
-	3500 9300 3600 9300
-Connection ~ 3500 9300
+	3700 9300 3800 9300
+Connection ~ 3700 9300
 Wire Wire Line
-	3500 9300 3500 9000
+	3700 9300 3700 9000
 Wire Wire Line
-	3600 9600 3500 9600
-Connection ~ 3500 9600
+	3800 9600 3700 9600
+Connection ~ 3700 9600
 Wire Wire Line
-	3500 9600 3500 9300
+	3700 9600 3700 9300
 Wire Wire Line
-	3500 9900 3600 9900
-Connection ~ 3500 9900
+	3700 9900 3800 9900
+Connection ~ 3700 9900
 Wire Wire Line
-	3500 9900 3500 9600
+	3700 9900 3700 9600
 Wire Wire Line
-	3600 10200 3500 10200
-Connection ~ 3500 10200
+	3800 10200 3700 10200
+Connection ~ 3700 10200
 Wire Wire Line
-	3500 10200 3500 9900
+	3700 10200 3700 9900
 Wire Wire Line
-	2250 8450 2250 8500
+	1400 8450 1400 8500
 Wire Wire Line
-	2250 8600 2250 8650
+	1400 8600 1400 8650
 Wire Wire Line
-	2250 8750 2250 8800
+	1400 8750 1400 8800
 Wire Wire Line
-	2250 9050 2250 9100
+	1400 9050 1400 9100
 Wire Wire Line
-	2250 9350 2250 9400
+	1400 9350 1400 9400
 Wire Wire Line
-	2250 9650 2250 9700
+	1400 9650 1400 9700
 Wire Wire Line
-	2250 9800 2250 9850
+	1400 9800 1400 9850
 Wire Wire Line
-	2250 9550 2250 9500
+	1400 9550 1400 9500
 Wire Wire Line
-	2250 9200 2250 9250
+	1400 9200 1400 9250
 Wire Wire Line
-	2250 8950 2250 8900
+	1400 8950 1400 8900
 Text GLabel 2950 10300 0    50   Input ~ 0
 LDO17_2P85
 Wire Wire Line
@@ -298,7 +298,7 @@ F 6 "4u7" H 3165 10397 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 3050 10300
 Wire Wire Line
-	3050 10300 3600 10300
+	3050 10300 3800 10300
 $Comp
 L sc606-baseboard:GND #PWR066
 U 1 1 6216E0AC
@@ -831,68 +831,6 @@ Wire Wire Line
 	4450 1550 4450 1450
 Wire Wire Line
 	3150 4900 2900 4900
-Text Label 2250 2250 0    50   ~ 0
-SoMtoHDMI_DATA_7
-Text Label 2250 2350 0    50   ~ 0
-SoMtoHDMI_DATA_6
-Text Label 2250 2450 0    50   ~ 0
-SoMtoHDMI_DATA_5
-Text Label 2250 2550 0    50   ~ 0
-SoMtoHDMI_DATA_4
-Text Label 2250 2650 0    50   ~ 0
-SoMtoHDMI_DATA_9
-Text Label 2250 2850 0    50   ~ 0
-SoMtoHDMI_DATA_3
-Text Label 2250 2950 0    50   ~ 0
-SoMtoHDMI_DATA_2
-Text Label 2250 3050 0    50   ~ 0
-SoMtoHDMI_DATA_1
-Text Label 2250 3150 0    50   ~ 0
-SoMtoHDMI_DATA_0
-Wire Wire Line
-	3150 2250 2250 2250
-Wire Wire Line
-	2250 2350 3150 2350
-Wire Wire Line
-	3150 2450 2250 2450
-Wire Wire Line
-	2250 2550 3150 2550
-Wire Wire Line
-	3150 2650 2250 2650
-Wire Wire Line
-	2250 2750 3150 2750
-Wire Wire Line
-	3150 2850 2250 2850
-Wire Wire Line
-	2250 2950 3150 2950
-Wire Wire Line
-	3150 3050 2250 3050
-Wire Wire Line
-	2250 3150 3150 3150
-Entry Wire Line
-	2150 2150 2250 2250
-Entry Wire Line
-	2150 2250 2250 2350
-Entry Wire Line
-	2150 2350 2250 2450
-Entry Wire Line
-	2150 2450 2250 2550
-Entry Wire Line
-	2150 2550 2250 2650
-Entry Wire Line
-	2150 2650 2250 2750
-Entry Wire Line
-	2150 2750 2250 2850
-Entry Wire Line
-	2150 2850 2250 2950
-Entry Wire Line
-	2150 2850 2250 2950
-Entry Wire Line
-	2150 2950 2250 3050
-Entry Wire Line
-	2150 3050 2250 3150
-Text GLabel 2150 3050 0    50   Input ~ 0
-SoMtoHDMI_DATA_[0...9]
 Wire Wire Line
 	2950 850  3150 850 
 Wire Wire Line
@@ -1428,72 +1366,6 @@ F 3 "" H 2700 6650 50  0001 C CNN
 	1    2700 6650
 	1    0    0    -1  
 $EndComp
-Text Label 2250 2750 0    50   ~ 0
-SoMtoHDMI_DATA_8
-Text Label 1400 8500 0    50   ~ 0
-SoMtoDisplay_DATA_7
-Text Label 1400 8600 0    50   ~ 0
-SoMtoDisplay_DATA_6
-Text Label 1400 8800 0    50   ~ 0
-SoMtoDisplay_DATA_5
-Text Label 1400 8900 0    50   ~ 0
-SoMtoDisplay_DATA_4
-Text Label 1400 9700 0    50   ~ 0
-SoMtoDisplay_DATA_9
-Text Label 1400 9800 0    50   ~ 0
-SoMtoDisplay_DATA_8
-Text Label 1400 9100 0    50   ~ 0
-SoMtoDisplay_DATA_3
-Text Label 1400 9200 0    50   ~ 0
-SoMtoDisplay_DATA_2
-Text Label 1400 9400 0    50   ~ 0
-SoMtoDisplay_DATA_1
-Text Label 1400 9500 0    50   ~ 0
-SoMtoDisplay_DATA_0
-Entry Wire Line
-	1300 8400 1400 8500
-Entry Wire Line
-	1300 8500 1400 8600
-Entry Wire Line
-	1300 8700 1400 8800
-Entry Wire Line
-	1300 8800 1400 8900
-Entry Wire Line
-	1300 9000 1400 9100
-Entry Wire Line
-	1300 9100 1400 9200
-Entry Wire Line
-	1300 9300 1400 9400
-Entry Wire Line
-	1300 9400 1400 9500
-Entry Wire Line
-	1300 9400 1400 9500
-Entry Wire Line
-	1300 9600 1400 9700
-Entry Wire Line
-	1300 9700 1400 9800
-Text GLabel 1300 8400 0    50   Input ~ 0
-SoMtoDisplay_DATA_[0...9]
-Wire Wire Line
-	1400 8500 2250 8500
-Wire Wire Line
-	1400 8600 2250 8600
-Wire Wire Line
-	1400 8800 2250 8800
-Wire Wire Line
-	1400 9100 2250 9100
-Wire Wire Line
-	1400 9400 2250 9400
-Wire Wire Line
-	1400 9700 2250 9700
-Wire Wire Line
-	1400 9800 2250 9800
-Wire Wire Line
-	1400 9500 2250 9500
-Wire Wire Line
-	1400 9200 2250 9200
-Wire Wire Line
-	1400 8900 2250 8900
 Text Label 6500 1200 0    50   ~ 0
 TX_D2_P
 Text Label 6500 1400 0    50   ~ 0
@@ -1833,15 +1705,9 @@ Wire Wire Line
 Wire Wire Line
 	10900 1800 9500 1800
 Wire Wire Line
-	9500 1600 11200 1600
-Wire Wire Line
 	11200 1600 11200 2750
 Wire Wire Line
 	11500 2750 11500 1400
-Wire Wire Line
-	11500 1400 9500 1400
-Wire Wire Line
-	9500 1200 11800 1200
 Wire Wire Line
 	11800 1200 11800 2750
 $Comp
@@ -1938,8 +1804,6 @@ Wire Wire Line
 	12400 1700 12000 1700
 Wire Wire Line
 	12000 1700 12000 1800
-Wire Wire Line
-	12000 1800 10900 1800
 Connection ~ 10900 1800
 Wire Wire Line
 	11200 1600 11900 1600
@@ -3142,8 +3006,104 @@ Wire Wire Line
 	6500 1200 6900 1200
 Wire Wire Line
 	4450 2100 4850 2100
-Wire Bus Line
-	1300 8400 1300 9700
-Wire Bus Line
-	2150 2150 2150 3050
+Text GLabel 3150 3150 0    50   Input ~ 0
+SoMtoLT_D0_P
+Text GLabel 3150 3050 0    50   Input ~ 0
+SoMtoLT_D0_N
+Text GLabel 3150 2950 0    50   Input ~ 0
+SoMtoLT_D1_P
+Text GLabel 3150 2850 0    50   Input ~ 0
+SoMtoLT_D1_N
+Text GLabel 3150 2550 0    50   Input ~ 0
+SoMtoLT_D2_P
+Text GLabel 3150 2450 0    50   Input ~ 0
+SoMtoLT_D2_N
+Text GLabel 3150 2350 0    50   Input ~ 0
+SoMtoLT_D3_P
+Text GLabel 3150 2250 0    50   Input ~ 0
+SoMtoLT_D3_N
+Text GLabel 3150 2750 0    50   Input ~ 0
+SoMtoLT_CLK_P
+Text GLabel 3150 2650 0    50   Input ~ 0
+SoMtoLT_CLK_N
+Text GLabel 1400 9500 0    50   Input ~ 0
+SoMtoDisplay_D0_P
+Text GLabel 1400 9400 0    50   Input ~ 0
+SoMtoDisplay_D0_N
+Text GLabel 1400 9200 0    50   Input ~ 0
+SoMtoDisplay_D1_P
+Text GLabel 1400 9100 0    50   Input ~ 0
+SoMtoDisplay_D1_N
+Text GLabel 1400 8900 0    50   Input ~ 0
+SoMtoDisplay_D2_P
+Text GLabel 1400 8800 0    50   Input ~ 0
+SoMtoDisplay_D2_N
+Text GLabel 1400 8600 0    50   Input ~ 0
+SoMtoDisplay_D3_P
+Text GLabel 1400 8500 0    50   Input ~ 0
+SoMtoDisplay_D3_N
+Text GLabel 1400 9800 0    50   Input ~ 0
+SoMtoDisplay_CLK_P
+Text GLabel 1400 9700 0    50   Input ~ 0
+SoMtoDisplay_CLK_N
+Wire Wire Line
+	12000 1800 10900 1800
+Wire Wire Line
+	9500 1200 11800 1200
+Wire Wire Line
+	11500 1400 9500 1400
+Wire Wire Line
+	9500 1600 11200 1600
+Text Label 10100 2600 0    50   ~ 0
+TX_CLK_C_N
+Text Label 10100 2400 0    50   ~ 0
+TX_CLK_C_P
+Text Label 10100 2200 0    50   ~ 0
+TX_D0_C_N
+Text Label 10100 2000 0    50   ~ 0
+TX_D0_C_P
+Text Label 10100 1800 0    50   ~ 0
+TX_D1_C_N
+Text Label 10100 1600 0    50   ~ 0
+TX_D1_C_P
+Text Label 10100 1400 0    50   ~ 0
+TX_D2_C_N
+Text Label 10100 1200 0    50   ~ 0
+TX_D2_C_P
+Text Label 13950 2250 0    50   ~ 0
+TX_CLK_Ferr_N
+Text Label 13950 2150 0    50   ~ 0
+TX_CLK_Ferr_P
+Text Label 14000 1950 0    50   ~ 0
+TX_D0_Ferr_N
+Text Label 14000 1850 0    50   ~ 0
+TX_D0_Ferr_P
+Text Label 14000 1650 0    50   ~ 0
+TX_D1_Ferr_N
+Text Label 14000 1550 0    50   ~ 0
+TX_D1_Ferr_P
+Text Label 14000 1350 0    50   ~ 0
+TX_D2_Ferr_N
+Text Label 14000 1250 0    50   ~ 0
+TX_D2_Ferr_P
+Text Label 2750 8500 0    50   ~ 0
+SoMtoDisplay_Ferr_D3_N
+Text Label 2750 8600 0    50   ~ 0
+SoMtoDisplay_Ferr_D3_P
+Text Label 2750 8800 0    50   ~ 0
+SoMtoDisplay_Ferr_D2_N
+Text Label 2750 9100 0    50   ~ 0
+SoMtoDisplay_Ferr_D1_N
+Text Label 2750 9400 0    50   ~ 0
+SoMtoDisplay_Ferr_D0_N
+Text Label 2750 9700 0    50   ~ 0
+SoMtoDisplay_Ferr_CLK_N
+Text Label 2750 8900 0    50   ~ 0
+SoMtoDisplay_Ferr_D2_P
+Text Label 2750 9200 0    50   ~ 0
+SoMtoDisplay_Ferr_D1_P
+Text Label 2750 9500 0    50   ~ 0
+SoMtoDisplay_Ferr_D0_P
+Text Label 2750 9800 0    50   ~ 0
+SoMtoDisplay_Ferr_CLK_P
 $EndSCHEMATC

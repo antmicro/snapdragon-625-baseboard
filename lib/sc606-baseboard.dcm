@@ -5,10 +5,6 @@ F https://assets.nexperia.com/documents/data-sheet/74LVC1G123_Q100.pdf
 $ENDCMP
 #
 $CMP ANT-LTE-CER-T
-F https://www.mouser.pl/datasheet/2/238/ant-lte-cer-1315714.pdf
-$ENDCMP
-#
-$CMP GSB3112311HR
 F https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_3_1_gen1_gsb31x_gsb32x.pdf
 $ENDCMP
 #
