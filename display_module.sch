@@ -108,19 +108,6 @@ Wire Wire Line
 Connection ~ 2000 10700
 Wire Wire Line
 	2000 10700 2200 10700
-$Comp
-L sc606-baseboard:NFP0QHB242HS2D L8
-U 1 1 620D3E98
-P 1700 8550
-F 0 "L8" H 2050 8650 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 2300 8550 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 8880 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 8550 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 1700 8867 50  0001 C CNN "MPN"
-F 5 "MURATA" H 1700 8776 50  0001 C CNN "Manufacturer"
-	1    1700 8550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 8500 2000 8500
 Wire Wire Line
@@ -129,19 +116,6 @@ Wire Wire Line
 	3800 8600 2000 8600
 Wire Wire Line
 	2000 8600 2000 8650
-$Comp
-L sc606-baseboard:NFP0QHB242HS2D L9
-U 1 1 620DCF56
-P 1700 8850
-F 0 "L9" H 2050 8950 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 2300 8850 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 9180 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 8850 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 1700 9167 50  0001 C CNN "MPN"
-F 5 "MURATA" H 1700 9076 50  0001 C CNN "Manufacturer"
-	1    1700 8850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 8800 2000 8800
 Wire Wire Line
@@ -150,19 +124,6 @@ Wire Wire Line
 	3800 8900 2000 8900
 Wire Wire Line
 	2000 8900 2000 8950
-$Comp
-L sc606-baseboard:NFP0QHB242HS2D L10
-U 1 1 620DE4CE
-P 1700 9150
-F 0 "L10" H 2050 9250 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 2300 9150 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 9480 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 9150 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 1700 9467 50  0001 C CNN "MPN"
-F 5 "MURATA" H 1700 9376 50  0001 C CNN "Manufacturer"
-	1    1700 9150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 9100 2000 9100
 Wire Wire Line
@@ -171,19 +132,6 @@ Wire Wire Line
 	3800 9200 2000 9200
 Wire Wire Line
 	2000 9200 2000 9250
-$Comp
-L sc606-baseboard:NFP0QHB242HS2D L11
-U 1 1 620E0175
-P 1700 9450
-F 0 "L11" H 2050 9550 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 2300 9450 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 9780 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 9450 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 1700 9767 50  0001 C CNN "MPN"
-F 5 "MURATA" H 1700 9676 50  0001 C CNN "Manufacturer"
-	1    1700 9450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 9400 2000 9400
 Wire Wire Line
@@ -203,7 +151,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 9750 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1700 10067 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1700 9976 50  0001 C CNN "Manufacturer"
 	1    1700 9750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3800 9700 2000 9700
@@ -1951,9 +1899,9 @@ Wire Wire Line
 Text Label 5750 4350 2    50   ~ 0
 CEC
 Text Label 5750 4150 2    50   ~ 0
-SCL_HDMI
+LTtoHDMI_SCL
 Text Label 5750 4250 2    50   ~ 0
-SDA_HDMI
+LTtoHDMI_SDA
 Wire Wire Line
 	5750 4150 5900 4150
 Wire Wire Line
@@ -3106,4 +3054,56 @@ Text Label 2750 9500 0    50   ~ 0
 SoMtoDisplay_Ferr_D0_P
 Text Label 2750 9800 0    50   ~ 0
 SoMtoDisplay_Ferr_CLK_P
+$Comp
+L sc606-baseboard:NFP0QHB242HS2D L8
+U 1 1 620D3E98
+P 1700 8550
+F 0 "L8" H 2050 8650 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 2300 8550 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 8880 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 8550 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1700 8867 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1700 8776 50  0001 C CNN "Manufacturer"
+	1    1700 8550
+	1    0    0    1   
+$EndComp
+$Comp
+L sc606-baseboard:NFP0QHB242HS2D L11
+U 1 1 620E0175
+P 1700 9450
+F 0 "L11" H 2050 9550 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 2300 9450 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 9780 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 9450 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1700 9767 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1700 9676 50  0001 C CNN "Manufacturer"
+	1    1700 9450
+	1    0    0    1   
+$EndComp
+$Comp
+L sc606-baseboard:NFP0QHB242HS2D L10
+U 1 1 620DE4CE
+P 1700 9150
+F 0 "L10" H 2050 9250 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 2300 9150 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 9480 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 9150 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1700 9467 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1700 9376 50  0001 C CNN "Manufacturer"
+	1    1700 9150
+	1    0    0    1   
+$EndComp
+$Comp
+L sc606-baseboard:NFP0QHB242HS2D L9
+U 1 1 620DCF56
+P 1700 8850
+F 0 "L9" H 2050 8950 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 2300 8850 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:FIL_NFP0QHB242HS2D" H 1455 9180 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1700 8850 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1700 9167 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1700 9076 50  0001 C CNN "Manufacturer"
+	1    1700 8850
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
