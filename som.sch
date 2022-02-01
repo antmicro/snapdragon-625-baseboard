@@ -1186,8 +1186,6 @@ Wire Wire Line
 	2650 8000 3150 8000
 Wire Wire Line
 	3150 8000 3650 8000
-Wire Wire Line
-	3650 8000 5000 8000
 $Comp
 L sc606-baseboard:C_100u_1206 C171
 U 1 1 627F7180
@@ -1238,6 +1236,16 @@ F 3 "" H 4550 8300 50  0001 C CNN
 	1    4550 8300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3650 8000 4050 8000
+Connection ~ 4050 8000
+Wire Wire Line
+	4050 8000 4550 8000
+Wire Wire Line
+	4550 8000 5000 8000
 Wire Bus Line
 	1750 4650 1750 5350
+Connection ~ 4550 8000
+Wire Wire Line
+	4550 8000 5000 8000
 $EndSCHEMATC

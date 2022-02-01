@@ -43,7 +43,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 3550 4450 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 3550 4767 50  0001 C CNN "MPN"
 F 5 "MURATA" H 3550 4676 50  0001 C CNN "Manufacturer"
 	1    3550 4450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3850 4350 4000 4350

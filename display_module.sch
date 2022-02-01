@@ -482,9 +482,9 @@ F 6 "10k" H 1350 1550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Text Label 1200 1950 2    50   ~ 0
-SoMtoLT__SDA
+SoMtoLT_SDA
 Text Label 1200 1850 2    50   ~ 0
-SoMtoLT__SCL
+SoMtoLT_SCL
 $Comp
 L sc606-baseboard:R_4k7_0402 R51
 U 1 1 628BBC2A
@@ -1669,14 +1669,10 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 12700 1300 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 12700 1617 50  0001 C CNN "MPN"
 F 5 "MURATA" H 12700 1526 50  0001 C CNN "Manufacturer"
 	1    12700 1300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	15150 1250 13300 1250
-Wire Wire Line
 	13000 1250 13000 1200
-Wire Wire Line
-	15150 1350 13200 1350
 Wire Wire Line
 	13000 1350 13000 1400
 $Comp
@@ -1690,7 +1686,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 12700 1600 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 12700 1917 50  0001 C CNN "MPN"
 F 5 "MURATA" H 12700 1826 50  0001 C CNN "Manufacturer"
 	1    12700 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	15150 1550 13500 1550
@@ -1711,14 +1707,10 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 12700 1900 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 12700 2217 50  0001 C CNN "MPN"
 F 5 "MURATA" H 12700 2126 50  0001 C CNN "Manufacturer"
 	1    12700 1900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	15150 1850 13700 1850
-Wire Wire Line
 	13000 1850 13000 1800
-Wire Wire Line
-	15150 1950 13600 1950
 Wire Wire Line
 	13000 1950 13000 2000
 $Comp
@@ -1732,7 +1724,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 12700 2200 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 12700 2517 50  0001 C CNN "MPN"
 F 5 "MURATA" H 12700 2426 50  0001 C CNN "Manufacturer"
 	1    12700 2200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	15150 2150 13100 2150
@@ -1897,7 +1889,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2000 4550 2000
 Text Label 5750 4350 2    50   ~ 0
-CEC
+CEC_HDMI
 Text Label 5750 4150 2    50   ~ 0
 LTtoHDMI_SCL
 Text Label 5750 4250 2    50   ~ 0
@@ -2225,7 +2217,7 @@ Connection ~ 9200 4550
 Wire Wire Line
 	9200 4550 9350 4550
 Text Label 10850 5150 0    50   ~ 0
-SoMtoLT__SCL
+SoMtoLT_SCL
 NoConn ~ 3150 3350
 NoConn ~ 3150 3450
 NoConn ~ 3150 3550
@@ -2379,19 +2371,6 @@ F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 10900 9900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF2702X" H 10900 9800 60  0001 L CNN "MPN"
 F 6 "27k" V 10753 9570 50  0000 L CNN "Val"
 	1    10700 9500
-	0    1    1    0   
-$EndComp
-$Comp
-L sc606-baseboard:S1G D9
-U 1 1 664DAA21
-P 10700 9150
-F 0 "D9" V 10647 9228 60  0000 L CNN
-F 1 "S1G" V 10753 9228 60  0000 L CNN
-F 2 "sc606-baseboard-footprints:DO-214AC" H 10900 9350 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/S1M-D.pdf" H 10900 9450 60  0001 L CNN
-F 4 "S1G" H 10900 9650 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 10900 10250 60  0001 L CNN "Manufacturer"
-	1    10700 9150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2813,16 +2792,6 @@ Connection ~ 13100 2150
 Wire Wire Line
 	13100 2150 13000 2150
 Wire Wire Line
-	13200 2500 13200 1350
-Connection ~ 13200 1350
-Wire Wire Line
-	13200 1350 13000 1350
-Wire Wire Line
-	13300 2500 13300 1250
-Connection ~ 13300 1250
-Wire Wire Line
-	13300 1250 13000 1250
-Wire Wire Line
 	13400 2500 13400 1650
 Connection ~ 13400 1650
 Wire Wire Line
@@ -2832,16 +2801,6 @@ Wire Wire Line
 Connection ~ 13500 1550
 Wire Wire Line
 	13500 1550 13000 1550
-Wire Wire Line
-	13600 2500 13600 1950
-Connection ~ 13600 1950
-Wire Wire Line
-	13600 1950 13000 1950
-Wire Wire Line
-	13700 2500 13700 1850
-Connection ~ 13700 1850
-Wire Wire Line
-	13700 1850 13000 1850
 $Comp
 L sc606-baseboard:GND #PWR078
 U 1 1 6244C940
@@ -3105,5 +3064,63 @@ F 4 "NFP0QHB242HS2D" H 1700 9167 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1700 9076 50  0001 C CNN "Manufacturer"
 	1    1700 8850
 	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13000 2500 13000 2300
+Connection ~ 13000 2300
+Wire Wire Line
+	13000 1950 13200 1950
+Wire Wire Line
+	13000 1850 13300 1850
+Wire Wire Line
+	13000 1350 13600 1350
+Wire Wire Line
+	13000 1250 13700 1250
+Wire Wire Line
+	13200 2500 13200 1950
+Connection ~ 13200 1950
+Wire Wire Line
+	13200 1950 15150 1950
+Wire Wire Line
+	13300 1850 13300 2500
+Connection ~ 13300 1850
+Wire Wire Line
+	13300 1850 15150 1850
+Wire Wire Line
+	13600 2500 13600 1350
+Connection ~ 13600 1350
+Wire Wire Line
+	13600 1350 15150 1350
+Wire Wire Line
+	13700 1250 13700 2500
+Connection ~ 13700 1250
+Wire Wire Line
+	13700 1250 15150 1250
+Wire Wire Line
+	3150 950  3150 850 
+Connection ~ 3150 950 
+Connection ~ 3150 850 
+Wire Wire Line
+	4450 1050 4450 950 
+Connection ~ 4450 850 
+Connection ~ 4450 950 
+Wire Wire Line
+	4450 950  4450 850 
+Wire Wire Line
+	4450 1150 4450 1050
+Connection ~ 4450 1150
+Connection ~ 4450 1050
+$Comp
+L antmicroDiodesRectifiersSingle:1N4148W-7-F D9
+U 1 1 62B067B7
+P 10700 9150
+F 0 "D9" V 10647 9228 60  0000 L CNN
+F 1 "1N4148W-7-F" V 10753 9228 60  0000 L CNN
+F 2 "antmicro-footprints:SOD-123" H 10900 9350 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 10900 9450 60  0001 L CNN
+F 4 "1N4148W-7-F" H 10900 9650 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 10900 10250 60  0001 L CNN "Manufacturer"
+	1    10700 9150
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
