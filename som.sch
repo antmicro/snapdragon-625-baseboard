@@ -1243,9 +1243,7 @@ Wire Wire Line
 	4050 8000 4550 8000
 Wire Wire Line
 	4550 8000 5000 8000
+Connection ~ 4550 8000
 Wire Bus Line
 	1750 4650 1750 5350
-Connection ~ 4550 8000
-Wire Wire Line
-	4550 8000 5000 8000
 $EndSCHEMATC

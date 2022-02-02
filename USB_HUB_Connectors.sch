@@ -2261,13 +2261,13 @@ F 3 "" H 12950 8550 50  0001 C CNN
 	1    12950 8550
 	-1   0    0    -1  
 $EndComp
-Text Label 14900 8450 2    50   ~ 0
-USB_C2_SS_C_RX2_N
-Text Label 14900 8350 2    50   ~ 0
-USB_C2_SS_C_RX2_P
-Text Label 14900 8150 2    50   ~ 0
-USB_C2_SS_C_TX2_N
 Text Label 14900 8250 2    50   ~ 0
+USB_C2_SS_C_RX2_N
+Text Label 14900 8150 2    50   ~ 0
+USB_C2_SS_C_RX2_P
+Text Label 14900 8350 2    50   ~ 0
+USB_C2_SS_C_TX2_N
+Text Label 14900 8450 2    50   ~ 0
 USB_C2_SS_C_TX2_P
 $Comp
 L sc606-baseboard:PUSB3F96X_PASS D?
