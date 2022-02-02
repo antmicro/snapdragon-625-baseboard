@@ -1,4 +1,4 @@
-update=Tue 01 Feb 2022 02:27:44 PM CET
+update=Wed 02 Feb 2022 09:18:36 AM CET
 version=1
 last_client=kicad
 [general]
@@ -247,7 +247,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=CSI_DSI_Inner
-Clearance=0.508
+Clearance=0.15
 TrackWidth=0.15
 ViaDiameter=0.6
 ViaDrill=0.35
@@ -258,7 +258,7 @@ dPairGap=0.485
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=CSI_DSI_Outer
-Clearance=0.508
+Clearance=0.15
 TrackWidth=0.15
 ViaDiameter=0.6
 ViaDrill=0.35
