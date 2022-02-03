@@ -1669,7 +1669,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 12700 1300 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 12700 1617 50  0001 C CNN "MPN"
 F 5 "MURATA" H 12700 1526 50  0001 C CNN "Manufacturer"
 	1    12700 1300
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13000 1250 13000 1200
@@ -1689,11 +1689,7 @@ F 5 "MURATA" H 12700 1826 50  0001 C CNN "Manufacturer"
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	15150 1550 13500 1550
-Wire Wire Line
 	13000 1550 13000 1500
-Wire Wire Line
-	15150 1650 13400 1650
 Wire Wire Line
 	13000 1650 13000 1700
 $Comp
@@ -1707,7 +1703,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 12700 1900 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 12700 2217 50  0001 C CNN "MPN"
 F 5 "MURATA" H 12700 2126 50  0001 C CNN "Manufacturer"
 	1    12700 1900
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13000 1850 13000 1800
@@ -1726,8 +1722,6 @@ F 5 "MURATA" H 12700 2426 50  0001 C CNN "Manufacturer"
 	1    12700 2200
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	15150 2150 13100 2150
 Wire Wire Line
 	13000 2150 13000 2100
 Wire Wire Line
@@ -1890,82 +1884,31 @@ Wire Wire Line
 	4450 2000 4550 2000
 Text Label 5750 4350 2    50   ~ 0
 CEC_HDMI
-Text Label 5750 4150 2    50   ~ 0
-LTtoHDMI_SCL
 Text Label 5750 4250 2    50   ~ 0
+LTtoHDMI_SCL
+Text Label 5750 4150 2    50   ~ 0
 LTtoHDMI_SDA
 Wire Wire Line
 	5750 4150 5900 4150
 Wire Wire Line
 	5750 4250 6000 4250
-$Comp
-L sc606-baseboard:TPD1E10B06DPYR D6
-U 1 1 649A70E3
-P 6700 3950
-F 0 "D6" H 6350 3850 60  0000 C CNN
-F 1 "TPD1E10B06DPYR" H 6000 4050 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:XDFN-2_1x0.60mm" H 6900 4150 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e10b06" H 6900 4250 60  0001 L CNN
-F 4 "Texas Instruments" H 6900 5050 60  0001 L CNN "Manufacturer"
-F 5 "TPD1E10B06DPYR" H 6900 4450 60  0001 L CNN "MPN"
-	1    6700 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L sc606-baseboard:TPD1E10B06DPYR D7
-U 1 1 649D2CCA
-P 6700 4250
-F 0 "D7" H 6350 4150 60  0000 C CNN
-F 1 "TPD1E10B06DPYR" H 6000 4350 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:XDFN-2_1x0.60mm" H 6900 4450 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e10b06" H 6900 4550 60  0001 L CNN
-F 4 "Texas Instruments" H 6900 5350 60  0001 L CNN "Manufacturer"
-F 5 "TPD1E10B06DPYR" H 6900 4750 60  0001 L CNN "MPN"
-	1    6700 4250
-	-1   0    0    1   
-$EndComp
-$Comp
-L sc606-baseboard:TPD1E10B06DPYR D8
-U 1 1 649D300F
-P 6700 4550
-F 0 "D8" H 6350 4450 60  0000 C CNN
-F 1 "TPD1E10B06DPYR" H 6000 4650 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:XDFN-2_1x0.60mm" H 6900 4750 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e10b06" H 6900 4850 60  0001 L CNN
-F 4 "Texas Instruments" H 6900 5650 60  0001 L CNN "Manufacturer"
-F 5 "TPD1E10B06DPYR" H 6900 5050 60  0001 L CNN "MPN"
-	1    6700 4550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6400 4250 6000 4250
 Connection ~ 6000 4250
-Wire Wire Line
-	6400 3950 6400 4150
 Wire Wire Line
 	6400 4150 5900 4150
 Connection ~ 5900 4150
 Wire Wire Line
 	5750 4350 6400 4350
-Wire Wire Line
-	6400 4350 6400 4550
-Wire Wire Line
-	7000 3950 7000 4250
-Connection ~ 7000 4250
-Wire Wire Line
-	7000 4250 7000 4550
-Connection ~ 7000 4550
-Wire Wire Line
-	7000 4550 7000 4750
 $Comp
 L sc606-baseboard:GND #PWR072
 U 1 1 64A96BA9
-P 7000 4750
-F 0 "#PWR072" H 7000 4500 50  0001 C CNN
-F 1 "GND" H 7005 4577 50  0000 C CNN
-F 2 "" H 7000 4750 50  0001 C CNN
-F 3 "" H 7000 4750 50  0001 C CNN
-	1    7000 4750
+P 6400 4450
+F 0 "#PWR072" H 6400 4200 50  0001 C CNN
+F 1 "GND" H 6405 4277 50  0000 C CNN
+F 2 "" H 6400 4450 50  0001 C CNN
+F 3 "" H 6400 4450 50  0001 C CNN
+	1    6400 4450
 	1    0    0    -1  
 $EndComp
 Text Label 14750 2750 2    50   ~ 0
@@ -2569,6 +2512,7 @@ F 3 "" H 15050 3250 50  0001 C CNN
 F 4 "PANASONIC" H 15250 3650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15250 3550 60  0001 L CNN "MPN"
 F 6 "0R" V 15103 3320 50  0000 L CNN "Val"
+F 7 "DNP" V 15200 3400 50  0000 C CNN "DNP"
 	1    15050 3250
 	0    1    1    0   
 $EndComp
@@ -2766,19 +2710,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 6300 2700 6300
 Connection ~ 2700 6300
-$Comp
-L sc606-baseboard:TPD13S523PWR U9
-U 1 1 61ED8AFD
-P 13350 2950
-F 0 "U9" H 13350 3525 50  0000 C CNN
-F 1 "TPD13S523PWR" H 13350 3434 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:TSSOP-16" H 13000 2300 50  0001 L CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tpd13s523.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1642494532421&ref_url=https%253A%252F%252Fwww.mouser.pl%252F" H 13350 3450 50  0001 C CNN
-F 4 "Texas Instruments" H 13000 2400 50  0001 L CNN "Manufacturer"
-F 5 "TPD13S523PWR" H 13000 2500 50  0001 L CNN "MPN"
-	1    13350 2950
-	0    1    1    0   
-$EndComp
 Connection ~ 14750 2950
 Wire Wire Line
 	14750 2950 14700 2950
@@ -2786,126 +2717,23 @@ Connection ~ 14950 2850
 Wire Wire Line
 	14550 2850 14950 2850
 Connection ~ 14550 2850
-Wire Wire Line
-	13100 2500 13100 2150
-Connection ~ 13100 2150
-Wire Wire Line
-	13100 2150 13000 2150
-Wire Wire Line
-	13400 2500 13400 1650
-Connection ~ 13400 1650
-Wire Wire Line
-	13400 1650 13000 1650
-Wire Wire Line
-	13500 2500 13500 1550
-Connection ~ 13500 1550
-Wire Wire Line
-	13500 1550 13000 1550
-$Comp
-L sc606-baseboard:GND #PWR078
-U 1 1 6244C940
-P 13000 4050
-F 0 "#PWR078" H 13000 3800 50  0001 C CNN
-F 1 "GND" H 13005 3877 50  0000 C CNN
-F 2 "" H 13000 4050 50  0001 C CNN
-F 3 "" H 13000 4050 50  0001 C CNN
-	1    13000 4050
-	1    0    0    -1  
-$EndComp
-Text Label 13400 3600 3    50   ~ 0
-CEC_HDMI
-Text Label 13500 3600 3    50   ~ 0
-LTtoHDMI_SCL
-Text Label 13600 3600 3    50   ~ 0
-LTtoHDMI_SDA
-Text Label 13700 3600 3    50   ~ 0
-DETECT_HDMI
-Wire Wire Line
-	13400 3600 13400 3400
-Wire Wire Line
-	13500 3600 13500 3400
-Wire Wire Line
-	13600 3400 13600 3600
-Wire Wire Line
-	13700 3600 13700 3400
 Text Label 15150 2750 2    50   ~ 0
 UTILITY
-Text Label 13300 3600 3    50   ~ 0
-UTILITY
-Wire Wire Line
-	13300 3600 13300 3400
-Text GLabel 12650 3600 0    50   Input ~ 0
+Text GLabel 13650 2850 0    50   Input ~ 0
 5V0_SYS
-Wire Wire Line
-	13200 3600 13200 3400
-$Comp
-L sc606-baseboard:C_100n_0402 C83
-U 1 1 6266F289
-P 12750 3750
-F 0 "C83" H 12750 3850 60  0000 L CNN
-F 1 "C_100n_0402" H 12750 3600 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 12950 3950 60  0001 L CNN
-F 3 "" H 12750 3750 50  0001 C CNN
-F 4 "Murata" H 12950 4150 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 12950 4050 60  0001 L CNN "MPN"
-F 6 "100n" H 12750 3650 50  0000 L CNN "Val"
-	1    12750 3750
-	1    0    0    -1  
-$EndComp
-Connection ~ 12750 3600
-Wire Wire Line
-	12750 3600 13200 3600
-Wire Wire Line
-	12650 3600 12750 3600
-Wire Wire Line
-	14050 2850 14050 2950
-Wire Wire Line
-	14050 3450 13100 3450
-Wire Wire Line
-	13100 3450 13100 3400
-$Comp
-L sc606-baseboard:C_100n_0402 C84
-U 1 1 6279BD3E
-P 13100 3800
-F 0 "C84" H 13100 3900 60  0000 L CNN
-F 1 "C_100n_0402" H 13100 3650 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-cap" H 13300 4000 60  0001 L CNN
-F 3 "" H 13100 3800 50  0001 C CNN
-F 4 "Murata" H 13300 4200 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61H104KE14D" H 13300 4100 60  0001 L CNN "MPN"
-F 6 "100n" H 13100 3700 50  0000 L CNN "Val"
-	1    13100 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13100 3650 13100 3450
-Connection ~ 13100 3450
-Wire Wire Line
-	13100 3950 13100 4050
-Wire Wire Line
-	13100 4050 13000 4050
-Connection ~ 13000 4050
-Wire Wire Line
-	13000 3400 13000 4050
-Wire Wire Line
-	12750 3900 12750 4050
-Wire Wire Line
-	12750 4050 13000 4050
 $Comp
 L sc606-baseboard:1N4148WS D10
 U 1 1 620F4BEE
-P 14050 3150
-F 0 "D10" V 13950 3250 60  0000 C CNN
-F 1 "1N4148WS" H 14050 3050 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:SOD-323F" H 14250 3350 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 14250 3450 60  0001 L CNN
-F 4 "1N4148WS" H 14250 3650 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 14250 4250 60  0001 L CNN "Manufacturer"
-	1    14050 3150
-	0    -1   -1   0   
+P 13850 2850
+F 0 "D10" V 13750 2950 60  0000 C CNN
+F 1 "1N4148WS" H 13850 2750 60  0000 C CNN
+F 2 "sc606-baseboard-footprints:SOD-323F" H 14050 3050 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 14050 3150 60  0001 L CNN
+F 4 "1N4148WS" H 14050 3350 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 14050 3950 60  0001 L CNN "Manufacturer"
+	1    13850 2850
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14050 3350 14050 3450
 Wire Wire Line
 	14050 2850 14550 2850
 Connection ~ 6900 1200
@@ -3066,37 +2894,6 @@ F 5 "MURATA" H 1700 9076 50  0001 C CNN "Manufacturer"
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	13000 2500 13000 2300
-Connection ~ 13000 2300
-Wire Wire Line
-	13000 1950 13200 1950
-Wire Wire Line
-	13000 1850 13300 1850
-Wire Wire Line
-	13000 1350 13600 1350
-Wire Wire Line
-	13000 1250 13700 1250
-Wire Wire Line
-	13200 2500 13200 1950
-Connection ~ 13200 1950
-Wire Wire Line
-	13200 1950 15150 1950
-Wire Wire Line
-	13300 1850 13300 2500
-Connection ~ 13300 1850
-Wire Wire Line
-	13300 1850 15150 1850
-Wire Wire Line
-	13600 2500 13600 1350
-Connection ~ 13600 1350
-Wire Wire Line
-	13600 1350 15150 1350
-Wire Wire Line
-	13700 1250 13700 2500
-Connection ~ 13700 1250
-Wire Wire Line
-	13700 1250 15150 1250
-Wire Wire Line
 	3150 950  3150 850 
 Connection ~ 3150 950 
 Connection ~ 3150 850 
@@ -3122,5 +2919,97 @@ F 4 "1N4148W-7-F" H 10900 9650 60  0001 L CNN "MPN"
 F 5 "Diodes Incorporated" H 10900 10250 60  0001 L CNN "Manufacturer"
 	1    10700 9150
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13000 2150 15150 2150
+Wire Wire Line
+	13000 1650 15150 1650
+Wire Wire Line
+	13000 1550 15150 1550
+Wire Wire Line
+	13000 1950 15150 1950
+Wire Wire Line
+	13000 1850 15150 1850
+Wire Wire Line
+	13000 1350 15150 1350
+Wire Wire Line
+	13000 1250 15150 1250
+Text Label 13350 3950 2    50   ~ 0
+TX_D2_Ferr_P
+Text Label 13350 3850 2    50   ~ 0
+TX_D2_Ferr_N
+$Comp
+L sc606-baseboard:GND #PWR078
+U 1 1 62204894
+P 13350 4050
+F 0 "#PWR078" H 13350 3800 50  0001 C CNN
+F 1 "GND" H 13355 3877 50  0000 C CNN
+F 2 "" H 13350 4050 50  0001 C CNN
+F 3 "" H 13350 4050 50  0001 C CNN
+	1    13350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc606-baseboard:PUSB3F96X_PASS D?
+U 1 1 622DA55E
+P 13550 3850
+AR Path="/61D49FDE/622DA55E" Ref="D?"  Part="1" 
+AR Path="/61F60810/622DA55E" Ref="D?"  Part="1" 
+AR Path="/63348E64/622DA55E" Ref="D?"  Part="1" 
+AR Path="/61D49FBF/622DA55E" Ref="D29"  Part="1" 
+F 0 "D29" H 13550 4200 60  0000 L CNN
+F 1 "PUSB3F96X_PASS" H 13550 3500 60  0000 L CNN
+F 2 "sc606-baseboard-footprints:PUSB3F96X" H 13750 3300 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 13550 3850 60  0001 C CNN
+F 4 "Nexperia" H 13750 3200 50  0001 C CNN "Manufacturer"
+F 5 "PUSB3F96X" H 13750 3200 50  0001 C CNN "MPN"
+	1    13550 3850
+	1    0    0    -1  
+$EndComp
+Text Label 13350 3750 2    50   ~ 0
+TX_D0_Ferr_P
+Text Label 13350 3650 2    50   ~ 0
+TX_D0_Ferr_N
+$Comp
+L sc606-baseboard:PUSB3F96X_PASS D?
+U 1 1 623A2CA6
+P 13550 4650
+AR Path="/61D49FDE/623A2CA6" Ref="D?"  Part="1" 
+AR Path="/61F60810/623A2CA6" Ref="D?"  Part="1" 
+AR Path="/63348E64/623A2CA6" Ref="D?"  Part="1" 
+AR Path="/61D49FBF/623A2CA6" Ref="D30"  Part="1" 
+F 0 "D30" H 13550 5000 60  0000 L CNN
+F 1 "PUSB3F96X_PASS" H 13550 4300 60  0000 L CNN
+F 2 "sc606-baseboard-footprints:PUSB3F96X" H 13750 4100 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 13550 4650 60  0001 C CNN
+F 4 "Nexperia" H 13750 4000 50  0001 C CNN "Manufacturer"
+F 5 "PUSB3F96X" H 13750 4000 50  0001 C CNN "MPN"
+	1    13550 4650
+	1    0    0    -1  
+$EndComp
+Text Label 13350 4450 2    50   ~ 0
+TX_CLK_Ferr_N
+Text Label 13350 4550 2    50   ~ 0
+TX_CLK_Ferr_P
+Text Label 13350 4650 2    50   ~ 0
+TX_D1_Ferr_N
+Text Label 13350 4750 2    50   ~ 0
+TX_D1_Ferr_P
+$Comp
+L sc606-baseboard:PUSB3F96X_PASS D?
+U 1 1 62438557
+P 6600 4250
+AR Path="/61D49FDE/62438557" Ref="D?"  Part="1" 
+AR Path="/61F60810/62438557" Ref="D?"  Part="1" 
+AR Path="/63348E64/62438557" Ref="D?"  Part="1" 
+AR Path="/61D49FBF/62438557" Ref="D6"  Part="1" 
+F 0 "D6" H 6600 4600 60  0000 L CNN
+F 1 "PUSB3F96X_PASS" H 6600 3900 60  0000 L CNN
+F 2 "sc606-baseboard-footprints:PUSB3F96X" H 6800 3700 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 6600 4250 60  0001 C CNN
+F 4 "Nexperia" H 6800 3600 50  0001 C CNN "Manufacturer"
+F 5 "PUSB3F96X" H 6800 3600 50  0001 C CNN "MPN"
+	1    6600 4250
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
