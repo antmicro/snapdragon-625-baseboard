@@ -34,61 +34,6 @@ F 3 "" H 8250 10050 50  0001 C CNN
 $EndComp
 Text GLabel 8250 9750 1    100  Input ~ 0
 RTC_BAT
-Text Notes 950  1250 0    100  ~ 20
-Power input
-$Comp
-L sc606-baseboard:PJ-202A J1
-U 1 1 623EC1D3
-P 1450 1850
-F 0 "J1" H 1450 1950 50  0000 C CNN
-F 1 "PJ-202A" H 1450 1600 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" H 1650 2050 60  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 1650 2150 60  0001 L CNN
-F 4 "CUI Inc." H 1650 2950 60  0001 L CNN "Manufacturer"
-F 5 "PJ-202A" H 1650 2350 60  0001 L CNN "MPN"
-	1    1450 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L sc606-baseboard:GND #PWR032
-U 1 1 623ECF5D
-P 1850 2050
-F 0 "#PWR032" H 1850 1800 50  0001 C CNN
-F 1 "GND" H 1850 1900 50  0000 C CNN
-F 2 "" H 1850 2050 50  0001 C CNN
-F 3 "" H 1850 2050 50  0001 C CNN
-	1    1850 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 1950 1550 2050
-Wire Wire Line
-	1850 2050 1550 2050
-Connection ~ 1550 2050
-$Comp
-L sc606-baseboard:VCC #PWR031
-U 1 1 623EE843
-P 1850 1850
-F 0 "#PWR031" H 1850 1700 50  0001 C CNN
-F 1 "VCC" H 1850 2000 50  0000 C CNN
-F 2 "" H 1850 1850 50  0001 C CNN
-F 3 "" H 1850 1850 50  0001 C CNN
-	1    1850 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 1850 1550 1850
-$Comp
-L sc606-baseboard:VCC #PWR019
-U 1 1 623F5F58
-P 1200 3900
-F 0 "#PWR019" H 1200 3750 50  0001 C CNN
-F 1 "VCC" H 1200 4050 50  0000 C CNN
-F 2 "" H 1200 3900 50  0001 C CNN
-F 3 "" H 1200 3900 50  0001 C CNN
-	1    1200 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L sc606-baseboard:GND #PWR020
 U 1 1 623F64C3
@@ -175,17 +120,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/tps54561.pdf?HQS=dis-dk-null-digikeymode-
 F 4 "Texas Instrumets" H 3200 5850 50  0001 C CNN "Manufacturer"
 F 5 "TPS54561DPRT" H 3200 5850 50  0001 C CNN "MPN"
 	1    3200 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L sc606-baseboard:VCC #PWR024
-U 1 1 623FDB89
-P 1950 5200
-F 0 "#PWR024" H 1950 5050 50  0001 C CNN
-F 1 "VCC" H 1950 5350 50  0000 C CNN
-F 2 "" H 1950 5200 50  0001 C CNN
-F 3 "" H 1950 5200 50  0001 C CNN
-	1    1950 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1214,8 +1148,6 @@ F 6 "20k" V 4503 10120 50  0000 L CNN "Val"
 	1    4450 10050
 	0    1    1    0   
 $EndComp
-Text Notes 2000 1850 0    50   ~ 0
-9...36 VDC
 $Comp
 L sc606-baseboard:C_10u_0402 C33
 U 1 1 620BC82F
@@ -1260,17 +1192,6 @@ F 6 "10u" H 2265 9997 50  0000 L CNN "Val"
 $EndComp
 Text Notes 3650 9050 0    50   ~ 0
 Inductor value differs from datasheet.\nIt is calculated and works.
-$Comp
-L sc606-baseboard:VCC #PWR021
-U 1 1 620D943B
-P 1250 5200
-F 0 "#PWR021" H 1250 5050 50  0001 C CNN
-F 1 "VCC" H 1250 5350 50  0000 C CNN
-F 2 "" H 1250 5200 50  0001 C CNN
-F 3 "" H 1250 5200 50  0001 C CNN
-	1    1250 5200
-	1    0    0    -1  
-$EndComp
 $Comp
 L sc606-baseboard:GND #PWR022
 U 1 1 620D98F4
@@ -1861,4 +1782,13 @@ F 5 "MS621FE-FL11E" H 8250 9850 50  0001 C CNN "MPN"
 	1    8250 9850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 5200 1250 5200
+Text GLabel 1100 5200 0    50   Input ~ 0
+VDD
+Wire Wire Line
+	1100 5200 1250 5200
+Connection ~ 1250 5200
+Text GLabel 750  3900 0    50   Input ~ 0
+VDD
 $EndSCHEMATC
