@@ -1,3 +1,4 @@
 (fp_lib_table
+  (lib (name sa800u-baseboard-hw-footprints)(type KiCad)(uri /home/uno/my-disk/projects/sa800u-baseboard-hw/lib/sa800u-baseboard-hw-footprints)(options "")(descr ""))
   (lib (name sc606-baseboard-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/sc606-baseboard-footprints)(options "")(descr ""))
 )

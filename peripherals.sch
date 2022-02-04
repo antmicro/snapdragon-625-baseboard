@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date "2022-01-04"
 Rev "1.0.0"
@@ -1716,12 +1716,14 @@ Connection ~ 2500 9750
 Wire Wire Line
 	1950 9750 1950 10250
 $Comp
-L antmicroRFAntennas:47948-0001 ANT1
+L sc606-baseboard:47948-0001-antmicroRFAntennas ANT1
 U 1 1 62112E0A
 P 3350 9850
+AR Path="/62112E0A" Ref="ANT1"  Part="1" 
+AR Path="/61D49FDE/62112E0A" Ref="ANT1"  Part="1" 
 F 0 "ANT1" H 3478 10188 50  0000 L CNN
 F 1 "47948-0001" H 3478 10097 50  0000 L CNN
-F 2 "antmicro-footprints:47948-0001" H 3350 10650 50  0001 L CNN
+F 2 "sc606-baseboard-footprints:47948-0001" H 3350 10650 50  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/479480001_sd.pdf" H 3350 10750 50  0001 L CNN
 F 4 "47948-0001" H 3600 10750 50  0001 C CNN "MPN"
 F 5 "Molex" H 3350 12050 50  0001 L CNN "Manufacturer"

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title ""
 Date "2022-01-04"
 Rev "1.0.0"
@@ -2908,12 +2908,12 @@ Wire Wire Line
 Connection ~ 4450 1150
 Connection ~ 4450 1050
 $Comp
-L antmicroDiodesRectifiersSingle:1N4148W-7-F D9
+L sc606-baseboard:1N4148W-7-F D9
 U 1 1 62B067B7
 P 10700 9150
 F 0 "D9" V 10647 9228 60  0000 L CNN
 F 1 "1N4148W-7-F" V 10753 9228 60  0000 L CNN
-F 2 "antmicro-footprints:SOD-123" H 10900 9350 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:SOD-123" H 10900 9350 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 10900 9450 60  0001 L CNN
 F 4 "1N4148W-7-F" H 10900 9650 60  0001 L CNN "MPN"
 F 5 "Diodes Incorporated" H 10900 10250 60  0001 L CNN "Manufacturer"

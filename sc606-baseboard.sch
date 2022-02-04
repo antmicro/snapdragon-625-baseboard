@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date "2022-01-04"
 Rev "1.0.0"
@@ -1288,4 +1288,10 @@ F 5 "Wurth Elektronik " H 11708 5364 50  0000 L CNN "Manufacturer"
 	1    11500 5500
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 10000 7500 1000 1000
+U 623AED4D
+F0 "USB-PD" 50
+F1 "USB-PD.sch" 50
+$EndSheet
 $EndSCHEMATC
