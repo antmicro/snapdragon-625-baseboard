@@ -1018,71 +1018,32 @@ Wire Wire Line
 Connection ~ 11450 900 
 Wire Wire Line
 	11450 900  11900 900 
-Text Notes 6575 8200 0    50   ~ 0
-5-15V, lower priority
+Text Notes 4850 8300 0    50   ~ 0
+5-20V, lower priority
 Wire Wire Line
-	9400 7000 9600 7000
-Wire Wire Line
-	9750 6300 9750 6450
-Wire Wire Line
-	9750 6300 9850 6300
-Connection ~ 9850 6300
-Wire Wire Line
-	9850 6450 9850 6300
-Connection ~ 9150 6300
-Wire Wire Line
-	9250 6300 9250 6450
-Wire Wire Line
-	9150 6300 9250 6300
-Wire Wire Line
-	10550 6700 10550 6650
+	10525 7150 10525 7100
 $Comp
-L sa800u-baseboard-hw:GND #PWR?
+L sc606-baseboard:GND #PWR?
 U 1 1 6230B5B4
-P 10550 6700
+P 10525 7150
 AR Path="/6230B5B4" Ref="#PWR?"  Part="1" 
 AR Path="/61B0DC30/6230B5B4" Ref="#PWR0243"  Part="1" 
 AR Path="/623AED4D/6230B5B4" Ref="#PWR0243"  Part="1" 
-F 0 "#PWR0243" H 10550 6450 50  0001 C CNN
-F 1 "GND" H 10555 6527 50  0000 C CNN
-F 2 "" H 10550 6700 50  0001 C CNN
-F 3 "" H 10550 6700 50  0001 C CNN
-	1    10550 6700
+F 0 "#PWR0243" H 10525 6900 50  0001 C CNN
+F 1 "GND" H 10530 6977 50  0000 C CNN
+F 2 "" H 10525 7150 50  0001 C CNN
+F 3 "" H 10525 7150 50  0001 C CNN
+	1    10525 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 10675 6300 2    50   Output ~ 0
+Text GLabel 10650 6750 2    50   Output ~ 0
 VDD
-Text GLabel 7100 7950 0    50   Input ~ 0
+Text GLabel 7225 6800 0    50   Input ~ 0
 PD_VDD
 Wire Wire Line
-	9550 6450 9550 6300
+	10525 6750 10525 6800
 Wire Wire Line
-	9450 6300 9550 6300
-Wire Wire Line
-	9450 6450 9450 6300
-Wire Wire Line
-	9150 6300 9150 6450
-Wire Wire Line
-	10550 6300 10550 6350
-Wire Wire Line
-	10550 6300 10675 6300
-Connection ~ 10550 6300
-Text Label 6750 6300 0    50   ~ 0
-AUX_VDD
-$Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:LTC4416IMS-1 U14
-U 1 1 622F405A
-P 8300 7300
-F 0 "U14" H 8200 7750 50  0000 C CNN
-F 1 "LTC4416IMS-1" H 8250 7650 50  0000 C CNN
-F 2 "antmicro-footprints:MSOP-10_MS" H 9150 6500 50  0001 L BNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4416fa.pdf" H 8300 7300 50  0001 L BNN
-F 4 "LTC4416IMS#PBF" H 9150 6600 50  0001 L BNN "MPN"
-	1    8300 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 6300 7200 6300
+	10525 6750 10650 6750
 $Comp
 L sc606-baseboard:GND #PWR0181
 U 1 1 61EF35F3
@@ -1094,130 +1055,8 @@ F 3 "" H 6425 4350 50  0001 C CNN
 	1    6425 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L sc606-baseboard:GND #PWR021
-U 1 1 623BF38C
-P 7600 7650
-F 0 "#PWR021" H 7600 7400 50  0001 C CNN
-F 1 "GND" H 7605 7477 50  0000 C CNN
-F 2 "" H 7600 7650 50  0001 C CNN
-F 3 "" H 7600 7650 50  0001 C CNN
-	1    7600 7650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 7300 7600 7300
-Wire Wire Line
-	7600 7300 7600 7400
-NoConn ~ 7700 7500
-Wire Wire Line
-	7700 7400 7600 7400
-Connection ~ 7600 7400
-Wire Wire Line
-	7600 7400 7600 7600
-$Comp
-L antmicroResistors0402:R_220k_0402 R161
-U 1 1 623D5F25
-P 7200 6700
-F 0 "R161" V 7155 6770 60  0000 L CNN
-F 1 "R_220k_0402" H 7200 6550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7400 6900 60  0001 L CNN
-F 3 "" H 7200 6700 50  0001 C CNN
-F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 7400 7100 60  0001 L CNN "Manufacturer"
-F 5 "ERJ-2RKF2203X" H 7400 7000 60  0001 L CNN "MPN"
-F 6 "220k" V 7253 6770 50  0000 L CNN "Val"
-	1    7200 6700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7200 6550 7200 6300
-$Comp
-L antmicroResistors0402:R_24k9_0402 R163
-U 1 1 624072F7
-P 7200 7350
-F 0 "R163" V 7245 7280 60  0000 R CNN
-F 1 "R_24k9_0402" H 7200 7200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7400 7550 60  0001 L CNN
-F 3 "" H 7200 7350 50  0001 C CNN
-F 4 "WALSIN" H 7400 7750 60  0001 L CNN "Manufacturer"
-F 5 "WR04X2492FTL" H 7400 7650 60  0001 L CNN "MPN"
-F 6 "24k9" V 7147 7280 50  0000 R CNN "Val"
-	1    7200 7350
-	0    -1   -1   0   
-$EndComp
-Connection ~ 7200 6300
-Wire Wire Line
-	7200 6850 7200 7100
-Wire Wire Line
-	7700 7200 7200 7200
-Connection ~ 7200 7200
-Wire Wire Line
-	7200 7500 7200 7600
-Wire Wire Line
-	7200 7600 7600 7600
-Connection ~ 7600 7600
-Wire Wire Line
-	7600 7600 7600 7650
-$Comp
-L antmicroResistors0402:R_180k_0402 R164
-U 1 1 624518CE
-P 7450 7100
-F 0 "R164" H 7450 7313 60  0000 C CNN
-F 1 "R_180k_0402" H 7450 6950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7650 7300 60  0001 L CNN
-F 3 "" H 7450 7100 50  0001 C CNN
-F 4 "Vishay" H 7650 7500 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402180KJNED" H 7650 7400 60  0001 L CNN "MPN"
-F 6 "180k" H 7450 7215 50  0000 C CNN "Val"
-	1    7450 7100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 7100 7700 7100
-Wire Wire Line
-	7300 7100 7200 7100
-Connection ~ 7200 7100
-Wire Wire Line
-	7200 7100 7200 7200
-Wire Wire Line
-	7200 6300 8950 6300
-Wire Wire Line
-	8900 7200 8950 7200
-Wire Wire Line
-	8950 7200 8950 6300
-Connection ~ 8950 6300
-Wire Wire Line
-	8950 6300 9150 6300
-Wire Wire Line
-	8900 7100 9400 7100
-Wire Wire Line
-	9400 7100 9400 7000
-Wire Wire Line
-	9850 6300 10050 6300
-Wire Wire Line
-	8900 7300 10050 7300
-Wire Wire Line
-	10050 7300 10050 6300
-Connection ~ 10050 6300
-Wire Wire Line
-	10050 6300 10550 6300
 Text Notes 1850 6550 0    100  ~ 20
 Power input
-$Comp
-L sc606-baseboard:PJ-202A J?
-U 1 1 6251D965
-P 2350 7150
-AR Path="/61D49F54/6251D965" Ref="J?"  Part="1" 
-AR Path="/623AED4D/6251D965" Ref="J1"  Part="1" 
-F 0 "J1" H 2350 7250 50  0000 C CNN
-F 1 "PJ-202A" H 2350 6900 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" H 2550 7350 60  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 2550 7450 60  0001 L CNN
-F 4 "CUI Inc." H 2550 8250 60  0001 L CNN "Manufacturer"
-F 5 "PJ-202A" H 2550 7650 60  0001 L CNN "MPN"
-	1    2350 7150
-	1    0    0    -1  
-$EndComp
 $Comp
 L sc606-baseboard:GND #PWR?
 U 1 1 6251D96B
@@ -1235,86 +1074,49 @@ Wire Wire Line
 	2450 7250 2450 7350
 Wire Wire Line
 	2750 7350 2450 7350
-Connection ~ 2450 7350
 Wire Wire Line
-	2750 7150 2450 7150
+	2750 7175 2450 7175
 Text Notes 1400 800  0    100  ~ 20
 USB-C PD
-Text GLabel 6600 6300 0    50   Input ~ 0
+Text GLabel 5400 6525 0    50   Input ~ 0
 AUX_VDD
-Text GLabel 2750 7150 2    50   Input ~ 0
+Text GLabel 2750 7175 2    50   Input ~ 0
 AUX_VDD
 Text Notes 2750 7300 0    50   ~ 0
 9...36 VDC
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS84 Q10
-U 1 1 625F63D5
-P 9400 7950
-F 0 "Q10" V 9561 7950 60  0000 C CNN
-F 1 "BSS84" V 9667 7950 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9600 8150 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 9600 8250 60  0001 L CNN
-F 4 "BSS84" H 9600 8450 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 9600 9050 60  0001 L CNN "Manufacturer"
-	1    9400 7950
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	9600 7950 10050 7950
-Wire Wire Line
-	10050 7950 10050 7300
-Connection ~ 10050 7300
-Wire Wire Line
-	7100 7950 8950 7950
-Wire Wire Line
-	8900 7500 9500 7500
-Wire Wire Line
-	9500 7500 9500 7650
-Wire Wire Line
-	8950 7950 8950 7400
-Wire Wire Line
-	8950 7400 8900 7400
-Connection ~ 8950 7950
-Wire Wire Line
-	8950 7950 9200 7950
 Text Notes 7200 6050 0    100  ~ 20
 Auxiliary Power Control
-Text Notes 9650 8150 0    50   ~ 0
-sprawdzić czy poprawny tranzystor
-Text Notes 9150 6200 0    50   ~ 0
-sprawdzić czy poprawny tranzystor
 Text Notes 9400 750  0    50   ~ 0
 sprawdzić czy poprawny tranzystor
 Text Notes 11850 1500 0    50   ~ 0
 sprawdzić jaka ma byc dioda
 $Comp
-L antmicroCapacitorsmisc:C_100u_0805 C153
+L sc606-baseboard:C_100u_0805 C153
 U 1 1 627087E6
-P 10550 6500
-F 0 "C153" H 10665 6545 60  0000 L CNN
-F 1 "C_100u_0805" H 10550 6350 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 10750 6700 60  0001 L CNN
-F 3 "" H 10550 6500 50  0001 C CNN
-F 4 "MURATA" H 10750 6900 60  0001 L CNN "Manufacturer"
-F 5 "GRM21BR60J107ME15L" H 10750 6800 60  0001 L CNN "MPN"
-F 6 "100u" H 10665 6447 50  0000 L CNN "Val"
-	1    10550 6500
+P 10525 6950
+F 0 "C153" H 10640 6995 60  0000 L CNN
+F 1 "C_100u_0805" H 10525 6800 60  0001 C CNN
+F 2 "sc606-baseboard-footprints:0805-cap" H 10725 7150 60  0001 L CNN
+F 3 "" H 10525 6950 50  0001 C CNN
+F 4 "MURATA" H 10725 7350 60  0001 L CNN "Manufacturer"
+F 5 "GRM21BR60J107ME15L" H 10725 7250 60  0001 L CNN "MPN"
+F 6 "100u" H 10640 6897 50  0000 L CNN "Val"
+	1    10525 6950
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:Si7223DN Q11
+L sc606-baseboard:Si7223DN Q11
 U 1 1 6270A6F8
-P 9500 6700
-F 0 "Q11" V 9150 6600 50  0000 R CNN
-F 1 "Si7223DN" V 9050 6600 50  0000 R CNN
-F 2 "sa800u-baseboard-hw-footprints:PowerPak-1212" H 8600 6650 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 9500 6650 50  0001 C CNN
-F 4 "SI7223DN-T1-GE3" H 8800 6700 50  0001 C CNN "MPN"
-F 5 "VISHAY" H 8900 6750 50  0001 C CNN "Manufacturer"
-	1    9500 6700
+P 6225 6775
+F 0 "Q11" V 5875 6675 50  0000 R CNN
+F 1 "Si7223DN" V 5775 6675 50  0000 R CNN
+F 2 "sc606-baseboard-footprints:PowerPak-1212" H 5325 6725 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 6225 6725 50  0001 C CNN
+F 4 "SI7223DN-T1-GE3" H 5525 6775 50  0001 C CNN "MPN"
+F 5 "VISHAY" H 5625 6825 50  0001 C CNN "Manufacturer"
+	1    6225 6775
 	0    -1   -1   0   
 $EndComp
-Connection ~ 9400 7000
 Connection ~ 4650 3550
 Wire Wire Line
 	4650 3550 6550 3550
@@ -1418,4 +1220,485 @@ Text GLabel 14450 5250 2    50   Input ~ 0
 1V8
 Text GLabel 12400 5250 0    50   Input ~ 0
 5V_SYS
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:1053131102 J1
+U 1 1 620288D5
+P 2250 7100
+F 0 "J1" H 2358 7265 50  0000 C CNN
+F 1 "1053131102" H 2358 7174 50  0000 C CNN
+F 2 "antmicro-footprints:1053131102" H 2075 6775 50  0001 C CNN
+F 3 "" H 2250 7100 50  0001 C CNN
+F 4 "Molex" H 2200 6575 50  0001 C CNN "Manufacturer"
+F 5 "1053131102" H 2125 6650 50  0001 C CNN "MPN"
+	1    2250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:LTC4418IUF#PBF U14
+U 1 1 6207B24A
+P 8725 8600
+F 0 "U14" H 8725 9467 50  0000 C CNN
+F 1 "LTC4418IUF#PBF" H 8725 9376 50  0000 C CNN
+F 2 "antmicro-footprints:QFN-20_1EP_4x4_P0.5mm" H 8325 7600 50  0001 L BNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4418.pdf" H 8725 8600 50  0001 L BNN
+F 4 "AnalogDevices" H 8325 7550 50  0001 L BNN "MANUFACTURER"
+F 5 "LTC4418IUF#PBF" H 8325 7700 50  0001 L CNN "MPN"
+	1    8725 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C159
+U 1 1 62093795
+P 9800 8750
+F 0 "C159" H 9685 8705 60  0000 R CNN
+F 1 "C_100n_0402" H 9800 8600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10000 8950 60  0001 L CNN
+F 3 "" H 9800 8750 50  0001 C CNN
+F 4 "Murata" H 10000 9150 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 10000 9050 60  0001 L CNN "MPN"
+F 6 "100n" H 9685 8803 50  0000 R CNN "Val"
+	1    9800 8750
+	1    0    0    1   
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1n_0402 C158
+U 1 1 62094A57
+P 9550 9400
+F 0 "C158" H 9665 9445 60  0000 L CNN
+F 1 "C_1n_0402" H 9550 9250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9750 9600 60  0001 L CNN
+F 3 "" H 9550 9400 50  0001 C CNN
+F 4 "YAGEO" H 9750 9800 60  0001 L CNN "Manufacturer"
+F 5 "CC0402KRX7R9BB102" H 9750 9700 60  0001 L CNN "MPN"
+F 6 "1n" H 9665 9347 50  0000 L CNN "Val"
+	1    9550 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 9250 9550 9000
+Wire Wire Line
+	9550 9000 9325 9000
+$Comp
+L sc606-baseboard:GND #PWR?
+U 1 1 6209ADEA
+P 9325 9650
+AR Path="/6209ADEA" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/6209ADEA" Ref="#PWR?"  Part="1" 
+AR Path="/623AED4D/6209ADEA" Ref="#PWR0192"  Part="1" 
+F 0 "#PWR0192" H 9325 9400 50  0001 C CNN
+F 1 "GND" H 9330 9477 50  0000 C CNN
+F 2 "" H 9325 9650 50  0001 C CNN
+F 3 "" H 9325 9650 50  0001 C CNN
+	1    9325 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9325 9100 9325 9200
+Connection ~ 9325 9200
+Wire Wire Line
+	9325 9200 9325 9550
+Wire Wire Line
+	9550 9550 9325 9550
+Connection ~ 9325 9550
+Wire Wire Line
+	9325 9550 9325 9650
+$Comp
+L sc606-baseboard:GND #PWR?
+U 1 1 620A732A
+P 9800 8900
+AR Path="/620A732A" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/620A732A" Ref="#PWR?"  Part="1" 
+AR Path="/623AED4D/620A732A" Ref="#PWR0193"  Part="1" 
+F 0 "#PWR0193" H 9800 8650 50  0001 C CNN
+F 1 "GND" H 9805 8727 50  0000 C CNN
+F 2 "" H 9800 8900 50  0001 C CNN
+F 3 "" H 9800 8900 50  0001 C CNN
+	1    9800 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 8600 9325 8600
+Wire Wire Line
+	9325 8600 9325 8700
+Connection ~ 9325 8600
+Connection ~ 9325 8700
+Wire Wire Line
+	9325 8700 9325 8800
+NoConn ~ 9325 8400
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C156
+U 1 1 620BEA75
+P 7525 9500
+F 0 "C156" H 7410 9455 60  0000 R CNN
+F 1 "C_100n_0402" H 7525 9350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7725 9700 60  0001 L CNN
+F 3 "" H 7525 9500 50  0001 C CNN
+F 4 "Murata" H 7725 9900 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 7725 9800 60  0001 L CNN "MPN"
+F 6 "100n" H 7410 9553 50  0000 R CNN "Val"
+	1    7525 9500
+	1    0    0    1   
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C157
+U 1 1 620BF040
+P 7800 9500
+F 0 "C157" H 7915 9455 60  0000 L CNN
+F 1 "C_100n_0402" H 7800 9350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8000 9700 60  0001 L CNN
+F 3 "" H 7800 9500 50  0001 C CNN
+F 4 "Murata" H 8000 9900 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 8000 9800 60  0001 L CNN "MPN"
+F 6 "100n" H 7915 9553 50  0000 L CNN "Val"
+	1    7800 9500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8125 8800 7525 8800
+Wire Wire Line
+	7525 8800 7525 9350
+Wire Wire Line
+	8125 9100 7800 9100
+$Comp
+L sc606-baseboard:GND #PWR?
+U 1 1 620D4E35
+P 7525 9650
+AR Path="/620D4E35" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/620D4E35" Ref="#PWR?"  Part="1" 
+AR Path="/623AED4D/620D4E35" Ref="#PWR0191"  Part="1" 
+F 0 "#PWR0191" H 7525 9400 50  0001 C CNN
+F 1 "GND" H 7530 9477 50  0000 C CNN
+F 2 "" H 7525 9650 50  0001 C CNN
+F 3 "" H 7525 9650 50  0001 C CNN
+	1    7525 9650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7525 9650
+Wire Wire Line
+	7525 9650 7800 9650
+Text GLabel 9325 8000 2    50   Output ~ 0
+VDD
+$Comp
+L sc606-baseboard:KP-1608EC D?
+U 1 1 62106E33
+P 9650 8200
+AR Path="/61D43102/62106E33" Ref="D?"  Part="1" 
+AR Path="/61D49FDE/62106E33" Ref="D?"  Part="1" 
+AR Path="/623AED4D/62106E33" Ref="D36"  Part="1" 
+F 0 "D36" H 9600 7953 60  0000 C CNN
+F 1 "KP-1608EC" H 9600 8059 60  0000 C CNN
+F 2 "sc606-baseboard-footprints:LED_0603" H 9850 8400 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 9850 8500 60  0001 L CNN
+F 4 "KP-1608EC" H 9850 8700 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 9860 8820 60  0001 L CNN "Manufacturer"
+	1    9650 8200
+	-1   0    0    1   
+$EndComp
+$Comp
+L sc606-baseboard:KP-1608EC D?
+U 1 1 6211676C
+P 10000 8300
+AR Path="/61D43102/6211676C" Ref="D?"  Part="1" 
+AR Path="/61D49FDE/6211676C" Ref="D?"  Part="1" 
+AR Path="/623AED4D/6211676C" Ref="D37"  Part="1" 
+F 0 "D37" H 9950 8053 60  0000 C CNN
+F 1 "KP-1608EC" H 9950 8159 60  0000 C CNN
+F 2 "sc606-baseboard-footprints:LED_0603" H 10200 8500 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 10200 8600 60  0001 L CNN
+F 4 "KP-1608EC" H 10200 8800 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 10210 8920 60  0001 L CNN "Manufacturer"
+	1    10000 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroResistors0603:R_270R_0603 R168
+U 1 1 6201E54F
+P 10500 8200
+F 0 "R168" H 10500 8413 60  0000 C CNN
+F 1 "R_270R_0603" H 10500 8050 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 10700 8400 60  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 10500 8200 50  0001 C CNN
+F 4 "Panasonic" H 10700 8600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ3EKF2700V" H 10700 8500 60  0001 L CNN "MPN"
+F 6 "270R" H 10500 8315 50  0000 C CNN "Val"
+	1    10500 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0603:R_270R_0603 R169
+U 1 1 6201EDA2
+P 10500 8300
+F 0 "R169" H 10500 8177 60  0000 C CNN
+F 1 "R_270R_0603" H 10500 8150 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 10700 8500 60  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 10500 8300 50  0001 C CNN
+F 4 "Panasonic" H 10700 8700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ3EKF2700V" H 10700 8600 60  0001 L CNN "MPN"
+F 6 "270R" H 10500 8079 50  0000 C CNN "Val"
+	1    10500 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 8200 9850 8200
+Wire Wire Line
+	10200 8300 10350 8300
+Wire Wire Line
+	9900 8300 9325 8300
+Wire Wire Line
+	9325 8200 9550 8200
+Text GLabel 10725 8200 2    50   Input ~ 0
+5V_SYS
+Wire Wire Line
+	10650 8200 10650 8300
+Wire Wire Line
+	10725 8200 10650 8200
+Connection ~ 10650 8200
+Wire Wire Line
+	7800 9100 7800 9350
+Wire Wire Line
+	6125 8900 6125 7075
+Wire Wire Line
+	7525 8800 5725 8800
+Wire Wire Line
+	5725 8800 5725 6425
+Wire Wire Line
+	5725 6425 6175 6425
+Wire Wire Line
+	6175 6425 6175 6525
+Connection ~ 7525 8800
+Wire Wire Line
+	6175 6525 6275 6525
+Connection ~ 6175 6525
+Wire Wire Line
+	5975 6525 5875 6525
+Connection ~ 5875 6525
+Wire Wire Line
+	5875 6525 5775 6525
+Wire Wire Line
+	6325 7075 6125 7075
+Connection ~ 6125 7075
+Text GLabel 6725 6525 2    50   Output ~ 0
+VDD
+$Comp
+L sc606-baseboard:Si7223DN Q10
+U 1 1 620F2E81
+P 8425 7050
+F 0 "Q10" V 8075 6950 50  0000 R CNN
+F 1 "Si7223DN" V 7975 6950 50  0000 R CNN
+F 2 "sc606-baseboard-footprints:PowerPak-1212" H 7525 7000 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 8425 7000 50  0001 C CNN
+F 4 "SI7223DN-T1-GE3" H 7725 7050 50  0001 C CNN "MPN"
+F 5 "VISHAY" H 7825 7100 50  0001 C CNN "Manufacturer"
+	1    8425 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8525 7350 8325 7350
+Wire Wire Line
+	7975 7350 7975 9200
+Wire Wire Line
+	7975 9200 8125 9200
+Connection ~ 8325 7350
+Wire Wire Line
+	8325 7350 7975 7350
+Wire Wire Line
+	8475 6800 8375 6800
+Wire Wire Line
+	8375 6800 8375 6700
+Wire Wire Line
+	8375 6700 7800 6700
+Wire Wire Line
+	7800 6700 7800 9100
+Connection ~ 8375 6800
+Connection ~ 7800 9100
+Wire Wire Line
+	6575 6525 6725 6525
+Wire Wire Line
+	8175 6800 8075 6800
+Connection ~ 8075 6800
+Wire Wire Line
+	8075 6800 7875 6800
+Text GLabel 8900 6800 2    50   Output ~ 0
+VDD
+Wire Wire Line
+	8900 6800 8775 6800
+Connection ~ 8775 6800
+Wire Wire Line
+	8775 6800 8675 6800
+Wire Wire Line
+	8125 8400 7875 8400
+Wire Wire Line
+	7875 8400 7875 8350
+Connection ~ 7875 6800
+Connection ~ 5775 6525
+Wire Wire Line
+	5775 6525 5400 6525
+$Comp
+L sc606-baseboard:GND #PWR?
+U 1 1 621D7A3E
+P 6775 8975
+AR Path="/621D7A3E" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/621D7A3E" Ref="#PWR?"  Part="1" 
+AR Path="/623AED4D/621D7A3E" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 6775 8725 50  0001 C CNN
+F 1 "GND" H 6780 8802 50  0000 C CNN
+F 2 "" H 6775 8975 50  0001 C CNN
+F 3 "" H 6775 8975 50  0001 C CNN
+	1    6775 8975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8125 8900 6125 8900
+$Comp
+L antmicroResistors0402:R_97k6_0402 R166
+U 1 1 621C7E01
+P 6925 8500
+F 0 "R166" H 7125 8500 60  0000 C CNN
+F 1 "R_97k6_0402" H 6925 8350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7125 8700 60  0001 L CNN
+F 3 "" H 6925 8500 50  0001 C CNN
+F 4 "MULTICOMP" H 7125 8900 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X9762FTL" H 7125 8800 60  0001 L CNN "MPN"
+F 6 "97k6" H 6925 8500 50  0000 C CNN "Val"
+	1    6925 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0603:R_30k1_0603 R167
+U 1 1 621C29F0
+P 6925 8600
+F 0 "R167" H 6925 8525 60  0000 C CNN
+F 1 "R_30k1_0603" H 6925 8450 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 7125 8800 60  0001 L CNN
+F 3 "" H 6925 8600 50  0001 C CNN
+F 4 "VISHAY" H 7125 9000 60  0001 L CNN "Manufacturer"
+F 5 "CRCW060330K1FKEA" H 7125 8900 60  0001 L CNN "MPN"
+F 6 "30k1" H 6925 8600 50  0000 C CNN "Val"
+	1    6925 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_768k_0402 R165
+U 1 1 62256146
+P 6925 8350
+F 0 "R165" H 6880 8420 60  0000 L CNN
+F 1 "R_768k_0402" H 6925 8200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7125 8550 60  0001 L CNN
+F 3 "" H 6925 8350 50  0001 C CNN
+F 4 "Vishay" H 7125 8750 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402768KFKED" H 7125 8650 60  0001 L CNN "MPN"
+F 6 "768k" H 6850 8350 50  0000 L CNN "Val"
+	1    6925 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8125 8600 7075 8600
+Wire Wire Line
+	7075 8600 7075 8500
+Connection ~ 7075 8600
+Wire Wire Line
+	6775 8600 6775 8975
+Wire Wire Line
+	6775 8500 6775 8425
+Wire Wire Line
+	6775 8425 7225 8425
+Wire Wire Line
+	7225 8425 7225 8500
+Wire Wire Line
+	7225 8500 8125 8500
+Connection ~ 6775 8425
+Wire Wire Line
+	6775 8425 6775 8350
+Wire Wire Line
+	7075 8350 7875 8350
+Connection ~ 7875 8350
+Wire Wire Line
+	7875 8350 7875 6800
+Wire Wire Line
+	7225 6800 7875 6800
+$Comp
+L antmicroResistors0603:R_30k1_0603 R164
+U 1 1 62390D9D
+P 6525 8200
+F 0 "R164" H 6525 8125 60  0000 C CNN
+F 1 "R_30k1_0603" H 6525 8050 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 6725 8400 60  0001 L CNN
+F 3 "" H 6525 8200 50  0001 C CNN
+F 4 "VISHAY" H 6725 8600 60  0001 L CNN "Manufacturer"
+F 5 "CRCW060330K1FKEA" H 6725 8500 60  0001 L CNN "MPN"
+F 6 "30k1" H 6525 8200 50  0000 C CNN "Val"
+	1    6525 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_97k6_0402 R163
+U 1 1 623917A8
+P 6525 8100
+F 0 "R163" H 6725 8100 60  0000 C CNN
+F 1 "R_97k6_0402" H 6525 7950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6725 8300 60  0001 L CNN
+F 3 "" H 6525 8100 50  0001 C CNN
+F 4 "MULTICOMP" H 6725 8500 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X9762FTL" H 6725 8400 60  0001 L CNN "MPN"
+F 6 "97k6" H 6525 8100 50  0000 C CNN "Val"
+	1    6525 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8125 8000 8125 7450
+Wire Wire Line
+	8125 7450 6675 7450
+Wire Wire Line
+	5775 7450 5775 6525
+$Comp
+L antmicroResistors0402:R_768k_0402 R161
+U 1 1 623B7E6A
+P 6525 7950
+F 0 "R161" H 6480 8020 60  0000 L CNN
+F 1 "R_768k_0402" H 6525 7800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6725 8150 60  0001 L CNN
+F 3 "" H 6525 7950 50  0001 C CNN
+F 4 "Vishay" H 6725 8350 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402768KFKED" H 6725 8250 60  0001 L CNN "MPN"
+F 6 "768k" H 6450 7950 50  0000 L CNN "Val"
+	1    6525 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L sc606-baseboard:GND #PWR?
+U 1 1 623B834A
+P 6375 8300
+AR Path="/623B834A" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/623B834A" Ref="#PWR?"  Part="1" 
+AR Path="/623AED4D/623B834A" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 6375 8050 50  0001 C CNN
+F 1 "GND" H 6380 8127 50  0000 C CNN
+F 2 "" H 6375 8300 50  0001 C CNN
+F 3 "" H 6375 8300 50  0001 C CNN
+	1    6375 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 8200 6375 8300
+Wire Wire Line
+	6675 8200 6675 8100
+Wire Wire Line
+	6375 8100 6375 8025
+Wire Wire Line
+	6675 7950 6675 7450
+Connection ~ 6675 7450
+Wire Wire Line
+	6675 7450 5775 7450
+Wire Wire Line
+	6375 8025 6850 8025
+Wire Wire Line
+	6850 8025 6850 8100
+Wire Wire Line
+	6850 8100 8125 8100
+Connection ~ 6375 8025
+Wire Wire Line
+	6375 8025 6375 7950
+Wire Wire Line
+	8125 8200 6675 8200
+Connection ~ 6675 8200
 $EndSCHEMATC
