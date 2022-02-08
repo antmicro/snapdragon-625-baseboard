@@ -1182,12 +1182,12 @@ Text GLabel 14450 5250 2    50   Input ~ 0
 Text GLabel 12400 5250 0    50   Input ~ 0
 5V_SYS
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1053131102 J1
+L sc606-baseboard:1053131102 J1
 U 1 1 620288D5
 P 2250 7100
 F 0 "J1" H 2358 7265 50  0000 C CNN
 F 1 "1053131102" H 2358 7174 50  0000 C CNN
-F 2 "antmicro-footprints:1053131102" H 2075 6775 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:1053131102" H 2075 6775 50  0001 C CNN
 F 3 "" H 2250 7100 50  0001 C CNN
 F 4 "Molex" H 2200 6575 50  0001 C CNN "Manufacturer"
 F 5 "1053131102" H 2125 6650 50  0001 C CNN "MPN"
@@ -1195,12 +1195,12 @@ F 5 "1053131102" H 2125 6650 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:LTC4418IUF#PBF U14
+L sc606-baseboard:LTC4418IUF#PBF U14
 U 1 1 6207B24A
 P 8725 8600
 F 0 "U14" H 8725 9467 50  0000 C CNN
 F 1 "LTC4418IUF#PBF" H 8725 9376 50  0000 C CNN
-F 2 "antmicro-footprints:QFN-20_1EP_4x4_P0.5mm" H 8325 7600 50  0001 L BNN
+F 2 "sc606-baseboard-footprints:QFN-20_1EP_4x4_P0.5mm" H 8325 7600 50  0001 L BNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4418.pdf" H 8725 8600 50  0001 L BNN
 F 4 "AnalogDevices" H 8325 7550 50  0001 L BNN "MANUFACTURER"
 F 5 "LTC4418IUF#PBF" H 8325 7700 50  0001 L CNN "MPN"
@@ -1208,12 +1208,12 @@ F 5 "LTC4418IUF#PBF" H 8325 7700 50  0001 L CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C159
+L sc606-baseboard:C_100n_0402 C159
 U 1 1 62093795
 P 9800 8750
 F 0 "C159" H 9685 8705 60  0000 R CNN
 F 1 "C_100n_0402" H 9800 8600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10000 8950 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 10000 8950 60  0001 L CNN
 F 3 "" H 9800 8750 50  0001 C CNN
 F 4 "Murata" H 10000 9150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 10000 9050 60  0001 L CNN "MPN"
@@ -1222,12 +1222,12 @@ F 6 "100n" H 9685 8803 50  0000 R CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1n_0402 C158
+L sc606-baseboard:C_1n_0402 C158
 U 1 1 62094A57
 P 9550 9400
 F 0 "C158" H 9665 9445 60  0000 L CNN
 F 1 "C_1n_0402" H 9550 9250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9750 9600 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 9750 9600 60  0001 L CNN
 F 3 "" H 9550 9400 50  0001 C CNN
 F 4 "YAGEO" H 9750 9800 60  0001 L CNN "Manufacturer"
 F 5 "CC0402KRX7R9BB102" H 9750 9700 60  0001 L CNN "MPN"
@@ -1287,12 +1287,12 @@ Wire Wire Line
 	9325 8700 9325 8800
 NoConn ~ 9325 8400
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C156
+L sc606-baseboard:C_100n_0402 C156
 U 1 1 620BEA75
 P 7525 9500
 F 0 "C156" H 7410 9455 60  0000 R CNN
 F 1 "C_100n_0402" H 7525 9350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7725 9700 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 7725 9700 60  0001 L CNN
 F 3 "" H 7525 9500 50  0001 C CNN
 F 4 "Murata" H 7725 9900 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 7725 9800 60  0001 L CNN "MPN"
@@ -1301,12 +1301,12 @@ F 6 "100n" H 7410 9553 50  0000 R CNN "Val"
 	1    0    0    1   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C157
+L sc606-baseboard:C_100n_0402 C157
 U 1 1 620BF040
 P 7800 9500
 F 0 "C157" H 7915 9455 60  0000 L CNN
 F 1 "C_100n_0402" H 7800 9350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8000 9700 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-cap" H 8000 9700 60  0001 L CNN
 F 3 "" H 7800 9500 50  0001 C CNN
 F 4 "Murata" H 8000 9900 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 8000 9800 60  0001 L CNN "MPN"
@@ -1372,12 +1372,12 @@ F 5 "KINGBRIGHT" H 10210 8920 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroResistors0603:R_270R_0603 R168
+L sc606-baseboard:R_270R_0603 R168
 U 1 1 6201E54F
 P 10500 8200
 F 0 "R168" H 10500 8413 60  0000 C CNN
 F 1 "R_270R_0603" H 10500 8050 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 10700 8400 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0603-res" H 10700 8400 60  0001 L CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 10500 8200 50  0001 C CNN
 F 4 "Panasonic" H 10700 8600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ3EKF2700V" H 10700 8500 60  0001 L CNN "MPN"
@@ -1386,12 +1386,12 @@ F 6 "270R" H 10500 8315 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_270R_0603 R169
+L sc606-baseboard:R_270R_0603 R169
 U 1 1 6201EDA2
 P 10500 8300
 F 0 "R169" H 10500 8177 60  0000 C CNN
 F 1 "R_270R_0603" H 10500 8150 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 10700 8500 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0603-res" H 10700 8500 60  0001 L CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 10500 8300 50  0001 C CNN
 F 4 "Panasonic" H 10700 8700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ3EKF2700V" H 10700 8600 60  0001 L CNN "MPN"
@@ -1511,12 +1511,12 @@ $EndComp
 Wire Wire Line
 	8125 8900 6125 8900
 $Comp
-L antmicroResistors0402:R_97k6_0402 R166
+L sc606-baseboard:R_97k6_0402 R166
 U 1 1 621C7E01
 P 6925 8500
 F 0 "R166" H 7125 8500 60  0000 C CNN
 F 1 "R_97k6_0402" H 6925 8350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7125 8700 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7125 8700 60  0001 L CNN
 F 3 "" H 6925 8500 50  0001 C CNN
 F 4 "MULTICOMP" H 7125 8900 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X9762FTL" H 7125 8800 60  0001 L CNN "MPN"
@@ -1525,12 +1525,12 @@ F 6 "97k6" H 6925 8500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_30k1_0603 R167
+L sc606-baseboard:R_30k1_0603 R167
 U 1 1 621C29F0
 P 6925 8600
 F 0 "R167" H 6925 8525 60  0000 C CNN
 F 1 "R_30k1_0603" H 6925 8450 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 7125 8800 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0603-res" H 7125 8800 60  0001 L CNN
 F 3 "" H 6925 8600 50  0001 C CNN
 F 4 "VISHAY" H 7125 9000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW060330K1FKEA" H 7125 8900 60  0001 L CNN "MPN"
@@ -1539,12 +1539,12 @@ F 6 "30k1" H 6925 8600 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_768k_0402 R165
+L sc606-baseboard:R_768k_0402 R165
 U 1 1 62256146
 P 6925 8350
 F 0 "R165" H 6880 8420 60  0000 L CNN
 F 1 "R_768k_0402" H 6925 8200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7125 8550 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7125 8550 60  0001 L CNN
 F 3 "" H 6925 8350 50  0001 C CNN
 F 4 "Vishay" H 7125 8750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402768KFKED" H 7125 8650 60  0001 L CNN "MPN"
@@ -1578,12 +1578,12 @@ Wire Wire Line
 Wire Wire Line
 	7225 6800 7875 6800
 $Comp
-L antmicroResistors0603:R_30k1_0603 R164
+L sc606-baseboard:R_30k1_0603 R164
 U 1 1 62390D9D
 P 6525 8200
 F 0 "R164" H 6525 8125 60  0000 C CNN
 F 1 "R_30k1_0603" H 6525 8050 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 6725 8400 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0603-res" H 6725 8400 60  0001 L CNN
 F 3 "" H 6525 8200 50  0001 C CNN
 F 4 "VISHAY" H 6725 8600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW060330K1FKEA" H 6725 8500 60  0001 L CNN "MPN"
@@ -1592,12 +1592,12 @@ F 6 "30k1" H 6525 8200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_97k6_0402 R163
+L sc606-baseboard:R_97k6_0402 R163
 U 1 1 623917A8
 P 6525 8100
 F 0 "R163" H 6725 8100 60  0000 C CNN
 F 1 "R_97k6_0402" H 6525 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6725 8300 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 6725 8300 60  0001 L CNN
 F 3 "" H 6525 8100 50  0001 C CNN
 F 4 "MULTICOMP" H 6725 8500 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X9762FTL" H 6725 8400 60  0001 L CNN "MPN"
@@ -1612,12 +1612,12 @@ Wire Wire Line
 Wire Wire Line
 	5775 7450 5775 6525
 $Comp
-L antmicroResistors0402:R_768k_0402 R161
+L sc606-baseboard:R_768k_0402 R161
 U 1 1 623B7E6A
 P 6525 7950
 F 0 "R161" H 6480 8020 60  0000 L CNN
 F 1 "R_768k_0402" H 6525 7800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6725 8150 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 6725 8150 60  0001 L CNN
 F 3 "" H 6525 7950 50  0001 C CNN
 F 4 "Vishay" H 6725 8350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402768KFKED" H 6725 8250 60  0001 L CNN "MPN"
@@ -1670,12 +1670,12 @@ Text Notes 4775 6700 0    50   ~ 0
 Text Notes 11925 1050 0    50   ~ 0
 9...20 VDC
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q9
+L sc606-baseboard:SQS401EN-T1_BE3 Q9
 U 1 1 6267FF4C
 P 8900 900
 F 0 "Q9" V 9167 900 60  0000 C CNN
 F 1 "SQS401EN-T1_BE3" V 9061 900 60  0000 C CNN
-F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 9100 1100 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Vishay_PowerPAK_1212-8_Single" H 9100 1100 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 9100 1200 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 9100 1400 60  0001 L CNN "MPN"
 F 5 "Vishay" H 9100 2000 60  0001 L CNN "Manufacturer"
@@ -1686,12 +1686,12 @@ Connection ~ 8800 1600
 Wire Wire Line
 	8800 1600 9500 1600
 $Comp
-L antmicroTVSDiodes:PESD18VF1BSFYL D35
+L sc606-baseboard:PESD18VF1BSFYL D35
 U 1 1 626DCF07
 P 11450 1350
 F 0 "D35" V 11379 1453 100 0000 L CNN
 F 1 "PESD18VF1BSFYL" V 11545 1453 100 0000 L CNN
-F 2 "antmicro-footprints:RESC0603X26N" H 11450 900 100 0001 L CNN
+F 2 "sc606-baseboard-footprints:RESC0603X26N" H 11450 900 100 0001 L CNN
 F 3 "https://www.mouser.pl/datasheet/2/916/PESD18VF1BSF-1599696.pdf" H 11660 1200 100 0001 C CNN
 F 4 "nexperia" H 11450 775 100 0001 L CNN "Manufacturer"
 F 5 "PESD18VF1BSFYL" H 11450 1025 100 0001 L CNN "MPN"
