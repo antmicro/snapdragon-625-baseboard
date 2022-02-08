@@ -1701,4 +1701,7 @@ Wire Wire Line
 Wire Wire Line
 	8125 8200 6675 8200
 Connection ~ 6675 8200
+Wire Wire Line
+	6475 6525 6575 6525
+Connection ~ 6575 6525
 $EndSCHEMATC
