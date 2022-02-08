@@ -307,8 +307,6 @@ Wire Wire Line
 Wire Wire Line
 	10000 1300 10000 1600
 Wire Wire Line
-	9500 1600 9000 1600
-Wire Wire Line
 	10600 900  10600 1100
 Wire Wire Line
 	10000 900  10600 900 
@@ -841,19 +839,6 @@ NoConn ~ 3750 1600
 NoConn ~ 3750 1700
 NoConn ~ 3750 1200
 NoConn ~ 3750 1300
-$Comp
-L sc606-baseboard:ESD144B1W0201E6327XTSA1 D35
-U 1 1 630E4F56
-P 11450 1250
-F 0 "D35" V 11404 1328 50  0000 L CNN
-F 1 "ESD144B1W0201E6327XTSA1" V 11495 1328 50  0000 L CNN
-F 2 "sc606-baseboard-footprints:ESD144B1W0201E6327XTSA1" H 11450 1250 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-ESD144-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d462677d0f4601679886a2a8707c" H 11450 1250 50  0001 C CNN
-F 4 "ESD144B1W0201E6327XTSA1" H 11450 1250 50  0001 C CNN "MPN"
-F 5 "Infineon Technologies" H 11450 1250 50  0001 C CNN "Manufacturer"
-	1    11450 1250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	11450 1600 11450 1650
 $Comp
@@ -885,29 +870,12 @@ F 3 "" H 5800 1275 50  0001 C CNN
 	1    5800 1275
 	1    0    0    -1  
 $EndComp
-$Comp
-L sc606-baseboard:SQS401EN-T1_BE3 Q?
-U 1 1 62135D7B
-P 8900 900
-AR Path="/61B0DC30/62135D7B" Ref="Q?"  Part="1" 
-AR Path="/61DF77CE/62135D7B" Ref="Q7"  Part="1" 
-AR Path="/623AED4D/62135D7B" Ref="Q9"  Part="1" 
-F 0 "Q9" V 9167 900 60  0000 C CNN
-F 1 "SQS401EN-T1_BE3" V 9061 900 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:Vishay_PowerPAK_1212-8_Single" H 9100 1100 60  0001 L CNN
-F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 9100 1200 60  0001 L CNN
-F 4 "SQS401EN-T1_BE3" H 9100 1400 60  0001 L CNN "MPN"
-F 5 "Vishay" H 9100 2000 60  0001 L CNN "Manufacturer"
-	1    8900 900 
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9100 900  10000 900 
 Wire Wire Line
-	9000 1200 9000 1600
-Connection ~ 9000 1600
+	8800 1200 8800 1600
 Wire Wire Line
-	7450 1600 9000 1600
+	7450 1600 8800 1600
 Wire Wire Line
 	7450 900  8700 900 
 $Comp
@@ -956,8 +924,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 3450 4950 3750
 NoConn ~ 4750 3750
-Wire Wire Line
-	11050 900  11450 900 
 $Comp
 L sc606-baseboard:GND #PWR0177
 U 1 1 623E4BF7
@@ -1015,11 +981,8 @@ F 3 "" H 3950 2300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 2200 2550 2350
-Connection ~ 11450 900 
-Wire Wire Line
-	11450 900  11900 900 
-Text Notes 4850 8300 0    50   ~ 0
-5-20V, lower priority
+Text Notes 6850 7000 0    50   ~ 0
+9-20V, lower priority
 Wire Wire Line
 	10525 7150 10525 7100
 $Comp
@@ -1083,13 +1046,11 @@ AUX_VDD
 Text GLabel 2750 7175 2    50   Input ~ 0
 AUX_VDD
 Text Notes 2750 7300 0    50   ~ 0
-9...36 VDC
+9...20 VDC
 Text Notes 7200 6050 0    100  ~ 20
 Auxiliary Power Control
 Text Notes 9400 750  0    50   ~ 0
 sprawdzić czy poprawny tranzystor
-Text Notes 11850 1500 0    50   ~ 0
-sprawdzić jaka ma byc dioda
 $Comp
 L sc606-baseboard:C_100u_0805 C153
 U 1 1 627087E6
@@ -1704,4 +1665,44 @@ Connection ~ 6675 8200
 Wire Wire Line
 	6475 6525 6575 6525
 Connection ~ 6575 6525
+Text Notes 4775 6700 0    50   ~ 0
+9-20V, higher priority
+Text Notes 11925 1050 0    50   ~ 0
+9...20 VDC
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q9
+U 1 1 6267FF4C
+P 8900 900
+F 0 "Q9" V 9167 900 60  0000 C CNN
+F 1 "SQS401EN-T1_BE3" V 9061 900 60  0000 C CNN
+F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 9100 1100 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 9100 1200 60  0001 L CNN
+F 4 "SQS401EN-T1_BE3" H 9100 1400 60  0001 L CNN "MPN"
+F 5 "Vishay" H 9100 2000 60  0001 L CNN "Manufacturer"
+	1    8900 900 
+	0    1    -1   0   
+$EndComp
+Connection ~ 8800 1600
+Wire Wire Line
+	8800 1600 9500 1600
+$Comp
+L antmicroTVSDiodes:PESD18VF1BSFYL D35
+U 1 1 626DCF07
+P 11450 1350
+F 0 "D35" V 11379 1453 100 0000 L CNN
+F 1 "PESD18VF1BSFYL" V 11545 1453 100 0000 L CNN
+F 2 "antmicro-footprints:RESC0603X26N" H 11450 900 100 0001 L CNN
+F 3 "https://www.mouser.pl/datasheet/2/916/PESD18VF1BSF-1599696.pdf" H 11660 1200 100 0001 C CNN
+F 4 "nexperia" H 11450 775 100 0001 L CNN "Manufacturer"
+F 5 "PESD18VF1BSFYL" H 11450 1025 100 0001 L CNN "MPN"
+	1    11450 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11050 900  11450 900 
+Wire Wire Line
+	11450 900  11450 1125
+Connection ~ 11450 900 
+Wire Wire Line
+	11450 900  11900 900 
 $EndSCHEMATC
