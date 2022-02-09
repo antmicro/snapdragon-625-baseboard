@@ -1,4 +1,4 @@
-update=wto, 8 lut 2022, 17:15:30
+update=Wed 09 Feb 2022 10:12:49 AM CET
 version=1
 last_client=kicad
 [general]

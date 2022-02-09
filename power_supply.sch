@@ -323,17 +323,6 @@ Wire Wire Line
 Connection ~ 4450 5850
 Wire Wire Line
 	4750 5850 4450 5850
-$Comp
-L sc606-baseboard:GND #PWR033
-U 1 1 6241B50A
-P 4450 6400
-F 0 "#PWR033" H 4450 6150 50  0001 C CNN
-F 1 "GND" H 4450 6250 50  0000 C CNN
-F 2 "" H 4450 6400 50  0001 C CNN
-F 3 "" H 4450 6400 50  0001 C CNN
-	1    4450 6400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4450 6400 4450 6200
 $Comp
@@ -1297,7 +1286,6 @@ Wire Wire Line
 	10500 2950 10500 3100
 Wire Wire Line
 	10500 3100 10800 3100
-Connection ~ 10800 3100
 $Comp
 L sc606-baseboard:R_100k_0402 R19
 U 1 1 6256E5FE
@@ -1338,7 +1326,6 @@ Wire Wire Line
 	10450 5700 10450 5750
 Wire Wire Line
 	10450 5750 10700 5750
-Connection ~ 10700 5750
 Wire Wire Line
 	10450 5200 10450 5000
 Wire Wire Line
@@ -1433,7 +1420,6 @@ Wire Wire Line
 	1800 9650 2550 9650
 Wire Wire Line
 	1800 10200 2150 10200
-Connection ~ 2150 10200
 Wire Wire Line
 	1800 9250 1800 9100
 Connection ~ 1800 9100
@@ -1791,4 +1777,15 @@ Wire Wire Line
 Connection ~ 1250 5200
 Text GLabel 750  3900 0    50   Input ~ 0
 VDD
+$Comp
+L sc606-baseboard:GND #PWR033
+U 1 1 6241B50A
+P 4450 6400
+F 0 "#PWR033" H 4450 6150 50  0001 C CNN
+F 1 "GND" H 4450 6250 50  0000 C CNN
+F 2 "" H 4450 6400 50  0001 C CNN
+F 3 "" H 4450 6400 50  0001 C CNN
+	1    4450 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
