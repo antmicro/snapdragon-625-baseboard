@@ -987,9 +987,9 @@ F 7 "DNP" H 2275 3050 50  0000 C CNN "DNP"
 	1    2100 3100
 	1    0    0    -1  
 $EndComp
-Text Label 5000 9350 2    50   ~ 0
+Text Label 2950 8900 2    50   ~ 0
 USB_C1_SS_C_TX2_P
-Text Label 5000 9250 2    50   ~ 0
+Text Label 2950 9000 2    50   ~ 0
 USB_C1_SS_C_TX2_N
 $Comp
 L sc606-baseboard:GND #PWR?
@@ -1006,9 +1006,9 @@ F 3 "" H 6800 9450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 9450 6800 9450
-Text Label 2950 9000 2    50   ~ 0
+Text Label 5000 9350 2    50   ~ 0
 USB_C1_D1_P
-Text Label 2950 8900 2    50   ~ 0
+Text Label 5000 9250 2    50   ~ 0
 USB_C1_D1_N
 Wire Wire Line
 	2800 3300 2450 3300
@@ -1229,13 +1229,13 @@ F 3 "" H 14800 8550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14900 8550 14800 8550
-Text Label 13050 8450 2    50   ~ 0
+Text Label 13050 8250 2    50   ~ 0
 USB_C2_D1_P
-Text Label 13050 8350 2    50   ~ 0
+Text Label 13050 8150 2    50   ~ 0
 USB_C2_D1_N
-Text Label 11050 7950 2    50   ~ 0
+Text Label 11050 8150 2    50   ~ 0
 USB_C2_SS_C_RX1_N
-Text Label 11050 8050 2    50   ~ 0
+Text Label 11050 8250 2    50   ~ 0
 USB_C2_SS_C_RX1_P
 Wire Wire Line
 	2800 3700 2450 3700
@@ -1867,9 +1867,9 @@ F 3 "" H 3850 6550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 6550 3850 6800
-Text Label 6900 9350 2    50   ~ 0
+Text Label 2950 9200 2    50   ~ 0
 USB_C1_SS_C_TX1_P
-Text Label 6900 9250 2    50   ~ 0
+Text Label 2950 9100 2    50   ~ 0
 USB_C1_SS_C_TX1_N
 Text Label 5000 9150 2    50   ~ 0
 USB_C1_SS_C_RX2_N
@@ -1907,9 +1907,9 @@ F 5 "PUSB3F96X" H 5400 8600 50  0001 C CNN "MPN"
 	1    5200 9250
 	1    0    0    -1  
 $EndComp
-Text Label 11050 8250 2    50   ~ 0
+Text Label 13050 8450 2    50   ~ 0
 USB_C2_SS_C_TX1_P
-Text Label 11050 8150 2    50   ~ 0
+Text Label 13050 8350 2    50   ~ 0
 USB_C2_SS_C_TX1_N
 $Comp
 L sc606-baseboard:PUSB3F96X_PASS D?
@@ -2018,13 +2018,13 @@ Wire Wire Line
 	7600 1200 7850 1200
 Wire Wire Line
 	7850 1200 8500 1200
-Text Label 13050 8150 2    50   ~ 0
+Text Label 11050 7950 2    50   ~ 0
 USB_C2_D2_P
-Text Label 13050 8250 2    50   ~ 0
+Text Label 11050 8050 2    50   ~ 0
 USB_C2_D2_N
-Text Label 2950 9200 2    50   ~ 0
+Text Label 6900 9350 2    50   ~ 0
 USB_C1_D2_P
-Text Label 2950 9100 2    50   ~ 0
+Text Label 6900 9250 2    50   ~ 0
 USB_C1_D2_N
 Wire Wire Line
 	10650 6300 11700 6300

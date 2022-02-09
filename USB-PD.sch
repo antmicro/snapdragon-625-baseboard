@@ -1049,8 +1049,6 @@ Text Notes 2750 7300 0    50   ~ 0
 9...20 VDC
 Text Notes 7200 6050 0    100  ~ 20
 Auxiliary Power Control
-Text Notes 9400 750  0    50   ~ 0
-sprawdzić czy poprawny tranzystor
 $Comp
 L sc606-baseboard:C_100u_0805 C153
 U 1 1 627087E6
@@ -1669,19 +1667,6 @@ Text Notes 4775 6700 0    50   ~ 0
 9-20V, higher priority
 Text Notes 11925 1050 0    50   ~ 0
 9...20 VDC
-$Comp
-L sc606-baseboard:SQS401EN-T1_BE3 Q9
-U 1 1 6267FF4C
-P 8900 900
-F 0 "Q9" V 9167 900 60  0000 C CNN
-F 1 "SQS401EN-T1_BE3" V 9061 900 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:Vishay_PowerPAK_1212-8_Single" H 9100 1100 60  0001 L CNN
-F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 9100 1200 60  0001 L CNN
-F 4 "SQS401EN-T1_BE3" H 9100 1400 60  0001 L CNN "MPN"
-F 5 "Vishay" H 9100 2000 60  0001 L CNN "Manufacturer"
-	1    8900 900 
-	0    1    -1   0   
-$EndComp
 Connection ~ 8800 1600
 Wire Wire Line
 	8800 1600 9500 1600
@@ -1705,4 +1690,19 @@ Wire Wire Line
 Connection ~ 11450 900 
 Wire Wire Line
 	11450 900  11900 900 
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q9
+U 1 1 620802FD
+P 8900 900
+F 0 "Q9" V 9167 900 60  0000 C CNN
+F 1 "SQS401EN-T1_BE3" V 9061 900 60  0000 C CNN
+F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 9100 1100 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 9100 1200 60  0001 L CNN
+F 4 "SQS401EN-T1_BE3" H 9100 1400 60  0001 L CNN "MPN"
+F 5 "Vishay" H 9100 2000 60  0001 L CNN "Manufacturer"
+	1    8900 900 
+	0    1    -1   0   
+$EndComp
+Text Notes 2350 950  0    50   ~ 0
+9...20 VDC
 $EndSCHEMATC

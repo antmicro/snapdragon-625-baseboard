@@ -12,6 +12,10 @@ $CMP LTC4418IUF#PBF
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4418.pdf
 $ENDCMP
 #
+$CMP PESD18VF1BSFYL
+F https://www.mouser.pl/datasheet/2/916/PESD18VF1BSF-1599696.pdf
+$ENDCMP
+#
 $CMP PESD5V0C2BDFZ
 F https://www.ti.com/lit/ds/symlink/tpd13s523.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1642494532421&ref_url=https%253A%252F%252Fwww.mouser.pl%252F
 $ENDCMP

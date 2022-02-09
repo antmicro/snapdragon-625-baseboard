@@ -953,21 +953,6 @@ Connection ~ 14350 5500
 Wire Wire Line
 	14350 5500 14800 5500
 $Comp
-L sc606-baseboard:FSUSB30UMX U?
-U 1 1 62A45764
-P 2100 4650
-AR Path="/63348E64/62A45764" Ref="U?"  Part="1" 
-AR Path="/61F60810/62A45764" Ref="U9"  Part="1" 
-F 0 "U9" H 2050 5653 60  0000 C CNN
-F 1 "FSUSB30UMX" H 2050 5547 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:UMLP-10_1.8x1.4mm" H 2250 4840 60  0001 L CNN
-F 3 "https://rocelec.widen.net/view/pdf/reufmpzzmy/ONSM-S-A0003587650-1.pdf?t.download=true&u=5oefqw" H 2250 4940 60  0001 L CNN
-F 4 "FSUSB30UMX" H 2250 5140 60  0001 L CNN "MPN"
-F 5 "ON SEMI" H 2270 5750 60  0001 L CNN "Manufacturer"
-	1    2100 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L sc606-baseboard:E8124-015-01 J?
 U 1 1 6216BEF8
 P 9450 3700
@@ -1140,6 +1125,19 @@ F 1 "GND" H 2105 2977 50  0000 C CNN
 F 2 "" H 2100 3150 50  0001 C CNN
 F 3 "" H 2100 3150 50  0001 C CNN
 	1    2100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroInterfaceAnalogSwitchesSpecialPurpose:FSUSB30MUX U9
+U 1 1 6214D265
+P 2100 4650
+F 0 "U9" H 2050 5653 60  0000 C CNN
+F 1 "FSUSB30MUX" H 2050 5547 60  0000 C CNN
+F 2 "antmicro-footprints:MSOP-10_W3mm" H 2250 4840 60  0001 L CNN
+F 3 "" H 2250 4940 60  0001 L CNN
+F 4 "FSUSB30MUX" H 2250 5140 60  0001 L CNN "MPN"
+F 5 "ON SEMI" H 2270 5750 60  0001 L CNN "Manufacturer"
+	1    2100 4650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
