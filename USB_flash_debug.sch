@@ -1128,12 +1128,12 @@ F 3 "" H 2100 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroInterfaceAnalogSwitchesSpecialPurpose:FSUSB30MUX U9
+L sc606-baseboard:FSUSB30MUX U9
 U 1 1 6214D265
 P 2100 4650
 F 0 "U9" H 2050 5653 60  0000 C CNN
 F 1 "FSUSB30MUX" H 2050 5547 60  0000 C CNN
-F 2 "antmicro-footprints:MSOP-10_W3mm" H 2250 4840 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:MSOP-10_W3mm" H 2250 4840 60  0001 L CNN
 F 3 "" H 2250 4940 60  0001 L CNN
 F 4 "FSUSB30MUX" H 2250 5140 60  0001 L CNN "MPN"
 F 5 "ON SEMI" H 2270 5750 60  0001 L CNN "Manufacturer"

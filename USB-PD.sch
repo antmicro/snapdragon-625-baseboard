@@ -1691,12 +1691,12 @@ Connection ~ 11450 900
 Wire Wire Line
 	11450 900  11900 900 
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3 Q9
+L sc606-baseboard:SQS401EN-T1_BE3 Q9
 U 1 1 620802FD
 P 8900 900
 F 0 "Q9" V 9167 900 60  0000 C CNN
 F 1 "SQS401EN-T1_BE3" V 9061 900 60  0000 C CNN
-F 2 "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" H 9100 1100 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:Vishay_PowerPAK_1212-8_Single" H 9100 1100 60  0001 L CNN
 F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 9100 1200 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 9100 1400 60  0001 L CNN "MPN"
 F 5 "Vishay" H 9100 2000 60  0001 L CNN "Manufacturer"
