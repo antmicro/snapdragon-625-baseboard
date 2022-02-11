@@ -21,7 +21,7 @@ U 1 1 61E56C5B
 P 4950 4700
 F 0 "U6" H 4850 6089 60  0000 C CNN
 F 1 "PCA9547BS" H 4850 5983 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:VQFN-24" H 4700 3300 60  0001 C CNN
+F 2 "antmicro-footprints:HVQFN24" H 4700 3300 60  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9547.pdf" H 4950 4700 60  0001 C CNN
 F 4 " NXP" H 4950 4700 50  0001 C CNN "Manufacturer"
 F 5 "PCA9547BS,118 " H 4950 4700 50  0001 C CNN "MPN"

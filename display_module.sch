@@ -1669,7 +1669,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 12700 1300 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 12700 1617 50  0001 C CNN "MPN"
 F 5 "MURATA" H 12700 1526 50  0001 C CNN "Manufacturer"
 	1    12700 1300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	13000 1250 13000 1200
@@ -1686,7 +1686,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 12700 1600 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 12700 1917 50  0001 C CNN "MPN"
 F 5 "MURATA" H 12700 1826 50  0001 C CNN "Manufacturer"
 	1    12700 1600
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13000 1550 13000 1500

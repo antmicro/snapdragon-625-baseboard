@@ -1732,8 +1732,6 @@ F 5 "Molex" H 3350 12050 50  0001 L CNN "Manufacturer"
 	1    3350 9850
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	700  1450 700  2150
 Text Label 4350 5375 0    50   ~ 0
 ANT_GNSS_
 Text Label 3000 7650 0    50   ~ 0
@@ -1742,4 +1740,6 @@ Text Label 2675 6850 0    50   ~ 0
 ANT_LTE_UFL
 Text Label 2675 7650 1    50   ~ 0
 ANT_LTE_
+Wire Bus Line
+	700  1450 700  2150
 $EndSCHEMATC

@@ -807,7 +807,7 @@ F 6 "590R" H 10950 2975 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Text GLabel 10600 2075 0    50   Input ~ 0
-5V_SYS
+5V0_SYS
 Text Notes 9850 2475 0    50   ~ 0
 R   G   B\n50  30 30 [mA]\n2.1 2.9 2.9 [V]
 Wire Wire Line
@@ -1178,7 +1178,7 @@ $EndComp
 Text GLabel 14450 5250 2    50   Input ~ 0
 1V8
 Text GLabel 12400 5250 0    50   Input ~ 0
-5V_SYS
+5V0_SYS
 $Comp
 L sc606-baseboard:1053131102 J1
 U 1 1 620288D5
@@ -1406,7 +1406,7 @@ Wire Wire Line
 Wire Wire Line
 	9325 8200 9550 8200
 Text GLabel 10725 8200 2    50   Input ~ 0
-5V_SYS
+5V0_SYS
 Wire Wire Line
 	10650 8200 10650 8300
 Wire Wire Line
