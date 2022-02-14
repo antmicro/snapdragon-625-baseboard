@@ -1340,78 +1340,67 @@ VDD
 $Comp
 L sc606-baseboard:KP-1608EC D?
 U 1 1 62106E33
-P 9650 8200
+P 9650 8300
 AR Path="/61D43102/62106E33" Ref="D?"  Part="1" 
 AR Path="/61D49FDE/62106E33" Ref="D?"  Part="1" 
 AR Path="/623AED4D/62106E33" Ref="D36"  Part="1" 
-F 0 "D36" H 9600 7953 60  0000 C CNN
-F 1 "KP-1608EC" H 9600 8059 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:LED_0603" H 9850 8400 60  0001 L CNN
-F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 9850 8500 60  0001 L CNN
-F 4 "KP-1608EC" H 9850 8700 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 9860 8820 60  0001 L CNN "Manufacturer"
-	1    9650 8200
+F 0 "D36" H 9600 8053 60  0000 C CNN
+F 1 "KP-1608EC" H 9600 8159 60  0000 C CNN
+F 2 "sc606-baseboard-footprints:LED_0603" H 9850 8500 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 9850 8600 60  0001 L CNN
+F 4 "KP-1608EC" H 9850 8800 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 9860 8920 60  0001 L CNN "Manufacturer"
+	1    9650 8300
 	-1   0    0    1   
 $EndComp
 $Comp
 L sc606-baseboard:KP-1608EC D?
 U 1 1 6211676C
-P 10000 8300
+P 10000 8200
 AR Path="/61D43102/6211676C" Ref="D?"  Part="1" 
 AR Path="/61D49FDE/6211676C" Ref="D?"  Part="1" 
 AR Path="/623AED4D/6211676C" Ref="D37"  Part="1" 
-F 0 "D37" H 9950 8053 60  0000 C CNN
-F 1 "KP-1608EC" H 9950 8159 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:LED_0603" H 10200 8500 60  0001 L CNN
-F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 10200 8600 60  0001 L CNN
-F 4 "KP-1608EC" H 10200 8800 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 10210 8920 60  0001 L CNN "Manufacturer"
-	1    10000 8300
+F 0 "D37" H 9950 7953 60  0000 C CNN
+F 1 "KP-1608EC" H 9950 8059 60  0000 C CNN
+F 2 "sc606-baseboard-footprints:LED_0603" H 10200 8400 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 10200 8500 60  0001 L CNN
+F 4 "KP-1608EC" H 10200 8700 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 10210 8820 60  0001 L CNN "Manufacturer"
+	1    10000 8200
 	-1   0    0    1   
 $EndComp
 $Comp
 L sc606-baseboard:R_270R_0603 R168
 U 1 1 6201E54F
-P 10500 8200
-F 0 "R168" H 10500 8413 60  0000 C CNN
-F 1 "R_270R_0603" H 10500 8050 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0603-res" H 10700 8400 60  0001 L CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 10500 8200 50  0001 C CNN
-F 4 "Panasonic" H 10700 8600 60  0001 L CNN "Manufacturer"
-F 5 "ERJ3EKF2700V" H 10700 8500 60  0001 L CNN "MPN"
-F 6 "270R" H 10500 8315 50  0000 C CNN "Val"
-	1    10500 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L sc606-baseboard:R_270R_0603 R169
-U 1 1 6201EDA2
 P 10500 8300
-F 0 "R169" H 10500 8177 60  0000 C CNN
+F 0 "R168" H 10500 8513 60  0000 C CNN
 F 1 "R_270R_0603" H 10500 8150 60  0001 C CNN
 F 2 "sc606-baseboard-footprints:0603-res" H 10700 8500 60  0001 L CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 10500 8300 50  0001 C CNN
 F 4 "Panasonic" H 10700 8700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ3EKF2700V" H 10700 8600 60  0001 L CNN "MPN"
-F 6 "270R" H 10500 8079 50  0000 C CNN "Val"
+F 6 "270R" H 10500 8415 50  0000 C CNN "Val"
 	1    10500 8300
 	1    0    0    -1  
 $EndComp
+$Comp
+L sc606-baseboard:R_270R_0603 R169
+U 1 1 6201EDA2
+P 10500 8200
+F 0 "R169" H 10500 8077 60  0000 C CNN
+F 1 "R_270R_0603" H 10500 8050 60  0001 C CNN
+F 2 "sc606-baseboard-footprints:0603-res" H 10700 8400 60  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 10500 8200 50  0001 C CNN
+F 4 "Panasonic" H 10700 8600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ3EKF2700V" H 10700 8500 60  0001 L CNN "MPN"
+F 6 "270R" H 10500 7979 50  0000 C CNN "Val"
+	1    10500 8200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	10350 8200 9850 8200
-Wire Wire Line
-	10200 8300 10350 8300
-Wire Wire Line
-	9900 8300 9325 8300
-Wire Wire Line
-	9325 8200 9550 8200
+	10200 8200 10350 8200
 Text GLabel 10725 8200 2    50   Input ~ 0
 5V0_SYS
-Wire Wire Line
-	10650 8200 10650 8300
-Wire Wire Line
-	10725 8200 10650 8200
-Connection ~ 10650 8200
 Wire Wire Line
 	7800 9100 7800 9350
 Wire Wire Line
@@ -1705,4 +1694,19 @@ F 5 "Vishay" H 9100 2000 60  0001 L CNN "Manufacturer"
 $EndComp
 Text Notes 2350 950  0    50   ~ 0
 9...20 VDC
+Wire Wire Line
+	9550 8300 9325 8300
+Wire Wire Line
+	9850 8300 10350 8300
+Wire Wire Line
+	9325 8200 9900 8200
+Wire Wire Line
+	10650 8300 10675 8300
+Wire Wire Line
+	10675 8300 10675 8200
+Wire Wire Line
+	10650 8200 10675 8200
+Connection ~ 10675 8200
+Wire Wire Line
+	10675 8200 10725 8200
 $EndSCHEMATC

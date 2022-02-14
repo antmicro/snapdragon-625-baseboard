@@ -425,7 +425,7 @@ Text Notes 9750 950  0    100  ~ 0
 Debug UART
 Text GLabel 14250 5500 0    50   Input ~ 0
 DEBUG_UART_RX
-Text GLabel 14250 5400 0    50   Input ~ 0
+Text GLabel 14250 5200 0    50   Input ~ 0
 DEBUG_UART_TX
 Text GLabel 13900 4000 2    50   Input ~ 0
 DEBUG_UART_RX
@@ -939,14 +939,13 @@ F 3 "" H 9650 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14250 5400 14450 5400
+	14250 5200 14450 5200
 Wire Wire Line
 	14250 5500 14350 5500
 Wire Wire Line
-	14450 4850 14450 5400
-Connection ~ 14450 5400
+	14450 4850 14450 5200
 Wire Wire Line
-	14450 5400 14800 5400
+	14450 5200 14800 5200
 Wire Wire Line
 	14350 4750 14350 5500
 Connection ~ 14350 5500
@@ -1140,4 +1139,5 @@ F 5 "ON SEMI" H 2270 5750 60  0001 L CNN "Manufacturer"
 	1    2100 4650
 	1    0    0    -1  
 $EndComp
+Connection ~ 14450 5200
 $EndSCHEMATC
