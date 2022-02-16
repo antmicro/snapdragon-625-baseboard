@@ -1706,8 +1706,6 @@ Text GLabel 10275 5900 2    50   Input ~ 0
 SoM_TX__RS485_RX
 Text GLabel 10275 6000 2    50   Input ~ 0
 RS485_RTS
-Text GLabel 10275 6100 2    50   Input ~ 0
-RS485_CTS
 $Comp
 L sc606-baseboard:SC606T M1
 U 3 1 61D62FE5
@@ -1727,8 +1725,11 @@ Wire Wire Line
 	10275 5900 9975 5900
 Wire Wire Line
 	10275 6000 9975 6000
+NoConn ~ 9975 6100
+Text GLabel 13425 8500 0    50   Input ~ 0
+RS485_RTS_GPIO
 Wire Wire Line
-	9975 6100 10275 6100
+	13425 8500 13875 8500
 Wire Bus Line
 	1725 8525 1725 9225
 $EndSCHEMATC
