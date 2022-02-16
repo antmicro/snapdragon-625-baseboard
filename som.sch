@@ -28,19 +28,6 @@ F 5 "SC606T-xx" H 8875 9050 50  0001 C CNN "MPN"
 $EndComp
 $Comp
 L sc606-baseboard:SC606T M1
-U 3 1 61D62FE5
-P 8875 5550
-F 0 "M1" H 8875 6367 50  0000 C CNN
-F 1 "SC606T" H 8875 6276 50  0000 C CNN
-F 2 "sc606-baseboard-footprints:QUECTEL_SC606T" H 8925 5650 50  0001 L BNN
-F 3 "" H 8875 5700 50  0001 L BNN
-F 4 "Quectel" H 8875 5700 50  0001 L BNN "Manufacturer"
-F 5 "SC606T-xx" H 8875 5700 50  0001 C CNN "MPN"
-	3    8875 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L sc606-baseboard:SC606T M1
 U 4 1 61D67FBA
 P 14375 8250
 F 0 "M1" H 14705 8096 50  0000 L CNN
@@ -817,28 +804,6 @@ F 3 "" H 7275 5800 60  0001 L CNN
 	1    7075 5500
 	0    1    1    0   
 $EndComp
-$Comp
-L sc606-baseboard:TP_SMD_0_75MM TP9
-U 1 1 629FCB71
-P 10075 5200
-F 0 "TP9" V 10075 5075 50  0000 C CNN
-F 1 "TP_SMD_1_5MM" H 10075 5100 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:TP-R-1.5" H 10275 5400 60  0001 L CNN
-F 3 "" H 10275 5500 60  0001 L CNN
-	1    10075 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L sc606-baseboard:TP_SMD_0_75MM TP10
-U 1 1 629FCB77
-P 10075 5300
-F 0 "TP10" V 10075 5150 50  0000 C CNN
-F 1 "TP_SMD_1_5MM" H 10075 5200 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:TP-R-1.5" H 10275 5500 60  0001 L CNN
-F 3 "" H 10275 5600 60  0001 L CNN
-	1    10075 5300
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2425 7125 0    50   Input ~ 0
 SoM_USB_FLASH_ID
 Text GLabel 10275 5100 2    50   Input ~ 0
@@ -853,10 +818,6 @@ Text GLabel 10275 5400 2    50   Input ~ 0
 SoM_USB3_RX_P
 Text GLabel 10275 5500 2    50   Input ~ 0
 SoM_USB3_RX_N
-NoConn ~ 9975 5800
-NoConn ~ 9975 5900
-NoConn ~ 9975 6000
-NoConn ~ 9975 6100
 NoConn ~ 13875 9300
 NoConn ~ 13875 9400
 NoConn ~ 2775 5925
@@ -1731,6 +1692,43 @@ F 3 "" H 14800 1600 60  0001 L CNN
 $EndComp
 Text Notes 13375 10400 0    150  ~ 0
 SC606T SoM
+Text GLabel 10275 5200 2    50   Input ~ 0
+UART_Connector_TX
+Text GLabel 10275 5300 2    50   Input ~ 0
+UART_Connector_RX
+Wire Wire Line
+	10275 5200 9975 5200
+Wire Wire Line
+	9975 5300 10275 5300
+Text GLabel 10275 5800 2    50   Input ~ 0
+SoM_RX__RS485_TX
+Text GLabel 10275 5900 2    50   Input ~ 0
+SoM_TX__RS485_RX
+Text GLabel 10275 6000 2    50   Input ~ 0
+RS485_RTS
+Text GLabel 10275 6100 2    50   Input ~ 0
+RS485_CTS
+$Comp
+L sc606-baseboard:SC606T M1
+U 3 1 61D62FE5
+P 8875 5550
+F 0 "M1" H 8875 6367 50  0000 C CNN
+F 1 "SC606T" H 8875 6276 50  0000 C CNN
+F 2 "sc606-baseboard-footprints:QUECTEL_SC606T" H 8925 5650 50  0001 L BNN
+F 3 "" H 8875 5700 50  0001 L BNN
+F 4 "Quectel" H 8875 5700 50  0001 L BNN "Manufacturer"
+F 5 "SC606T-xx" H 8875 5700 50  0001 C CNN "MPN"
+	3    8875 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9975 5800 10275 5800
+Wire Wire Line
+	10275 5900 9975 5900
+Wire Wire Line
+	10275 6000 9975 6000
+Wire Wire Line
+	9975 6100 10275 6100
 Wire Bus Line
 	1725 8525 1725 9225
 $EndSCHEMATC

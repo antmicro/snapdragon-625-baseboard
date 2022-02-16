@@ -426,7 +426,7 @@ F 6 "1u" H 10125 5025 50  0000 C CNN "Val"
 	1    10025 5125
 	1    0    0    -1  
 $EndComp
-Text Label 1650 7475 2    50   ~ 0
+Text Label 1400 7475 0    50   ~ 0
 RST_N
 $Comp
 L sc606-baseboard:R_10k_0402 R49
@@ -442,9 +442,9 @@ F 6 "10k" V 10050 4750 50  0000 L CNN "Val"
 	1    10025 4700
 	0    1    1    0   
 $EndComp
-Text Label 1900 7375 2    50   ~ 0
+Text Label 1400 7375 0    50   ~ 0
 SoMtoLT_SDA
-Text Label 1900 7275 2    50   ~ 0
+Text Label 1400 7275 0    50   ~ 0
 SoMtoLT_SCL
 $Comp
 L sc606-baseboard:R_4k7_0402 R51
@@ -488,13 +488,13 @@ F 6 "4k7" V 4325 4800 50  0000 L CNN "Val"
 	1    4275 4750
 	0    1    1    0   
 $EndComp
-Text Label 1600 7175 2    50   ~ 0
+Text Label 1400 7175 0    50   ~ 0
 INT0
 Wire Wire Line
 	4300 8325 5525 8325
-Text Label 5050 8325 0    50   ~ 0
+Text Label 5525 8325 2    50   ~ 0
 CEC_LT
-Text Label 5075 10325 0    50   ~ 0
+Text Label 4850 10325 2    50   ~ 0
 V_COMM
 Wire Wire Line
 	4300 7625 5525 7625
@@ -555,7 +555,7 @@ F 6 "0R" H 4875 8425 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	5025 8425 5525 8425
-Text Label 5050 8425 0    50   ~ 0
+Text Label 5525 8425 2    50   ~ 0
 DETECT_HDMI
 $Comp
 L sc606-baseboard:R_2k2_0402 R61
@@ -589,29 +589,29 @@ Wire Wire Line
 	7275 10225 7275 10350
 Wire Wire Line
 	7575 10225 7575 10450
-Text Label 4975 7325 0    50   ~ 0
+Text Label 5525 7325 2    50   ~ 0
 LTtoHDMI_SCL
-Text Label 4975 7425 0    50   ~ 0
+Text Label 5525 7425 2    50   ~ 0
 LTtoHDMI_SDA
 Text GLabel 1975 10125 0    50   Input ~ 0
 LT9611_VCC33_IO
 Wire Wire Line
 	7275 9800 7275 9925
-Text Label 5350 7525 2    50   ~ 0
+Text Label 5525 7525 2    50   ~ 0
 TX_D2_P
-Text Label 5350 7625 2    50   ~ 0
+Text Label 5525 7625 2    50   ~ 0
 TX_D2_N
-Text Label 5350 7825 2    50   ~ 0
+Text Label 5525 7825 2    50   ~ 0
 TX_D1_N
-Text Label 5350 7725 2    50   ~ 0
+Text Label 5525 7725 2    50   ~ 0
 TX_D1_P
-Text Label 5350 7925 2    50   ~ 0
+Text Label 5525 7925 2    50   ~ 0
 TX_D0_P
-Text Label 5350 8025 2    50   ~ 0
+Text Label 5525 8025 2    50   ~ 0
 TX_D0_N
-Text Label 5400 8125 2    50   ~ 0
+Text Label 5525 8125 2    50   ~ 0
 TX_CLK_P
-Text Label 5400 8225 2    50   ~ 0
+Text Label 5525 8225 2    50   ~ 0
 TX_CLK_N
 Connection ~ 3100 3125
 Wire Wire Line
@@ -716,7 +716,7 @@ NoConn ~ 4300 9925
 NoConn ~ 4300 10025
 NoConn ~ 4300 10125
 Wire Wire Line
-	5525 10325 4300 10325
+	4850 10325 4300 10325
 Wire Wire Line
 	4825 7175 4300 7175
 Wire Wire Line
@@ -1146,21 +1146,21 @@ F 3 "" H 3900 2575 50  0001 C CNN
 	1    3900 2575
 	1    0    0    -1  
 $EndComp
-Text Label 6500 6750 0    50   ~ 0
+Text Label 6450 6750 0    50   ~ 0
 TX_D2_P
-Text Label 6500 6950 0    50   ~ 0
+Text Label 6450 6950 0    50   ~ 0
 TX_D2_N
-Text Label 6500 7350 0    50   ~ 0
+Text Label 6450 7350 0    50   ~ 0
 TX_D1_N
-Text Label 6500 7150 0    50   ~ 0
+Text Label 6450 7150 0    50   ~ 0
 TX_D1_P
-Text Label 6500 7550 0    50   ~ 0
+Text Label 6450 7550 0    50   ~ 0
 TX_D0_P
-Text Label 6500 7750 0    50   ~ 0
+Text Label 6450 7750 0    50   ~ 0
 TX_D0_N
-Text Label 6500 7950 0    50   ~ 0
+Text Label 6450 7950 0    50   ~ 0
 TX_CLK_P
-Text Label 6500 8150 0    50   ~ 0
+Text Label 6450 8150 0    50   ~ 0
 TX_CLK_N
 $Comp
 L sc606-baseboard:R_50R_0402 R63
@@ -1475,11 +1475,11 @@ Wire Wire Line
 	14800 8750 14800 8050
 Wire Wire Line
 	14900 8150 13925 8150
-Text Label 14375 8150 2    50   ~ 0
+Text Label 13925 8150 0    50   ~ 0
 CEC_HDMI
-Text Label 14525 8250 2    50   ~ 0
+Text Label 13925 8250 0    50   ~ 0
 LTtoHDMI_SCL
-Text Label 14525 8350 2    50   ~ 0
+Text Label 13925 8350 0    50   ~ 0
 LTtoHDMI_SDA
 Wire Wire Line
 	13925 8250 14900 8250
@@ -1519,11 +1519,11 @@ Wire Wire Line
 	4300 7325 5525 7325
 Wire Wire Line
 	4300 7425 5525 7425
-Text Label 7200 10550 2    50   ~ 0
+Text Label 6675 10550 0    50   ~ 0
 CEC_HDMI
-Text Label 7200 10450 2    50   ~ 0
+Text Label 6675 10450 0    50   ~ 0
 LTtoHDMI_SCL
-Text Label 7200 10350 2    50   ~ 0
+Text Label 6675 10350 0    50   ~ 0
 LTtoHDMI_SDA
 Wire Wire Line
 	6675 10450 7575 10450
@@ -1578,7 +1578,7 @@ F 7 "DNP" H 12675 8700 50  0000 L CNN "DNP"
 	1    12875 8875
 	1    0    0    -1  
 $EndComp
-Text Label 6825 8675 2    50   ~ 0
+Text Label 6450 8675 0    50   ~ 0
 V_COMM
 $Comp
 L sc606-baseboard:C_100n_0402 C80
@@ -1682,7 +1682,7 @@ F 6 "2k" V 2925 4700 50  0000 R CNN "Val"
 	1    2975 4750
 	0    -1   -1   0   
 $EndComp
-Text Label 4875 5150 0    50   ~ 0
+Text Label 5375 5150 2    50   ~ 0
 SoMtoLT_SDA
 Wire Wire Line
 	4000 5050 4275 5050
@@ -1748,7 +1748,7 @@ Wire Wire Line
 Connection ~ 2425 4475
 Wire Wire Line
 	2425 4475 2700 4475
-Text Label 4875 5050 0    50   ~ 0
+Text Label 5375 5050 2    50   ~ 0
 SoMtoLT_SCL
 NoConn ~ 3000 8775
 NoConn ~ 3000 8875
@@ -1767,11 +1767,11 @@ F 5 "ON Semiconductor" H 7350 6000 60  0001 L CNN "Manufacturer"
 	1    7150 4900
 	0    1    1    0   
 $EndComp
-Text Label 7625 4900 0    50   ~ 0
+Text Label 7800 4900 2    50   ~ 0
 INT0
-Text Label 10225 4900 0    50   ~ 0
+Text Label 10475 4900 2    50   ~ 0
 RST_N
-Text Label 11800 5225 2    50   ~ 0
+Text Label 11525 5225 0    50   ~ 0
 CEC_LT
 Wire Wire Line
 	7800 4900 7450 4900
@@ -1861,7 +1861,7 @@ Wire Wire Line
 Connection ~ 11925 5225
 Wire Wire Line
 	11925 5225 12175 5225
-Text Label 13025 5225 0    50   ~ 0
+Text Label 13425 5225 2    50   ~ 0
 CEC_HDMI
 $Comp
 L sc606-baseboard:C_100n_0402 C79
@@ -2136,7 +2136,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 2225 3900 2225
 Connection ~ 3900 2225
-Text Label 14275 8450 2    50   ~ 0
+Text Label 13925 8450 0    50   ~ 0
 UTILITY
 Text GLabel 12475 8550 0    50   Input ~ 0
 5V0_SYS
@@ -2310,9 +2310,9 @@ F 5 "Diodes Incorporated" H 13025 5775 60  0001 L CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	12450 7550 14900 7550
-Text Label 9050 10525 2    50   ~ 0
+Text Label 8525 10525 0    50   ~ 0
 TX_D2_Ferr_P
-Text Label 9050 10425 2    50   ~ 0
+Text Label 8525 10425 0    50   ~ 0
 TX_D2_Ferr_N
 $Comp
 L sc606-baseboard:PUSB3F96X_PASS D?
@@ -2331,9 +2331,9 @@ F 5 "PUSB3F96X" H 9525 9775 50  0001 C CNN "MPN"
 	1    9325 10425
 	1    0    0    -1  
 $EndComp
-Text Label 9050 10325 2    50   ~ 0
+Text Label 8525 10325 0    50   ~ 0
 TX_D0_Ferr_P
-Text Label 9050 10225 2    50   ~ 0
+Text Label 8525 10225 0    50   ~ 0
 TX_D0_Ferr_N
 $Comp
 L sc606-baseboard:PUSB3F96X_PASS D?
@@ -2352,13 +2352,13 @@ F 5 "PUSB3F96X" H 11075 9775 50  0001 C CNN "MPN"
 	1    10875 10425
 	1    0    0    -1  
 $EndComp
-Text Label 10600 10225 2    50   ~ 0
+Text Label 10050 10225 0    50   ~ 0
 TX_CLK_Ferr_N
-Text Label 10600 10325 2    50   ~ 0
+Text Label 10050 10325 0    50   ~ 0
 TX_CLK_Ferr_P
-Text Label 10600 10425 2    50   ~ 0
+Text Label 10050 10425 0    50   ~ 0
 TX_D1_Ferr_N
-Text Label 10600 10525 2    50   ~ 0
+Text Label 10050 10525 0    50   ~ 0
 TX_D1_Ferr_P
 $Comp
 L sc606-baseboard:PUSB3F96X_PASS D?
@@ -2380,12 +2380,12 @@ $EndComp
 Text Notes 12250 10325 0    98   ~ 0
 Display - HDMI and LCD interfaces
 $Comp
-L antmicroFCCConnectors:F52R-1A7H1-11020 J3
+L sc606-baseboard:F52R-1A7H1-11020 J3
 U 1 1 6414C597
 P 14950 1100
 F 0 "J3" H 15278 96  50  0000 L CNN
 F 1 "F52R-1A7H1-11020" V 15325 -900 50  0000 L CNN
-F 2 "antmicro-footprints:F52R-1A7H1-11020" H 15025 1150 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:F52R-1A7H1-11020" H 15025 1150 50  0001 C CNN
 F 3 "https://www.snapeda.com/parts/F52R-1A7H1-11020/Amphenol%20ICC%20(FCI)/datasheet/" H 14950 1100 50  0001 C CNN
 F 4 "F52R-1A7H1-11020" H 15025 1150 50  0001 C CNN "MPN"
 F 5 "AMPHENOL ICC" H 15025 1150 50  0001 C CNN "Manufacturer"
@@ -2553,7 +2553,7 @@ Wire Wire Line
 	6450 7350 7925 7350
 Connection ~ 7925 7350
 Wire Wire Line
-	6500 7550 8150 7550
+	6450 7550 8150 7550
 Connection ~ 8150 7550
 Wire Wire Line
 	6450 7750 8375 7750
@@ -2684,10 +2684,10 @@ Wire Wire Line
 Wire Wire Line
 	8150 7550 9025 7550
 $Comp
-L sc606-baseboard:GND #PWR?
+L sc606-baseboard:GND #PWR015
 U 1 1 65BF461E
 P 9825 9425
-F 0 "#PWR?" H 9825 9175 50  0001 C CNN
+F 0 "#PWR015" H 9825 9175 50  0001 C CNN
 F 1 "GND" H 9830 9252 50  0000 C CNN
 F 2 "" H 9825 9425 50  0001 C CNN
 F 3 "" H 9825 9425 50  0001 C CNN
@@ -2780,18 +2780,11 @@ Wire Wire Line
 Wire Wire Line
 	12475 7950 12450 7950
 Wire Wire Line
-	12475 7850 14900 7850
+	12475 7850 12875 7850
 Wire Wire Line
 	12450 8150 12575 8150
 Wire Wire Line
-	12575 7950 12875 7950
-Connection ~ 12875 7950
-Wire Wire Line
-	12875 7950 14900 7950
-Wire Wire Line
 	12575 7950 12575 8150
-Wire Wire Line
-	12875 8725 12875 7950
 Wire Wire Line
 	12475 8550 12925 8550
 Wire Wire Line
@@ -2820,10 +2813,10 @@ Connection ~ 14550 8450
 Wire Wire Line
 	14550 9100 14550 9025
 $Comp
-L sc606-baseboard:GND #PWR?
+L sc606-baseboard:GND #PWR042
 U 1 1 66C68C89
 P 14175 9100
-F 0 "#PWR?" H 14175 8850 50  0001 C CNN
+F 0 "#PWR042" H 14175 8850 50  0001 C CNN
 F 1 "GND" H 14180 8927 50  0000 C CNN
 F 2 "" H 14175 9100 50  0001 C CNN
 F 3 "" H 14175 9100 50  0001 C CNN
@@ -2833,10 +2826,10 @@ $EndComp
 Wire Wire Line
 	14175 9100 14175 9025
 $Comp
-L sc606-baseboard:GND #PWR?
+L sc606-baseboard:GND #PWR040
 U 1 1 66C8F28F
 P 13925 9100
-F 0 "#PWR?" H 13925 8850 50  0001 C CNN
+F 0 "#PWR040" H 13925 8850 50  0001 C CNN
 F 1 "GND" H 13930 8927 50  0000 C CNN
 F 2 "" H 13925 9100 50  0001 C CNN
 F 3 "" H 13925 9100 50  0001 C CNN
@@ -2846,10 +2839,10 @@ $EndComp
 Wire Wire Line
 	13925 9100 13925 9025
 $Comp
-L sc606-baseboard:GND #PWR?
+L sc606-baseboard:GND #PWR035
 U 1 1 66CB5A8B
 P 13675 9100
-F 0 "#PWR?" H 13675 8850 50  0001 C CNN
+F 0 "#PWR035" H 13675 8850 50  0001 C CNN
 F 1 "GND" H 13680 8927 50  0000 C CNN
 F 2 "" H 13675 9100 50  0001 C CNN
 F 3 "" H 13675 9100 50  0001 C CNN
@@ -2859,10 +2852,10 @@ $EndComp
 Wire Wire Line
 	13675 9100 13675 9025
 $Comp
-L sc606-baseboard:GND #PWR?
+L sc606-baseboard:GND #PWR034
 U 1 1 66CDD026
 P 13400 9100
-F 0 "#PWR?" H 13400 8850 50  0001 C CNN
+F 0 "#PWR034" H 13400 8850 50  0001 C CNN
 F 1 "GND" H 13405 8927 50  0000 C CNN
 F 2 "" H 13400 9100 50  0001 C CNN
 F 3 "" H 13400 9100 50  0001 C CNN
@@ -2872,10 +2865,10 @@ $EndComp
 Wire Wire Line
 	13400 9100 13400 9025
 $Comp
-L sc606-baseboard:GND #PWR?
+L sc606-baseboard:GND #PWR029
 U 1 1 66D03EAD
 P 12875 9100
-F 0 "#PWR?" H 12875 8850 50  0001 C CNN
+F 0 "#PWR029" H 12875 8850 50  0001 C CNN
 F 1 "GND" H 12880 8927 50  0000 C CNN
 F 2 "" H 12875 9100 50  0001 C CNN
 F 3 "" H 12875 9100 50  0001 C CNN
@@ -2885,10 +2878,10 @@ $EndComp
 Wire Wire Line
 	12875 9100 12875 9025
 $Comp
-L sc606-baseboard:GND #PWR?
+L sc606-baseboard:GND #PWR026
 U 1 1 66D2AEAF
 P 12575 9100
-F 0 "#PWR?" H 12575 8850 50  0001 C CNN
+F 0 "#PWR026" H 12575 8850 50  0001 C CNN
 F 1 "GND" H 12580 8927 50  0000 C CNN
 F 2 "" H 12575 9100 50  0001 C CNN
 F 3 "" H 12575 9100 50  0001 C CNN
@@ -2929,10 +2922,10 @@ Wire Wire Line
 Wire Wire Line
 	10675 10525 10050 10525
 $Comp
-L sc606-baseboard:GND #PWR?
+L sc606-baseboard:GND #PWR012
 U 1 1 67253532
 P 9050 10775
-F 0 "#PWR?" H 9050 10525 50  0001 C CNN
+F 0 "#PWR012" H 9050 10525 50  0001 C CNN
 F 1 "GND" H 9055 10602 50  0000 C CNN
 F 2 "" H 9050 10775 50  0001 C CNN
 F 3 "" H 9050 10775 50  0001 C CNN
@@ -2944,10 +2937,10 @@ Wire Wire Line
 Wire Wire Line
 	9050 10625 9050 10775
 $Comp
-L sc606-baseboard:GND #PWR?
+L sc606-baseboard:GND #PWR020
 U 1 1 6727BEBE
 P 10600 10775
-F 0 "#PWR?" H 10600 10525 50  0001 C CNN
+F 0 "#PWR020" H 10600 10525 50  0001 C CNN
 F 1 "GND" H 10605 10602 50  0000 C CNN
 F 2 "" H 10600 10775 50  0001 C CNN
 F 3 "" H 10600 10775 50  0001 C CNN
@@ -3178,8 +3171,8 @@ L sc606-baseboard:GND-power #PWR?
 U 1 1 6226BE7A
 P 7050 3400
 AR Path="/6226BE7A" Ref="#PWR?"  Part="1" 
-AR Path="/61D49FBF/6226BE7A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7050 3150 50  0001 C CNN
+AR Path="/61D49FBF/6226BE7A" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 7050 3150 50  0001 C CNN
 F 1 "GND" H 7055 3227 50  0000 C CNN
 F 2 "" H 7050 3400 50  0001 C CNN
 F 3 "" H 7050 3400 50  0001 C CNN
@@ -3213,12 +3206,14 @@ Wire Notes Line width 12
 Text Notes 2075 975  0    98   ~ 20
 MIPI DSI to HDMI
 $Comp
-L antmicroTestPoints:TP TP?
+L sc606-baseboard:TP-antmicroTestPoints TP?
 U 1 1 62645871
 P 4900 8600
-F 0 "TP?" V 4881 8550 50  0000 R CNN
+AR Path="/62645871" Ref="TP?"  Part="1" 
+AR Path="/61D49FBF/62645871" Ref="TP67"  Part="1" 
+F 0 "TP67" V 4881 8550 50  0000 R CNN
 F 1 "TP" H 4900 8600 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 4900 8600 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TP-R-1.5" H 4900 8600 50  0001 C CNN
 F 3 "" H 4900 8600 50  0001 C CNN
 	1    4900 8600
 	0    -1   -1   0   
@@ -3229,34 +3224,40 @@ Connection ~ 4600 8600
 Wire Wire Line
 	4600 8600 4600 8425
 $Comp
-L antmicroTestPoints:TP TP?
+L sc606-baseboard:TP-antmicroTestPoints TP?
 U 1 1 62691E88
 P 13400 8450
-F 0 "TP?" H 13475 8375 50  0000 R CNN
+AR Path="/62691E88" Ref="TP?"  Part="1" 
+AR Path="/61D49FBF/62691E88" Ref="TP70"  Part="1" 
+F 0 "TP70" H 13475 8375 50  0000 R CNN
 F 1 "TP" H 13400 8450 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 13400 8450 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TP-R-1.5" H 13400 8450 50  0001 C CNN
 F 3 "" H 13400 8450 50  0001 C CNN
 	1    13400 8450
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sc606-baseboard:TP-antmicroTestPoints TP?
 U 1 1 626B1E54
 P 11850 3025
-F 0 "TP?" V 11850 2900 50  0000 R CNN
+AR Path="/626B1E54" Ref="TP?"  Part="1" 
+AR Path="/61D49FBF/626B1E54" Ref="TP68"  Part="1" 
+F 0 "TP68" V 11850 2900 50  0000 R CNN
 F 1 "TP" H 11850 3025 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 11850 3025 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TP-R-1.5" H 11850 3025 50  0001 C CNN
 F 3 "" H 11850 3025 50  0001 C CNN
 	1    11850 3025
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sc606-baseboard:TP-antmicroTestPoints TP?
 U 1 1 626B9E67
 P 11850 3125
-F 0 "TP?" V 11850 3000 50  0000 R CNN
+AR Path="/626B9E67" Ref="TP?"  Part="1" 
+AR Path="/61D49FBF/626B9E67" Ref="TP69"  Part="1" 
+F 0 "TP69" V 11850 3000 50  0000 R CNN
 F 1 "TP" H 11850 3125 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 11850 3125 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TP-R-1.5" H 11850 3125 50  0001 C CNN
 F 3 "" H 11850 3125 50  0001 C CNN
 	1    11850 3125
 	0    1    1    0   
@@ -3275,4 +3276,11 @@ Wire Wire Line
 Connection ~ 12225 2800
 Wire Wire Line
 	12225 2800 12650 2800
+Wire Wire Line
+	12575 7950 14900 7950
+Wire Wire Line
+	12875 8725 12875 7850
+Connection ~ 12875 7850
+Wire Wire Line
+	12875 7850 14900 7850
 $EndSCHEMATC

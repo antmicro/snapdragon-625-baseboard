@@ -28,13 +28,13 @@ F0 "power supply" 50
 F1 "power_supply.sch" 50
 $EndSheet
 $Sheet
-S 8500 6000 1000 1000
+S 10000 6000 1000 1000
 U 61D49F95
-F0 "cameras module" 50
-F1 "cameras_module.sch" 50
+F0 "serial_and_cameras_interfaces" 50
+F1 "serial_and_cameras_interfaces.sch" 50
 $EndSheet
 $Sheet
-S 10000 6000 1000 1000
+S 8500 6000 1000 1000
 U 61D49FBF
 F0 "display module" 50
 F1 "display_module.sch" 50

@@ -335,8 +335,8 @@ P 1400 2000
 AR Path="/61F60810/6336FA49" Ref="TP?"  Part="1" 
 AR Path="/63348E64/6336FA49" Ref="TP13"  Part="1" 
 F 0 "TP13" H 1350 2047 50  0000 R CNN
-F 1 "TP_SMD_0_75MM-antmicroTestPoints" H 1400 1900 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 1600 2200 60  0001 L CNN
+F 1 "TP_SMD_1_5MM" H 1400 1900 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TP-R-1.5" H 1600 2200 60  0001 L CNN
 F 3 "" H 1600 2300 60  0001 L CNN
 	1    1400 2000
 	-1   0    0    1   
@@ -911,8 +911,8 @@ P 2600 3000
 AR Path="/61F60810/635BD552" Ref="TP?"  Part="1" 
 AR Path="/63348E64/635BD552" Ref="TP16"  Part="1" 
 F 0 "TP16" V 2575 3125 50  0000 C CNN
-F 1 "TP_SMD_0_75MM-antmicroTestPoints" H 2600 2900 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 2800 3200 60  0001 L CNN
+F 1 "TP_SMD_1_5MM" H 2600 2900 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TP-R-1.5" H 2800 3200 60  0001 L CNN
 F 3 "" H 2800 3300 60  0001 L CNN
 	1    2600 3000
 	0    1    1    0   
@@ -924,8 +924,8 @@ P 2600 3200
 AR Path="/61F60810/635BDBB6" Ref="TP?"  Part="1" 
 AR Path="/63348E64/635BDBB6" Ref="TP17"  Part="1" 
 F 0 "TP17" V 2575 3325 50  0000 C CNN
-F 1 "TP_SMD_0_75MM-antmicroTestPoints" H 2600 3100 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 2800 3400 60  0001 L CNN
+F 1 "TP_SMD_1_5MM" H 2600 3100 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TP-R-1.5" H 2800 3400 60  0001 L CNN
 F 3 "" H 2800 3500 60  0001 L CNN
 	1    2600 3200
 	0    1    1    0   
@@ -937,8 +937,8 @@ P 2450 2800
 AR Path="/61F60810/635CBB18" Ref="TP?"  Part="1" 
 AR Path="/63348E64/635CBB18" Ref="TP14"  Part="1" 
 F 0 "TP14" H 2425 2750 50  0000 R CNN
-F 1 "TP_SMD_0_75MM-antmicroTestPoints" H 2450 2700 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 2650 3000 60  0001 L CNN
+F 1 "TP_SMD_1_5MM" H 2450 2700 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TP-R-1.5" H 2650 3000 60  0001 L CNN
 F 3 "" H 2650 3100 60  0001 L CNN
 	1    2450 2800
 	-1   0    0    1   
@@ -953,8 +953,8 @@ P 2450 3000
 AR Path="/61F60810/635CC318" Ref="TP?"  Part="1" 
 AR Path="/63348E64/635CC318" Ref="TP15"  Part="1" 
 F 0 "TP15" H 2325 2950 50  0000 L CNN
-F 1 "TP_SMD_0_75MM-antmicroTestPoints" H 2450 2900 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:Testpoint_smd_0_75mm" H 2650 3200 60  0001 L CNN
+F 1 "TP_SMD_1_5MM" H 2450 2900 50  0001 C CNN
+F 2 "sc606-baseboard-footprints:TP-R-1.5" H 2650 3200 60  0001 L CNN
 F 3 "" H 2650 3300 60  0001 L CNN
 	1    2450 3000
 	-1   0    0    1   
@@ -1233,9 +1233,9 @@ Text Label 13050 8250 2    50   ~ 0
 USB_C2_D1_P
 Text Label 13050 8150 2    50   ~ 0
 USB_C2_D1_N
-Text Label 11050 8150 2    50   ~ 0
+Text Label 13050 8350 2    50   ~ 0
 USB_C2_SS_C_RX1_N
-Text Label 11050 8250 2    50   ~ 0
+Text Label 13050 8450 2    50   ~ 0
 USB_C2_SS_C_RX1_P
 Wire Wire Line
 	2800 3700 2450 3700
@@ -1907,9 +1907,9 @@ F 5 "PUSB3F96X" H 5400 8600 50  0001 C CNN "MPN"
 	1    5200 9250
 	1    0    0    -1  
 $EndComp
-Text Label 13050 8450 2    50   ~ 0
+Text Label 11050 8250 2    50   ~ 0
 USB_C2_SS_C_TX1_P
-Text Label 13050 8350 2    50   ~ 0
+Text Label 11050 8150 2    50   ~ 0
 USB_C2_SS_C_TX1_N
 $Comp
 L sc606-baseboard:PUSB3F96X_PASS D?
