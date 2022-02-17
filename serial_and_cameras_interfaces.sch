@@ -1434,13 +1434,13 @@ Wire Wire Line
 	9975 7675 10275 7675
 Wire Wire Line
 	9975 7975 10275 7975
-Text Label 7125 9700 2    50   ~ 0
+Text Label 6775 9900 0    50   ~ 0
 RS485_A
-Text Label 7125 9800 2    50   ~ 0
+Text Label 6775 10000 0    50   ~ 0
 RS485_B
-Text Label 7675 10000 2    50   ~ 0
+Text Label 6775 9800 0    50   ~ 0
 UART_Connector_RX_3V3
-Text Label 7675 9900 2    50   ~ 0
+Text Label 6775 9700 0    50   ~ 0
 UART_Connector_TX_3V3
 $Comp
 L sc606-baseboard:PUSB3F96X_PASS D?
@@ -1459,13 +1459,13 @@ F 5 "PUSB3F96X" H 3950 9250 50  0001 C CNN "MPN"
 	1    3750 9900
 	1    0    0    -1  
 $EndComp
-Text Label 3550 9800 2    50   ~ 0
+Text Label 2775 9900 0    50   ~ 0
 I2C_Connector2_SDA
-Text Label 3550 9700 2    50   ~ 0
+Text Label 2775 9800 0    50   ~ 0
 I2C_Connector2_SCL
-Text Label 3550 10000 2    50   ~ 0
+Text Label 2775 10000 0    50   ~ 0
 I2C_Connector1_SDA
-Text Label 3550 9900 2    50   ~ 0
+Text Label 2775 9700 0    50   ~ 0
 I2C_Connector1_SCL
 $Comp
 L sc606-baseboard:GND #PWR0237
