@@ -1348,7 +1348,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 9650 4000 9625
 Wire Wire Line
-	4000 9325 4000 9200
+	4000 9325 4000 9275
 Wire Wire Line
 	3450 9075 3450 8775
 Wire Wire Line
@@ -1412,7 +1412,7 @@ Wire Notes Line
 Wire Notes Line
 	1600 9750 1625 9750
 Wire Wire Line
-	3825 9275 4300 9275
+	3825 9275 4000 9275
 $Comp
 L sc606-baseboard:R_180k_0402 R26
 U 1 1 62B0B1F0
@@ -2056,4 +2056,7 @@ F 6 "4n7" H 2665 3297 50  0000 L CNN "Val"
 	1    2550 3350
 	1    0    0    -1  
 $EndComp
+Connection ~ 4000 9275
+Wire Wire Line
+	4000 9275 4300 9275
 $EndSCHEMATC
