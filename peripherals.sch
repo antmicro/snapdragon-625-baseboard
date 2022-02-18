@@ -1170,8 +1170,6 @@ F 5 "KINGBRIGHT" H 13210 7370 60  0001 L CNN "Manufacturer"
 	1    13000 6750
 	0    1    1    0   
 $EndComp
-Text GLabel 13000 6050 0    50   Input ~ 0
-USR_LED1
 $Comp
 L sc606-baseboard:GND #PWR?
 U 1 1 61EF0517
@@ -1202,8 +1200,6 @@ F 5 "KINGBRIGHT" H 14210 7370 60  0001 L CNN "Manufacturer"
 	1    14000 6750
 	0    1    1    0   
 $EndComp
-Text GLabel 14000 6050 0    50   Input ~ 0
-USR_LED2
 $Comp
 L sc606-baseboard:GND #PWR?
 U 1 1 61EF0527
@@ -1742,6 +1738,10 @@ Text Label 2675 6850 0    50   ~ 0
 ANT_LTE_UFL
 Text Label 2675 7650 1    50   ~ 0
 ANT_LTE_
+Text GLabel 13000 6050 0    50   Input ~ 0
+USR_LED2
+Text GLabel 14000 6050 0    50   Input ~ 0
+USR_LED1
 Wire Bus Line
 	700  1450 700  2150
 $EndSCHEMATC

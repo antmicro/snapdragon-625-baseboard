@@ -1294,4 +1294,26 @@ U 623AED4D
 F0 "USB-PD" 50
 F1 "USB-PD.sch" 50
 $EndSheet
+$Comp
+L antmicroMechanicalParts:antmicro_logo N1
+U 1 1 620F99C7
+P 4500 6425
+F 0 "N1" H 4714 6518 50  0000 L CNN
+F 1 "antmicro_logo" H 4714 6427 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_12mm" H 4400 6675 50  0001 C CNN
+F 3 "" H 4500 6775 50  0001 C CNN
+	1    4500 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:oshw_logo N2
+U 1 1 620FA0FE
+P 4550 6750
+F 0 "N2" H 4744 6753 50  0000 L CNN
+F 1 "oshw_logo" H 4744 6662 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 4570 6510 50  0001 C CNN
+F 3 "" H 4550 6750 50  0001 C CNN
+	1    4550 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

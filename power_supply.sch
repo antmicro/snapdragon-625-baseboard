@@ -937,19 +937,6 @@ F 3 "" H 4600 9725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4600 9725 4600 9375
-$Comp
-L sc606-baseboard:74LVC1G123GN U4
-U 1 1 62AE559F
-P 2925 9025
-F 0 "U4" H 2550 8500 60  0000 C CNN
-F 1 "74LVC1G123GN" H 2575 8400 60  0000 C CNN
-F 2 "sc606-baseboard-footprints:XSON8-SOT1116" H 3125 9225 60  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G123_Q100.pdf" H 3125 9325 60  0001 L CNN
-F 4 "74LVC1G123GN" H 3125 9525 60  0001 L CNN "MPN"
-F 5 "Nexperia" H 3125 10125 60  0001 L CNN "Manufacturer"
-	1    2925 9025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3325 9275 3525 9275
 $Comp
@@ -1295,8 +1282,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 8150 1600 8025
 Connection ~ 1600 9075
-Wire Notes Line
-	1650 10000 1650 10050
 Wire Wire Line
 	1600 9550 1600 9725
 Wire Wire Line
@@ -2059,4 +2044,17 @@ $EndComp
 Connection ~ 4000 9275
 Wire Wire Line
 	4000 9275 4300 9275
+$Comp
+L antmicroLogicBuffersDriversReceiversTransceivers:74LVC1G123DP,125 U4
+U 1 1 6229508E
+P 2925 9025
+F 0 "U4" H 2925 9728 60  0000 C CNN
+F 1 "74LVC1G123DP,125" H 2925 9622 60  0000 C CNN
+F 2 "antmicro-footprints:TSSOP-8_W3mm" H 3125 9225 60  0001 L CNN
+F 3 "https://www.mouser.pl/datasheet/2/916/74LVC1G123-1388973.pdf" H 3125 9325 60  0001 L CNN
+F 4 "74LVC1G123DP,125" H 3125 9525 60  0001 L CNN "MPN"
+F 5 "Nexperia" H 3125 10125 60  0001 L CNN "Manufacturer"
+	1    2925 9025
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
