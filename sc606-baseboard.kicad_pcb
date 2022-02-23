@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.9+dfsg1-1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5+dfsg1-2build2)
 
   (general
     (thickness 1.6)
@@ -12,10 +12,10 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (1 In1.Power_Plane power)
+    (1 In1.Power_Plane power hide)
     (2 In2.Mixed mixed)
     (3 In3.Mixed mixed)
-    (4 In4.GND power)
+    (4 In4.GND power hide)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)

@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name sc606-baseboard-rescue)(type Legacy)(uri ${KIPRJMOD}/sc606-baseboard-rescue.lib)(options "")(descr ""))
-  (lib (name sa800u-baseboard-hw)(type Legacy)(uri /home/uno/my-disk/projects/sa800u-baseboard-hw/lib/sa800u-baseboard-hw.lib)(options "")(descr ""))
   (lib (name sc606-baseboard)(type Legacy)(uri ${KIPRJMOD}/lib/sc606-baseboard.lib)(options "")(descr ""))
 )
