@@ -3078,8 +3078,6 @@ Connection ~ 2225 4475
 Wire Wire Line
 	2225 5550 2225 5525
 Wire Wire Line
-	4900 5600 4900 5650
-Wire Wire Line
 	4050 5550 4050 5250
 Wire Wire Line
 	4050 5250 4000 5250
