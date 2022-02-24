@@ -67,9 +67,9 @@ Wire Wire Line
 Wire Wire Line
 	3575 4525 3575 3875
 Wire Wire Line
-	3575 3875 4625 3875
+	3575 3875 4425 3875
 Wire Wire Line
-	4625 3775 3675 3775
+	4425 3775 3675 3775
 Text Notes 3525 1050 0    100  ~ 20
 USB SoM flashing IF
 $Comp
@@ -417,9 +417,9 @@ Text Label 10225 3775 0    50   ~ 0
 DBG_USB_D_N
 Text Label 10350 3575 0    50   ~ 0
 DBG_VBUS
-Text Label 3875 3875 0    50   ~ 0
+Text Label 4425 3875 2    50   ~ 0
 USB_FLASH_P
-Text Label 3875 3775 0    50   ~ 0
+Text Label 4425 3775 2    50   ~ 0
 USB_FLASH_N
 Text Label 3175 3575 0    50   ~ 0
 USB_FLASH_5V0
@@ -524,10 +524,10 @@ F 3 "" H 2925 3275 50  0001 C CNN
 	1    2925 3275
 	0    -1   -1   0   
 $EndComp
-Text Label 1450 3575 2    50   ~ 0
+Text Label 1000 3575 0    50   ~ 0
 USB_FLASH_5V0
 Wire Wire Line
-	1450 3575 1625 3575
+	1000 3575 1625 3575
 NoConn ~ 4025 4225
 NoConn ~ 4025 4325
 NoConn ~ 2925 3375
@@ -543,12 +543,12 @@ NoConn ~ 1925 3675
 NoConn ~ 1925 3475
 NoConn ~ 1925 3375
 Wire Wire Line
-	1925 3775 1450 3775
+	1925 3775 1000 3775
 Wire Wire Line
-	1450 3875 1925 3875
-Text Label 1450 3775 2    50   ~ 0
+	1000 3875 1925 3875
+Text Label 1000 3775 0    50   ~ 0
 USB_FLASH_P
-Text Label 1450 3875 2    50   ~ 0
+Text Label 1000 3875 0    50   ~ 0
 USB_FLASH_N
 $Comp
 L sc606-baseboard:GND #PWR0163
