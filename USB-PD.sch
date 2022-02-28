@@ -560,12 +560,10 @@ F 3 "" H 9050 4200 50  0001 C CNN
 	1    9050 4200
 	1    0    0    -1  
 $EndComp
-Text Label 9275 3850 0    50   ~ 0
+Text Label 9500 3850 2    50   ~ 0
 VREG_2V7
-Text Label 9275 3750 0    50   ~ 0
+Text Label 9500 3750 2    50   ~ 0
 VREG_1V2
-Text Label 9275 3650 0    50   ~ 0
-STUSB_VDD
 Connection ~ 6700 1350
 Wire Wire Line
 	6700 1350 7250 1350
@@ -1853,16 +1851,16 @@ Connection ~ 7400 4300
 Wire Wire Line
 	7400 4300 7500 4300
 Wire Wire Line
-	9275 3850 8350 3850
+	9500 3850 8350 3850
 Connection ~ 8350 3850
 Wire Wire Line
-	8700 3750 9275 3750
+	8700 3750 9500 3750
 Connection ~ 8700 3750
 Wire Wire Line
 	8100 3650 9050 3650
 Connection ~ 9050 3650
 Wire Wire Line
-	9050 3650 9275 3650
+	9050 3650 9500 3650
 Wire Wire Line
 	9150 1350 8925 1350
 Connection ~ 8925 1350
@@ -1898,4 +1896,6 @@ Wire Wire Line
 	14300 1200 14600 1200
 Wire Wire Line
 	14025 1300 13950 1300
+Text Label 9500 3650 2    50   ~ 0
+PD_VBUS
 $EndSCHEMATC
