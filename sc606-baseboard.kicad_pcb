@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.9+dfsg1-1~bpo10+1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5+dfsg1-2build2)
 
   (general
     (thickness 1.6)
@@ -8566,7 +8566,7 @@
       (net 8 5V0_SYS))
     (pad 1 smd rect (at -4.1 0 180) (size 3.4 2.4) (layers F.Cu F.Paste F.Mask)
       (net 13 "Net-(C25-Pad2)"))
-    (model ${KIPRJMOD}/lib/3d-models/7447798720.stp
+    (model ${KIPRJMOD}/lib/3d-models/7447798720.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
