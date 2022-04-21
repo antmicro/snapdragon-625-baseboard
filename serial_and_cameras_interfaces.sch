@@ -701,7 +701,7 @@ U 1 1 61E56C5B
 P 8450 3225
 F 0 "U6" H 8350 4614 60  0000 C CNN
 F 1 "PCA9547BS" H 8350 4508 60  0000 C CNN
-F 2 "antmicro-footprints:HVQFN24" H 8200 1825 60  0001 C CNN
+F 2 "sc606-baseboard-footprints:HVQFN24" H 8200 1825 60  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9547.pdf" H 8450 3225 60  0001 C CNN
 F 4 " NXP" H 8450 3225 50  0001 C CNN "Manufacturer"
 F 5 "PCA9547BS,118 " H 8450 3225 50  0001 C CNN "MPN"
@@ -1301,12 +1301,12 @@ Wire Wire Line
 Text GLabel 6725 7875 0    50   Input ~ 0
 RS485_DIR_GPIO
 $Comp
-L antmicroResistors0402:R_0R_0402 R187
+L sc606-baseboard:R_0R_0402 R187
 U 1 1 621F5421
 P 7100 7775
 F 0 "R187" H 7225 7725 60  0000 L CNN
 F 1 "R_0R_0402" H 7100 7625 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7300 7975 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7300 7975 60  0001 L CNN
 F 3 "" H 7100 7775 50  0001 C CNN
 F 4 "PANASONIC" H 7300 8175 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7300 8075 60  0001 L CNN "MPN"
@@ -1315,12 +1315,12 @@ F 6 "0R" H 6875 7725 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R188
+L sc606-baseboard:R_0R_0402 R188
 U 1 1 6221C459
 P 7100 7875
 F 0 "R188" H 7225 7825 60  0000 L CNN
 F 1 "R_0R_0402" H 7100 7725 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7300 8075 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7300 8075 60  0001 L CNN
 F 3 "" H 7100 7875 50  0001 C CNN
 F 4 "PANASONIC" H 7300 8275 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7300 8175 60  0001 L CNN "MPN"
@@ -1330,12 +1330,12 @@ F 7 "DNP" H 7025 7875 50  0000 L CNN "DNP"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:533980471 J13
+L sc606-baseboard:533980471 J13
 U 1 1 622EC02E
 P 4075 7075
 F 0 "J13" H 3992 6710 50  0000 C CNN
 F 1 "533980471" H 3992 6801 50  0000 C CNN
-F 2 "antmicro-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 4175 6975 50  0001 L BNN
+F 2 "sc606-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 4175 6975 50  0001 L BNN
 F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/0533980471" H 3975 6875 50  0001 L BNN
 F 4 "Molex" H 4175 7125 50  0001 L BNN "Manufacturer"
 F 5 "0533980471" H 4425 7075 50  0001 C CNN "MPN"
@@ -1343,12 +1343,12 @@ F 5 "0533980471" H 4425 7075 50  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:533980471 J15
+L sc606-baseboard:533980471 J15
 U 1 1 62328BC5
 P 4100 8650
 F 0 "J15" H 4017 8285 50  0000 C CNN
 F 1 "533980471" H 4017 8376 50  0000 C CNN
-F 2 "antmicro-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 4200 8550 50  0001 L BNN
+F 2 "sc606-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 4200 8550 50  0001 L BNN
 F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/0533980471" H 4000 8450 50  0001 L BNN
 F 4 "Molex" H 4200 8700 50  0001 L BNN "Manufacturer"
 F 5 "0533980471" H 4450 8650 50  0001 C CNN "MPN"
@@ -1356,12 +1356,12 @@ F 5 "0533980471" H 4450 8650 50  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:533980471 J17
+L sc606-baseboard:533980471 J17
 U 1 1 623298A6
 P 10950 7825
 F 0 "J17" H 10867 7460 50  0000 C CNN
 F 1 "533980471" H 10867 7551 50  0000 C CNN
-F 2 "antmicro-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 11050 7725 50  0001 L BNN
+F 2 "sc606-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 11050 7725 50  0001 L BNN
 F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/0533980471" H 10850 7625 50  0001 L BNN
 F 4 "Molex" H 11050 7875 50  0001 L BNN "Manufacturer"
 F 5 "0533980471" H 11300 7825 50  0001 C CNN "MPN"
@@ -1394,12 +1394,12 @@ F 3 "" H 10025 7275 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_120R_0603 R189
+L sc606-baseboard:R_120R_0603 R189
 U 1 1 62401FF8
 P 9925 7825
 F 0 "R189" V 9970 7755 60  0000 R CNN
 F 1 "R_120R_0603" H 9925 7675 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 10125 8025 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0603-res" H 10125 8025 60  0001 L CNN
 F 3 "" H 9925 7825 50  0001 C CNN
 F 4 "VISHAY" H 10125 8225 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0603120RFKEA" H 10125 8125 60  0001 L CNN "MPN"
@@ -1560,12 +1560,12 @@ Wire Wire Line
 Text Label 8625 7875 0    50   ~ 0
 DIR
 $Comp
-L antmicroResistors0402:R_0R_0402 R186
+L sc606-baseboard:R_0R_0402 R186
 U 1 1 6233B85C
 P 7100 7975
 F 0 "R186" H 7225 7925 60  0000 L CNN
 F 1 "R_0R_0402" H 7100 7825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7300 8175 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 7300 8175 60  0001 L CNN
 F 3 "" H 7100 7975 50  0001 C CNN
 F 4 "PANASONIC" H 7300 8375 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7300 8275 60  0001 L CNN "MPN"
@@ -1665,12 +1665,12 @@ $EndComp
 Wire Wire Line
 	9200 9725 10250 9725
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:533980471 J16
+L sc606-baseboard:533980471 J16
 U 1 1 623291AA
 P 10925 9775
 F 0 "J16" H 10842 9410 50  0000 C CNN
 F 1 "533980471" H 10842 9501 50  0000 C CNN
-F 2 "antmicro-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 11025 9675 50  0001 L BNN
+F 2 "sc606-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 11025 9675 50  0001 L BNN
 F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/0533980471" H 10825 9575 50  0001 L BNN
 F 4 "Molex" H 11025 9825 50  0001 L BNN "Manufacturer"
 F 5 "0533980471" H 11275 9775 50  0001 C CNN "MPN"

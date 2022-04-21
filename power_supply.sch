@@ -2045,12 +2045,12 @@ Connection ~ 4000 9275
 Wire Wire Line
 	4000 9275 4300 9275
 $Comp
-L antmicroLogicBuffersDriversReceiversTransceivers:74LVC1G123DP,125 U4
+L sc606-baseboard:74LVC1G123DP,125 U4
 U 1 1 6229508E
 P 2925 9025
 F 0 "U4" H 2700 9475 60  0000 C CNN
 F 1 "74LVC1G123DP,125" H 2975 8450 60  0000 C CNN
-F 2 "antmicro-footprints:TSSOP-8_W3mm" H 3125 9225 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:TSSOP-8_W3mm" H 3125 9225 60  0001 L CNN
 F 3 "https://www.mouser.pl/datasheet/2/916/74LVC1G123-1388973.pdf" H 3125 9325 60  0001 L CNN
 F 4 "74LVC1G123DP,125" H 3125 9525 60  0001 L CNN "MPN"
 F 5 "Nexperia" H 3125 10125 60  0001 L CNN "Manufacturer"
