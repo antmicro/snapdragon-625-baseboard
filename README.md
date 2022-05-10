@@ -1,13 +1,13 @@
-# Antmicro's open source SA800U (Snapdragon 845) Baseboard
+# Antmicro's open source SC606T (Snapdragon 625) Baseboard
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
-![Baseboard visualization](img/sa800u-baseboard.png)
+![Baseboard visualization](img/sc606-baseboard.png)
 
 ## Overview
 
-This repository contains open hardware design files for an experimental development board for Quectel [SA800-U](https://www.quectel.com/product/sa800u-wf-smart-module) System on Module (SoM) featuring Qualcomm [Snapdragon 845 Mobile Platform](https://www.qualcomm.com/products/application/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-845-mobile-platform).
-This development board break-routes the relevant I/O interfaces from the SoM keeping a small mechanical outline. 
+This repository contains open hardware design files for an experimental development board for Quectel [SC606T Smart Module](https://www.quectel.com/product/lte-sc606t-smart-module-series) featuring Qualcomm [Snapdragon 625 Mobile Platform](https://www.qualcomm.com/products/application/smartphones/snapdragon-6-series-mobile-platforms/snapdragon-625-mobile-platform).
+This development board break-routes the relevant I/O interfaces from the smart module keeping a small mechanical outline. 
 The design files were prepared in KiCad.
 
 ## Repository structure
@@ -20,20 +20,16 @@ The remaining files are stored in the following directories:
 
 ## Key Features
 
-* Quectel SA800U with Qualcomm Snapdragon 845
-* WiFi and Bluetooth
-* Gigabit Ethernet
-* Power over Ethernet controller
+* Quectel SC606T Smart Module with Qualcomm Snapdragon 625
+* Built-in Dual-Band WiFi and Bluetooth
+* Built-in Cat 6 LTE modem with multi-constellation GNSS receiver
 * HDMI output implemented with on-board DSI-HDMI bridge
 * DSI interface exposed on Flexible Flat Cable (FFC) connector
-* USB 3.1 (Type-C) connector supporting host/otg mode with optional DisplayPort video output
-* USB 3.0 (Type-C) connector working in Downstream Facing (i.e. Host) Mode
-* M.2 connector (key M) for optional external storage
+* USB 3.0 (Type-C) connector supporting host/otg mode
 * 2x 4-lane MIPI CSI-2 camera interface
 
 The board supports multiple power supply scenarios including:
 
-* Power over Ethernet
 * USB-C PD (Power Delivery)
 * External PSU or battery
 
