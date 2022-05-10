@@ -1,4 +1,4 @@
-(module QUECTEL_SC606T (layer F.Cu) (tedit 6260FCA0)
+(module QUECTEL_SC606T (layer F.Cu) (tedit 623C4D10)
   (fp_text reference REF** (at -20.625 -24.235) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
@@ -345,7 +345,7 @@
   (pad 322 smd rect (at 20.9 20.4) (size 1.3 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 323 smd rect (at 20.9 -20.4) (size 1.3 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 320 smd rect (at -20.9 -20.4) (size 1.3 1.3) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -22 -18.5) (size 2 0.65) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -22 -18.5) (size 2 0.65) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/lib/3d-models/SC606T.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

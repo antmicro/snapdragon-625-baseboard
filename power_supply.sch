@@ -2057,12 +2057,12 @@ F 5 "Nexperia" H 3250 9600 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicBuffersDriversReceiversTransceivers:SN74LVC1G123YZPR U4_1
+L sc606-baseboard:SN74LVC1G123YZPR U4_1
 U 1 1 62750109
 P 3050 10275
 F 0 "U4_1" H 3200 10825 60  0000 C CNN
 F 1 "SN74LVC1G123YZPR" H 3100 9775 60  0000 C CNN
-F 2 "antmicro-footprints:DSBGA-8_1.91x0.91mm" H 3250 10475 60  0001 L CNN
+F 2 "sc606-baseboard-footprints:DSBGA-8_1.91x0.91mm" H 3250 10475 60  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc1g123.pdf" H 3250 10575 60  0001 L CNN
 F 4 "SN74LVC1G123YZPR" H 3250 10775 60  0001 L CNN "MPN"
 F 5 "Texas Instruments" H 3250 11375 60  0001 L CNN "Manufacturer"

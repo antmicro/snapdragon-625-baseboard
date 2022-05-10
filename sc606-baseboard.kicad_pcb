@@ -1422,7 +1422,7 @@
     (add_net SoM_USB3_TX_P)
   )
 
-  (module antmicro-footprints:DSBGA-8_1.91x0.91mm (layer F.Cu) (tedit 627276DE) (tstamp 62757B57)
+  (module sc606-baseboard-footprints:DSBGA-8_1.91x0.91mm (layer F.Cu) (tedit 627276DE) (tstamp 62757B57)
     (at 160.14 114.09 270)
     (path /61D49F54/62750109)
     (attr smd)
@@ -1466,7 +1466,7 @@
       (net 620 "/power supply/U4CLR") (solder_mask_margin 0.025) (solder_paste_margin 0.01))
     (pad 4 smd circle (at 0.75 0.25 270) (size 0.23 0.23) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.025) (solder_paste_margin 0.01))
-    (model ${ANT3DMDL}/TXS0102YZPR.step
+    (model ${KIPRJMOD}/lib/3d-models/TXS0102YZPR.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
