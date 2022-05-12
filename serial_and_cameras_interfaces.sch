@@ -13,8 +13,6 @@ Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6725 1125 0    99   ~ 20
-Camera I2C multiplexer\n
 $Comp
 L sc606-baseboard:C_100n_0402 C44
 U 1 1 61E589C6
@@ -5814,4 +5812,6 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Notes 6725 1125 0    99   ~ 20
+Camera I2C multiplexer\n
 $EndSCHEMATC

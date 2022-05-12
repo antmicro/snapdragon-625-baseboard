@@ -484,9 +484,9 @@ Text Notes 14125 7000 0    150  ~ 30
 GPIO
 Text Notes 9525 6775 0    150  ~ 30
 CSI, DSI
-Text GLabel 8350 4850 0    50   Input ~ 0
+Text GLabel 8375 5000 0    50   Input ~ 0
 CAM_I2C_SCL
-Text GLabel 8350 4950 0    50   Input ~ 0
+Text GLabel 8375 5100 0    50   Input ~ 0
 CAM_I2C_SDA
 Text GLabel 3650 5600 0    50   Input ~ 0
 RTC_BAT
@@ -611,9 +611,9 @@ Text GLabel 6550 5600 2    50   Input ~ 0
 ANT_GNSS
 Text GLabel 3650 5800 0    50   Input ~ 0
 ANT_MAIN
-Text GLabel 8675 5750 0    50   Input ~ 0
+Text GLabel 8375 5750 0    50   Input ~ 0
 TP0_I2C_SCL
-Text GLabel 8675 5850 0    50   Input ~ 0
+Text GLabel 8375 5850 0    50   Input ~ 0
 TP0_I2C_SDA
 Text GLabel 3650 5100 0    50   Input ~ 0
 LDO10_2P8
@@ -648,9 +648,9 @@ NoConn ~ 3925 2900
 NoConn ~ 6200 6800
 NoConn ~ 6200 6900
 NoConn ~ 6200 9000
-Text GLabel 8675 6000 0    50   Input ~ 0
+Text GLabel 8375 6000 0    50   Input ~ 0
 HDMI_I2C_SCL
-Text GLabel 8675 6100 0    50   Input ~ 0
+Text GLabel 8375 6100 0    50   Input ~ 0
 HDMI_I2C_SDA
 Text GLabel 13425 7700 0    50   Input ~ 0
 LT9611_INT0
@@ -674,54 +674,6 @@ F 6 "1u" H 10915 1447 50  0000 L CNN "Val"
 	1    10800 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 8325 5125 0    50   Input ~ 0
-LDO6_1P8
-$Comp
-L sc606-baseboard:R_2k_0402 R?
-U 1 1 61EA9379
-P 8625 5275
-AR Path="/61D49F95/61EA9379" Ref="R?"  Part="1" 
-AR Path="/61D49FBF/61EA9379" Ref="R?"  Part="1" 
-AR Path="/61D43102/61EA9379" Ref="R2"  Part="1" 
-F 0 "R2" V 8575 5450 60  0000 R CNN
-F 1 "R_2k_0402" H 8625 5125 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 8825 5475 60  0001 L CNN
-F 3 "" H 8625 5275 50  0001 C CNN
-F 4 "VISHAY" H 8825 5675 60  0001 L CNN "Manufacturer"
-F 5 "CRCW04022K00FKED" H 8825 5575 60  0001 L CNN "MPN"
-F 6 "2k" V 8675 5425 50  0000 R CNN "Val"
-	1    8625 5275
-	0    1    1    0   
-$EndComp
-$Comp
-L sc606-baseboard:R_2k_0402 R?
-U 1 1 61EA9382
-P 8450 5275
-AR Path="/61D49F95/61EA9382" Ref="R?"  Part="1" 
-AR Path="/61D49FBF/61EA9382" Ref="R?"  Part="1" 
-AR Path="/61D43102/61EA9382" Ref="R3"  Part="1" 
-F 0 "R3" V 8400 5200 60  0000 R CNN
-F 1 "R_2k_0402" H 8450 5125 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 8650 5475 60  0001 L CNN
-F 3 "" H 8450 5275 50  0001 C CNN
-F 4 "VISHAY" H 8650 5675 60  0001 L CNN "Manufacturer"
-F 5 "CRCW04022K00FKED" H 8650 5575 60  0001 L CNN "MPN"
-F 6 "2k" V 8500 5175 50  0000 R CNN "Val"
-	1    8450 5275
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8875 4850 8875 5000
-Wire Wire Line
-	8875 5000 8975 5000
-Wire Wire Line
-	8350 4850 8875 4850
-Wire Wire Line
-	8350 4950 8775 4950
-Wire Wire Line
-	8775 4950 8775 5100
-Wire Wire Line
-	8775 5100 8975 5100
 Text GLabel 13425 7900 0    50   Input ~ 0
 CAM_RST
 Wire Wire Line
@@ -780,28 +732,6 @@ F 1 "TP_SMD_1_5MM" H 13775 8900 50  0001 C CNN
 F 2 "sc606-baseboard-footprints:TP-R-1.5" H 13975 9200 60  0001 L CNN
 F 3 "" H 13975 9300 60  0001 L CNN
 	1    13775 9000
-	0    1    1    0   
-$EndComp
-$Comp
-L sc606-baseboard:TP_SMD_0_75MM TP4
-U 1 1 629E615E
-P 8275 5600
-F 0 "TP4" V 8275 5500 50  0000 C CNN
-F 1 "TP_SMD_1_5MM" H 8275 5500 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:TP-R-1.5" H 8475 5800 60  0001 L CNN
-F 3 "" H 8475 5900 60  0001 L CNN
-	1    8275 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L sc606-baseboard:TP_SMD_0_75MM TP3
-U 1 1 629F6108
-P 8275 5500
-F 0 "TP3" V 8275 5400 50  0000 C CNN
-F 1 "TP_SMD_1_5MM" H 8275 5400 50  0001 C CNN
-F 2 "sc606-baseboard-footprints:TP-R-1.5" H 8475 5700 60  0001 L CNN
-F 3 "" H 8475 5800 60  0001 L CNN
-	1    8275 5500
 	0    1    1    0   
 $EndComp
 Text GLabel 3650 6500 0    50   Input ~ 0
@@ -1389,32 +1319,13 @@ Wire Wire Line
 Wire Wire Line
 	6200 6600 6550 6600
 Wire Wire Line
-	8375 5600 8625 5600
+	8375 5750 8975 5750
 Wire Wire Line
-	8625 5125 8450 5125
+	8375 5850 8975 5850
 Wire Wire Line
-	8375 5500 8450 5500
-Connection ~ 8450 5125
+	8375 6000 8975 6000
 Wire Wire Line
-	8450 5125 8325 5125
-Wire Wire Line
-	8450 5425 8450 5500
-Connection ~ 8450 5500
-Wire Wire Line
-	8450 5500 8975 5500
-Wire Wire Line
-	8625 5425 8625 5600
-Connection ~ 8625 5600
-Wire Wire Line
-	8625 5600 8975 5600
-Wire Wire Line
-	8675 5750 8975 5750
-Wire Wire Line
-	8675 5850 8975 5850
-Wire Wire Line
-	8675 6000 8975 6000
-Wire Wire Line
-	8675 6100 8975 6100
+	8375 6100 8975 6100
 Wire Wire Line
 	11175 5000 11475 5000
 Wire Wire Line
@@ -5606,6 +5517,18 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text GLabel 8375 5600 0    50   Input ~ 0
+STUSB4500_SDA
+Text GLabel 8375 5500 0    50   Input ~ 0
+STUSB4500_SCL
+Wire Wire Line
+	8375 5500 8975 5500
+Wire Wire Line
+	8375 5600 8975 5600
+Wire Wire Line
+	8975 5000 8375 5000
+Wire Wire Line
+	8375 5100 8975 5100
 Wire Bus Line
 	2950 7900 2950 8600
 $EndSCHEMATC
