@@ -31,11 +31,7 @@ $EndComp
 Wire Wire Line
 	2925 3875 3575 3875
 Wire Wire Line
-	4025 4425 3675 4425
-Wire Wire Line
 	3675 3775 2925 3775
-Wire Wire Line
-	4025 4525 3575 4525
 $Comp
 L sc606-baseboard:GND #PWR0117
 U 1 1 62A15359
@@ -62,10 +58,6 @@ Wire Wire Line
 	4025 4850 4025 4625
 Connection ~ 3575 3875
 Connection ~ 3675 3775
-Wire Wire Line
-	3675 4425 3675 3775
-Wire Wire Line
-	3575 4525 3575 3875
 Wire Wire Line
 	3575 3875 4425 3875
 Wire Wire Line
@@ -153,81 +145,41 @@ Wire Wire Line
 $Comp
 L sc606-baseboard:GND #PWR0123
 U 1 1 62A39278
-P 4200 9900
-F 0 "#PWR0123" H 4200 9650 50  0001 C CNN
-F 1 "GND" H 4205 9727 50  0000 C CNN
-F 2 "" H 4200 9900 50  0001 C CNN
-F 3 "" H 4200 9900 50  0001 C CNN
-	1    4200 9900
+P 4200 8925
+F 0 "#PWR0123" H 4200 8675 50  0001 C CNN
+F 1 "GND" H 4205 8752 50  0000 C CNN
+F 2 "" H 4200 8925 50  0001 C CNN
+F 3 "" H 4200 8925 50  0001 C CNN
+	1    4200 8925
 	1    0    0    -1  
 $EndComp
-Text GLabel 5725 8800 2    50   Input ~ 0
-SoM_USB_FLASH_ID
 $Comp
 L sc606-baseboard:R_0R_0402 R110
 U 1 1 62A4008D
-P 3675 9625
-F 0 "R110" H 3675 9725 60  0000 C CNN
-F 1 "R_0R_0402" H 3675 9475 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 3875 9825 60  0001 L CNN
-F 3 "" H 3675 9625 50  0001 C CNN
-F 4 "PANASONIC" H 3875 10025 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 3875 9925 60  0001 L CNN "MPN"
-F 6 "0R" H 3675 9525 50  0000 C CNN "Val"
-	1    3675 9625
+P 3675 8650
+F 0 "R110" H 3675 8750 60  0000 C CNN
+F 1 "R_0R_0402" H 3675 8500 60  0001 C CNN
+F 2 "sc606-baseboard-footprints:0402-res" H 3875 8850 60  0001 L CNN
+F 3 "" H 3675 8650 50  0001 C CNN
+F 4 "PANASONIC" H 3875 9050 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3875 8950 60  0001 L CNN "MPN"
+F 6 "0R" H 3675 8550 50  0000 C CNN "Val"
+	1    3675 8650
 	1    0    0    -1  
 $EndComp
 $Comp
 L sc606-baseboard:BSS138-7-F Q7
 U 1 1 62A49D1F
-P 4200 9525
-F 0 "Q7" H 3925 9700 60  0000 L CNN
-F 1 "BSS138-7-F" V 4375 9050 60  0000 L CNN
-F 2 "sc606-baseboard-footprints:SOT-23-3" H 4400 9725 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 4400 9825 60  0001 L CNN
-F 4 "BSS138-7-F" H 4400 10025 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 4400 10625 60  0001 L CNN "Manufacturer"
-	1    4200 9525
+P 4200 8550
+F 0 "Q7" H 3925 8725 60  0000 L CNN
+F 1 "BSS138-7-F" V 4375 8075 60  0000 L CNN
+F 2 "sc606-baseboard-footprints:SOT-23-3" H 4400 8750 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 4400 8850 60  0001 L CNN
+F 4 "BSS138-7-F" H 4400 9050 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 4400 9650 60  0001 L CNN "Manufacturer"
+	1    4200 8550
 	1    0    0    -1  
 $EndComp
-$Comp
-L sc606-baseboard:BSS138-7-F Q8
-U 1 1 62A4B7F6
-P 4700 9225
-F 0 "Q8" H 4808 9278 60  0000 L CNN
-F 1 "BSS138-7-F" V 4850 8575 60  0000 L CNN
-F 2 "sc606-baseboard-footprints:SOT-23-3" H 4900 9425 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 4900 9525 60  0001 L CNN
-F 4 "BSS138-7-F" H 4900 9725 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 4900 10325 60  0001 L CNN "Manufacturer"
-	1    4700 9225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 9325 4200 9325
-Wire Wire Line
-	4700 8800 4700 9025
-Wire Wire Line
-	4700 8800 5725 8800
-Text GLabel 3925 8800 0    50   Input ~ 0
-3V3_SYS
-$Comp
-L sc606-baseboard:R_10k_0402 R111
-U 1 1 62A4EC7F
-P 4200 9075
-F 0 "R111" V 4155 9145 60  0000 L CNN
-F 1 "R_10k_0402" H 4200 8925 60  0001 C CNN
-F 2 "sc606-baseboard-footprints:0402-res" H 4400 9275 60  0001 L CNN
-F 3 "" H 4200 9075 50  0001 C CNN
-F 4 "VISHAY" H 4400 9475 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 4400 9375 60  0001 L CNN "MPN"
-F 6 "10k" V 4253 9145 50  0000 L CNN "Val"
-	1    4200 9075
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4200 9225 4200 9325
-Connection ~ 4200 9325
 $Comp
 L sc606-baseboard:1X03 SW1
 U 1 1 63004CC0
@@ -423,8 +375,6 @@ Text Label 4425 3775 2    50   ~ 0
 USB_FLASH_N
 Text Label 3175 3575 0    50   ~ 0
 USB_FLASH_5V0
-Text Label 6825 3575 2    50   ~ 0
-USB_FLASH_5V0
 Text Label 10400 1750 0    50   ~ 0
 5V0_DBG
 Wire Wire Line
@@ -512,7 +462,7 @@ F 5 "Pulse Electronics Network" H 2625 4925 60  0001 L CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6825 3575 5800 3575
+	6825 3575 6650 3575
 $Comp
 L sc606-baseboard:GND #PWR0167
 U 1 1 622AF5D6
@@ -524,31 +474,27 @@ F 3 "" H 2925 3275 50  0001 C CNN
 	1    2925 3275
 	0    -1   -1   0   
 $EndComp
-Text Label 1000 3575 0    50   ~ 0
+Text Label 875  3575 0    50   ~ 0
 USB_FLASH_5V0
 Wire Wire Line
-	1000 3575 1625 3575
-NoConn ~ 4025 4225
-NoConn ~ 4025 4325
+	875  3575 1625 3575
 NoConn ~ 2925 3375
 NoConn ~ 2925 3475
 NoConn ~ 2925 3675
-NoConn ~ 2925 3975
 NoConn ~ 2925 4175
 NoConn ~ 2925 4275
 NoConn ~ 1925 4275
 NoConn ~ 1925 4175
 NoConn ~ 1925 3975
-NoConn ~ 1925 3675
 NoConn ~ 1925 3475
 NoConn ~ 1925 3375
 Wire Wire Line
-	1925 3775 1000 3775
+	1925 3775 875  3775
 Wire Wire Line
-	1000 3875 1925 3875
-Text Label 1000 3775 0    50   ~ 0
+	875  3875 1925 3875
+Text Label 875  3775 0    50   ~ 0
 USB_FLASH_P
-Text Label 1000 3875 0    50   ~ 0
+Text Label 875  3875 0    50   ~ 0
 USB_FLASH_N
 $Comp
 L sc606-baseboard:GND #PWR0163
@@ -792,30 +738,13 @@ Connection ~ 3500 5725
 Wire Wire Line
 	3500 5725 4025 5725
 Wire Wire Line
-	4200 8925 4200 8800
+	4200 8750 4200 8925
 Wire Wire Line
-	4200 8800 3925 8800
-$Comp
-L sc606-baseboard:GND #PWR050
-U 1 1 625B110A
-P 4700 9900
-F 0 "#PWR050" H 4700 9650 50  0001 C CNN
-F 1 "GND" H 4705 9727 50  0000 C CNN
-F 2 "" H 4700 9900 50  0001 C CNN
-F 3 "" H 4700 9900 50  0001 C CNN
-	1    4700 9900
-	1    0    0    -1  
-$EndComp
+	3900 8650 3825 8650
 Wire Wire Line
-	4200 9725 4200 9900
+	3525 8650 3350 8650
 Wire Wire Line
-	4700 9425 4700 9900
-Wire Wire Line
-	3900 9625 3825 9625
-Wire Wire Line
-	3525 9625 3350 9625
-Wire Wire Line
-	3350 9625 3350 7125
+	3350 8650 3350 7125
 Connection ~ 3350 7125
 Wire Wire Line
 	3350 7125 3625 7125
@@ -838,8 +767,6 @@ F 3 "" H 12250 2300 50  0001 C CNN
 	1    12250 2300
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	13950 2475 13950 2350
 Wire Wire Line
 	11175 2275 11175 2225
 Wire Wire Line
@@ -5147,4 +5074,49 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text GLabel 6825 3575 2    50   Input ~ 0
+USB_VBUS_DET
+$Comp
+L sc606-baseboard:1N4148WS D43
+U 1 1 6293E44B
+P 6450 3575
+F 0 "D43" H 6450 3338 60  0000 C CNN
+F 1 "1N4148WS" H 6450 3444 60  0000 C CNN
+F 2 "sc606-baseboard-footprints:SOD-323F" H 6650 3775 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 6650 3875 60  0001 L CNN
+F 4 "1N4148WS" H 6650 4075 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 6650 4675 60  0001 L CNN "Manufacturer"
+	1    6450 3575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3575 5800 3575
+Wire Wire Line
+	4200 8350 4200 8200
+Wire Wire Line
+	4200 8200 4800 8200
+Text Notes 4700 8350 0    50   ~ 0
+info: pulled up internally
+Wire Wire Line
+	1575 3675 1925 3675
+Text GLabel 4800 8200 2    50   Input ~ 0
+GPIO_1
+Text GLabel 1525 3650 0    50   Input ~ 0
+USB_FLASH_CC1
+Text GLabel 3775 3975 2    50   Input ~ 0
+USB_FLASH_CC2
+Wire Wire Line
+	2925 3975 3775 3975
+Wire Wire Line
+	1575 3675 1575 3650
+Wire Wire Line
+	1575 3650 1525 3650
+Wire Wire Line
+	4025 4225 3675 4225
+Wire Wire Line
+	3675 4225 3675 3775
+Wire Wire Line
+	4025 4325 3575 4325
+Wire Wire Line
+	3575 4325 3575 3875
 $EndSCHEMATC
