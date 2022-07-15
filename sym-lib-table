@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name sc606-baseboard)(type Legacy)(uri ${KIPRJMOD}/lib/sc606-baseboard.lib)(options "")(descr ""))
+  (lib (name "sc606-baseboard")(type "KiCad")(uri "${KIPRJMOD}/lib/sc606-baseboard.kicad_sym")(options "")(descr ""))
 )
