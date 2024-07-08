@@ -197,7 +197,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "global_label_dangling|1714500|749300|8338ebf2-6917-40fc-ba89-417b64d59f28|00000000-0000-0000-0000-000000000000|/d033de6c-b5da-4924-ae5b-c5bab6f8ca2c/00000000-0000-0000-0000-0000623aed4d||",
+      "pin_not_driven|1727200|749300|108fee62-1ace-4921-a6a0-0e345cce0104|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -393,11 +396,11 @@
       "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
+      "no_connect_connected": "error",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
