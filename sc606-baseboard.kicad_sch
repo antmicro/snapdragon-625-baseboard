@@ -4570,7 +4570,7 @@
     (property "Value" "antmicro_logo" (at 120.65 163.4425 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
     )
-    (property "Footprint" "antmicro-footprints:antmicro-logo" (at 129.54 173.355 0)
+    (property "Footprint" "antmicro-footprints:antmicro-logo_scaled_12mm" (at 129.54 173.355 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 129.54 175.895 0)
