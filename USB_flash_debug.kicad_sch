@@ -7064,7 +7064,7 @@
   (symbol (lib_id "antmicroGenericPinHeaders:PinHeader_1x3_P2.54mm_Drill1.1mm") (at 365.76 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000063004cc0)
-    (property "Reference" "SW1" (at 372.11 105.41 0)
+    (property "Reference" "J18" (at 372.11 105.41 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PinHeader_1x3_P2.54mm_Drill1.1mm" (at 372.11 107.95 0)
@@ -7094,7 +7094,7 @@
     (instances
       (project "sc606-baseboard"
         (path "/d033de6c-b5da-4924-ae5b-c5bab6f8ca2c/00000000-0000-0000-0000-000061f60810"
-          (reference "SW1") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )

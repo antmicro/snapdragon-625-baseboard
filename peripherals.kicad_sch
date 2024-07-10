@@ -8192,7 +8192,7 @@
   (symbol (lib_id "antmicroRFAntennas:ANT-LTE-CER-T") (at 95.25 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-0000620e9422)
-    (property "Reference" "E1" (at 111.76 232.41 0)
+    (property "Reference" "AE1" (at 111.76 232.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ANT-LTE-CER-T" (at 121.92 240.03 0)
@@ -8224,7 +8224,7 @@
     (instances
       (project "sc606-baseboard"
         (path "/d033de6c-b5da-4924-ae5b-c5bab6f8ca2c/00000000-0000-0000-0000-000061d49fde"
-          (reference "E1") (unit 1)
+          (reference "AE1") (unit 1)
         )
       )
     )
@@ -8233,7 +8233,7 @@
   (symbol (lib_id "antmicroRFAntennas:47948-0001") (at 182.88 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000062112e0a)
-    (property "Reference" "A1" (at 191.77 223.52 0)
+    (property "Reference" "AE2" (at 191.77 223.52 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "47948-0001" (at 208.28 238.76 0)
@@ -8264,7 +8264,7 @@
     (instances
       (project "sc606-baseboard"
         (path "/d033de6c-b5da-4924-ae5b-c5bab6f8ca2c/00000000-0000-0000-0000-000061d49fde"
-          (reference "A1") (unit 1)
+          (reference "AE2") (unit 1)
         )
       )
     )

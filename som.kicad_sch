@@ -6186,7 +6186,7 @@
   (symbol (lib_id "antmicroModules:SC606T") (at 232.41 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000061d4a36e)
-    (property "Reference" "M1" (at 254 173.99 0)
+    (property "Reference" "U19" (at 254 173.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SC606T" (at 302.26 189.23 0)
@@ -6536,7 +6536,7 @@
     (instances
       (project "sc606-baseboard"
         (path "/d033de6c-b5da-4924-ae5b-c5bab6f8ca2c/00000000-0000-0000-0000-000061d43102"
-          (reference "M1") (unit 1)
+          (reference "U19") (unit 1)
         )
       )
     )
@@ -6545,7 +6545,7 @@
   (symbol (lib_id "antmicroModules:SC606T") (at 96.52 129.54 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000061d5d2cb)
-    (property "Reference" "M1" (at 118.11 121.92 0)
+    (property "Reference" "U19" (at 118.11 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SC606T" (at 166.37 137.16 0)
@@ -6895,7 +6895,7 @@
     (instances
       (project "sc606-baseboard"
         (path "/d033de6c-b5da-4924-ae5b-c5bab6f8ca2c/00000000-0000-0000-0000-000061d43102"
-          (reference "M1") (unit 2)
+          (reference "U19") (unit 2)
         )
       )
     )
@@ -6904,7 +6904,7 @@
   (symbol (lib_id "antmicroModules:SC606T") (at 273.05 95.25 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000061d62fe5)
-    (property "Reference" "M1" (at 294.64 87.63 0)
+    (property "Reference" "U19" (at 294.64 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SC606T" (at 342.9 102.87 0)
@@ -7254,7 +7254,7 @@
     (instances
       (project "sc606-baseboard"
         (path "/d033de6c-b5da-4924-ae5b-c5bab6f8ca2c/00000000-0000-0000-0000-000061d43102"
-          (reference "M1") (unit 3)
+          (reference "U19") (unit 3)
         )
       )
     )
@@ -7263,7 +7263,7 @@
   (symbol (lib_id "antmicroModules:SC606T") (at 353.06 190.5 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000061d67fba)
-    (property "Reference" "M1" (at 374.65 213.36 0)
+    (property "Reference" "U19" (at 374.65 213.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SC606T" (at 422.91 198.12 0)
@@ -7613,7 +7613,7 @@
     (instances
       (project "sc606-baseboard"
         (path "/d033de6c-b5da-4924-ae5b-c5bab6f8ca2c/00000000-0000-0000-0000-000061d43102"
-          (reference "M1") (unit 4)
+          (reference "U19") (unit 4)
         )
       )
     )
@@ -7622,7 +7622,7 @@
   (symbol (lib_id "antmicroModules:SC606T") (at 48.26 38.1 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000061d6d493)
-    (property "Reference" "M1" (at 69.85 30.48 0)
+    (property "Reference" "U19" (at 69.85 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SC606T" (at 118.11 45.72 0)
@@ -7972,7 +7972,7 @@
     (instances
       (project "sc606-baseboard"
         (path "/d033de6c-b5da-4924-ae5b-c5bab6f8ca2c/00000000-0000-0000-0000-000061d43102"
-          (reference "M1") (unit 5)
+          (reference "U19") (unit 5)
         )
       )
     )
