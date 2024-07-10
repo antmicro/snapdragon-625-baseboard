@@ -1,6 +1,6 @@
 # Antmicro's open source SC606T (Snapdragon 625) Baseboard
 
-Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2024 [Antmicro](https://www.antmicro.com)
 
 [![View on opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/snapdragon-625-baseboard)
 
@@ -10,15 +10,16 @@ Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
 This repository contains open hardware design files for an experimental development board for Quectel [SC606T Smart Module](https://www.quectel.com/product/lte-sc606t-smart-module-series) featuring Qualcomm [Snapdragon 625 Mobile Platform](https://www.qualcomm.com/products/application/smartphones/snapdragon-6-series-mobile-platforms/snapdragon-625-mobile-platform).
 This development board break-routes the relevant I/O interfaces from the smart module keeping a small mechanical outline. 
-The design files were prepared in KiCad.
+The design files were prepared in KiCad 7.
 
 ## Repository structure
 
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* `lib` - contains the component libraries
 * `img` - contains graphics for this README
+* `doc` - contains schematics in PDF format
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com).
 
 ## Key Features
 
